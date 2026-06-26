@@ -23,21 +23,12 @@ java -Xmx2G -jar server.jar nogui
 # 4. Run an experiment
 cd mc_agent
 
-# Smoke / dev tests
-node run_experiment.js configs/baseline.js                 # 3-minute smoke test
-node run_experiment.js configs/openai_test.js              # 5-minute OpenAI test
-node run_experiment.js configs/anthropic_test.js           # 5-minute Anthropic test
-node run_experiment.js configs/heuristic_smoke_test.js     # 60-second heuristic sanity check
-
 # Research runs
 node run_experiment.js configs/research_autonomous.js      # 60-min primary research run (Claude, 3 perturbations)
-node run_experiment.js configs/research_autonomous_20min.js # 20-min abbreviated research run
 node run_experiment.js configs/guided_baseline.js          # 60-min guided baseline (GPT-4o-mini, 3 perturbations)
 
 # Deterministic heuristic baselines (zero API cost)
-node run_experiment.js configs/heuristic_baseline.js              # 60-min clean run
 node run_experiment.js configs/heuristic_baseline.js    # 60-min with 3 perturbations
-node run_experiment.js configs/heuristic_10min_test.js            # 10-min validation run
 ```
 
 A fresh world is required before every experimental run so that placed blocks, explored terrain, and mob state do not confound behavior.
@@ -99,7 +90,7 @@ Each run writes to `runs/{runName}_{HH-MM-SS}/`. On death, logs rotate into `lif
 
 Aggregated results from the evaluated configs are in **`../docs/evaluation.md`**. The three main conditions are:
 
-- `heuristic_baseline_perturbed.js` — deterministic rule engine under stress
+- `heuristic_baseline.js` — deterministic rule engine under stress
 - `guided_baseline.js` — GPT-4o-mini with full guards and `NEXT STEP`
 - `research_autonomous.js` — Claude Sonnet 4.6 with high autonomy and safety-only guards
 
