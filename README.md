@@ -24,7 +24,7 @@ java -Xmx2G -jar server.jar nogui
 cd mc_agent
 
 # Research runs
-node run_experiment.js configs/research_autonomous.js      # 60-min primary research run (Claude, 3 perturbations)
+node run_experiment.js configs/research_autonomous.js      # 60-min primary research run (Claude Sonnet 4.6, 3 perturbations)
 node run_experiment.js configs/guided_baseline.js          # 60-min guided baseline (GPT-4o-mini, 3 perturbations)
 
 # Deterministic heuristic baselines (zero API cost)
