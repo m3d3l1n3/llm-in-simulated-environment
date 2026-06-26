@@ -2,11 +2,17 @@
 node_modules/
 
 # Environment variables (contains secrets)
-.env
-.env.local
+Project/.env
+
 
 # Generated run data
-runs/
+Project/runs/
 
 # Logs
 *.log
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
