@@ -1,0 +1,99 @@
+{
+  "runId": "Autonomous Research_11-22-39_life_03",
+  "generatedAt": "2026-06-18T12:00:43.047Z",
+  "coherence": {
+    "totalDecisions": 35,
+    "goalsStarted": 35,
+    "goalsCompleted": 2,
+    "completionRate": "5.7%"
+  },
+  "actionDistribution": {
+    "chop_tree": 9,
+    "craft": 14,
+    "equip": 8,
+    "dig_to_surface": 3,
+    "explore": 5,
+    "mine": 1,
+    "break_around": 4,
+    "pillar_up": 4,
+    "dig_emergency_shelter": 1,
+    "go_to_near": 3,
+    "build_shelter": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 14
+    },
+    {
+      "action": "chop_tree",
+      "count": 9
+    },
+    {
+      "action": "equip",
+      "count": 8
+    },
+    {
+      "action": "explore",
+      "count": 5
+    },
+    {
+      "action": "break_around",
+      "count": 4
+    }
+  ],
+  "goalDistribution": {
+    "get wood and craft basic tools": 1,
+    "craft wooden tools and get sto": 1,
+    "craft wooden pickaxe to mine s": 1,
+    "mine stone to get cobblestone ": 1,
+    "escape to surface and get more": 1,
+    "escape to surface using pillar": 2,
+    "get stable footing and light t": 1,
+    "gather logs and progress towar": 1,
+    "mine coal ore to craft torches": 1,
+    "escape_trap": 5,
+    "replace_worn_tool": 7,
+    "gather wood and craft stone pi": 1,
+    "gather wood and craft tools": 1,
+    "craft wooden pickaxe and mine ": 1,
+    "gather wood and craft wooden p": 1,
+    "get wood and craft tools befor": 1,
+    "get wood and build emergency s": 1,
+    "get wood for tools and shelter": 1,
+    "get logs by going directly to ": 1,
+    "escape to surface and get wood": 2,
+    "get wood and build shelter bef": 1,
+    "build emergency shelter before": 1,
+    "build emergency shelter for th": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "replace_worn_tool",
+      "count": 7
+    },
+    {
+      "action": "escape_trap",
+      "count": 5
+    },
+    {
+      "action": "escape to surface using pillar",
+      "count": 2
+    },
+    {
+      "action": "escape to surface and get wood",
+      "count": 2
+    },
+    {
+      "action": "get wood and craft basic tools",
+      "count": 1
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 10
+  },
+  "adaptation": {
+    "perturbationCount": 1,
+    "averageRecoveryTime": "324.9s"
+  }
+}

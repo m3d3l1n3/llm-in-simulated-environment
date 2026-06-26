@@ -1,0 +1,198 @@
+{
+  "savedAt": 1781784043045,
+  "loopCount": 35,
+  "goalManager": {
+    "currentTier": "stone_tools",
+    "highestTierReached": "stone_tools",
+    "activePlan": null,
+    "planSinceLoop": 0,
+    "goalHistory": [],
+    "lastCompletedTier": null
+  },
+  "longMemory": {
+    "knownLocations": {
+      "spruce_log": {
+        "x": -5,
+        "y": 73,
+        "z": -24,
+        "distance": 15,
+        "tick": 6599,
+        "seenAt": 1781781974535
+      },
+      "dirt": {
+        "x": -3,
+        "y": 60,
+        "z": 22,
+        "distance": 2,
+        "tick": 46439,
+        "seenAt": 1781783966187
+      },
+      "gravel": {
+        "x": -3,
+        "y": 47,
+        "z": 21,
+        "distance": 11,
+        "tick": 46439,
+        "seenAt": 1781783966187
+      },
+      "water": {
+        "x": 12,
+        "y": 57,
+        "z": 37,
+        "distance": 14,
+        "tick": 44799,
+        "seenAt": 1781783884624
+      },
+      "water_hazard": {
+        "x": 12,
+        "y": 57,
+        "z": 37,
+        "distance": 14,
+        "seenAt": 1781783884624
+      },
+      "sand": {
+        "x": 558,
+        "y": 62,
+        "z": 586,
+        "distance": 0,
+        "tick": 29179,
+        "seenAt": 1781783103091
+      },
+      "oak_log": {
+        "x": -6,
+        "y": 64,
+        "z": 25,
+        "distance": 7,
+        "tick": 46439,
+        "seenAt": 1781783966187
+      },
+      "stone": {
+        "x": -3,
+        "y": 58,
+        "z": 23,
+        "distance": 0,
+        "tick": 46439,
+        "seenAt": 1781783966187
+      },
+      "birch_log": {
+        "x": -4,
+        "y": 65,
+        "z": 23,
+        "distance": 7,
+        "tick": 46439,
+        "seenAt": 1781783966187
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (0, 72, -9) to (6, 73, -14); inventory delta +19; avg nearby mobs 0.",
+      "Last 10 loops: moved from (9, 69, -6) to (32, 68, -15); inventory delta +14; avg nearby mobs 0.",
+      "Last 10 loops: moved from (0, 67, 20) to (1, 61, 20); inventory delta +67; avg nearby mobs 0.",
+      "Last 10 loops: moved from (0, 62, 17) to (26, 72, -3); inventory delta +73; avg nearby mobs 0.",
+      "Last 10 loops: moved from (26, 69, -3) to (558, 62, 585); inventory delta +10; avg nearby mobs 0.",
+      "Last 10 loops: moved from (12, 67, 15) to (2, 60, 21); inventory delta +58; avg nearby mobs 0.",
+      "Last 10 loops: moved from (2, 58, 22) to (2, 63, 19); inventory delta +15; avg nearby mobs 0.",
+      "Last 10 loops: moved from (0, 62, 17) to (1, 61, 28); inventory delta +16; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781784041042,
+      "position": {
+        "x": -2.5,
+        "y": 58,
+        "z": 22.5,
+        "yaw": 1.568178332917003,
+        "pitch": 1.0550515328305066
+      },
+      "health": 20,
+      "food": 16,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "build emergency shelter for the night",
+        "reasoning": "It's dusk (time 17813) and night is approaching. Light level is 0 so mobs can spawn. I have 33 dirt blocks which is enough to build a shelter. The state indicates I'm exposed to open sky, so I should build a shelter immediately rather than trying to dig to surface. I'll build an emergency shelter with my dirt blocks.",
+        "actions": [
+          {
+            "name": "build_shelter",
+            "params": {}
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "go_to_near",
+          "goal": "get wood and build shelter before night",
+          "params": {
+            "x": 0.5,
+            "y": 61,
+            "z": 28.5,
+            "range": 4
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781783888567
+        },
+        {
+          "action": "chop_tree",
+          "goal": "get wood and build shelter before night",
+          "params": {
+            "count": 5
+          },
+          "success": true,
+          "hint": "Chopped 5 logs",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781783903451
+        },
+        {
+          "action": "dig_to_surface",
+          "goal": "escape to surface and get wood for shelter",
+          "params": {},
+          "success": false,
+          "hint": "Need a pickaxe to dig through stone. Craft wooden_pickaxe first, or use pillar_up if you have placeable blocks (dirt, cobble, planks).",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781783950239
+        },
+        {
+          "action": "build_shelter",
+          "goal": "build emergency shelter for the night",
+          "params": {},
+          "success": true,
+          "hint": "Already underground - you ARE sheltered! Wait for day or pillar_up to return to surface.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781783960946
+        },
+        {
+          "action": "pillar_up",
+          "goal": "escape_trap",
+          "params": {
+            "height": 10
+          },
+          "success": false,
+          "hint": "pillar_up failed repeatedly, used dig_to_surface fallback",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781784008387
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

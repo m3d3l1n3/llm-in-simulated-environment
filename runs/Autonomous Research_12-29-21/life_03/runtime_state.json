@@ -1,0 +1,207 @@
+{
+  "savedAt": 1781787743644,
+  "loopCount": 24,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "stone_tools",
+    "activePlan": null,
+    "planSinceLoop": 0,
+    "goalHistory": [],
+    "lastCompletedTier": "stone_tools"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "birch_log": {
+        "x": 1,
+        "y": 76,
+        "z": -3,
+        "distance": 4,
+        "tick": 41959,
+        "seenAt": 1781787742201
+      },
+      "dirt": {
+        "x": 2,
+        "y": 71,
+        "z": -7,
+        "distance": 6,
+        "tick": 41959,
+        "seenAt": 1781787742201
+      },
+      "gravel": {
+        "x": 20,
+        "y": 58,
+        "z": 30,
+        "distance": 13,
+        "tick": 41859,
+        "seenAt": 1781787736783
+      },
+      "spruce_log": {
+        "x": -23,
+        "y": 72,
+        "z": 6,
+        "distance": 16,
+        "tick": 28379,
+        "seenAt": 1781787063928
+      },
+      "water": {
+        "x": 12,
+        "y": 57,
+        "z": 37,
+        "distance": 11,
+        "tick": 41859,
+        "seenAt": 1781787736783
+      },
+      "water_hazard": {
+        "x": 12,
+        "y": 57,
+        "z": 37,
+        "distance": 11,
+        "seenAt": 1781787736783
+      },
+      "sand": {
+        "x": 419,
+        "y": 61,
+        "z": 575,
+        "distance": 0,
+        "tick": 27639,
+        "seenAt": 1781787026472
+      },
+      "stone": {
+        "x": 3,
+        "y": 68,
+        "z": -6,
+        "distance": 8,
+        "tick": 41959,
+        "seenAt": 1781787742201
+      },
+      "oak_log": {
+        "x": 2,
+        "y": 77,
+        "z": -7,
+        "distance": 2,
+        "tick": 41959,
+        "seenAt": 1781787742201
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (7, 68, -4) to (5, 69, -8); inventory delta +26; avg nearby mobs 0.",
+      "Last 10 loops: moved from (9, 69, -6) to (0, 64, 13); inventory delta +13; avg nearby mobs 0.",
+      "Last 10 loops: moved from (1, 66, 21) to (7, 61, 29); inventory delta +78; avg nearby mobs 0.",
+      "Last 10 loops: moved from (8, 60, 23) to (7, 60, 25); inventory delta +48; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-10, 81, 6) to (5, 58, 42); inventory delta +84; avg nearby mobs 0.",
+      "Last 10 loops: moved from (5, 59, 41) to (4, 61, 34); inventory delta -77; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781787739430,
+      "position": {
+        "x": 7.53,
+        "y": 61.57,
+        "z": 27.98,
+        "yaw": 0.001033013555323592,
+        "pitch": -0.47779889297512357
+      },
+      "health": 2,
+      "food": 11,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "Craft wooden pickaxe to mine stone",
+        "reasoning": "I have 2 oak_logs and 2 oak_planks. I need 3 planks for a wooden pickaxe. I can craft planks from logs first (1 log = 4 planks), then craft the wooden pickaxe. The crafting table is nearby at 7m.",
+        "actions": [
+          {
+            "name": "craft",
+            "params": {
+              "item": "oak_planks",
+              "count": 4
+            }
+          },
+          {
+            "name": "craft",
+            "params": {
+              "item": "wooden_pickaxe",
+              "count": 1
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "chop_tree",
+          "goal": "Chop trees to get logs for crafting wooden pickaxe",
+          "params": {
+            "count": 2
+          },
+          "success": true,
+          "hint": "Chopped 2 logs",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781787719957
+        },
+        {
+          "action": "craft",
+          "goal": "Craft wooden pickaxe to mine stone",
+          "params": {
+            "item": "oak_planks",
+            "count": 4
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781787728877
+        },
+        {
+          "action": "craft",
+          "goal": "Craft wooden pickaxe to mine stone",
+          "params": {
+            "item": "wooden_pickaxe",
+            "count": 1
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781787731581
+        },
+        {
+          "action": "eat",
+          "goal": "flee_danger",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781787736784
+        },
+        {
+          "action": "flee_from",
+          "goal": "flee_danger",
+          "params": {
+            "entity": "zombie_villager"
+          },
+          "success": false,
+          "hint": "Unable to flee — still 2m from zombie_villager",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781787736790
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

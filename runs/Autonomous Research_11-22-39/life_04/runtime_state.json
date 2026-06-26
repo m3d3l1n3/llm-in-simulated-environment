@@ -1,0 +1,418 @@
+{
+  "savedAt": 1781785359770,
+  "loopCount": 34,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "naked",
+    "activePlan": "escape_trap",
+    "planSinceLoop": 34,
+    "goalHistory": [
+      {
+        "goal": "Escape to surface",
+        "reasoning": "I'm underground at Y=56 with light level 0 (mobs can spawn). Priority is to get to the surface. I'll dig to surface first, then craft tools.",
+        "isGuard": false,
+        "loopCount": 5,
+        "timestamp": 1781784173914
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 6,
+        "timestamp": 1781784209150
+      },
+      {
+        "goal": "Dig to surface",
+        "reasoning": "I'm underground at Y=56 with light level 0 (mobs can spawn). I need to get to the surface immediately. The state says I'm exposed to open sky but Y=56 suggests I'm underground. I'll dig to surface.",
+        "isGuard": false,
+        "loopCount": 7,
+        "timestamp": 1781784279778
+      },
+      {
+        "goal": "Dig to surface and craft wooden pickaxe",
+        "reasoning": "I'm underground at Y=56 with light level 0 (mobs can spawn). I need to get to the surface immediately. I have planks and sticks so I can craft a wooden pickaxe once I reach the surface near the crafting table.",
+        "isGuard": false,
+        "loopCount": 8,
+        "timestamp": 1781784317944
+      },
+      {
+        "goal": "Dig to surface and craft wooden pickaxe",
+        "reasoning": "I'm underground at Y=56 with light level 0 (mobs can spawn). I need to get to the surface immediately. The state mentions nearby resources include oak_log at 8m and the crafting table is 11m away. I'll dig to the surface first.",
+        "isGuard": false,
+        "loopCount": 9,
+        "timestamp": 1781784355899
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 10,
+        "timestamp": 1781784391146
+      },
+      {
+        "goal": "forced_recovery",
+        "reasoning": "Stuck for many loops; trying escape strategy #1 (rotating to avoid repeating failed approaches).",
+        "isGuard": true,
+        "loopCount": 11,
+        "timestamp": 1781784449870
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=56 with light level 0 (mobs can spawn), and recent actions have been failing. I need to dig to the surface immediately. The dig_to_surface action is the most direct approach.",
+        "isGuard": false,
+        "loopCount": 12,
+        "timestamp": 1781784525938
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=56 with light level 0 and oxygen nearly depleted. I need to dig to the surface immediately. The state says I'm exposed to open sky with nearby resources including oak_log at 8m, which suggests I might actually be in a pit or on a hillside. Let me try dig_to_surface to get up, and if that fails, try break_around up direction.",
+        "isGuard": false,
+        "loopCount": 13,
+        "timestamp": 1781784570395
+      },
+      {
+        "goal": "escape to surface and gather wood",
+        "reasoning": "I'm underground at Y=57 with light level 0 (mobs can spawn), though oxygen is critically low at 1/20 which is strange for underground - might be near water. The state says I'm exposed to open sky with cliffs nearby, suggesting I'm in a pit. I need to pillar up to escape since dig_to_surface worked last time but I'm still underground. Let me pillar up using the oak planks I have.",
+        "isGuard": false,
+        "loopCount": 14,
+        "timestamp": 1781784585594
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 15,
+        "timestamp": 1781784620827
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "Underground at Y=56 with light level 0 at night - mobs can spawn. I have oak_planks to pillar up. Recent pillar_up failed, so I'll break_around first to clear space, then try pillar_up again. The state says I'm exposed to open sky so I should be able to get out.",
+        "isGuard": false,
+        "loopCount": 16,
+        "timestamp": 1781784661555
+      },
+      {
+        "goal": "dig to surface",
+        "reasoning": "I'm underground at Y=56 with light level 0 at night. pillar_up has failed repeatedly, so I'll use dig_to_surface to mine upward and escape. The state says I'm exposed to open sky but I'm at Y=56 which is underground. dig_to_surface should work to get me up.",
+        "isGuard": false,
+        "loopCount": 17,
+        "timestamp": 1781784681068
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=56 with light level 0 at night. pillar_up and break_around have failed repeatedly. I'll try dig_to_surface which mines upward to reach the surface. I have oak_planks which can be used as blocks to place under me.",
+        "isGuard": false,
+        "loopCount": 18,
+        "timestamp": 1781784719483
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 19,
+        "timestamp": 1781784754707
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=56 with light level 0 at dusk/night. Many actions have failed. I'll try dig_to_surface which specifically mines upward to reach the surface. I have oak_planks that can be placed as blocks to pillar up if needed.",
+        "isGuard": false,
+        "loopCount": 20,
+        "timestamp": 1781784814050
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "Underground at Y=56 with light level 0 at night. Oxygen is critically low (1/20) suggesting possible water nearby. Multiple movement actions have failed. I need to dig straight up to reach the surface. I have oak_planks that can serve as blocks to place under me if needed.",
+        "isGuard": false,
+        "loopCount": 21,
+        "timestamp": 1781784853563
+      },
+      {
+        "goal": "forced_recovery",
+        "reasoning": "Stuck for many loops; trying escape strategy #2 (rotating to avoid repeating failed approaches).",
+        "isGuard": true,
+        "loopCount": 22,
+        "timestamp": 1781784888805
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=56 with light level 0 at night. Multiple actions have failed. I should try dig_to_surface which mines upward to reach the surface. My oxygen is low (1/20) suggesting possible water, but I need to get to the surface regardless.",
+        "isGuard": false,
+        "loopCount": 23,
+        "timestamp": 1781784936271
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=56 with light level 0 at night. Multiple actions have failed including break_around, pillar_up, and explore. I should try dig_to_surface which specifically mines upward to reach the surface. The oxygen being low (1/20) is concerning but I'm on granite so not underwater. Let me try dig_to_surface as the primary escape method.",
+        "isGuard": false,
+        "loopCount": 24,
+        "timestamp": 1781784974504
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=56 with light level 0 at night. Multiple actions have failed. I have oak_planks and dirt in inventory which I could use to pillar up. Let me try dig_to_surface which mines upward specifically, or try mine stone to create a path upward. The state says I'm exposed to open sky which is contradictory - let me try go_to_near to move to a known surface location like the dirt at (-2,60,26) which is above me.",
+        "isGuard": false,
+        "loopCount": 25,
+        "timestamp": 1781785014479
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 26,
+        "timestamp": 1781785020952
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=56 with light level 0 at night. I need to get to the surface. The state says I'm exposed to open sky but Y=56 is underground. I have oak_planks in inventory which I can use to pillar up. Let me try dig_to_surface which mines upward to reach the surface.",
+        "isGuard": false,
+        "loopCount": 27,
+        "timestamp": 1781785072568
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=56 with light level 0 at night. I need to get to the surface immediately. I have oak_planks that I can use to pillar up. Let me try dig_to_surface to mine upward and reach the surface.",
+        "isGuard": false,
+        "loopCount": 28,
+        "timestamp": 1781785110857
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=56 with light level 0 at night. Previous explore and break_around attempts failed. I should try pillar_up using my oak_planks to get to the surface, or dig_to_surface to mine upward.",
+        "isGuard": false,
+        "loopCount": 29,
+        "timestamp": 1781785149981
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 30,
+        "timestamp": 1781785185198
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=56 with light level 0. I need to get to the surface. The state says I'm exposed to open sky and nearby resources include oak_log at 8m, so I might actually be near the surface. I'll try dig_to_surface to mine upward, or use pillar_up with my oak_planks to climb up.",
+        "isGuard": false,
+        "loopCount": 31,
+        "timestamp": 1781785231372
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=56 with light level 0 and oxygen nearly depleted. The state says I'm exposed to open sky but Y=56 is underground. I need to dig to surface immediately. I'll use dig_to_surface to mine upward.",
+        "isGuard": false,
+        "loopCount": 32,
+        "timestamp": 1781785270021
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm at Y=57 underground with oxygen nearly depleted (1/20) and light level 0. I need to get to the surface immediately. I'll use pillar_up with my oak_planks to climb up, since break_around and explore have been failing.",
+        "isGuard": false,
+        "loopCount": 33,
+        "timestamp": 1781785308437
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 34,
+        "timestamp": 1781785343668
+      }
+    ],
+    "lastCompletedTier": null
+  },
+  "longMemory": {
+    "knownLocations": {
+      "spruce_log": {
+        "x": -5,
+        "y": 73,
+        "z": -24,
+        "distance": 15,
+        "tick": 6599,
+        "seenAt": 1781781974535
+      },
+      "dirt": {
+        "x": -2,
+        "y": 56,
+        "z": 26,
+        "distance": 0,
+        "tick": 73999,
+        "seenAt": 1781785343668
+      },
+      "gravel": {
+        "x": -2,
+        "y": 47,
+        "z": 21,
+        "distance": 10,
+        "tick": 73999,
+        "seenAt": 1781785343668
+      },
+      "water": {
+        "x": -26,
+        "y": 62,
+        "z": 31,
+        "distance": 8,
+        "tick": 48619,
+        "seenAt": 1781784076133
+      },
+      "water_hazard": {
+        "x": -26,
+        "y": 62,
+        "z": 31,
+        "distance": 8,
+        "seenAt": 1781784076133
+      },
+      "sand": {
+        "x": -25,
+        "y": 63,
+        "z": 33,
+        "distance": 9,
+        "tick": 48619,
+        "seenAt": 1781784076133
+      },
+      "birch_log": {
+        "x": -1,
+        "y": 64,
+        "z": 30,
+        "distance": 9,
+        "tick": 73999,
+        "seenAt": 1781785343668
+      },
+      "stone": {
+        "x": -4,
+        "y": 54,
+        "z": 24,
+        "distance": 3,
+        "tick": 73999,
+        "seenAt": 1781785343668
+      },
+      "oak_log": {
+        "x": -6,
+        "y": 64,
+        "z": 25,
+        "distance": 8,
+        "tick": 73999,
+        "seenAt": 1781785343668
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (0, 62, 17) to (26, 72, -3); inventory delta +73; avg nearby mobs 0.",
+      "Last 10 loops: moved from (26, 69, -3) to (558, 62, 585); inventory delta +10; avg nearby mobs 0.",
+      "Last 10 loops: moved from (12, 67, 15) to (2, 60, 21); inventory delta +58; avg nearby mobs 0.",
+      "Last 10 loops: moved from (2, 58, 22) to (2, 63, 19); inventory delta +15; avg nearby mobs 0.",
+      "Last 10 loops: moved from (0, 62, 17) to (1, 61, 28); inventory delta +16; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-15, 65, 22) to (-3, 56, 26); inventory delta +23; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-3, 57, 26) to (-3, 56, 26); inventory delta +3; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-3, 56, 25) to (-2, 56, 26); inventory delta +0; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781784041042,
+      "position": {
+        "x": -2.5,
+        "y": 58,
+        "z": 22.5,
+        "yaw": 1.568178332917003,
+        "pitch": 1.0550515328305066
+      },
+      "health": 20,
+      "food": 16,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "build emergency shelter for the night",
+        "reasoning": "It's dusk (time 17813) and night is approaching. Light level is 0 so mobs can spawn. I have 33 dirt blocks which is enough to build a shelter. The state indicates I'm exposed to open sky, so I should build a shelter immediately rather than trying to dig to surface. I'll build an emergency shelter with my dirt blocks.",
+        "actions": [
+          {
+            "name": "build_shelter",
+            "params": {}
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "go_to_near",
+          "goal": "get wood and build shelter before night",
+          "params": {
+            "x": 0.5,
+            "y": 61,
+            "z": 28.5,
+            "range": 4
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781783888567
+        },
+        {
+          "action": "chop_tree",
+          "goal": "get wood and build shelter before night",
+          "params": {
+            "count": 5
+          },
+          "success": true,
+          "hint": "Chopped 5 logs",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781783903451
+        },
+        {
+          "action": "dig_to_surface",
+          "goal": "escape to surface and get wood for shelter",
+          "params": {},
+          "success": false,
+          "hint": "Need a pickaxe to dig through stone. Craft wooden_pickaxe first, or use pillar_up if you have placeable blocks (dirt, cobble, planks).",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781783950239
+        },
+        {
+          "action": "build_shelter",
+          "goal": "build emergency shelter for the night",
+          "params": {},
+          "success": true,
+          "hint": "Already underground - you ARE sheltered! Wait for day or pillar_up to return to surface.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781783960946
+        },
+        {
+          "action": "pillar_up",
+          "goal": "escape_trap",
+          "params": {
+            "height": 10
+          },
+          "success": false,
+          "hint": "pillar_up failed repeatedly, used dig_to_surface fallback",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781784008387
+        }
+      ]
+    }
+  },
+  "blockedActions": [
+    [
+      "explore",
+      34
+    ],
+    [
+      "break_around",
+      34
+    ]
+  ]
+}

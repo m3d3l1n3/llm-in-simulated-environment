@@ -1,0 +1,114 @@
+{
+  "runId": "Autonomous Research_12-29-21_life_04",
+  "generatedAt": "2026-06-18T13:29:21.370Z",
+  "coherence": {
+    "totalDecisions": 58,
+    "goalsStarted": 58,
+    "goalsCompleted": 2,
+    "completionRate": "3.4%"
+  },
+  "actionDistribution": {
+    "chop_tree": 1,
+    "craft": 7,
+    "equip": 4,
+    "break_around": 9,
+    "pillar_up": 5,
+    "explore": 8,
+    "mine": 13,
+    "light_area": 12,
+    "build_shelter": 5,
+    "dig_emergency_shelter": 1,
+    "sleep_if_possible": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "mine",
+      "count": 13
+    },
+    {
+      "action": "light_area",
+      "count": 12
+    },
+    {
+      "action": "break_around",
+      "count": 9
+    },
+    {
+      "action": "explore",
+      "count": 8
+    },
+    {
+      "action": "craft",
+      "count": 7
+    }
+  ],
+  "goalDistribution": {
+    "get wood and craft stone tools": 2,
+    "craft wooden pickaxe then mine": 1,
+    "mine cobblestone for stone too": 2,
+    "craft furnace and progress to ": 1,
+    "escape_trap": 7,
+    "mine coal ore for torches and ": 2,
+    "find coal ore for torches and ": 2,
+    "mine stone to find coal ore un": 1,
+    "craft torches to fix dangerous": 1,
+    "build shelter and progress tow": 1,
+    "progress toward iron tools - m": 1,
+    "mine iron ore to progress towa": 3,
+    "mine deeper to find iron ore": 1,
+    "find and mine iron ore by expl": 1,
+    "mine down to iron ore depth (y": 1,
+    "mine down to reach iron ore de": 1,
+    "dig emergency shelter for nigh": 1,
+    "mine underground to survive th": 1,
+    "mine underground for night saf": 1,
+    "stay safe underground during n": 1,
+    "get underground for night safe": 1,
+    "build shelter for night safety": 1,
+    "stay safe through the night": 1,
+    "survive the night safely": 4,
+    "survive the night by building ": 2,
+    "light area to prevent mob spaw": 1,
+    "survive the night - dig emerge": 1,
+    "survive the night by lighting ": 1,
+    "escape to surface - dig upward": 1,
+    "forced_recovery": 1,
+    "dig to surface and survive the": 1,
+    "escape to surface and survive ": 1,
+    "escape to surface": 5,
+    "replace_worn_tool": 1,
+    "collect food by hunting animal": 1,
+    "escape trap and get to open ar": 1,
+    "escape trap and reach open are": 1,
+    "escape trapped area and reach ": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "escape_trap",
+      "count": 7
+    },
+    {
+      "action": "escape to surface",
+      "count": 5
+    },
+    {
+      "action": "survive the night safely",
+      "count": 4
+    },
+    {
+      "action": "mine iron ore to progress towa",
+      "count": 3
+    },
+    {
+      "action": "get wood and craft stone tools",
+      "count": 2
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 4
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

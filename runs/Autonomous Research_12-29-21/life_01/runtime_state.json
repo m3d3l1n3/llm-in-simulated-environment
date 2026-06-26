@@ -1,0 +1,185 @@
+{
+  "savedAt": 1781786378167,
+  "loopCount": 25,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "stone_tools",
+    "activePlan": null,
+    "planSinceLoop": 0,
+    "goalHistory": [],
+    "lastCompletedTier": "stone_tools"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "oak_log": {
+        "x": 4,
+        "y": 66,
+        "z": 25,
+        "distance": 4,
+        "tick": 14659,
+        "seenAt": 1781786377143
+      },
+      "birch_log": {
+        "x": 9,
+        "y": 66,
+        "z": 21,
+        "distance": 7,
+        "tick": 14659,
+        "seenAt": 1781786377143
+      },
+      "dirt": {
+        "x": 2,
+        "y": 65,
+        "z": 20,
+        "distance": 1,
+        "tick": 14659,
+        "seenAt": 1781786377143
+      },
+      "gravel": {
+        "x": 0,
+        "y": 60,
+        "z": 4,
+        "distance": 11,
+        "tick": 14059,
+        "seenAt": 1781786347157
+      },
+      "spruce_log": {
+        "x": -5,
+        "y": 70,
+        "z": -24,
+        "distance": 16,
+        "tick": 3679,
+        "seenAt": 1781785828346
+      },
+      "water": {
+        "x": 0,
+        "y": 59,
+        "z": -22,
+        "distance": 15,
+        "tick": 5459,
+        "seenAt": 1781785917206
+      },
+      "water_hazard": {
+        "x": 0,
+        "y": 59,
+        "z": -22,
+        "distance": 15,
+        "seenAt": 1781785917206
+      },
+      "stone": {
+        "x": 2,
+        "y": 64,
+        "z": 18,
+        "distance": 4,
+        "tick": 14659,
+        "seenAt": 1781786377143
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (7, 68, -4) to (5, 69, -8); inventory delta +26; avg nearby mobs 0.",
+      "Last 10 loops: moved from (9, 69, -6) to (0, 64, 13); inventory delta +13; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781786361378,
+      "position": {
+        "x": 1.35,
+        "y": 64,
+        "z": 14.31,
+        "yaw": -2.474004214701613,
+        "pitch": 1.398008730847371
+      },
+      "health": 20,
+      "food": 19,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "build shelter to survive the night",
+        "reasoning": "It's night with light level 0 and I'm exposed on the surface. I have cobblestone (12), dirt (15), and planks (5) which should be enough to build a basic shelter. The dig_emergency_shelter failed, so trying build_shelter instead.",
+        "actions": [
+          {
+            "name": "build_shelter",
+            "params": {}
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "go_to_near",
+          "goal": "go to crafting table and craft furnace",
+          "params": {
+            "x": 1.6,
+            "y": 64,
+            "z": 14.5,
+            "range": 4
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781786311755
+        },
+        {
+          "action": "craft",
+          "goal": "go to crafting table and craft furnace",
+          "params": {
+            "item": "furnace",
+            "count": 1
+          },
+          "success": false,
+          "hint": null,
+          "error": "Recipe for furnace requires a crafting table within reach, but none is nearby and none could be placed. Move closer to a table or craft/place one first.",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781786318800
+        },
+        {
+          "action": "dig_emergency_shelter",
+          "goal": "dig emergency shelter for the night",
+          "params": {},
+          "success": false,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781786328342
+        },
+        {
+          "action": "build_shelter",
+          "goal": "build shelter to survive the night",
+          "params": {},
+          "success": false,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781786341678
+        },
+        {
+          "action": "break_around",
+          "goal": "escape_trap",
+          "params": {
+            "direction": "escape"
+          },
+          "success": true,
+          "hint": "Cleared 7 blocks! Try moving or exploring now.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": 7,
+          "timestamp": 1781786355254
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

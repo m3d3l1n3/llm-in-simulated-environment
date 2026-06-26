@@ -1,0 +1,90 @@
+{
+  "runId": "Autonomous Research_12-29-21_life_03",
+  "generatedAt": "2026-06-18T13:02:23.646Z",
+  "coherence": {
+    "totalDecisions": 23,
+    "goalsStarted": 23,
+    "goalsCompleted": 2,
+    "completionRate": "8.7%"
+  },
+  "actionDistribution": {
+    "chop_tree": 4,
+    "craft": 10,
+    "mine": 1,
+    "break_around": 4,
+    "explore": 3,
+    "go_to_near": 2,
+    "dig_emergency_shelter": 1,
+    "pillar_up": 1,
+    "eat": 1,
+    "flee_from": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 10
+    },
+    {
+      "action": "chop_tree",
+      "count": 4
+    },
+    {
+      "action": "break_around",
+      "count": 4
+    },
+    {
+      "action": "explore",
+      "count": 3
+    },
+    {
+      "action": "go_to_near",
+      "count": 2
+    }
+  ],
+  "goalDistribution": {
+    "gather wood and craft stone to": 3,
+    "craft wooden pickaxe and mine ": 2,
+    "mine cobblestone for stone too": 2,
+    "escape to surface and mine cob": 1,
+    "escape to surface and get cobb": 1,
+    "mine stone for stone tools": 1,
+    "escape_trap": 3,
+    "escape to surface": 2,
+    "craft wooden pickaxe and gathe": 1,
+    "get to crafting table and craf": 2,
+    "gather wood and craft tools": 1,
+    "dig emergency shelter for nigh": 1,
+    "chop trees to get logs for cra": 1,
+    "craft wooden pickaxe to mine s": 1,
+    "flee_danger": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "gather wood and craft stone to",
+      "count": 3
+    },
+    {
+      "action": "escape_trap",
+      "count": 3
+    },
+    {
+      "action": "craft wooden pickaxe and mine ",
+      "count": 2
+    },
+    {
+      "action": "mine cobblestone for stone too",
+      "count": 2
+    },
+    {
+      "action": "escape to surface",
+      "count": 2
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 2
+  },
+  "adaptation": {
+    "perturbationCount": 1,
+    "averageRecoveryTime": "134.4s"
+  }
+}

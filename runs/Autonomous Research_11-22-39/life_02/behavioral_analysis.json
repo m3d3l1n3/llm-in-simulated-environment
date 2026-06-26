@@ -1,0 +1,101 @@
+{
+  "runId": "Autonomous Research_11-22-39_life_02",
+  "generatedAt": "2026-06-18T11:45:15.748Z",
+  "coherence": {
+    "totalDecisions": 30,
+    "goalsStarted": 30,
+    "goalsCompleted": 1,
+    "completionRate": "3.3%"
+  },
+  "actionDistribution": {
+    "chop_tree": 2,
+    "craft": 11,
+    "equip": 4,
+    "break_around": 6,
+    "explore": 4,
+    "go_to_near": 1,
+    "pillar_up": 4,
+    "dig_emergency_shelter": 1,
+    "build_shelter": 1,
+    "eat": 1,
+    "flee_from": 1,
+    "swim_up": 1,
+    "light_area": 2
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 11
+    },
+    {
+      "action": "break_around",
+      "count": 6
+    },
+    {
+      "action": "equip",
+      "count": 4
+    },
+    {
+      "action": "explore",
+      "count": 4
+    },
+    {
+      "action": "pillar_up",
+      "count": 4
+    }
+  ],
+  "goalDistribution": {
+    "gather wood and craft stone to": 1,
+    "craft stone tools": 2,
+    "craft wooden pickaxe and mine ": 1,
+    "mine cobblestone for stone too": 2,
+    "escape_trap": 4,
+    "gather wood and mine iron ore": 1,
+    "replace_worn_tool": 1,
+    "craft stone_pickaxe": 1,
+    "equip stone pickaxe and progre": 1,
+    "mine stone and coal to progres": 1,
+    "mine coal and iron ore to prog": 1,
+    "escape to surface": 1,
+    "gather wood and progress towar": 1,
+    "escape trapped position and st": 1,
+    "build emergency shelter for ni": 1,
+    "build shelter for night safety": 1,
+    "survive the night by pillaring": 1,
+    "flee_danger": 1,
+    "survive critical health at nig": 3,
+    "escape_drowning": 1,
+    "survive critical health and ni": 1,
+    "craft torches to prevent mob s": 1,
+    "light area to prevent mob spaw": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "escape_trap",
+      "count": 4
+    },
+    {
+      "action": "survive critical health at nig",
+      "count": 3
+    },
+    {
+      "action": "craft stone tools",
+      "count": 2
+    },
+    {
+      "action": "mine cobblestone for stone too",
+      "count": 2
+    },
+    {
+      "action": "gather wood and craft stone to",
+      "count": 1
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 4
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "savedAt": 1781783115746,
+  "loopCount": 30,
+  "goalManager": {
+    "currentTier": "stone_tools",
+    "highestTierReached": "stone_tools",
+    "activePlan": "light area to prevent mob spawning and survive night",
+    "planSinceLoop": 30,
+    "goalHistory": [
+      {
+        "goal": "light area to prevent mob spawning and survive night",
+        "reasoning": "I have 4 torches in inventory. Light level is 0 so mobs will spawn. I need to light the area immediately. Then I'll pillar up to get off the ground level to avoid mob reach. Health is critical so avoiding any combat is essential.",
+        "isGuard": false,
+        "loopCount": 30,
+        "timestamp": 1781783113824
+      }
+    ],
+    "lastCompletedTier": null
+  },
+  "longMemory": {
+    "knownLocations": {
+      "spruce_log": {
+        "x": -5,
+        "y": 73,
+        "z": -24,
+        "distance": 15,
+        "tick": 6599,
+        "seenAt": 1781781974535
+      },
+      "dirt": {
+        "x": 557,
+        "y": 53,
+        "z": 582,
+        "distance": 9,
+        "tick": 29179,
+        "seenAt": 1781783103091
+      },
+      "gravel": {
+        "x": 572,
+        "y": 56,
+        "z": 586,
+        "distance": 14,
+        "tick": 29179,
+        "seenAt": 1781783103091
+      },
+      "oak_log": {
+        "x": 26,
+        "y": 73,
+        "z": -9,
+        "distance": 7,
+        "tick": 26199,
+        "seenAt": 1781782953949
+      },
+      "water": {
+        "x": 558,
+        "y": 62,
+        "z": 583,
+        "distance": 2,
+        "tick": 29179,
+        "seenAt": 1781783103091
+      },
+      "water_hazard": {
+        "x": 558,
+        "y": 62,
+        "z": 583,
+        "distance": 2,
+        "seenAt": 1781783103091
+      },
+      "birch_log": {
+        "x": 20,
+        "y": 72,
+        "z": -4,
+        "distance": 7,
+        "tick": 26199,
+        "seenAt": 1781782953949
+      },
+      "stone": {
+        "x": 559,
+        "y": 56,
+        "z": 590,
+        "distance": 7,
+        "tick": 29179,
+        "seenAt": 1781783103091
+      },
+      "sand": {
+        "x": 558,
+        "y": 62,
+        "z": 586,
+        "distance": 0,
+        "tick": 29179,
+        "seenAt": 1781783103091
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (0, 72, -9) to (6, 73, -14); inventory delta +19; avg nearby mobs 0.",
+      "Last 10 loops: moved from (9, 69, -6) to (32, 68, -15); inventory delta +14; avg nearby mobs 0.",
+      "Last 10 loops: moved from (0, 67, 20) to (1, 61, 20); inventory delta +67; avg nearby mobs 0.",
+      "Last 10 loops: moved from (0, 62, 17) to (26, 72, -3); inventory delta +73; avg nearby mobs 0.",
+      "Last 10 loops: moved from (26, 69, -3) to (558, 62, 585); inventory delta +10; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781783113740,
+      "position": {
+        "x": 558.37,
+        "y": 62,
+        "z": 585.5,
+        "yaw": -1.5718653196562395,
+        "pitch": -1.4914821564206875
+      },
+      "health": 3.134031295776367,
+      "food": 15,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "craft torches to prevent mob spawning and survive the night",
+        "reasoning": "Health is critical at 3/20, light level is 0 so mobs will spawn. I have coal (4) and oak_planks (3). I need to craft sticks from planks, then craft torches to light the area. This prevents mob spawning without needing to dig shelter. Food at 15/20 will slowly regenerate health if I avoid damage.",
+        "actions": [
+          {
+            "name": "craft",
+            "params": {
+              "item": "stick",
+              "count": 4
+            }
+          },
+          {
+            "name": "craft",
+            "params": {
+              "item": "torch",
+              "count": 4
+            }
+          },
+          {
+            "name": "light_area",
+            "params": {
+              "radius": 5
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "break_around",
+          "goal": "survive critical health at night",
+          "params": {
+            "direction": "all"
+          },
+          "success": true,
+          "hint": "Cleared 1 blocks! Try moving or exploring now.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": 1,
+          "timestamp": 1781783068390
+        },
+        {
+          "action": "craft",
+          "goal": "survive critical health and night",
+          "params": {
+            "item": "crafting_table",
+            "count": 1
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781783081843
+        },
+        {
+          "action": "craft",
+          "goal": "craft torches to prevent mob spawning and survive the night",
+          "params": {
+            "item": "stick",
+            "count": 4
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781783097460
+        },
+        {
+          "action": "craft",
+          "goal": "craft torches to prevent mob spawning and survive the night",
+          "params": {
+            "item": "torch",
+            "count": 4
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781783097490
+        },
+        {
+          "action": "light_area",
+          "goal": "craft torches to prevent mob spawning and survive the night",
+          "params": {
+            "radius": 5
+          },
+          "success": false,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781783097491
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

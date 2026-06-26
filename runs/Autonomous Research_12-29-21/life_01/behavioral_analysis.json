@@ -1,0 +1,95 @@
+{
+  "runId": "Autonomous Research_12-29-21",
+  "generatedAt": "2026-06-18T12:39:38.170Z",
+  "coherence": {
+    "totalDecisions": 24,
+    "goalsStarted": 24,
+    "goalsCompleted": 1,
+    "completionRate": "4.2%"
+  },
+  "actionDistribution": {
+    "craft": 10,
+    "equip": 5,
+    "mine": 8,
+    "explore": 2,
+    "go_to_near": 1,
+    "dig_emergency_shelter": 1,
+    "build_shelter": 1,
+    "break_around": 1,
+    "pillar_up": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 10
+    },
+    {
+      "action": "mine",
+      "count": 8
+    },
+    {
+      "action": "equip",
+      "count": 5
+    },
+    {
+      "action": "explore",
+      "count": 2
+    },
+    {
+      "action": "go_to_near",
+      "count": 1
+    }
+  ],
+  "goalDistribution": {
+    "gather wood to start progressi": 1,
+    "craft wooden tools and craftin": 1,
+    "craft crafting table and woode": 1,
+    "mine stone for stone tools": 1,
+    "mine more stone for stone tool": 1,
+    "craft stone tools": 1,
+    "craft stone sword and gather m": 1,
+    "get coal for torches and progr": 1,
+    "mine coal ore for torches and ": 3,
+    "find and mine coal ore": 1,
+    "mine coal ore for progression": 1,
+    "explore to find coal ore": 1,
+    "mine coal ore by going to ston": 1,
+    "mine stone to find coal ore": 1,
+    "mine coal ore and iron ore for": 1,
+    "craft furnace and get iron too": 1,
+    "craft furnace and mine iron or": 1,
+    "go to crafting table and craft": 2,
+    "dig emergency shelter for the ": 1,
+    "build shelter to survive the n": 1,
+    "escape_trap": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "mine coal ore for torches and ",
+      "count": 3
+    },
+    {
+      "action": "go to crafting table and craft",
+      "count": 2
+    },
+    {
+      "action": "gather wood to start progressi",
+      "count": 1
+    },
+    {
+      "action": "craft wooden tools and craftin",
+      "count": 1
+    },
+    {
+      "action": "craft crafting table and woode",
+      "count": 1
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 3
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

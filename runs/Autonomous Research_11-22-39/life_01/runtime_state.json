@@ -1,0 +1,195 @@
+{
+  "savedAt": 1781782379986,
+  "loopCount": 23,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "stone_tools",
+    "activePlan": "Get wood to craft tools and progress to stone tier",
+    "planSinceLoop": 23,
+    "goalHistory": [
+      {
+        "goal": "Get wood to craft tools and progress to stone tier",
+        "reasoning": "I just respawned with minimal inventory (only chicken and feathers). I need to chop trees to get logs, then craft a crafting table and wooden pickaxe to mine stone. There's an oak_log 4m away which is very close.",
+        "isGuard": false,
+        "loopCount": 23,
+        "timestamp": 1781782378106
+      }
+    ],
+    "lastCompletedTier": "stone_tools"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "spruce_log": {
+        "x": -5,
+        "y": 73,
+        "z": -24,
+        "distance": 15,
+        "tick": 6599,
+        "seenAt": 1781781974535
+      },
+      "dirt": {
+        "x": 1,
+        "y": 66,
+        "z": 18,
+        "distance": 5,
+        "tick": 14599,
+        "seenAt": 1781782374689
+      },
+      "gravel": {
+        "x": 37,
+        "y": 68,
+        "z": -13,
+        "distance": 3,
+        "tick": 14199,
+        "seenAt": 1781782353804
+      },
+      "oak_log": {
+        "x": 4,
+        "y": 69,
+        "z": 21,
+        "distance": 4,
+        "tick": 14599,
+        "seenAt": 1781782374689
+      },
+      "water": {
+        "x": -4,
+        "y": 62,
+        "z": -24,
+        "distance": 6,
+        "tick": 5919,
+        "seenAt": 1781781940616
+      },
+      "water_hazard": {
+        "x": -4,
+        "y": 62,
+        "z": -24,
+        "distance": 6,
+        "seenAt": 1781781940616
+      },
+      "birch_log": {
+        "x": 9,
+        "y": 71,
+        "z": 21,
+        "distance": 8,
+        "tick": 14599,
+        "seenAt": 1781782374689
+      },
+      "stone": {
+        "x": 1,
+        "y": 64,
+        "z": 18,
+        "distance": 7,
+        "tick": 14599,
+        "seenAt": 1781782374689
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (0, 72, -9) to (6, 73, -14); inventory delta +19; avg nearby mobs 0.",
+      "Last 10 loops: moved from (9, 69, -6) to (32, 68, -15); inventory delta +14; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781782359789,
+      "position": {
+        "x": 33.5,
+        "y": 68,
+        "z": -14.56,
+        "yaw": -1.795832746484212,
+        "pitch": -0.17385689192561182
+      },
+      "health": 20,
+      "food": 11,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "light area to prevent mob spawns at night",
+        "reasoning": "It's night (time 12248) with light level 0, which is dangerous. I have 4 torches in my inventory. I should light the area around me to prevent mob spawns and stay safe. There are no nearby mobs right now, so this is a good time to place torches.",
+        "actions": [
+          {
+            "name": "light_area",
+            "params": {
+              "radius": 10
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "dig_emergency_shelter",
+          "goal": "build shelter before night",
+          "params": {},
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781782290488
+        },
+        {
+          "action": "mine",
+          "goal": "mine coal and build proper shelter",
+          "params": {
+            "blockType": "coal_ore",
+            "count": 4
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781782307286
+        },
+        {
+          "action": "craft",
+          "goal": "craft torches and light area for night safety",
+          "params": {
+            "item": "torch",
+            "count": 3
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781782318400
+        },
+        {
+          "action": "light_area",
+          "goal": "light area to prevent mob spawns at night",
+          "params": {
+            "radius": 10
+          },
+          "success": false,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781782348487
+        },
+        {
+          "action": "break_around",
+          "goal": "escape_trap",
+          "params": {
+            "direction": "escape"
+          },
+          "success": true,
+          "hint": "Cleared 4 blocks! Try moving or exploring now.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": 4,
+          "timestamp": 1781782356454
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

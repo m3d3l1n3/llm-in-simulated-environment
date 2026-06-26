@@ -1,0 +1,466 @@
+{
+  "savedAt": 1781789361367,
+  "loopCount": 58,
+  "goalManager": {
+    "currentTier": "shelter",
+    "highestTierReached": "shelter",
+    "activePlan": "escape_trap",
+    "planSinceLoop": 58,
+    "goalHistory": [
+      {
+        "goal": "Build shelter for night safety",
+        "reasoning": "It's dusk with light level 0 and I'm on the surface exposed to mob spawns. I have cobblestone and oak planks available. I should build a shelter using available materials to stay safe through the night. The dig_emergency_shelter is blocked, so I'll use build_shelter instead.",
+        "isGuard": false,
+        "loopCount": 29,
+        "timestamp": 1781788474804
+      },
+      {
+        "goal": "Stay safe through the night",
+        "reasoning": "It's dusk with light level 0 and mobs can spawn. I just built a shelter. I should try to light the area with my torches (I have 3) and then sleep if possible. The light_area action has been failing, but I should try again since I have torches in inventory. If that fails, I'll just stay put in the shelter.",
+        "isGuard": false,
+        "loopCount": 30,
+        "timestamp": 1781788485455
+      },
+      {
+        "goal": "Survive the night safely",
+        "reasoning": "It's dusk with light level 0 and mobs can spawn. I have a shelter built and 3 torches in inventory, but light_area keeps failing. I should try sleep_if_possible since I might have a bed nearby, or just stay put. I don't have a bed in inventory though. Let me try to place torches manually by using light_area one more time, or just mine underground to stay safe until morning.",
+        "isGuard": false,
+        "loopCount": 31,
+        "timestamp": 1781788507075
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 32,
+        "timestamp": 1781788512689
+      },
+      {
+        "goal": "Survive the night by building shelter",
+        "reasoning": "It's night with light level 0 and mobs can spawn. I have cobblestone and planks to build a shelter. light_area and dig_emergency_shelter have been failing, so I'll try build_shelter which uses available blocks in my inventory. I have 22 cobblestone and 5 oak planks which should be enough.",
+        "isGuard": false,
+        "loopCount": 33,
+        "timestamp": 1781788535625
+      },
+      {
+        "goal": "Light area to prevent mob spawns and survive the night",
+        "reasoning": "It's night with light level 0, but I have 3 torches in my inventory. The build_shelter action ran last turn. I should place torches to light the area and prevent mob spawns. This is safer than trying to build more shelter since I'm on the surface with no immediate mobs nearby.",
+        "isGuard": false,
+        "loopCount": 34,
+        "timestamp": 1781788545290
+      },
+      {
+        "goal": "Survive the night safely",
+        "reasoning": "It's dusk/night with light level 0 and mobs can spawn. I have 3 torches in inventory. light_area failed last turn, so I'll try placing torches manually by using light_area again, or try build_shelter. Actually, build_shelter worked last turn (OK). Let me try light_area again since I have torches - it may have failed due to positioning. Alternatively, I should equip my stone pickaxe and try to get underground. Since dig_emergency_shelter is blocked and pillar_up failed, let me try build_shelter again which worked before, then light_area.",
+        "isGuard": false,
+        "loopCount": 35,
+        "timestamp": 1781788562073
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 36,
+        "timestamp": 1781788572656
+      },
+      {
+        "goal": "Survive the night by building shelter",
+        "reasoning": "It's night with light level 0, health is 18/20, and I'm exposed. light_area has been failing repeatedly. I should try build_shelter since it worked before. I have cobblestone (22) and oak planks (5) which should be enough to build a basic shelter. No mobs are nearby right now so I have a moment to act.",
+        "isGuard": false,
+        "loopCount": 37,
+        "timestamp": 1781788605053
+      },
+      {
+        "goal": "Survive the night safely",
+        "reasoning": "It's night with light level 0 and I'm exposed. build_shelter worked last turn. I have cobblestone (22) and oak planks (5) which should be enough. No mobs nearby right now, so I should build a shelter immediately. light_area has been failing repeatedly so I'll avoid it. I'll try build_shelter again since it was successful recently.",
+        "isGuard": false,
+        "loopCount": 38,
+        "timestamp": 1781788614428
+      },
+      {
+        "goal": "Survive the night safely",
+        "reasoning": "It's night with light level 0 and I'm exposed on the surface. I have torches in my inventory. Let me light the area to prevent mob spawns, and then try to build a shelter or dig an emergency shelter. No mobs are nearby right now so I have a moment. light_area has been failing but I have 3 torches so let me try it, and if that fails I'll dig an emergency shelter.",
+        "isGuard": false,
+        "loopCount": 39,
+        "timestamp": 1781788624316
+      },
+      {
+        "goal": "Survive the night - dig emergency shelter",
+        "reasoning": "It's night with light level 0 and I'm exposed. build_shelter has been called twice already. I have cobblestone and planks. Let me try dig_emergency_shelter as an alternative approach to get underground safely. No mobs nearby so I have a moment to act.",
+        "isGuard": false,
+        "loopCount": 40,
+        "timestamp": 1781788662470
+      },
+      {
+        "goal": "Survive the night by lighting area and staying safe",
+        "reasoning": "It's night with light level 0 and I'm exposed. I have 3 torches. Let me try light_area to prevent mob spawns. No mobs are nearby right now so I have a moment. If that doesn't work, I'll try dig_emergency_shelter to get underground.",
+        "isGuard": false,
+        "loopCount": 41,
+        "timestamp": 1781788700608
+      },
+      {
+        "goal": "Escape to surface - dig upward",
+        "reasoning": "I'm underground at Y=57, it's night with light level 0, and oxygen is critically low at 1/20. I need to dig to the surface immediately. The state says 'exposed to open sky' which is confusing, but Y=57 is underground. I'll use dig_to_surface to get up, then find safety.",
+        "isGuard": false,
+        "loopCount": 42,
+        "timestamp": 1781788744689
+      },
+      {
+        "goal": "forced_recovery",
+        "reasoning": "Stuck for many loops; trying escape strategy #1 (rotating to avoid repeating failed approaches).",
+        "isGuard": true,
+        "loopCount": 43,
+        "timestamp": 1781788779817
+      },
+      {
+        "goal": "Dig to surface and survive the night",
+        "reasoning": "I'm underground at Y=57 with oxygen critically low (1/20), it's night, and light level is 0. I need to get to the surface immediately. The state says 'exposed to open sky' but Y=57 is underground - I'll use dig_to_surface to mine upward. After that I need to light the area and survive the night.",
+        "isGuard": false,
+        "loopCount": 44,
+        "timestamp": 1781788822681
+      },
+      {
+        "goal": "Escape to surface and survive the night",
+        "reasoning": "I'm underground at Y=57 with critically low oxygen (1/20), it's night, and light level is 0. I need to dig to the surface immediately. The dig_to_surface action should mine upward to reach the surface.",
+        "isGuard": false,
+        "loopCount": 45,
+        "timestamp": 1781788860026
+      },
+      {
+        "goal": "Escape to surface",
+        "reasoning": "I'm underground at Y=59 with critically low oxygen (1/20). I need to dig to the surface immediately using dig_to_surface.",
+        "isGuard": false,
+        "loopCount": 46,
+        "timestamp": 1781788897362
+      },
+      {
+        "goal": "Escape to surface",
+        "reasoning": "I'm underground at Y=57 with critically low oxygen (1/20). I need to dig to the surface immediately. The dig_to_surface action should mine upward to reach the surface. I'll also try pillar_up as an alternative.",
+        "isGuard": false,
+        "loopCount": 47,
+        "timestamp": 1781788935034
+      },
+      {
+        "goal": "Escape to surface",
+        "reasoning": "I'm underground at Y=59 with critically low oxygen (1/20). I need to get to the surface immediately. I'll try pillar_up first to climb up, then dig_to_surface if needed.",
+        "isGuard": false,
+        "loopCount": 48,
+        "timestamp": 1781788972461
+      },
+      {
+        "goal": "replace_worn_tool",
+        "reasoning": "Stone Pickaxe at 12% durability (16 uses left). Crafting replacement before it breaks.",
+        "isGuard": true,
+        "loopCount": 49,
+        "timestamp": 1781789007666
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 50,
+        "timestamp": 1781789012856
+      },
+      {
+        "goal": "collect food by hunting animals",
+        "reasoning": "Priority alert says low food and no food inventory. I need to hunt animals before doing anything else. Health is also at 18/20 which is fine but food at 8/20 means I should get food soon. Let me collect food from nearby animals.",
+        "isGuard": false,
+        "loopCount": 51,
+        "timestamp": 1781789054714
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=59 with oxygen at 1/20 (critically low - but that might be a display issue since I'm not underwater). Light level is 0 which means mobs can spawn. I need to dig to the surface immediately. The priority alert says escape underground first.",
+        "isGuard": false,
+        "loopCount": 52,
+        "timestamp": 1781789093095
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=58 with light level 0 (mobs can spawn) and oxygen at 1/20. I'm standing on air with cliffs nearby. I need to dig to the surface immediately. I have cobblestone to pillar up if needed.",
+        "isGuard": false,
+        "loopCount": 53,
+        "timestamp": 1781789131058
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 54,
+        "timestamp": 1781789166189
+      },
+      {
+        "goal": "escape trap and get to open area",
+        "reasoning": "I'm trapped with recent actions failing. I need to break blocks around me to escape, then pillar up to get to open surface. I'm at Y=61 which is surface level but light level is 0 which is dangerous. Let me break blocks forward to clear a path, then explore to find open space.",
+        "isGuard": false,
+        "loopCount": 55,
+        "timestamp": 1781789215531
+      },
+      {
+        "goal": "escape trap and reach open area",
+        "reasoning": "I'm trapped with multiple failed actions. Light level is 0 which is dangerous. I need to pillar up to get above any obstacles and reach open sky, then navigate to a safe area. I'm at Y=61.7 which should be surface, but the light level is 0 suggesting I'm under something. Let me pillar up to get clear.",
+        "isGuard": false,
+        "loopCount": 56,
+        "timestamp": 1781789256660
+      },
+      {
+        "goal": "escape trapped area and reach open space",
+        "reasoning": "I'm trapped with light level 0 and multiple failed actions. I just successfully pillared up, so I should be higher now. Let me try to dig to surface to get completely clear, then explore away from this area. I'm at Y=61 which should be surface but something is blocking me.",
+        "isGuard": false,
+        "loopCount": 57,
+        "timestamp": 1781789276505
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 58,
+        "timestamp": 1781789316245
+      }
+    ],
+    "lastCompletedTier": "naked"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": 11,
+        "y": 57,
+        "z": -9,
+        "distance": 2,
+        "tick": 73459,
+        "seenAt": 1781789316245
+      },
+      "gravel": {
+        "x": 13,
+        "y": 52,
+        "z": -5,
+        "distance": 8,
+        "tick": 73459,
+        "seenAt": 1781789316245
+      },
+      "spruce_log": {
+        "x": 13,
+        "y": 65,
+        "z": -32,
+        "distance": 14,
+        "tick": 72579,
+        "seenAt": 1781789272258
+      },
+      "water": {
+        "x": 10,
+        "y": 49,
+        "z": -13,
+        "distance": 10,
+        "tick": 73459,
+        "seenAt": 1781789316245
+      },
+      "water_hazard": {
+        "x": 10,
+        "y": 49,
+        "z": -13,
+        "distance": 10,
+        "seenAt": 1781789316245
+      },
+      "sand": {
+        "x": 419,
+        "y": 61,
+        "z": 575,
+        "distance": 0,
+        "tick": 27639,
+        "seenAt": 1781787026472
+      },
+      "birch_log": {
+        "x": 7,
+        "y": 73,
+        "z": -13,
+        "distance": 15,
+        "tick": 73459,
+        "seenAt": 1781789316245
+      },
+      "oak_log": {
+        "x": 9,
+        "y": 72,
+        "z": -16,
+        "distance": 14,
+        "tick": 73459,
+        "seenAt": 1781789316245
+      },
+      "cobblestone": {
+        "x": 9,
+        "y": 65,
+        "z": -9,
+        "distance": 6,
+        "tick": 73459,
+        "seenAt": 1781789316245
+      },
+      "stone": {
+        "x": 10,
+        "y": 56,
+        "z": -10,
+        "distance": 3,
+        "tick": 73459,
+        "seenAt": 1781789316245
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (8, 60, 23) to (7, 60, 25); inventory delta +48; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-10, 81, 6) to (5, 58, 42); inventory delta +84; avg nearby mobs 0.",
+      "Last 10 loops: moved from (5, 59, 41) to (4, 61, 34); inventory delta -77; avg nearby mobs 0.",
+      "Last 10 loops: moved from (4, 68, -6) to (9, 64, -10); inventory delta +30; avg nearby mobs 0.",
+      "Last 10 loops: moved from (9, 62, -8) to (8, 64, -10); inventory delta +2; avg nearby mobs 0.",
+      "Last 10 loops: moved from (8, 64, -10) to (8, 64, -11); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (8, 64, -11) to (11, 61, -9); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (11, 60, -9) to (13, 61, -20); inventory delta +110; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781787739430,
+      "position": {
+        "x": 7.53,
+        "y": 61.57,
+        "z": 27.98,
+        "yaw": 0.001033013555323592,
+        "pitch": -0.47779889297512357
+      },
+      "health": 2,
+      "food": 11,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "Craft wooden pickaxe to mine stone",
+        "reasoning": "I have 2 oak_logs and 2 oak_planks. I need 3 planks for a wooden pickaxe. I can craft planks from logs first (1 log = 4 planks), then craft the wooden pickaxe. The crafting table is nearby at 7m.",
+        "actions": [
+          {
+            "name": "craft",
+            "params": {
+              "item": "oak_planks",
+              "count": 4
+            }
+          },
+          {
+            "name": "craft",
+            "params": {
+              "item": "wooden_pickaxe",
+              "count": 1
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "chop_tree",
+          "goal": "Chop trees to get logs for crafting wooden pickaxe",
+          "params": {
+            "count": 2
+          },
+          "success": true,
+          "hint": "Chopped 2 logs",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781787719957
+        },
+        {
+          "action": "craft",
+          "goal": "Craft wooden pickaxe to mine stone",
+          "params": {
+            "item": "oak_planks",
+            "count": 4
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781787728877
+        },
+        {
+          "action": "craft",
+          "goal": "Craft wooden pickaxe to mine stone",
+          "params": {
+            "item": "wooden_pickaxe",
+            "count": 1
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781787731581
+        },
+        {
+          "action": "eat",
+          "goal": "flee_danger",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781787736784
+        },
+        {
+          "action": "flee_from",
+          "goal": "flee_danger",
+          "params": {
+            "entity": "zombie_villager"
+          },
+          "success": false,
+          "hint": "Unable to flee — still 2m from zombie_villager",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781787736790
+        }
+      ]
+    }
+  },
+  "blockedActions": [
+    [
+      "build_shelter",
+      29
+    ],
+    [
+      "mine",
+      22
+    ],
+    [
+      "dig_emergency_shelter",
+      39
+    ],
+    [
+      "light_area",
+      49
+    ],
+    [
+      "explore",
+      58
+    ],
+    [
+      "break_around",
+      56
+    ],
+    [
+      "breakAround",
+      56
+    ],
+    [
+      "clear_path",
+      56
+    ],
+    [
+      "clearPath",
+      56
+    ]
+  ]
+}

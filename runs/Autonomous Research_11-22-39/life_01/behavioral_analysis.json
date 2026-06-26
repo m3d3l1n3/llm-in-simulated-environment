@@ -1,0 +1,94 @@
+{
+  "runId": "Autonomous Research_11-22-39",
+  "generatedAt": "2026-06-18T11:32:59.989Z",
+  "coherence": {
+    "totalDecisions": 23,
+    "goalsStarted": 23,
+    "goalsCompleted": 1,
+    "completionRate": "4.3%"
+  },
+  "actionDistribution": {
+    "chop_tree": 3,
+    "craft": 9,
+    "mine": 3,
+    "explore": 2,
+    "dig_emergency_shelter": 1,
+    "light_area": 1,
+    "break_around": 1,
+    "pillar_up": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 9
+    },
+    {
+      "action": "chop_tree",
+      "count": 3
+    },
+    {
+      "action": "mine",
+      "count": 3
+    },
+    {
+      "action": "explore",
+      "count": 2
+    },
+    {
+      "action": "dig_emergency_shelter",
+      "count": 1
+    }
+  ],
+  "goalDistribution": {
+    "gather wood to start progressi": 1,
+    "craft crafting table and woode": 1,
+    "craft wooden pickaxe and mine ": 1,
+    "craft wooden pickaxe to mine s": 1,
+    "mine stone for stone tools": 1,
+    "mine cobblestone for stone too": 1,
+    "get more logs to craft craftin": 1,
+    "craft stone tools": 1,
+    "gather more wood and resources": 1,
+    "gather wood and find coal/iron": 1,
+    "gather coal and iron ore for f": 1,
+    "mine coal ore for torches and ": 3,
+    "find coal ore by exploring and": 1,
+    "mine coal ore and build shelte": 1,
+    "find coal ore and build shelte": 1,
+    "build shelter before night": 1,
+    "mine coal and build proper she": 1,
+    "craft torches and light area f": 1,
+    "light area to prevent mob spaw": 1,
+    "escape_trap": 1,
+    "get wood to craft tools and pr": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "mine coal ore for torches and ",
+      "count": 3
+    },
+    {
+      "action": "gather wood to start progressi",
+      "count": 1
+    },
+    {
+      "action": "craft crafting table and woode",
+      "count": 1
+    },
+    {
+      "action": "craft wooden pickaxe and mine ",
+      "count": 1
+    },
+    {
+      "action": "craft wooden pickaxe to mine s",
+      "count": 1
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 2
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

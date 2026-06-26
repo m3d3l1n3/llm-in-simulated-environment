@@ -1,0 +1,93 @@
+{
+  "runId": "Autonomous Research_12-29-21_life_02",
+  "generatedAt": "2026-06-18T12:50:58.418Z",
+  "coherence": {
+    "totalDecisions": 23,
+    "goalsStarted": 23,
+    "goalsCompleted": 1,
+    "completionRate": "4.3%"
+  },
+  "actionDistribution": {
+    "chop_tree": 7,
+    "craft": 5,
+    "mine": 1,
+    "break_around": 5,
+    "explore": 5,
+    "go_to_near": 5,
+    "pillar_up": 4,
+    "dig_to_surface": 1,
+    "dig_emergency_shelter": 1,
+    "build_shelter": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "chop_tree",
+      "count": 7
+    },
+    {
+      "action": "craft",
+      "count": 5
+    },
+    {
+      "action": "break_around",
+      "count": 5
+    },
+    {
+      "action": "explore",
+      "count": 5
+    },
+    {
+      "action": "go_to_near",
+      "count": 5
+    }
+  ],
+  "goalDistribution": {
+    "gather wood and craft stone to": 1,
+    "craft stone tools from scratch": 1,
+    "craft stone tools": 1,
+    "mine cobblestone for stone too": 1,
+    "escape_trap": 5,
+    "gather logs and craft stone to": 2,
+    "gather logs for crafting stone": 1,
+    "gather logs and craft wooden p": 1,
+    "craft wooden pickaxe and gathe": 1,
+    "mine stone for stone tools": 1,
+    "escape to surface": 1,
+    "get to surface and gather wood": 1,
+    "escape to surface and gather w": 1,
+    "get to surface and chop trees ": 1,
+    "chop trees for wood and craft ": 1,
+    "chop nearby trees for wood": 1,
+    "dig emergency shelter for nigh": 1,
+    "survive the night safely": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "escape_trap",
+      "count": 5
+    },
+    {
+      "action": "gather logs and craft stone to",
+      "count": 2
+    },
+    {
+      "action": "gather wood and craft stone to",
+      "count": 1
+    },
+    {
+      "action": "craft stone tools from scratch",
+      "count": 1
+    },
+    {
+      "action": "craft stone tools",
+      "count": 1
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 2
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

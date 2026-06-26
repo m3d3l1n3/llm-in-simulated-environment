@@ -1,0 +1,83 @@
+{
+  "runId": "Autonomous Research_11-22-39_life_04",
+  "generatedAt": "2026-06-18T12:22:39.772Z",
+  "coherence": {
+    "totalDecisions": 34,
+    "goalsStarted": 34,
+    "goalsCompleted": 0,
+    "completionRate": "0.0%"
+  },
+  "actionDistribution": {
+    "chop_tree": 1,
+    "craft": 4,
+    "equip": 1,
+    "pillar_up": 3,
+    "explore": 8,
+    "break_around": 7,
+    "dig_to_surface": 1,
+    "go_to_near": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "explore",
+      "count": 8
+    },
+    {
+      "action": "break_around",
+      "count": 7
+    },
+    {
+      "action": "craft",
+      "count": 4
+    },
+    {
+      "action": "pillar_up",
+      "count": 3
+    },
+    {
+      "action": "chop_tree",
+      "count": 1
+    }
+  ],
+  "goalDistribution": {
+    "get wood and craft basic tools": 1,
+    "craft wooden pickaxe and mine ": 1,
+    "mine cobblestone for stone too": 1,
+    "escape to surface and mine sto": 1,
+    "escape to surface": 16,
+    "escape_trap": 7,
+    "dig to surface": 2,
+    "dig to surface and craft woode": 2,
+    "forced_recovery": 2,
+    "escape to surface and gather w": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "escape to surface",
+      "count": 16
+    },
+    {
+      "action": "escape_trap",
+      "count": 7
+    },
+    {
+      "action": "dig to surface",
+      "count": 2
+    },
+    {
+      "action": "dig to surface and craft woode",
+      "count": 2
+    },
+    {
+      "action": "forced_recovery",
+      "count": 2
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 7
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}
