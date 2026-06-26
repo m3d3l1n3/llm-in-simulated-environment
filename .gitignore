@@ -6,6 +6,7 @@ node_modules/
 .env.local
 
 # Generated run data
+runs/
 
 # Logs
 *.log
