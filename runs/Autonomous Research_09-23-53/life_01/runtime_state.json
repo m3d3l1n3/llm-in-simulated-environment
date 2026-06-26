@@ -1,0 +1,186 @@
+{
+  "savedAt": 1781775235856,
+  "loopCount": 19,
+  "goalManager": {
+    "currentTier": "stone_tools",
+    "highestTierReached": "stone_tools",
+    "activePlan": null,
+    "planSinceLoop": 0,
+    "goalHistory": [],
+    "lastCompletedTier": null
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": 3,
+        "y": 68,
+        "z": 5,
+        "distance": 1,
+        "tick": 14299,
+        "seenAt": 1781775232517
+      },
+      "oak_log": {
+        "x": 0,
+        "y": 71,
+        "z": 2,
+        "distance": 5,
+        "tick": 14299,
+        "seenAt": 1781775232517
+      },
+      "gravel": {
+        "x": 0,
+        "y": 61,
+        "z": 3,
+        "distance": 5,
+        "tick": 14299,
+        "seenAt": 1781775232517
+      },
+      "stone": {
+        "x": 1,
+        "y": 66,
+        "z": 5,
+        "distance": 1,
+        "tick": 14299,
+        "seenAt": 1781775232517
+      },
+      "water": {
+        "x": 10,
+        "y": 56,
+        "z": 39,
+        "distance": 13,
+        "tick": 8479,
+        "seenAt": 1781774940976
+      },
+      "water_hazard": {
+        "x": 10,
+        "y": 56,
+        "z": 39,
+        "distance": 13,
+        "seenAt": 1781774940976
+      },
+      "birch_log": {
+        "x": 4,
+        "y": 70,
+        "z": 12,
+        "distance": 8,
+        "tick": 14299,
+        "seenAt": 1781775232517
+      },
+      "cobblestone": {
+        "x": 2,
+        "y": 66,
+        "z": 5,
+        "distance": 0,
+        "tick": 14299,
+        "seenAt": 1781775232517
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (4, 80, 1) to (1, 67, 2); inventory delta +21; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781775233848,
+      "position": {
+        "x": 2.29,
+        "y": 66.26,
+        "z": 4.64,
+        "yaw": 0.6087741241100852,
+        "pitch": 0.00021199885473022206
+      },
+      "health": 12,
+      "food": 13,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "dig emergency shelter for night safety",
+        "reasoning": "It's night time (12320), light level is 0 so mobs can spawn, and I have low health (12/20) with no food. I need to immediately get underground for safety. Digging an emergency shelter is the fastest way to survive the night.",
+        "actions": [
+          {
+            "name": "dig_emergency_shelter",
+            "params": {}
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "chop_tree",
+          "goal": "progress toward stone tools milestone",
+          "params": {
+            "count": 2
+          },
+          "success": true,
+          "hint": "Chopped 2 logs",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781775000748
+        },
+        {
+          "action": "craft",
+          "goal": "progress toward stone tools milestone",
+          "params": {
+            "item": "furnace",
+            "count": 1
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781775003223
+        },
+        {
+          "action": "equip",
+          "goal": "mine coal and iron ore for progression",
+          "params": {
+            "item": "stone_pickaxe",
+            "destination": "hand"
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781775015132
+        },
+        {
+          "action": "mine",
+          "goal": "mine coal and iron ore for progression",
+          "params": {
+            "blockType": "coal_ore",
+            "count": 8
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781775041443
+        },
+        {
+          "action": "dig_emergency_shelter",
+          "goal": "dig emergency shelter for night safety",
+          "params": {},
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781775227071
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

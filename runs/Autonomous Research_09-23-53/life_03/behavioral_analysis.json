@@ -1,0 +1,127 @@
+{
+  "runId": "Autonomous Research_09-23-53_life_03",
+  "generatedAt": "2026-06-18T10:23:53.822Z",
+  "coherence": {
+    "totalDecisions": 85,
+    "goalsStarted": 85,
+    "goalsCompleted": 4,
+    "completionRate": "4.7%"
+  },
+  "actionDistribution": {
+    "chop_tree": 9,
+    "craft": 36,
+    "break_around": 25,
+    "pillar_up": 16,
+    "explore": 19,
+    "equip": 4,
+    "mine": 9,
+    "dig_emergency_shelter": 3,
+    "build_shelter": 2,
+    "go_to_near": 6,
+    "dig_to_surface": 8
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 36
+    },
+    {
+      "action": "break_around",
+      "count": 25
+    },
+    {
+      "action": "explore",
+      "count": 19
+    },
+    {
+      "action": "pillar_up",
+      "count": 16
+    },
+    {
+      "action": "chop_tree",
+      "count": 9
+    }
+  ],
+  "goalDistribution": {
+    "gather wood and craft basic to": 1,
+    "craft basic tools and progress": 1,
+    "craft wooden pickaxe and progr": 2,
+    "escape_trap": 14,
+    "chop tree to get logs for wood": 1,
+    "get wooden pickaxe to mine sto": 1,
+    "mine stone to get cobblestone ": 1,
+    "mine stone for cobblestone to ": 3,
+    "craft stone tools": 1,
+    "gather resources and progress ": 1,
+    "gather wood and craft stone to": 1,
+    "craft stone tools and gather c": 1,
+    "get logs and craft wooden pick": 1,
+    "craft wooden pickaxe and mine ": 1,
+    "craft wooden pickaxe to mine s": 2,
+    "forced_recovery": 2,
+    "chop trees to gather logs for ": 1,
+    "dig emergency shelter for nigh": 1,
+    "build shelter for night safety": 1,
+    "get underground to survive the": 3,
+    "get wood to craft pickaxe then": 1,
+    "craft wooden pickaxe at crafti": 2,
+    "get to crafting table and craf": 3,
+    "navigate to crafting table and": 1,
+    "navigate to crafting table to ": 1,
+    "survive the night by crafting ": 1,
+    "survive the night by digging e": 1,
+    "craft wooden pickaxe at nearby": 1,
+    "craft crafting table and woode": 1,
+    "survive the night by building ": 1,
+    "survive the night safely": 2,
+    "mine into stone to get undergr": 1,
+    "survive the night by lighting ": 2,
+    "survive the night underground": 1,
+    "survive the night underground ": 1,
+    "escape to surface": 10,
+    "reach surface and get to trees": 1,
+    "escape underground and reach s": 1,
+    "reach surface to escape mob sp": 1,
+    "escape to surface from y=59": 1,
+    "escape underground to surface": 1,
+    "get to solid ground": 1,
+    "reach surface and gather wood": 1,
+    "reach surface and trees": 1,
+    "craft wooden pickaxe and survi": 1,
+    "craft wooden pickaxe from birc": 1,
+    "escape to surface before full ": 1,
+    "craft wooden pickaxe to dig to": 1,
+    "craft wooden pickaxe and escap": 1,
+    "craft stone pickaxe and escape": 1,
+    "survive the night and get food": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "escape_trap",
+      "count": 14
+    },
+    {
+      "action": "escape to surface",
+      "count": 10
+    },
+    {
+      "action": "mine stone for cobblestone to ",
+      "count": 3
+    },
+    {
+      "action": "get underground to survive the",
+      "count": 3
+    },
+    {
+      "action": "get to crafting table and craf",
+      "count": 3
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 8
+  },
+  "adaptation": {
+    "perturbationCount": 2,
+    "averageRecoveryTime": "229.0s"
+  }
+}

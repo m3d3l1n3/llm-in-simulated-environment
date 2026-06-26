@@ -1,0 +1,454 @@
+{
+  "savedAt": 1781778233819,
+  "loopCount": 85,
+  "goalManager": {
+    "currentTier": "shelter",
+    "highestTierReached": "shelter",
+    "activePlan": "survive the night and get food",
+    "planSinceLoop": 85,
+    "goalHistory": [
+      {
+        "goal": "escape underground and reach surface",
+        "reasoning": "I'm at Y=59 with light level 0 - dangerous for mob spawns. Trees are 12-13m away and state says 'exposed to open sky' suggesting I'm in a ravine. I'll try break_around to clear obstacles, then pillar up with my 39 cobblestone to get to a safer height.",
+        "isGuard": false,
+        "loopCount": 56,
+        "timestamp": 1781777302196
+      },
+      {
+        "goal": "reach surface to escape mob spawn danger",
+        "reasoning": "At Y=59 with light level 0, mobs can spawn. pillar_up and explore have been failing. dig_to_surface should mine upward through any blocks above me to reach the surface. I have 39 cobblestone and a wooden pickaxe to help.",
+        "isGuard": false,
+        "loopCount": 57,
+        "timestamp": 1781777322470
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 58,
+        "timestamp": 1781777335720
+      },
+      {
+        "goal": "escape to surface from Y=59",
+        "reasoning": "I'm underground at Y=59 with light level 0. dig_to_surface and pillar_up have been failing. I'll break blocks above me first with break_around up, then try pillar_up with my cobblestone inventory.",
+        "isGuard": false,
+        "loopCount": 59,
+        "timestamp": 1781777373899
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm stuck underground at Y=59 with light level 0. pillar_up has been failing repeatedly. I'll try dig_to_surface to mine upward through blocks to reach the surface. I have cobblestone and stone sword but no pickaxe - the missing wooden_pickaxe in strategy suggests I need to craft one, but first I need to get to surface safely.",
+        "isGuard": false,
+        "loopCount": 60,
+        "timestamp": 1781777403784
+      },
+      {
+        "goal": "escape underground to surface",
+        "reasoning": "I'm stuck at Y=59 underground with light level 0. pillar_up and dig_to_surface keep failing. The state says 'exposed to open sky' which suggests I might be in an open cave or near surface. I'll try break_around up to clear blocks above, then craft a wooden pickaxe since I have logs/planks, which might help me dig out faster.",
+        "isGuard": false,
+        "loopCount": 61,
+        "timestamp": 1781777421966
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 62,
+        "timestamp": 1781777437438
+      },
+      {
+        "goal": "forced_recovery",
+        "reasoning": "Stuck for many loops; trying escape strategy #2 (rotating to avoid repeating failed approaches).",
+        "isGuard": true,
+        "loopCount": 63,
+        "timestamp": 1781777472097
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=59 with light level 0 (mobs can spawn). I need to get to the surface. Previous attempts at dig_to_surface and pillar_up failed. I have 44 cobblestone which I can use to pillar up. Let me try break_around with 'escape' direction first to clear any obstacles, then pillar_up.",
+        "isGuard": false,
+        "loopCount": 64,
+        "timestamp": 1781777516122
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=59 with light level 0. Multiple escape attempts have failed. I have 44 cobblestone to pillar up with. The state says I'm 'exposed to open sky' which is confusing for underground - let me try dig_to_surface to mine upward, and if that fails, try pillar_up again.",
+        "isGuard": false,
+        "loopCount": 65,
+        "timestamp": 1781777568746
+      },
+      {
+        "goal": "get to solid ground",
+        "reasoning": "I'm standing on air at surface level with cliffs nearby. Light level 0 is strange for noon. I need to break around to escape this position, then place cobblestone under me to stabilize. Stone is 0m away so solid ground exists nearby.",
+        "isGuard": false,
+        "loopCount": 66,
+        "timestamp": 1781777581805
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 67,
+        "timestamp": 1781777646917
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=59 with light level 0. Previous break_around and dig_to_surface attempts failed. I have 44 cobblestone which I can place under myself to pillar up to the surface. Let me try pillar_up since I have blocks available.",
+        "isGuard": false,
+        "loopCount": 68,
+        "timestamp": 1781777668574
+      },
+      {
+        "goal": "reach surface and gather wood",
+        "reasoning": "I'm at Y=59 with light level 0 but the state says exposed to open sky with trees 13m away. Previous pillar_up and break_around failed. I'll try dig_to_surface to escape underground, then explore toward the trees.",
+        "isGuard": false,
+        "loopCount": 69,
+        "timestamp": 1781777691281
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=59 with light level 0 and mobs can spawn. The state says I'm exposed to open sky but I'm clearly underground. Previous pillar_up and dig_to_surface failed. I'll try break_around with 'escape' direction to clear a path, then try dig_to_surface again.",
+        "isGuard": false,
+        "loopCount": 70,
+        "timestamp": 1781777704762
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 71,
+        "timestamp": 1781777769867
+      },
+      {
+        "goal": "reach surface and trees",
+        "reasoning": "Y=59 is actually near surface level in this world. The state shows 'exposed to open sky' and trees 14m away. dig_to_surface and pillar_up keep failing, but explore succeeded. I'll explore toward the nearby oak/birch logs to get wood and establish myself on the surface.",
+        "isGuard": false,
+        "loopCount": 72,
+        "timestamp": 1781777841130
+      },
+      {
+        "goal": "craft wooden pickaxe and survive the night",
+        "reasoning": "It's night, light level 0 (mob spawn risk), but no mobs nearby. I need to place crafting table, craft sticks, then craft wooden pickaxe. I also have a stone sword to equip for defense. The state shows 'exposed to open sky' so I'm near surface.",
+        "isGuard": false,
+        "loopCount": 73,
+        "timestamp": 1781777862569
+      },
+      {
+        "goal": "craft wooden pickaxe from birch log",
+        "reasoning": "I have 1 birch_log which can make 4 planks, plus 1 oak_plank already = 5 planks total. I need 3 planks + 2 sticks for a wooden pickaxe. I have 5 sticks already. First craft planks from birch_log, then craft wooden_pickaxe.",
+        "isGuard": false,
+        "loopCount": 74,
+        "timestamp": 1781777880195
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 75,
+        "timestamp": 1781777885409
+      },
+      {
+        "goal": "escape to surface before full night",
+        "reasoning": "It's dusk (time 14245), I'm underground at Y=59 with light level 0 where mobs can spawn. I need to dig to surface immediately. The state says 'exposed to open sky' which may mean there's a path up nearby. I'll try dig_to_surface first.",
+        "isGuard": false,
+        "loopCount": 76,
+        "timestamp": 1781777909643
+      },
+      {
+        "goal": "craft wooden pickaxe to dig to surface",
+        "reasoning": "I'm underground at Y=59 with light level 0. I have a birch_log that I can turn into planks, then craft a wooden pickaxe to dig to surface. I have a crafting table in inventory - place it, craft planks from birch_log, then craft wooden_pickaxe.",
+        "isGuard": false,
+        "loopCount": 77,
+        "timestamp": 1781777957251
+      },
+      {
+        "goal": "craft wooden pickaxe and escape to surface",
+        "reasoning": "I have birch_log x1 which should make 4 birch_planks. Combined with oak_planks x1, I'll have 5 planks total - enough for a wooden pickaxe (needs 3 planks + 2 sticks). I have sticks x5. Craft birch_planks first, then wooden_pickaxe, then dig to surface.",
+        "isGuard": false,
+        "loopCount": 78,
+        "timestamp": 1781777984710
+      },
+      {
+        "goal": "craft stone pickaxe and escape to surface",
+        "reasoning": "I have 44 cobblestone and 5 sticks - enough to craft a stone pickaxe (needs 3 cobblestone + 2 sticks). The crafting table is nearby. After crafting, I'll use dig_to_surface to escape. It's dusk and light level is 0 so mobs can spawn - I need to escape quickly.",
+        "isGuard": false,
+        "loopCount": 79,
+        "timestamp": 1781777995300
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 80,
+        "timestamp": 1781778031344
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=59 with light level 0 (mobs can spawn), it's dusk, and I'm stuck. I need to dig to the surface immediately. I have a stone pickaxe equipped. The dig_to_surface action should mine upward to reach the surface.",
+        "isGuard": false,
+        "loopCount": 81,
+        "timestamp": 1781778070864
+      },
+      {
+        "goal": "survive the night safely",
+        "reasoning": "It's night, light level 0, I'm standing on air surrounded by cliffs. I have 64+20 cobblestone. I should dig an emergency shelter to hide from mobs and survive the night safely.",
+        "isGuard": false,
+        "loopCount": 82,
+        "timestamp": 1781778111949
+      },
+      {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=59 with light level 0 during night. No mobs nearby right now. I need to dig upward to reach the surface. I have a stone pickaxe equipped with 57% durability and plenty of cobblestone to place if needed.",
+        "isGuard": false,
+        "loopCount": 83,
+        "timestamp": 1781778126793
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 84,
+        "timestamp": 1781778161892
+      },
+      {
+        "goal": "survive the night and get food",
+        "reasoning": "It's night with light level 0 and I'm on the surface. No mobs nearby right now. I'm critically low on food (4/20). I need to collect food urgently. I have cobblestone to build shelter but first priority is food since health regeneration requires food. Let me collect food from nearby animals while no mobs are around.",
+        "isGuard": false,
+        "loopCount": 85,
+        "timestamp": 1781778207265
+      }
+    ],
+    "lastCompletedTier": "naked"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": 33,
+        "y": 67,
+        "z": 3,
+        "distance": 6,
+        "tick": 73739,
+        "seenAt": 1781778203342
+      },
+      "gravel": {
+        "x": 34,
+        "y": 66,
+        "z": 6,
+        "distance": 5,
+        "tick": 73739,
+        "seenAt": 1781778203342
+      },
+      "water": {
+        "x": 32,
+        "y": 49,
+        "z": -6,
+        "distance": 15,
+        "tick": 73739,
+        "seenAt": 1781778203342
+      },
+      "water_hazard": {
+        "x": 32,
+        "y": 49,
+        "z": -6,
+        "distance": 15,
+        "seenAt": 1781778203342
+      },
+      "spruce_log": {
+        "x": -86,
+        "y": 64,
+        "z": 48,
+        "distance": 13,
+        "tick": 25639,
+        "seenAt": 1781775798690
+      },
+      "sand": {
+        "x": 401,
+        "y": 63,
+        "z": 561,
+        "distance": 1,
+        "tick": 29639,
+        "seenAt": 1781775999779
+      },
+      "cobblestone": {
+        "x": 0,
+        "y": 76,
+        "z": 3,
+        "distance": 10,
+        "tick": 30479,
+        "seenAt": 1781776041202
+      },
+      "oak_log": {
+        "x": 32,
+        "y": 71,
+        "z": 8,
+        "distance": 11,
+        "tick": 73739,
+        "seenAt": 1781778203342
+      },
+      "birch_log": {
+        "x": 27,
+        "y": 71,
+        "z": 9,
+        "distance": 12,
+        "tick": 73739,
+        "seenAt": 1781778203342
+      },
+      "stone": {
+        "x": 33,
+        "y": 61,
+        "z": 3,
+        "distance": 0,
+        "tick": 73739,
+        "seenAt": 1781778203342
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (17, 71, 8) to (35, 70, 23); inventory delta +10; avg nearby mobs 0.",
+      "Last 10 loops: moved from (35, 66, 24) to (32, 64, 32); inventory delta +10; avg nearby mobs 0.",
+      "Last 10 loops: moved from (30, 72, 2) to (27, 70, 1); inventory delta +5; avg nearby mobs 0.",
+      "Last 10 loops: moved from (27, 70, 1) to (25, 68, 1); inventory delta +17; avg nearby mobs 0.",
+      "Last 10 loops: moved from (25, 68, 1) to (28, 60, 2); inventory delta +9; avg nearby mobs 0.",
+      "Last 10 loops: moved from (29, 59, 3) to (29, 59, 2); inventory delta +9; avg nearby mobs 0.",
+      "Last 10 loops: moved from (29, 59, 2) to (28, 59, 1); inventory delta -1; avg nearby mobs 0.",
+      "Last 10 loops: moved from (30, 59, 2) to (30, 59, 2); inventory delta +12; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781776039793,
+      "position": {
+        "x": 401.22,
+        "y": 64.79,
+        "z": 561.23,
+        "yaw": -2.353788910042458,
+        "pitch": -0.000966727475772089
+      },
+      "health": 20,
+      "food": 11,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "mine stone to get underground and survive the night",
+        "reasoning": "It's dusk with light level 0 and mobs can spawn. dig_emergency_shelter is blocked. I'll mine stone directly - this creates a hole to hide in AND gathers cobblestone for stone tools. Stone is 8m away so I need to move toward it first.",
+        "actions": [
+          {
+            "name": "mine",
+            "params": {
+              "blockType": "stone",
+              "count": 10
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "dig_emergency_shelter",
+          "goal": "dig emergency shelter for night safety",
+          "params": {},
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781775854190
+        },
+        {
+          "action": "build_shelter",
+          "goal": "survive the night by building shelter",
+          "params": {},
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781775871401
+        },
+        {
+          "action": "equip",
+          "goal": "mine cobblestone to get underground and gather materials",
+          "params": {
+            "item": "wooden_pickaxe",
+            "destination": "hand"
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781775883452
+        },
+        {
+          "action": "swim_up",
+          "goal": "escape_drowning",
+          "params": {},
+          "success": true,
+          "hint": "Escaped water!",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781775921539
+        },
+        {
+          "action": "break_around",
+          "goal": "survive the night by breaking into the ground",
+          "params": {
+            "direction": "escape"
+          },
+          "success": false,
+          "hint": "No blocks to clear nearby. Try pillar_up or dig_to_surface if stuck.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": 0,
+          "timestamp": 1781775952140
+        }
+      ]
+    }
+  },
+  "blockedActions": [
+    [
+      "dig_emergency_shelter",
+      97
+    ],
+    [
+      "build_shelter",
+      58
+    ],
+    [
+      "craft",
+      85
+    ],
+    [
+      "pillar_up",
+      69
+    ],
+    [
+      "dig_to_surface",
+      67
+    ],
+    [
+      "break_around",
+      68
+    ],
+    [
+      "breakAround",
+      65
+    ],
+    [
+      "clear_path",
+      65
+    ],
+    [
+      "clearPath",
+      65
+    ]
+  ]
+}

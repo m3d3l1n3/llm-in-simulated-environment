@@ -1,0 +1,87 @@
+{
+  "runId": "Autonomous Research_09-23-53",
+  "generatedAt": "2026-06-18T09:33:55.858Z",
+  "coherence": {
+    "totalDecisions": 18,
+    "goalsStarted": 18,
+    "goalsCompleted": 0,
+    "completionRate": "0.0%"
+  },
+  "actionDistribution": {
+    "chop_tree": 4,
+    "craft": 11,
+    "equip": 2,
+    "mine": 2,
+    "go_to_near": 2,
+    "break_around": 1,
+    "pillar_up": 1,
+    "explore": 1,
+    "dig_emergency_shelter": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 11
+    },
+    {
+      "action": "chop_tree",
+      "count": 4
+    },
+    {
+      "action": "equip",
+      "count": 2
+    },
+    {
+      "action": "mine",
+      "count": 2
+    },
+    {
+      "action": "go_to_near",
+      "count": 2
+    }
+  ],
+  "goalDistribution": {
+    "gather wood to start progressi": 1,
+    "gather more wood and craft sto": 1,
+    "craft tools and progress to st": 1,
+    "craft wooden pickaxe and mine ": 1,
+    "mine cobblestone for stone too": 2,
+    "craft stone tools": 2,
+    "navigate to crafting table and": 1,
+    "get closer to crafting table a": 1,
+    "forced_recovery": 1,
+    "progress toward stone tools mi": 1,
+    "mine coal and iron ore for pro": 1,
+    "collect food to restore health": 4,
+    "dig emergency shelter for nigh": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "collect food to restore health",
+      "count": 4
+    },
+    {
+      "action": "mine cobblestone for stone too",
+      "count": 2
+    },
+    {
+      "action": "craft stone tools",
+      "count": 2
+    },
+    {
+      "action": "gather wood to start progressi",
+      "count": 1
+    },
+    {
+      "action": "gather more wood and craft sto",
+      "count": 1
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 3
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "runId": "Autonomous Research_09-23-53_life_02",
+  "generatedAt": "2026-06-18T09:47:24.488Z",
+  "coherence": {
+    "totalDecisions": 31,
+    "goalsStarted": 31,
+    "goalsCompleted": 0,
+    "completionRate": "0.0%"
+  },
+  "actionDistribution": {
+    "chop_tree": 3,
+    "craft": 7,
+    "break_around": 5,
+    "pillar_up": 3,
+    "explore": 4,
+    "equip": 2,
+    "dig_to_surface": 1,
+    "swim_up": 8,
+    "go_to_near": 1,
+    "dig_emergency_shelter": 1,
+    "build_shelter": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "swim_up",
+      "count": 8
+    },
+    {
+      "action": "craft",
+      "count": 7
+    },
+    {
+      "action": "break_around",
+      "count": 5
+    },
+    {
+      "action": "explore",
+      "count": 4
+    },
+    {
+      "action": "chop_tree",
+      "count": 3
+    }
+  ],
+  "goalDistribution": {
+    "gather wood and craft basic to": 1,
+    "craft wooden pickaxe and mine ": 1,
+    "craft wooden pickaxe to mine s": 2,
+    "forced_recovery": 3,
+    "mine cobblestone to progress t": 1,
+    "mine stone to get cobblestone ": 1,
+    "craft stone pickaxe and other ": 1,
+    "escape_drowning": 8,
+    "escape water and get to safety": 1,
+    "get off water and chop nearby ": 1,
+    "escape water and get to solid ": 1,
+    "escape water and reach solid g": 1,
+    "escape water and find land": 1,
+    "escape water and surface": 1,
+    "dig emergency shelter for nigh": 1,
+    "survive the night by building ": 1,
+    "mine cobblestone to get underg": 2,
+    "survive the night by breaking ": 1,
+    "mine stone to get underground ": 2
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "escape_drowning",
+      "count": 8
+    },
+    {
+      "action": "forced_recovery",
+      "count": 3
+    },
+    {
+      "action": "craft wooden pickaxe to mine s",
+      "count": 2
+    },
+    {
+      "action": "mine cobblestone to get underg",
+      "count": 2
+    },
+    {
+      "action": "mine stone to get underground ",
+      "count": 2
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 4
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}
