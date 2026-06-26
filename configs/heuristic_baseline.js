@@ -1,9 +1,9 @@
 /**
- * Heuristic Baseline Configuration
+ * Heuristic Baseline — Perturbed Variant
  *
- * Purpose: Fully deterministic rule-based agent with zero LLM cost.
- * Used as a non-LLM baseline to compare against LLM-driven runs.
- * Designed for long runs (6 hours) to measure maximum achievable progression.
+ * Purpose: Fully deterministic rule-based agent with zero LLM cost,
+ * subjected to the same perturbation schedule as research_autonomous.js.
+ * Used for fair comparison: measures scripted progression under stress.
  */
 
 module.exports = {
@@ -44,12 +44,28 @@ module.exports = {
 
     // Experiment Configuration
     experiment: {
-        name: 'Heuristic Baseline',
-        description: 'Fully deterministic rule-based agent with zero LLM cost. 1-hour run to measure maximum progression without LLM.',
+        name: 'Heuristic Baseline Perturbed',
+        description: 'Deterministic rule-based agent under identical perturbations to research_autonomous. Measures maximum scripted progression under stress.',
         duration: 3600000,  // 1 hour
         seed: '-1613247987266390429',
 
-        // No perturbations — clean run to measure steady-state heuristic behavior
-        perturbations: []
+        // Same perturbation schedule as research_autonomous.js
+        perturbations: [
+            {
+                type: 'FORCED_DEATH',
+                time: 600000,        // 10 min
+                params: {}
+            },
+            {
+                type: 'TELEPORT',
+                time: 1200000,       // 20 min
+                params: { x: 500, z: 500, maxRange: 100 }
+            },
+            {
+                type: 'INVENTORY_WIPE',
+                time: 1800000,       // 30 min
+                params: {}
+            }
+        ]
     }
 };
