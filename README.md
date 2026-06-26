@@ -36,7 +36,7 @@ node run_experiment.js configs/guided_baseline.js          # 60-min guided basel
 
 # Deterministic heuristic baselines (zero API cost)
 node run_experiment.js configs/heuristic_baseline.js              # 60-min clean run
-node run_experiment.js configs/heuristic_baseline_perturbed.js    # 60-min with 3 perturbations
+node run_experiment.js configs/heuristic_baseline.js    # 60-min with 3 perturbations
 node run_experiment.js configs/heuristic_10min_test.js            # 10-min validation run
 ```
 
