@@ -1,0 +1,86 @@
+{
+  "runId": "Autonomous Research_14-02-37_life_02",
+  "generatedAt": "2026-06-18T14:21:26.280Z",
+  "coherence": {
+    "totalDecisions": 17,
+    "goalsStarted": 17,
+    "goalsCompleted": 1,
+    "completionRate": "5.9%"
+  },
+  "actionDistribution": {
+    "chop_tree": 5,
+    "craft": 5,
+    "equip": 1,
+    "mine": 1,
+    "swim_up": 5,
+    "break_around": 3,
+    "pillar_up": 3,
+    "eat": 1,
+    "dig_to_surface": 1,
+    "explore": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "chop_tree",
+      "count": 5
+    },
+    {
+      "action": "craft",
+      "count": 5
+    },
+    {
+      "action": "swim_up",
+      "count": 5
+    },
+    {
+      "action": "break_around",
+      "count": 3
+    },
+    {
+      "action": "pillar_up",
+      "count": 3
+    }
+  ],
+  "goalDistribution": {
+    "gather wood to start progressi": 1,
+    "gather more wood and craft woo": 1,
+    "gather wood and craft wooden p": 1,
+    "craft wooden pickaxe and mine ": 1,
+    "mine stone for cobblestone to ": 4,
+    "escape_drowning": 3,
+    "escape water and get to dry la": 1,
+    "escape_trap": 2,
+    "gather wood and progress towar": 1,
+    "escape water and surface": 1,
+    "gather wood and resources": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "mine stone for cobblestone to ",
+      "count": 4
+    },
+    {
+      "action": "escape_drowning",
+      "count": 3
+    },
+    {
+      "action": "escape_trap",
+      "count": 2
+    },
+    {
+      "action": "gather wood to start progressi",
+      "count": 1
+    },
+    {
+      "action": "gather more wood and craft woo",
+      "count": 1
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 7
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

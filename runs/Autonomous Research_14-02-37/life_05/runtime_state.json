@@ -1,0 +1,428 @@
+{
+  "savedAt": 1781794957105,
+  "loopCount": 45,
+  "goalManager": {
+    "currentTier": "shelter",
+    "highestTierReached": "shelter",
+    "activePlan": "Escape to surface",
+    "planSinceLoop": 43,
+    "goalHistory": [
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 16,
+        "timestamp": 1781793996493
+      },
+      {
+        "goal": "Mine coal ore for torches and fuel",
+        "reasoning": "It's noon with plenty of time. I have a stone pickaxe and need coal for torches (light level is 0 which is dangerous) and fuel for smelting iron. I should mine coal ore first, then look for iron ore.",
+        "isGuard": false,
+        "loopCount": 17,
+        "timestamp": 1781794026340
+      },
+      {
+        "goal": "replace_worn_tool",
+        "reasoning": "Wooden Pickaxe at 10% durability. Equipping replacement stone_pickaxe from inventory.",
+        "isGuard": true,
+        "loopCount": 18,
+        "timestamp": 1781794059045
+      },
+      {
+        "goal": "Mine coal ore for torches and smelting fuel",
+        "reasoning": "It's noon with plenty of time before nightfall. Light level is 0 which is dangerous for mob spawning. I need coal for torches and fuel for smelting iron ore. I have a stone pickaxe equipped. I should mine coal ore to address the light level issue and prepare for iron smelting.",
+        "isGuard": false,
+        "loopCount": 19,
+        "timestamp": 1781794067178
+      },
+      {
+        "goal": "Find and mine coal ore for torches",
+        "reasoning": "Light level is 0 which allows mob spawning even during the day. I need coal to craft torches and fuel the furnace for iron smelting. I'll mine stone nearby which often has coal embedded in it, or explore to find exposed coal ore.",
+        "isGuard": false,
+        "loopCount": 20,
+        "timestamp": 1781794104234
+      },
+      {
+        "goal": "Find coal ore for torches and smelting",
+        "reasoning": "Light level is 0 which allows mob spawning. I need coal urgently for torches. I'll explore to find exposed coal ore seams in the nearby terrain, as there are cliffs nearby which often expose ore.",
+        "isGuard": false,
+        "loopCount": 21,
+        "timestamp": 1781794144005
+      },
+      {
+        "goal": "Escape trapped position and find coal ore",
+        "reasoning": "I'm trapped with no path available. I need to break blocks around me to escape first, then find coal ore for torches. Light level is 0 so mobs can spawn. Time is 12141 so it's just turning night - I need to act fast.",
+        "isGuard": false,
+        "loopCount": 22,
+        "timestamp": 1781794190778
+      },
+      {
+        "goal": "Light area and prepare for night",
+        "reasoning": "It's night time (12961) with light level 0 - mobs can spawn. I have 12 coal in inventory and sticks, so I should craft torches first to light the area. I need to use the nearby crafting table to craft torches.",
+        "isGuard": false,
+        "loopCount": 23,
+        "timestamp": 1781794232310
+      },
+      {
+        "goal": "Light area and survive the night",
+        "reasoning": "It's night (13141) with light level 0 - mobs can spawn. I have 10 coal and 2 sticks. I should craft torches and light the area. I'm on the surface with a crafting table nearby. Let me craft torches first then light the area.",
+        "isGuard": false,
+        "loopCount": 24,
+        "timestamp": 1781794240740
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 25,
+        "timestamp": 1781794245872
+      },
+      {
+        "goal": "Escape to surface and survive the night",
+        "reasoning": "I'm underground at Y=59 with light level 0 and it's dusk (time 14241). Priority is to get to the surface. I have 4 torches in inventory. I'll dig to the surface first, then light the area to prevent mob spawns.",
+        "isGuard": false,
+        "loopCount": 26,
+        "timestamp": 1781794295997
+      },
+      {
+        "goal": "Survive the night and progress to iron tools",
+        "reasoning": "It's dusk (time 15021) and light level is 0, so mobs can spawn. I'm on the surface with 4 torches. I should light the area first to prevent mob spawns, then build a shelter or find safety for the night. I have cobblestone and materials to work with.",
+        "isGuard": false,
+        "loopCount": 27,
+        "timestamp": 1781794335099
+      },
+      {
+        "goal": "Survive the night safely",
+        "reasoning": "It's dusk with light level 0. light_area keeps failing. I'll try equipping a torch first, then light the area. If that fails I'll dig an emergency shelter.",
+        "isGuard": false,
+        "loopCount": 28,
+        "timestamp": 1781794368904
+      },
+      {
+        "goal": "Survive the night by digging emergency shelter",
+        "reasoning": "It's dusk (time 15881) with light level 0 and mobs can spawn. light_area and build_shelter have been failing. I have 15 torches total and cobblestone. The most reliable option now is to dig an emergency shelter underground to hide from mobs overnight. I'm standing on coal_ore so I can dig down.",
+        "isGuard": false,
+        "loopCount": 29,
+        "timestamp": 1781794377819
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 30,
+        "timestamp": 1781794394480
+      },
+      {
+        "goal": "Escape trap and survive the night",
+        "reasoning": "I'm trapped with no path and it's night time (17361) with light level 0. I need to escape first. I'll try break_around with 'escape' direction to clear a path, then pillar_up to get above ground level and place torches to survive the night.",
+        "isGuard": false,
+        "loopCount": 31,
+        "timestamp": 1781794452996
+      },
+      {
+        "goal": "Escape to surface",
+        "reasoning": "I'm underground at Y=58 with light level 0 and it's dusk/night. I need to get to the surface immediately. I'll dig to surface since pillar_up worked before but I need to keep going up.",
+        "isGuard": false,
+        "loopCount": 32,
+        "timestamp": 1781794482336
+      },
+      {
+        "goal": "Survive the night safely",
+        "reasoning": "It's night time with light level 0 but no mobs nearby. I'm on the surface with torches in my inventory. I should light the area to prevent mob spawns, then wait out the night. I have 16 torches available.",
+        "isGuard": false,
+        "loopCount": 33,
+        "timestamp": 1781794520469
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 34,
+        "timestamp": 1781794526607
+      },
+      {
+        "goal": "Escape to surface",
+        "reasoning": "I'm underground at Y=59 with light level 0 and it's night. I need to get to the surface. The state says I'm exposed to open sky, so I may be in a pit or cave opening. I should dig to surface or pillar up to get out.",
+        "isGuard": false,
+        "loopCount": 35,
+        "timestamp": 1781794575799
+      },
+      {
+        "goal": "Escape to surface",
+        "reasoning": "I'm underground at Y=58 with light level 0 and it's night. I need to get to the surface. I'll dig to surface since pillar_up was already tried.",
+        "isGuard": false,
+        "loopCount": 36,
+        "timestamp": 1781794613837
+      },
+      {
+        "goal": "Escape to surface at night",
+        "reasoning": "I'm underground at Y=59 with light level 0 during night. Standing on air suggests I'm in a pit or cave. I need to pillar up to reach the surface and safety. I have cobblestone and dirt to pillar with.",
+        "isGuard": false,
+        "loopCount": 37,
+        "timestamp": 1781794654961
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 38,
+        "timestamp": 1781794690106
+      },
+      {
+        "goal": "Survive the night safely",
+        "reasoning": "It's night time with light level 0, but there are no nearby mobs. I have 16 torches in inventory and I'm on the surface. I should light the area around me to prevent mob spawning, then try to build a shelter or find safety. I have cobblestone to build with. Let me light the area first, then build a shelter.",
+        "isGuard": false,
+        "loopCount": 39,
+        "timestamp": 1781794744964
+      },
+      {
+        "goal": "Escape to surface",
+        "reasoning": "I'm underground at Y=59 with light level 0 and it's night. I need to get to the surface. The state says I'm exposed to open sky but at Y=59 underground. I should dig to surface or pillar up. Let me try dig_to_surface first since I have cobblestone to place blocks.",
+        "isGuard": false,
+        "loopCount": 40,
+        "timestamp": 1781794771515
+      },
+      {
+        "goal": "Light area and craft stone pickaxe for iron tools",
+        "reasoning": "It's dawn (time 541), health and food are full, no nearby mobs. Light level is 0 which is dangerous. I have 16 torches so I should light the area first. Then I need to craft tools - I'm missing planks and wooden_pickaxe according to milestones, but I already have cobblestone so I should craft a stone pickaxe directly. I have a crafting table nearby.",
+        "isGuard": false,
+        "loopCount": 41,
+        "timestamp": 1781794811526
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 42,
+        "timestamp": 1781794817448
+      },
+      {
+        "goal": "Escape to surface",
+        "reasoning": "I'm underground at Y=59 with light level 0 (mob spawn risk). Priority is to dig to surface. I have cobblestone and torches. Let me dig up to surface first.",
+        "isGuard": false,
+        "loopCount": 43,
+        "timestamp": 1781794866941
+      },
+      {
+        "goal": "Escape to surface",
+        "reasoning": "I'm underground at Y=59 with light level 0 (mob spawn risk). I need to dig to the surface immediately. I have torches to place once I'm up. Let me dig to surface.",
+        "isGuard": false,
+        "loopCount": 44,
+        "timestamp": 1781794904366
+      },
+      {
+        "goal": "Escape to surface",
+        "reasoning": "I'm underground at Y=59 with light level 0 (mob spawn risk). I need to dig to the surface immediately. I'll use break_around to clear a path upward, then dig_to_surface.",
+        "isGuard": false,
+        "loopCount": 45,
+        "timestamp": 1781794941748
+      }
+    ],
+    "lastCompletedTier": "naked"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": 11,
+        "y": 61,
+        "z": -6,
+        "distance": 2,
+        "tick": 74539,
+        "seenAt": 1781794939496
+      },
+      "gravel": {
+        "x": 14,
+        "y": 53,
+        "z": -3,
+        "distance": 6,
+        "tick": 74539,
+        "seenAt": 1781794939496
+      },
+      "water": {
+        "x": 13,
+        "y": 48,
+        "z": -11,
+        "distance": 12,
+        "tick": 74539,
+        "seenAt": 1781794939496
+      },
+      "water_hazard": {
+        "x": 13,
+        "y": 48,
+        "z": -11,
+        "distance": 12,
+        "seenAt": 1781794939496
+      },
+      "sand": {
+        "x": 466,
+        "y": 52,
+        "z": 516,
+        "distance": 10,
+        "tick": 29979,
+        "seenAt": 1781792711871
+      },
+      "cobblestone": {
+        "x": 13,
+        "y": 61,
+        "z": -6,
+        "distance": 2,
+        "tick": 74539,
+        "seenAt": 1781794939496
+      },
+      "spruce_log": {
+        "x": 3,
+        "y": 69,
+        "z": -30,
+        "distance": 3,
+        "tick": 47679,
+        "seenAt": 1781793596298
+      },
+      "birch_log": {
+        "x": 7,
+        "y": 70,
+        "z": -13,
+        "distance": 14,
+        "tick": 74539,
+        "seenAt": 1781794939496
+      },
+      "oak_log": {
+        "x": 13,
+        "y": 72,
+        "z": -1,
+        "distance": 13,
+        "tick": 74539,
+        "seenAt": 1781794939496
+      },
+      "stone": {
+        "x": 14,
+        "y": 59,
+        "z": -6,
+        "distance": 1,
+        "tick": 74539,
+        "seenAt": 1781794939496
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (-1, 73, -16) to (471, 59, 519); inventory delta +9; avg nearby mobs 0.",
+      "Last 10 loops: moved from (0, 72, -9) to (32, 64, -18); inventory delta +23; avg nearby mobs 0.",
+      "Last 10 loops: moved from (32, 64, -18) to (19, 69, 10); inventory delta -21; avg nearby mobs 0.",
+      "Last 10 loops: moved from (22, 69, 12) to (0, 79, 7); inventory delta -5; avg nearby mobs 0.",
+      "Last 10 loops: moved from (0, 79, 7) to (2, 65, -6); inventory delta +37; avg nearby mobs 0.",
+      "Last 10 loops: moved from (2, 65, -6) to (8, 61, -6); inventory delta +18; avg nearby mobs 0.",
+      "Last 10 loops: moved from (8, 61, -5) to (13, 58, -5); inventory delta +95; avg nearby mobs 0.",
+      "Last 10 loops: moved from (13, 60, -10) to (12, 59, -6); inventory delta -11; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781793629450,
+      "position": {
+        "x": -0.51,
+        "y": 64,
+        "z": 55.26,
+        "yaw": -1.8698355350120055,
+        "pitch": 0.0004613460405336056
+      },
+      "health": 4,
+      "food": 0,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "Survive the night and get food",
+        "reasoning": "It's night with light level 0, health is 18/20, and food is critically low at 1/20. I need to collect food immediately and find shelter. There's a spruce_log nearby at 3m - I can chop it for wood to craft tools/shelter. But food is the most critical issue since starvation will kill me. Let me collect food first by hunting nearby animals, then deal with shelter.",
+        "actions": [
+          {
+            "name": "collect_food",
+            "params": {
+              "count": 3
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "build_shelter",
+          "goal": "Build shelter for night safety",
+          "params": {},
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781793590623
+        },
+        {
+          "action": "collect_food",
+          "goal": "Survive the night and get food",
+          "params": {
+            "count": 3
+          },
+          "success": false,
+          "hint": null,
+          "error": null,
+          "interrupted": true,
+          "interruptReason": "danger_interrupt",
+          "blocksCleared": null,
+          "timestamp": 1781793623637
+        },
+        {
+          "action": "eat",
+          "goal": null,
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781793623637
+        },
+        {
+          "action": "flee_from",
+          "goal": null,
+          "params": {
+            "entity": "skeleton"
+          },
+          "success": false,
+          "hint": "Unable to flee — still 1m from skeleton",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781793623639
+        },
+        {
+          "action": "eat",
+          "goal": "flee_danger",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781793629445
+        }
+      ]
+    }
+  },
+  "blockedActions": [
+    [
+      "craft",
+      16
+    ],
+    [
+      "dig_emergency_shelter",
+      44
+    ],
+    [
+      "build_shelter",
+      54
+    ]
+  ]
+}

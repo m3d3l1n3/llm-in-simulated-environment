@@ -1,0 +1,100 @@
+{
+  "runId": "Autonomous Research_14-02-37_life_04",
+  "generatedAt": "2026-06-18T14:40:35.169Z",
+  "coherence": {
+    "totalDecisions": 29,
+    "goalsStarted": 29,
+    "goalsCompleted": 3,
+    "completionRate": "10.3%"
+  },
+  "actionDistribution": {
+    "chop_tree": 6,
+    "craft": 12,
+    "equip": 1,
+    "mine": 2,
+    "break_around": 4,
+    "pillar_up": 2,
+    "explore": 3,
+    "dig_emergency_shelter": 1,
+    "build_shelter": 2,
+    "collect_food": 1,
+    "eat": 2,
+    "flee_from": 2
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 12
+    },
+    {
+      "action": "chop_tree",
+      "count": 6
+    },
+    {
+      "action": "break_around",
+      "count": 4
+    },
+    {
+      "action": "explore",
+      "count": 3
+    },
+    {
+      "action": "mine",
+      "count": 2
+    }
+  ],
+  "goalDistribution": {
+    "gather wood and craft stone to": 1,
+    "craft stone tools": 1,
+    "craft wooden pickaxe and mine ": 1,
+    "craft wooden pickaxe then mine": 1,
+    "mine stone for cobblestone to ": 2,
+    "mine cobblestone for stone too": 1,
+    "craft crafting table and stone": 1,
+    "craft stone tools for better m": 1,
+    "mine coal and iron ore for pro": 1,
+    "escape_trap": 3,
+    "collect food by hunting animal": 4,
+    "collect food and gather wood": 1,
+    "dig emergency shelter for nigh": 1,
+    "get wood and craft tools for n": 1,
+    "survive the night by getting w": 1,
+    "craft wooden tools for surviva": 1,
+    "survive the night - build shel": 1,
+    "survive the night - stay safe ": 1,
+    "craft stone tools and get food": 1,
+    "get to crafting table and craf": 1,
+    "build shelter for night safety": 1,
+    "survive the night and get food": 1,
+    "flee_danger": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "collect food by hunting animal",
+      "count": 4
+    },
+    {
+      "action": "escape_trap",
+      "count": 3
+    },
+    {
+      "action": "mine stone for cobblestone to ",
+      "count": 2
+    },
+    {
+      "action": "gather wood and craft stone to",
+      "count": 1
+    },
+    {
+      "action": "craft stone tools",
+      "count": 1
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 4
+  },
+  "adaptation": {
+    "perturbationCount": 1,
+    "averageRecoveryTime": "417.6s"
+  }
+}

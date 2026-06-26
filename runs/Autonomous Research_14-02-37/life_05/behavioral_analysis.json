@@ -1,0 +1,105 @@
+{
+  "runId": "Autonomous Research_14-02-37_life_05",
+  "generatedAt": "2026-06-18T15:02:37.108Z",
+  "coherence": {
+    "totalDecisions": 45,
+    "goalsStarted": 45,
+    "goalsCompleted": 1,
+    "completionRate": "2.2%"
+  },
+  "actionDistribution": {
+    "chop_tree": 2,
+    "craft": 15,
+    "equip": 3,
+    "mine": 4,
+    "go_to_near": 3,
+    "break_around": 9,
+    "pillar_up": 3,
+    "explore": 9,
+    "light_area": 7,
+    "build_shelter": 2,
+    "dig_emergency_shelter": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 15
+    },
+    {
+      "action": "break_around",
+      "count": 9
+    },
+    {
+      "action": "explore",
+      "count": 9
+    },
+    {
+      "action": "light_area",
+      "count": 7
+    },
+    {
+      "action": "mine",
+      "count": 4
+    }
+  ],
+  "goalDistribution": {
+    "gather wood and craft stone to": 1,
+    "craft stone tools to progress": 1,
+    "craft wooden pickaxe and mine ": 1,
+    "craft stone pickaxe and stone ": 1,
+    "mine more cobblestone to craft": 1,
+    "mine cobblestone to craft ston": 1,
+    "mine cobblestone and craft fur": 1,
+    "craft furnace and stone axe at": 1,
+    "get to crafting table and craf": 2,
+    "navigate to crafting table and": 1,
+    "escape_trap": 7,
+    "get close to crafting table an": 1,
+    "place new crafting table and c": 1,
+    "mine coal and iron ore for iro": 1,
+    "mine coal ore for torches and ": 2,
+    "replace_worn_tool": 1,
+    "find and mine coal ore for tor": 1,
+    "find coal ore for torches and ": 1,
+    "escape trapped position and fi": 1,
+    "light area and prepare for nig": 1,
+    "light area and survive the nig": 1,
+    "escape to surface and survive ": 1,
+    "survive the night and progress": 1,
+    "survive the night safely": 3,
+    "survive the night by digging e": 1,
+    "escape trap and survive the ni": 1,
+    "escape to surface": 7,
+    "escape to surface at night": 1,
+    "light area and craft stone pic": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "escape_trap",
+      "count": 7
+    },
+    {
+      "action": "escape to surface",
+      "count": 7
+    },
+    {
+      "action": "survive the night safely",
+      "count": 3
+    },
+    {
+      "action": "get to crafting table and craf",
+      "count": 2
+    },
+    {
+      "action": "mine coal ore for torches and ",
+      "count": 2
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 3
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

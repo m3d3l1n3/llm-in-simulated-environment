@@ -1,0 +1,78 @@
+{
+  "runId": "Autonomous Research_14-02-37_life_03",
+  "generatedAt": "2026-06-18T14:26:13.227Z",
+  "coherence": {
+    "totalDecisions": 13,
+    "goalsStarted": 13,
+    "goalsCompleted": 0,
+    "completionRate": "0.0%"
+  },
+  "actionDistribution": {
+    "chop_tree": 2,
+    "craft": 2,
+    "swim_up": 4,
+    "pillar_up": 2,
+    "break_around": 1,
+    "dig_to_surface": 2
+  },
+  "mostFrequentActions": [
+    {
+      "action": "swim_up",
+      "count": 4
+    },
+    {
+      "action": "chop_tree",
+      "count": 2
+    },
+    {
+      "action": "craft",
+      "count": 2
+    },
+    {
+      "action": "pillar_up",
+      "count": 2
+    },
+    {
+      "action": "dig_to_surface",
+      "count": 2
+    }
+  ],
+  "goalDistribution": {
+    "gather wood and craft stone to": 2,
+    "craft stone tools": 1,
+    "escape_drowning": 5,
+    "escape water immediately": 1,
+    "escape water - get to land": 1,
+    "escape water and reach surface": 2,
+    "escape drowning": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "escape_drowning",
+      "count": 5
+    },
+    {
+      "action": "gather wood and craft stone to",
+      "count": 2
+    },
+    {
+      "action": "escape water and reach surface",
+      "count": 2
+    },
+    {
+      "action": "craft stone tools",
+      "count": 1
+    },
+    {
+      "action": "escape water immediately",
+      "count": 1
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 9
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

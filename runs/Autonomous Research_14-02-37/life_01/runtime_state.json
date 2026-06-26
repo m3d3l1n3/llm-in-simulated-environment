@@ -1,0 +1,185 @@
+{
+  "savedAt": 1781791959172,
+  "loopCount": 23,
+  "goalManager": {
+    "currentTier": "stone_tools",
+    "highestTierReached": "stone_tools",
+    "activePlan": null,
+    "planSinceLoop": 0,
+    "goalHistory": [],
+    "lastCompletedTier": null
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": -16,
+        "y": 61,
+        "z": -19,
+        "distance": 5,
+        "tick": 14279,
+        "seenAt": 1781791926155
+      },
+      "gravel": {
+        "x": -15,
+        "y": 49,
+        "z": -36,
+        "distance": 15,
+        "tick": 14279,
+        "seenAt": 1781791926155
+      },
+      "birch_log": {
+        "x": 1,
+        "y": 72,
+        "z": -3,
+        "distance": 3,
+        "tick": 5339,
+        "seenAt": 1781791479398
+      },
+      "oak_log": {
+        "x": -4,
+        "y": 71,
+        "z": -19,
+        "distance": 13,
+        "tick": 13319,
+        "seenAt": 1781791878004
+      },
+      "spruce_log": {
+        "x": -11,
+        "y": 66,
+        "z": -29,
+        "distance": 11,
+        "tick": 14279,
+        "seenAt": 1781791926155
+      },
+      "water": {
+        "x": -4,
+        "y": 62,
+        "z": -24,
+        "distance": 12,
+        "tick": 14279,
+        "seenAt": 1781791926155
+      },
+      "water_hazard": {
+        "x": -4,
+        "y": 62,
+        "z": -24,
+        "distance": 12,
+        "seenAt": 1781791926155
+      },
+      "stone": {
+        "x": -16,
+        "y": 61,
+        "z": -23,
+        "distance": 4,
+        "tick": 14279,
+        "seenAt": 1781791926155
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (2, 75, -4) to (-17, 64, -28); inventory delta +21; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-17, 64, -27) to (-8, 59, -27); inventory delta +74; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781791957168,
+      "position": {
+        "x": -15.52,
+        "y": 57,
+        "z": -22.5,
+        "yaw": -0.32724923474872103,
+        "pitch": -0.03665191429187864
+      },
+      "health": 20,
+      "food": 20,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "escape to surface",
+        "reasoning": "I'm underground at Y=57 with light level 0 where mobs can spawn. I need to get to the surface. I'll dig to the surface first.",
+        "actions": [
+          {
+            "name": "dig_to_surface",
+            "params": {}
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "equip",
+          "goal": "replace_worn_tool",
+          "params": {
+            "item": "stone_pickaxe"
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781791862394
+        },
+        {
+          "action": "equip",
+          "goal": "replace_worn_tool",
+          "params": {
+            "item": "stone_pickaxe"
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781791867608
+        },
+        {
+          "action": "equip",
+          "goal": "replace_worn_tool",
+          "params": {
+            "item": "stone_pickaxe"
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781791872803
+        },
+        {
+          "action": "break_around",
+          "goal": "escape_trap",
+          "params": {
+            "direction": "escape"
+          },
+          "success": true,
+          "hint": "Cleared 3 blocks! Try moving or exploring now.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": 3,
+          "timestamp": 1781791881683
+        },
+        {
+          "action": "explore",
+          "goal": "escape_trap",
+          "params": {
+            "distance": 25
+          },
+          "success": false,
+          "hint": null,
+          "error": "No path to the goal!",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781791920930
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

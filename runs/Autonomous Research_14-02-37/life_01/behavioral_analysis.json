@@ -1,0 +1,86 @@
+{
+  "runId": "Autonomous Research_14-02-37",
+  "generatedAt": "2026-06-18T14:12:39.174Z",
+  "coherence": {
+    "totalDecisions": 23,
+    "goalsStarted": 23,
+    "goalsCompleted": 1,
+    "completionRate": "4.3%"
+  },
+  "actionDistribution": {
+    "chop_tree": 3,
+    "craft": 8,
+    "equip": 6,
+    "break_around": 2,
+    "pillar_up": 1,
+    "explore": 2,
+    "mine": 4,
+    "dig_to_surface": 2
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 8
+    },
+    {
+      "action": "equip",
+      "count": 6
+    },
+    {
+      "action": "mine",
+      "count": 4
+    },
+    {
+      "action": "chop_tree",
+      "count": 3
+    },
+    {
+      "action": "break_around",
+      "count": 2
+    }
+  ],
+  "goalDistribution": {
+    "gather wood to start progressi": 1,
+    "gather more wood and craft too": 1,
+    "craft sticks and wooden pickax": 1,
+    "craft wooden pickaxe to get st": 1,
+    "mine stone to get cobblestone ": 1,
+    "escape_trap": 2,
+    "craft crafting table and stone": 1,
+    "craft stone pickaxe and progre": 1,
+    "mine coal and iron ore for pro": 1,
+    "mine coal ore for torches and ": 2,
+    "mine coal ore and gather cobbl": 1,
+    "escape to surface": 7,
+    "replace_worn_tool": 3
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "escape to surface",
+      "count": 7
+    },
+    {
+      "action": "replace_worn_tool",
+      "count": 3
+    },
+    {
+      "action": "escape_trap",
+      "count": 2
+    },
+    {
+      "action": "mine coal ore for torches and ",
+      "count": 2
+    },
+    {
+      "action": "gather wood to start progressi",
+      "count": 1
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 2
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

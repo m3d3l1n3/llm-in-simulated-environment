@@ -1,0 +1,202 @@
+{
+  "savedAt": 1781793635166,
+  "loopCount": 30,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "stone_tools",
+    "activePlan": null,
+    "planSinceLoop": 0,
+    "goalHistory": [],
+    "lastCompletedTier": "stone_tools"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": 0,
+        "y": 69,
+        "z": 8,
+        "distance": 10,
+        "tick": 48459,
+        "seenAt": 1781793635163
+      },
+      "gravel": {
+        "x": 0,
+        "y": 58,
+        "z": 52,
+        "distance": 6,
+        "tick": 48339,
+        "seenAt": 1781793629445
+      },
+      "water": {
+        "x": -2,
+        "y": 54,
+        "z": 48,
+        "distance": 12,
+        "tick": 48339,
+        "seenAt": 1781793629445
+      },
+      "water_hazard": {
+        "x": -2,
+        "y": 54,
+        "z": 48,
+        "distance": 12,
+        "seenAt": 1781793629445
+      },
+      "sand": {
+        "x": 466,
+        "y": 52,
+        "z": 516,
+        "distance": 10,
+        "tick": 29979,
+        "seenAt": 1781792711871
+      },
+      "cobblestone": {
+        "x": 3,
+        "y": 70,
+        "z": -27,
+        "distance": 1,
+        "tick": 47679,
+        "seenAt": 1781793596298
+      },
+      "spruce_log": {
+        "x": 3,
+        "y": 69,
+        "z": -30,
+        "distance": 3,
+        "tick": 47679,
+        "seenAt": 1781793596298
+      },
+      "oak_log": {
+        "x": 0,
+        "y": 76,
+        "z": 6,
+        "distance": 3,
+        "tick": 48459,
+        "seenAt": 1781793635163
+      },
+      "birch_log": {
+        "x": 4,
+        "y": 75,
+        "z": 12,
+        "distance": 6,
+        "tick": 48459,
+        "seenAt": 1781793635163
+      },
+      "stone": {
+        "x": 0,
+        "y": 67,
+        "z": 8,
+        "distance": 12,
+        "tick": 48459,
+        "seenAt": 1781793635163
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (2, 75, -4) to (-17, 64, -28); inventory delta +21; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-17, 64, -27) to (-8, 59, -27); inventory delta +74; avg nearby mobs 0.",
+      "Last 10 loops: moved from (1, 78, -2) to (-3, 60, -23); inventory delta +27; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-1, 73, -16) to (471, 59, 519); inventory delta +9; avg nearby mobs 0.",
+      "Last 10 loops: moved from (0, 72, -9) to (32, 64, -18); inventory delta +23; avg nearby mobs 0.",
+      "Last 10 loops: moved from (32, 64, -18) to (19, 69, 10); inventory delta -21; avg nearby mobs 0.",
+      "Last 10 loops: moved from (22, 69, 12) to (0, 79, 7); inventory delta -5; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781793629450,
+      "position": {
+        "x": -0.51,
+        "y": 64,
+        "z": 55.26,
+        "yaw": -1.8698355350120055,
+        "pitch": 0.0004613460405336056
+      },
+      "health": 4,
+      "food": 0,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "Survive the night and get food",
+        "reasoning": "It's night with light level 0, health is 18/20, and food is critically low at 1/20. I need to collect food immediately and find shelter. There's a spruce_log nearby at 3m - I can chop it for wood to craft tools/shelter. But food is the most critical issue since starvation will kill me. Let me collect food first by hunting nearby animals, then deal with shelter.",
+        "actions": [
+          {
+            "name": "collect_food",
+            "params": {
+              "count": 3
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "build_shelter",
+          "goal": "Build shelter for night safety",
+          "params": {},
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781793590623
+        },
+        {
+          "action": "collect_food",
+          "goal": "Survive the night and get food",
+          "params": {
+            "count": 3
+          },
+          "success": false,
+          "hint": null,
+          "error": null,
+          "interrupted": true,
+          "interruptReason": "danger_interrupt",
+          "blocksCleared": null,
+          "timestamp": 1781793623637
+        },
+        {
+          "action": "eat",
+          "goal": null,
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781793623637
+        },
+        {
+          "action": "flee_from",
+          "goal": null,
+          "params": {
+            "entity": "skeleton"
+          },
+          "success": false,
+          "hint": "Unable to flee — still 1m from skeleton",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781793623639
+        },
+        {
+          "action": "eat",
+          "goal": "flee_danger",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781793629445
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}
