@@ -1,4 +1,5 @@
-# mc_agent — Minecraft LLM Simulation Agent
+# Exploring the Autonomous Behavior of Large Language
+Models in Simulated Environments - Experiment Harness
 
 This directory contains the Node.js application that connects a Large Language Model (or a deterministic heuristic engine) to a Minecraft 1.20.4 survival server via `mineflayer`.
 
