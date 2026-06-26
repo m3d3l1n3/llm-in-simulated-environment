@@ -1,0 +1,22 @@
+{
+  "name": "mc_agent",
+  "version": "1.0.0",
+  "description": "Minecraft LLM Simulation Agent",
+  "main": "run_experiment.js",
+  "scripts": {
+    "start": "node run_experiment.js configs/openai_test.js",
+    "experiment": "node run_experiment.js configs/openai_test.js",
+    "test": "node run_experiment.js configs/baseline.js",
+    "baseline": "node run_experiment.js configs/baseline.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mineflayer": "^4.33.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "vec3": "^0.1.10"
+  }
+}
