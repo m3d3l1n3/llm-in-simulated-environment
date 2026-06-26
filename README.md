@@ -2,6 +2,8 @@
 
 This directory contains the Node.js application that connects a Large Language Model (or a deterministic heuristic engine) to a Minecraft 1.20.4 survival server via `mineflayer`.
 
+This should be a given, but Minecraft with local server is also needed in order to be able to run these bot configurations. For stability purposes my chosen version was 1.20.4 Java Edition
+
 ## Quick Start
 
 ```bash
