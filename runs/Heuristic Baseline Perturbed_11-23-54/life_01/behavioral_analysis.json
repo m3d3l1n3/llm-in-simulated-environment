@@ -1,0 +1,85 @@
+{
+  "runId": "Heuristic Baseline Perturbed_11-23-54",
+  "generatedAt": "2026-06-14T11:33:56.808Z",
+  "coherence": {
+    "totalDecisions": 42,
+    "goalsStarted": 42,
+    "goalsCompleted": 1,
+    "completionRate": "2.4%"
+  },
+  "actionDistribution": {
+    "chop_tree": 9,
+    "craft": 18,
+    "explore": 8,
+    "mine": 2,
+    "break_around": 5,
+    "pillar_up": 4,
+    "move_to": 7,
+    "equip": 3
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 18
+    },
+    {
+      "action": "chop_tree",
+      "count": 9
+    },
+    {
+      "action": "explore",
+      "count": 8
+    },
+    {
+      "action": "move_to",
+      "count": 7
+    },
+    {
+      "action": "break_around",
+      "count": 5
+    }
+  ],
+  "goalDistribution": {
+    "gather_wood": 9,
+    "progress_from_logs": 3,
+    "craft_wooden_pickaxe": 1,
+    "descend_to_mine": 3,
+    "mine_stone": 1,
+    "progress_to_stone_tools": 4,
+    "escape_trap": 5,
+    "explore": 2,
+    "mine_stone_fallback": 1,
+    "return_to_crafting_table": 7,
+    "replace_worn_tool": 3,
+    "craft_stone_pickaxe": 3
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "gather_wood",
+      "count": 9
+    },
+    {
+      "action": "return_to_crafting_table",
+      "count": 7
+    },
+    {
+      "action": "escape_trap",
+      "count": 5
+    },
+    {
+      "action": "progress_to_stone_tools",
+      "count": 4
+    },
+    {
+      "action": "progress_from_logs",
+      "count": 3
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 8
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

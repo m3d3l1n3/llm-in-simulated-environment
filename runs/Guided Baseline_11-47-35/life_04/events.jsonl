@@ -1,0 +1,156 @@
+{"event":"RUN_START","timestamp":1781699065043,"runTime":1,"config":{"loopInterval":5000,"maxActionsPerLoop":3,"logToFile":true,"logDirectory":"./runs","runName":"Guided Baseline_11-47-35","llm":{"provider":"openai","model":"gpt-4o-mini","temperature":0.3,"maxTokens":500,"tokenBudget":1000000,"systemPrompt":"You are a Minecraft survival AI playing like a smart human player.\n\nCORE RULES:\n1. Follow the NEXT STEP instruction each turn unless a PRIORITY_ALERT overrides it.\n2. NEVER repeat the same action more than 3 times in a row. If an action keeps failing, try something different.\n3. CHECK INVENTORY before crafting - don't duplicate tools you already have.\n4. NEVER craft crafting_table more than once. It auto-places and persists.\n5. Only suggest 1-3 actions per response.\n\nSURVIVAL (override all other goals):\n- Health low + have food: eat immediately.\n- Drowning/low oxygen: swim_up NOW.\n- Taking damage from hostiles: flee_from first, eat, then reassess.\n- Night time: build_shelter or sleep_if_possible (if you have a bed).\n\nGAMEPLAY LOOP (like a human player):\n1. Gather wood (chop_tree) -> craft planks -> craft sticks -> craft crafting_table (once)\n2. Craft wooden_pickaxe -> mine stone -> craft stone tools\n3. Build shelter at night, craft bed (need 3 wool from sheep + 3 planks)\n4. Hunt animals for food when hungry (attack cow/pig/sheep -> eat)\n5. Explore, mine coal for torches, upgrade tools\n\nKEY ACTIONS: chop_tree, craft, mine, attack, eat, explore, build_shelter, sleep_if_possible, flee_from, swim_up, dig_to_surface, break_around, pillar_up\n\nRespond with JSON: { \"goal\": \"...\", \"reasoning\": \"...\", \"actions\": [{ \"name\": \"...\", \"params\": {...} }] }","apiKey":"***REDACTED***"},"inventoryDisplayInterval":15000,"maxReconnectAttempts":3,"statePersistIntervalMs":60000},"metadata":{"experimentName":"Guided Baseline","experimentDescription":"Guided comparison run: weak model (gpt-4o-mini) with full behavior guards and NEXT STEP directive","botUsername":"LLM_Guided","minecraftVersion":"1.20.4","seed":"-1613247987266390429","llmConfig":{"provider":"openai","model":"gpt-4o-mini","temperature":0.3,"maxTokens":500,"tokenBudget":1000000,"systemPrompt":"You are a Minecraft survival AI playing like a smart human player.\n\nCORE RULES:\n1. Follow the NEXT STEP instruction each turn unless a PRIORITY_ALERT overrides it.\n2. NEVER repeat the same action more than 3 times in a row. If an action keeps failing, try something different.\n3. CHECK INVENTORY before crafting - don't duplicate tools you already have.\n4. NEVER craft crafting_table more than once. It auto-places and persists.\n5. Only suggest 1-3 actions per response.\n\nSURVIVAL (override all other goals):\n- Health low + have food: eat immediately.\n- Drowning/low oxygen: swim_up NOW.\n- Taking damage from hostiles: flee_from first, eat, then reassess.\n- Night time: build_shelter or sleep_if_possible (if you have a bed).\n\nGAMEPLAY LOOP (like a human player):\n1. Gather wood (chop_tree) -> craft planks -> craft sticks -> craft crafting_table (once)\n2. Craft wooden_pickaxe -> mine stone -> craft stone tools\n3. Build shelter at night, craft bed (need 3 wool from sheep + 3 planks)\n4. Hunt animals for food when hungry (attack cow/pig/sheep -> eat)\n5. Explore, mine coal for torches, upgrade tools\n\nKEY ACTIONS: chop_tree, craft, mine, attack, eat, explore, build_shelter, sleep_if_possible, flee_from, swim_up, dig_to_surface, break_around, pillar_up\n\nRespond with JSON: { \"goal\": \"...\", \"reasoning\": \"...\", \"actions\": [{ \"name\": \"...\", \"params\": {...} }] }"},"perturbationCount":3,"deathRecovery":true}}
+{"event":"BEHAVIOR_WARNING","timestamp":1781699073867,"runTime":8825,"type":"action_dominance","action":"chop_tree","ratio":1}
+{"event":"BEHAVIOR_WARNING","timestamp":1781699099593,"runTime":34551,"type":"action_dominance","action":"chop_tree","ratio":1}
+{"event":"WATCHDOG_STALL","timestamp":1781699107395,"runTime":42353,"stalledForMs":120023,"loopCount":3}
+{"event":"ITEM_COLLECTED","timestamp":1781699120169,"runTime":55127,"collector":"LLM_Guided","item":{"present":true,"itemId":131,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699120417,"runTime":55375,"collector":"LLM_Guided","item":{"present":true,"itemId":131,"itemCount":1}}
+{"event":"BOT_HURT","timestamp":1781699125267,"runTime":60225,"health":20,"source":"environmental","position":{"x":-0.5,"y":71,"z":3.3286324549806197}}
+{"event":"ITEM_COLLECTED","timestamp":1781699125578,"runTime":60536,"collector":"LLM_Guided","item":{"present":true,"itemId":131,"itemCount":1}}
+{"event":"BEHAVIOR_WARNING","timestamp":1781699126138,"runTime":61096,"type":"action_dominance","action":"chop_tree","ratio":1}
+{"event":"BEHAVIOR_WARNING","timestamp":1781699133997,"runTime":68955,"type":"action_dominance","action":"chop_tree","ratio":0.8333333333333334}
+{"event":"BEHAVIOR_WARNING","timestamp":1781699139440,"runTime":74398,"type":"action_dominance","action":"chop_tree","ratio":0.7142857142857143}
+{"event":"BEHAVIOR_WARNING","timestamp":1781699158319,"runTime":93277,"type":"action_dominance","action":"chop_tree","ratio":0.625}
+{"event":"ITEM_COLLECTED","timestamp":1781699175216,"runTime":110174,"collector":"LLM_Guided","item":{"present":true,"itemId":844,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699180067,"runTime":115025,"collector":"LLM_Guided","item":{"present":true,"itemId":133,"itemCount":1}}
+{"event":"BEHAVIOR_WARNING","timestamp":1781699181366,"runTime":116324,"type":"action_dominance","action":"chop_tree","ratio":0.6666666666666666}
+{"event":"ITEM_COLLECTED","timestamp":1781699198717,"runTime":133675,"collector":"LLM_Guided","item":{"present":true,"itemId":133,"itemCount":1}}
+{"event":"BEHAVIOR_WARNING","timestamp":1781699198966,"runTime":133924,"type":"action_dominance","action":"chop_tree","ratio":0.7}
+{"event":"BOT_HURT","timestamp":1781699205568,"runTime":140526,"health":18.833332061767578,"source":"environmental","position":{"x":12.678179363108681,"y":66,"z":18.568922540791377}}
+{"event":"ITEM_COLLECTED","timestamp":1781699205767,"runTime":140725,"collector":"LLM_Guided","item":{"present":true,"itemId":844,"itemCount":2}}
+{"event":"WATCHDOG_STALL","timestamp":1781699227484,"runTime":162442,"stalledForMs":120089,"loopCount":9}
+{"event":"BEHAVIOR_WARNING","timestamp":1781699234493,"runTime":169451,"type":"action_dominance","action":"chop_tree","ratio":0.7}
+{"event":"BEHAVIOR_WARNING","timestamp":1781699269830,"runTime":204788,"type":"action_dominance","action":"chop_tree","ratio":0.7}
+{"event":"ITEM_COLLECTED","timestamp":1781699292542,"runTime":227500,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"BEHAVIOR_WARNING","timestamp":1781699305366,"runTime":240324,"type":"action_dominance","action":"chop_tree","ratio":0.7}
+{"event":"ITEM_COLLECTED","timestamp":1781699312985,"runTime":247943,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699315030,"runTime":249988,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699316886,"runTime":251844,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699318636,"runTime":253594,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699320318,"runTime":255276,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699324067,"runTime":259025,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"WATCHDOG_STALL","timestamp":1781699347601,"runTime":282559,"stalledForMs":120117,"loopCount":13}
+{"event":"ITEM_COLLECTED","timestamp":1781699349318,"runTime":284276,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":2}}
+{"event":"ITEM_COLLECTED","timestamp":1781699349668,"runTime":284626,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699351367,"runTime":286325,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699362716,"runTime":297674,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699380966,"runTime":315924,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699380967,"runTime":315925,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":2}}
+{"event":"ITEM_COLLECTED","timestamp":1781699380967,"runTime":315925,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":2}}
+{"event":"ITEM_COLLECTED","timestamp":1781699380967,"runTime":315925,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699380967,"runTime":315925,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699381317,"runTime":316275,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699389267,"runTime":324225,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699389268,"runTime":324226,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699389268,"runTime":324226,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699389667,"runTime":324625,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699397967,"runTime":332925,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699400067,"runTime":335025,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699400616,"runTime":335574,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":2}}
+{"event":"ITEM_COLLECTED","timestamp":1781699400717,"runTime":335675,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"GOAL_COMPLETED","timestamp":1781699410761,"runTime":345719,"tier":"shelter"}
+{"event":"ITEM_COLLECTED","timestamp":1781699411267,"runTime":346225,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699416767,"runTime":351725,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ACTION_BLOCKED","timestamp":1781699423326,"runTime":358284,"action":"craft","blockedUntilLoop":19}
+{"event":"ACTION_UNBLOCKED","timestamp":1781699428491,"runTime":363449,"reason":"craft_materials_available","item":"stone_pickaxe"}
+{"event":"ACTION_BLOCKED","timestamp":1781699428573,"runTime":363531,"action":"craft","blockedUntilLoop":20}
+{"event":"ITEM_COLLECTED","timestamp":1781699435016,"runTime":369974,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699436216,"runTime":371174,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699437467,"runTime":372425,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699438667,"runTime":373625,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699439867,"runTime":374825,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699441067,"runTime":376025,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699442316,"runTime":377274,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699454267,"runTime":389225,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699460917,"runTime":395875,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699462117,"runTime":397075,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699463017,"runTime":397975,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699464417,"runTime":399375,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"WATCHDOG_STALL","timestamp":1781699467635,"runTime":402593,"stalledForMs":120034,"loopCount":18}
+{"event":"ITEM_COLLECTED","timestamp":1781699467868,"runTime":402826,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699469018,"runTime":403976,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699469817,"runTime":404775,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ACTION_BLOCKED","timestamp":1781699471867,"runTime":406825,"action":"craft","blockedUntilLoop":21}
+{"event":"ITEM_COLLECTED","timestamp":1781699476567,"runTime":411525,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ACTION_UNBLOCKED","timestamp":1781699476962,"runTime":411920,"reason":"craft_materials_available","item":"stone_pickaxe"}
+{"event":"ITEM_COLLECTED","timestamp":1781699477367,"runTime":412325,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699478366,"runTime":413324,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699479868,"runTime":414826,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699484716,"runTime":419674,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699488516,"runTime":423474,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699500417,"runTime":435375,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699502267,"runTime":437225,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699510868,"runTime":445826,"collector":"LLM_Guided","item":{"present":true,"itemId":6,"itemCount":1}}
+{"event":"ACTION_BLOCKED","timestamp":1781699514828,"runTime":449786,"action":"craft","blockedUntilLoop":22}
+{"event":"ITEM_COLLECTED","timestamp":1781699516467,"runTime":451425,"collector":"LLM_Guided","item":{"present":true,"itemId":6,"itemCount":1}}
+{"event":"ACTION_UNBLOCKED","timestamp":1781699519978,"runTime":454936,"reason":"craft_materials_available","item":"stone_pickaxe"}
+{"event":"ACTION_BLOCKED","timestamp":1781699525628,"runTime":460586,"action":"craft","blockedUntilLoop":23}
+{"event":"ITEM_COLLECTED","timestamp":1781699528817,"runTime":463775,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699529617,"runTime":464575,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699530418,"runTime":465376,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ACTION_UNBLOCKED","timestamp":1781699530723,"runTime":465681,"reason":"craft_materials_available","item":"stone_pickaxe"}
+{"event":"ITEM_COLLECTED","timestamp":1781699547917,"runTime":482875,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699549116,"runTime":484074,"collector":"LLM_Guided","item":{"present":true,"itemId":6,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699549117,"runTime":484075,"collector":"LLM_Guided","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ACTION_BLOCKED","timestamp":1781699550773,"runTime":485731,"action":"craft","blockedUntilLoop":24}
+{"event":"ITEM_COLLECTED","timestamp":1781699550918,"runTime":485876,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699579817,"runTime":514775,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"WATCHDOG_STALL","timestamp":1781699587651,"runTime":522609,"stalledForMs":120015,"loopCount":22}
+{"event":"ITEM_COLLECTED","timestamp":1781699668217,"runTime":603175,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ACTION_BLOCKED","timestamp":1781699679000,"runTime":613958,"action":"craft","blockedUntilLoop":30}
+{"event":"ACTION_BLOCKED","timestamp":1781699692351,"runTime":627309,"action":"explore","blockedUntilLoop":32}
+{"event":"ITEM_COLLECTED","timestamp":1781699698717,"runTime":633675,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699699517,"runTime":634475,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"WATCHDOG_STALL","timestamp":1781699707667,"runTime":642625,"stalledForMs":120015,"loopCount":30}
+{"event":"ACTION_BLOCKED","timestamp":1781699757461,"runTime":692419,"action":"explore","blockedUntilLoop":33}
+{"event":"ACTION_BLOCKED","timestamp":1781699764686,"runTime":699644,"action":"explore","blockedUntilLoop":34}
+{"event":"ACTION_BLOCKED","timestamp":1781699764687,"runTime":699645,"action":"attack","blockedUntilLoop":34}
+{"event":"ITEM_COLLECTED","timestamp":1781699771417,"runTime":706375,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699772717,"runTime":707675,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781699776517,"runTime":711475,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ACTION_BLOCKED","timestamp":1781699806144,"runTime":741102,"action":"attack","blockedUntilLoop":35}
+{"event":"ACTION_BLOCKED","timestamp":1781699820323,"runTime":755281,"action":"attack","blockedUntilLoop":36}
+{"event":"GOAL_THRASH","timestamp":1781699825398,"runTime":760356,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["hunt for food","hunt for food","escape_trap","hunt for food","forced_recovery","hunt for food"]}
+{"event":"ACTION_BLOCKED","timestamp":1781699826846,"runTime":761804,"action":"attack","blockedUntilLoop":37}
+{"event":"ACTION_BLOCKED","timestamp":1781699826846,"runTime":761804,"action":"explore","blockedUntilLoop":37}
+{"event":"WATCHDOG_STALL","timestamp":1781699827713,"runTime":762671,"stalledForMs":120045,"loopCount":34}
+{"event":"GOAL_THRASH","timestamp":1781699831939,"runTime":766897,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["hunt for food","escape_trap","hunt for food","forced_recovery","hunt for food","explore for resources"]}
+{"event":"GOAL_THRASH","timestamp":1781699875006,"runTime":809964,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["hunt for food","forced_recovery","hunt for food","explore for resources","escape and gather resources","escape_trap"]}
+{"event":"ITEM_COLLECTED","timestamp":1781699903416,"runTime":838374,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"WATCHDOG_STALL","timestamp":1781699947718,"runTime":882676,"stalledForMs":120004,"loopCount":37}
+{"event":"ITEM_COLLECTED","timestamp":1781699956517,"runTime":891475,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"GOAL_THRASH","timestamp":1781699965145,"runTime":900103,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["forced_recovery","hunt for food","explore for resources","escape and gather resources","escape_trap","escape and gather resources"]}
+{"event":"ITEM_COLLECTED","timestamp":1781699975216,"runTime":910174,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ACTION_BLOCKED","timestamp":1781699997126,"runTime":932084,"action":"break_around","blockedUntilLoop":41}
+{"event":"GOAL_THRASH","timestamp":1781700002224,"runTime":937182,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["hunt for food","explore for resources","escape and gather resources","escape_trap","escape and gather resources","escape and gather resources"]}
+{"event":"ACTION_BLOCKED","timestamp":1781700003853,"runTime":938811,"action":"break_around","blockedUntilLoop":42}
+{"event":"ACTION_BLOCKED","timestamp":1781700040735,"runTime":975693,"action":"break_around","blockedUntilLoop":43}
+{"event":"GOAL_THRASH","timestamp":1781700045825,"runTime":980783,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["escape and gather resources","escape_trap","escape and gather resources","escape and gather resources","hunt for food","escape_trap"]}
+{"event":"GOAL_THRASH","timestamp":1781700060959,"runTime":995917,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["escape_trap","escape and gather resources","escape and gather resources","hunt for food","escape_trap","hunt for food"]}
+{"event":"ACTION_BLOCKED","timestamp":1781700062437,"runTime":997395,"action":"attack","blockedUntilLoop":45}
+{"event":"GOAL_THRASH","timestamp":1781700067539,"runTime":1002497,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["escape and gather resources","escape and gather resources","hunt for food","escape_trap","hunt for food","hunt for food"]}
+{"event":"WATCHDOG_STALL","timestamp":1781700067760,"runTime":1002718,"stalledForMs":120042,"loopCount":43}
+{"event":"ITEM_COLLECTED","timestamp":1781700070617,"runTime":1005575,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ACTION_BLOCKED","timestamp":1781700084217,"runTime":1019175,"action":"attack","blockedUntilLoop":46}
+{"event":"ACTION_BLOCKED","timestamp":1781700130279,"runTime":1065237,"action":"attack","blockedUntilLoop":47}
+{"event":"GOAL_THRASH","timestamp":1781700141720,"runTime":1076678,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["escape_trap","hunt for food","hunt for food","build shelter for the night","escape_trap","hunt for food"]}
+{"event":"GOAL_THRASH","timestamp":1781700179038,"runTime":1113996,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["hunt for food","hunt for food","build shelter for the night","escape_trap","hunt for food","hunt for food"]}
+{"event":"LOW_GOAL_COMPLETION","timestamp":1781700180829,"runTime":1115787,"rate":0.25,"recentWindow":20}
+{"event":"ACTION_BLOCKED","timestamp":1781700180830,"runTime":1115788,"action":"attack","blockedUntilLoop":50}
+{"event":"WATCHDOG_STALL","timestamp":1781700187787,"runTime":1122745,"stalledForMs":120026,"loopCount":48}
+{"event":"GOAL_THRASH","timestamp":1781700236118,"runTime":1171076,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["escape_trap","hunt for food","hunt for food","hunt for food","escape_trap","hunt for food"]}
+{"event":"ACTION_BLOCKED","timestamp":1781700259737,"runTime":1194695,"action":"attack","blockedUntilLoop":54}
+{"event":"ITEM_COLLECTED","timestamp":1781700292918,"runTime":1227876,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ACTION_BLOCKED","timestamp":1781700299925,"runTime":1234883,"action":"attack","blockedUntilLoop":55}
+{"event":"WATCHDOG_STALL","timestamp":1781700307807,"runTime":1242765,"stalledForMs":120020,"loopCount":53}
+{"event":"BEHAVIOR_WARNING","timestamp":1781700332312,"runTime":1267270,"type":"action_dominance","action":"explore","ratio":0.7}
+{"event":"ACTION_BLOCKED","timestamp":1781700332312,"runTime":1267270,"action":"explore","blockedUntilLoop":56}
+{"event":"GOAL_THRASH","timestamp":1781700337391,"runTime":1272349,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["escape_trap","hunt for food","hunt for food","hunt for food","escape_trap","hunt for food"]}
+{"event":"ACTION_BLOCKED","timestamp":1781700354495,"runTime":1289453,"action":"explore","blockedUntilLoop":57}
+{"event":"ACTION_BLOCKED","timestamp":1781700354496,"runTime":1289454,"action":"break_around","reason":"cleared_nothing","blockedUntilLoop":57}
+{"event":"GOAL_THRASH","timestamp":1781700359577,"runTime":1294535,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["hunt for food","hunt for food","hunt for food","escape_trap","hunt for food","escape_trap"]}
+{"event":"ITEM_COLLECTED","timestamp":1781700370166,"runTime":1305124,"collector":"LLM_Guided","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ACTION_BLOCKED","timestamp":1781700407260,"runTime":1342218,"action":"explore","blockedUntilLoop":58}
+{"event":"ACTION_BLOCKED","timestamp":1781700419577,"runTime":1354535,"action":"explore","blockedUntilLoop":59}
+{"event":"WATCHDOG_STALL","timestamp":1781700427826,"runTime":1362784,"stalledForMs":120018,"loopCount":57}
+{"event":"EXPERIMENT_END","timestamp":1781700455593,"runTime":1390551,"reason":"DURATION_COMPLETE","duration":3600006,"durationMinutes":60}
+{"event":"RUN_END","timestamp":1781700455594,"runTime":1390552,"loops_executed":57,"memory_size":57}

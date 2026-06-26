@@ -1,0 +1,217 @@
+{
+  "savedAt": 1781437800071,
+  "loopCount": 22,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "stone_tools",
+    "activePlan": "gather_wood",
+    "planSinceLoop": 22,
+    "goalHistory": [
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 22,
+        "timestamp": 1781437800043
+      }
+    ],
+    "lastCompletedTier": "stone_tools"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": -8,
+        "y": 70,
+        "z": -9,
+        "distance": 2,
+        "tick": 31139,
+        "seenAt": 1781437800043
+      },
+      "gravel": {
+        "x": -17,
+        "y": 68,
+        "z": 1,
+        "distance": 14,
+        "tick": 31139,
+        "seenAt": 1781437800043
+      },
+      "water": {
+        "x": 0,
+        "y": 59,
+        "z": -22,
+        "distance": 15,
+        "tick": 30719,
+        "seenAt": 1781437778619
+      },
+      "water_hazard": {
+        "x": 0,
+        "y": 59,
+        "z": -22,
+        "distance": 15,
+        "seenAt": 1781437778619
+      },
+      "cobblestone": {
+        "x": -12,
+        "y": 65,
+        "z": -16,
+        "distance": 11,
+        "tick": 31139,
+        "seenAt": 1781437800043
+      },
+      "sand": {
+        "x": 549,
+        "y": 64,
+        "z": 601,
+        "distance": 0,
+        "tick": 24119,
+        "seenAt": 1781437449126
+      },
+      "birch_log": {
+        "x": -12,
+        "y": 72,
+        "z": -7,
+        "distance": 4,
+        "tick": 31139,
+        "seenAt": 1781437800043
+      },
+      "stone": {
+        "x": -8,
+        "y": 68,
+        "z": -9,
+        "distance": 4,
+        "tick": 31139,
+        "seenAt": 1781437800043
+      },
+      "oak_log": {
+        "x": -4,
+        "y": 72,
+        "z": -8,
+        "distance": 3,
+        "tick": 31139,
+        "seenAt": 1781437800043
+      },
+      "spruce_log": {
+        "x": -10,
+        "y": 72,
+        "z": -14,
+        "distance": 6,
+        "tick": 31139,
+        "seenAt": 1781437800043
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (-14, 64, -18) to (-12, 65, -16); inventory delta +18; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-12, 65, -16) to (-11, 67, -13); inventory delta +29; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-11, 67, -13) to (-10, 67, -13); inventory delta +10; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-16, 70, -11) to (-14, 70, -14); inventory delta +7; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-16, 65, -21) to (-31, 57, -38); inventory delta +23; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-32, 59, -37) to (-32, 59, -37); inventory delta +26; avg nearby mobs 0.",
+      "Last 10 loops: moved from (16, 72, -6) to (4, 65, -24); inventory delta +40; avg nearby mobs 0.",
+      "Last 10 loops: moved from (3, 66, -24) to (3, 72, -14); inventory delta +18; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781437797603,
+      "position": {
+        "x": 3.5,
+        "y": 72,
+        "z": -13.54,
+        "yaw": 2.3759953592130953,
+        "pitch": -0.659734460582778
+      },
+      "health": 20,
+      "food": 20,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "mine_coal",
+        "reasoning": "Heuristic: mine coal",
+        "actions": [
+          {
+            "name": "mine",
+            "params": {
+              "blockType": "coal_ore",
+              "count": 5
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "craft",
+          "params": {
+            "item": "stone_axe"
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781437756812
+        },
+        {
+          "action": "craft",
+          "params": {
+            "item": "planks",
+            "count": 4
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781437762349
+        },
+        {
+          "action": "craft",
+          "params": {
+            "item": "stick",
+            "count": 4
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781437767763
+        },
+        {
+          "action": "craft",
+          "params": {
+            "item": "furnace"
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781437773191
+        },
+        {
+          "action": "mine",
+          "params": {
+            "blockType": "coal_ore",
+            "count": 5
+          },
+          "success": false,
+          "hint": null,
+          "error": "No deepslate_coal_ore found within 32 blocks",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781437794524
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

@@ -1,0 +1,221 @@
+{
+  "savedAt": 1781699060887,
+  "loopCount": 36,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "stone_tools",
+    "activePlan": "gather wood for tools",
+    "planSinceLoop": 36,
+    "goalHistory": [
+      {
+        "goal": "gather wood for tools",
+        "reasoning": "Chopping trees will provide logs needed to craft wooden tools and sticks.",
+        "isGuard": false,
+        "loopCount": 36,
+        "timestamp": 1781699059569
+      }
+    ],
+    "lastCompletedTier": "stone_tools"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": -9,
+        "y": 70,
+        "z": 5,
+        "distance": 14,
+        "tick": 46399,
+        "seenAt": 1781699058430
+      },
+      "gravel": {
+        "x": 144,
+        "y": 65,
+        "z": 29,
+        "distance": 9,
+        "tick": 46299,
+        "seenAt": 1781699051888
+      },
+      "birch_log": {
+        "x": -13,
+        "y": 77,
+        "z": 5,
+        "distance": 9,
+        "tick": 46399,
+        "seenAt": 1781699058430
+      },
+      "spruce_log": {
+        "x": -53,
+        "y": 63,
+        "z": -61,
+        "distance": 15,
+        "tick": 26279,
+        "seenAt": 1781698051203
+      },
+      "water": {
+        "x": 57,
+        "y": 60,
+        "z": 33,
+        "distance": 11,
+        "tick": 42019,
+        "seenAt": 1781698838228
+      },
+      "water_hazard": {
+        "x": 57,
+        "y": 60,
+        "z": 33,
+        "distance": 11,
+        "seenAt": 1781698838228
+      },
+      "sand": {
+        "x": 545,
+        "y": 62,
+        "z": 408,
+        "distance": 0,
+        "tick": 35319,
+        "seenAt": 1781698502925
+      },
+      "cobblestone": {
+        "x": -55,
+        "y": 62,
+        "z": -44,
+        "distance": 1,
+        "tick": 26279,
+        "seenAt": 1781698051203
+      },
+      "oak_log": {
+        "x": -8,
+        "y": 80,
+        "z": 8,
+        "distance": 4,
+        "tick": 46399,
+        "seenAt": 1781699058430
+      },
+      "stone": {
+        "x": 139,
+        "y": 69,
+        "z": 30,
+        "distance": 3,
+        "tick": 46299,
+        "seenAt": 1781699051888
+      },
+      "dark_oak_log": {
+        "x": 147,
+        "y": 71,
+        "z": 42,
+        "distance": 14,
+        "tick": 46299,
+        "seenAt": 1781699051888
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (-2, 69, -5) to (-25, 64, -43); inventory delta +27; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-25, 60, -73) to (-61, 61, -46); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-61, 61, -46) to (595, 60, 421); inventory delta -24; avg nearby mobs 0.",
+      "Last 10 loops: moved from (595, 57, 421) to (594, 60, 370); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (594, 57, 370) to (587, 59, 365); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (30, 68, 22) to (55, 64, 42); inventory delta +2; avg nearby mobs 0.",
+      "Last 10 loops: moved from (58, 64, 47) to (61, 64, 36); inventory delta +15; avg nearby mobs 0.",
+      "Last 10 loops: moved from (61, 64, 36) to (93, 81, -3); inventory delta +6; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781699055269,
+      "position": {
+        "x": 137.71,
+        "y": 72,
+        "z": 30.92,
+        "yaw": -2.356784287162788,
+        "pitch": 0.0008688629375335211
+      },
+      "health": 4,
+      "food": 7,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "hunt for food",
+        "reasoning": "I have low food and need to find animals to gather food before exploring further.",
+        "actions": [
+          {
+            "name": "explore",
+            "params": {
+              "distance": 30
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "explore",
+          "goal": "hunt for food",
+          "params": {
+            "distance": 30
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781699040568
+        },
+        {
+          "action": "eat",
+          "goal": "flee_danger",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781699046237
+        },
+        {
+          "action": "flee_from",
+          "goal": "flee_danger",
+          "params": {
+            "entity": "pillager"
+          },
+          "success": false,
+          "hint": "Unable to flee — still 7m from pillager",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781699046239
+        },
+        {
+          "action": "eat",
+          "goal": "flee_danger",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781699051888
+        },
+        {
+          "action": "flee_from",
+          "goal": "flee_danger",
+          "params": {
+            "entity": "pillager"
+          },
+          "success": false,
+          "hint": "Unable to flee — still 7m from pillager",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781699051891
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

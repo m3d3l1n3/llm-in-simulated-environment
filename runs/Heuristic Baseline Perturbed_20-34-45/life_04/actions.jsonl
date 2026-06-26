@@ -1,0 +1,4 @@
+{"timestamp":1781471396579,"runTime":24819,"action":"chop_tree","params":{"count":2},"success":true,"duration":24244,"result":{"success":true,"logsChopped":1,"hint":"Chopped 1 logs"}}
+{"timestamp":1781471516179,"runTime":144419,"action":"explore","params":{"distance":30},"success":true,"duration":6883,"result":{"success":true,"position":{"x":-29,"y":64,"z":12},"distanceTraveled":30.107735176287218,"direction":"west"}}
+{"timestamp":1781471532627,"runTime":160867,"action":"chop_tree","params":{"count":2},"success":true,"duration":10727,"result":{"success":true,"logsChopped":2,"hint":"Chopped 2 logs"}}
+{"timestamp":1781471932361,"runTime":560601,"action":"dig_emergency_shelter","params":{},"success":true,"duration":5819,"result":{"success":true,"depth":2,"sealed":true,"message":"Emergency pit shelter dug"}}

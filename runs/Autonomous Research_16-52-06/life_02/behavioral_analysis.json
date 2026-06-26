@@ -1,0 +1,94 @@
+{
+  "runId": "Autonomous Research_16-52-06_life_02",
+  "generatedAt": "2026-06-18T17:13:04.031Z",
+  "coherence": {
+    "totalDecisions": 21,
+    "goalsStarted": 21,
+    "goalsCompleted": 1,
+    "completionRate": "4.8%"
+  },
+  "actionDistribution": {
+    "craft": 8,
+    "equip": 1,
+    "mine": 1,
+    "break_around": 1,
+    "pillar_up": 1,
+    "explore": 6,
+    "chop_tree": 1,
+    "eat": 3,
+    "swim_up": 1,
+    "go_to_near": 1,
+    "collect_food": 1,
+    "flee_from": 2
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 8
+    },
+    {
+      "action": "explore",
+      "count": 6
+    },
+    {
+      "action": "eat",
+      "count": 3
+    },
+    {
+      "action": "flee_from",
+      "count": 2
+    },
+    {
+      "action": "equip",
+      "count": 1
+    }
+  ],
+  "goalDistribution": {
+    "gather wood and craft stone to": 2,
+    "craft stone tools": 2,
+    "craft wooden pickaxe then mine": 1,
+    "mine cobblestone for stone too": 1,
+    "craft stone tools from cobbles": 1,
+    "gather resources for shelter a": 1,
+    "escape_trap": 1,
+    "gather wool for bed and find i": 1,
+    "gather wood and progress towar": 1,
+    "find sheep for wool and progre": 1,
+    "find sheep for wool to craft a": 3,
+    "heal": 1,
+    "get off water and find sheep f": 1,
+    "collect food by hunting animal": 1,
+    "get to solid ground and collec": 1,
+    "get to solid ground safely the": 1,
+    "flee_danger": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "find sheep for wool to craft a",
+      "count": 3
+    },
+    {
+      "action": "gather wood and craft stone to",
+      "count": 2
+    },
+    {
+      "action": "craft stone tools",
+      "count": 2
+    },
+    {
+      "action": "craft wooden pickaxe then mine",
+      "count": 1
+    },
+    {
+      "action": "mine cobblestone for stone too",
+      "count": 1
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 3
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

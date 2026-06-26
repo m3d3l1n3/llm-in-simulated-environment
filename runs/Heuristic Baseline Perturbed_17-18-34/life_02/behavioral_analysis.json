@@ -1,0 +1,96 @@
+{
+  "runId": "Heuristic Baseline Perturbed_17-18-34_life_02",
+  "generatedAt": "2026-06-14T17:44:13.714Z",
+  "coherence": {
+    "totalDecisions": 65,
+    "goalsStarted": 65,
+    "goalsCompleted": 2,
+    "completionRate": "3.1%"
+  },
+  "actionDistribution": {
+    "chop_tree": 7,
+    "craft": 14,
+    "mine": 12,
+    "break_around": 6,
+    "pillar_up": 6,
+    "explore": 11,
+    "build_shelter": 2,
+    "dig_emergency_shelter": 2,
+    "dig_to_surface": 2,
+    "swim_up": 6,
+    "attack": 3
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 14
+    },
+    {
+      "action": "mine",
+      "count": 12
+    },
+    {
+      "action": "explore",
+      "count": 11
+    },
+    {
+      "action": "chop_tree",
+      "count": 7
+    },
+    {
+      "action": "break_around",
+      "count": 6
+    }
+  ],
+  "goalDistribution": {
+    "gather_wood": 9,
+    "progress_from_logs": 3,
+    "craft_planks": 1,
+    "craft_wooden_pickaxe": 1,
+    "mine_stone": 2,
+    "progress_to_stone_tools": 3,
+    "escape_trap": 6,
+    "craft_stone_pickaxe": 1,
+    "craft_furnace": 1,
+    "mine_coal": 10,
+    "explore_new_area": 1,
+    "craft_stone_axe": 1,
+    "craft_stone_sword": 1,
+    "explore_for_iron": 6,
+    "build_night_shelter": 2,
+    "emergency_shelter_night": 2,
+    "escape_confinement": 1,
+    "chop_tree_fallback": 1,
+    "escape_drowning": 10,
+    "stock_food": 3
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "mine_coal",
+      "count": 10
+    },
+    {
+      "action": "escape_drowning",
+      "count": 10
+    },
+    {
+      "action": "gather_wood",
+      "count": 9
+    },
+    {
+      "action": "escape_trap",
+      "count": 6
+    },
+    {
+      "action": "explore_for_iron",
+      "count": 6
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 6
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

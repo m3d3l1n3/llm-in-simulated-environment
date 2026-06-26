@@ -1,0 +1,89 @@
+{
+  "runId": "Guided Baseline_15-17-36",
+  "generatedAt": "2026-06-17T15:27:41.389Z",
+  "coherence": {
+    "totalDecisions": 31,
+    "goalsStarted": 31,
+    "goalsCompleted": 1,
+    "completionRate": "3.2%"
+  },
+  "actionDistribution": {
+    "chop_tree": 3,
+    "craft": 19,
+    "mine": 1,
+    "break_around": 5,
+    "pillar_up": 5,
+    "explore": 9,
+    "light_area": 2,
+    "equip": 2,
+    "dig_to_surface": 1,
+    "build_shelter": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 19
+    },
+    {
+      "action": "explore",
+      "count": 9
+    },
+    {
+      "action": "break_around",
+      "count": 5
+    },
+    {
+      "action": "pillar_up",
+      "count": 5
+    },
+    {
+      "action": "chop_tree",
+      "count": 3
+    }
+  ],
+  "goalDistribution": {
+    "gather wood for crafting": 2,
+    "progress_from_logs": 3,
+    "gather wood for sticks": 1,
+    "craft planks from logs": 1,
+    "craft_wooden_pickaxe": 1,
+    "mine_stone": 2,
+    "progress_to_stone_tools": 6,
+    "escape_trap": 5,
+    "explore and gather resources": 3,
+    "gather resources and escape": 1,
+    "replace_worn_tool": 2,
+    "gather resources and escape tr": 2,
+    "escape trap and gather resourc": 1,
+    "build_night_shelter": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "progress_to_stone_tools",
+      "count": 6
+    },
+    {
+      "action": "escape_trap",
+      "count": 5
+    },
+    {
+      "action": "progress_from_logs",
+      "count": 3
+    },
+    {
+      "action": "explore and gather resources",
+      "count": 3
+    },
+    {
+      "action": "gather wood for crafting",
+      "count": 2
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 8
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

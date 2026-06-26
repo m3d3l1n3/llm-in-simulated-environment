@@ -1,0 +1,84 @@
+{
+  "runId": "Guided Baseline_11-47-35_life_03",
+  "generatedAt": "2026-06-17T12:24:20.889Z",
+  "coherence": {
+    "totalDecisions": 36,
+    "goalsStarted": 36,
+    "goalsCompleted": 1,
+    "completionRate": "2.8%"
+  },
+  "actionDistribution": {
+    "chop_tree": 8,
+    "craft": 11,
+    "mine": 9,
+    "explore": 8,
+    "attack": 1,
+    "eat": 2,
+    "flee_from": 2
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 11
+    },
+    {
+      "action": "mine",
+      "count": 9
+    },
+    {
+      "action": "chop_tree",
+      "count": 8
+    },
+    {
+      "action": "explore",
+      "count": 8
+    },
+    {
+      "action": "eat",
+      "count": 2
+    }
+  ],
+  "goalDistribution": {
+    "gather wood for tools": 4,
+    "progress_from_logs": 7,
+    "gather wood for sticks": 5,
+    "craft planks from logs": 1,
+    "craft_wooden_pickaxe": 1,
+    "gather cobblestone for stone t": 4,
+    "mine_stone": 1,
+    "progress_to_stone_tools": 1,
+    "explore for animals/resources": 7,
+    "explore_new_area": 1,
+    "hunt for food": 2,
+    "flee_danger": 2
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "progress_from_logs",
+      "count": 7
+    },
+    {
+      "action": "explore for animals/resources",
+      "count": 7
+    },
+    {
+      "action": "gather wood for sticks",
+      "count": 5
+    },
+    {
+      "action": "gather wood for tools",
+      "count": 4
+    },
+    {
+      "action": "gather cobblestone for stone t",
+      "count": 4
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 4
+  },
+  "adaptation": {
+    "perturbationCount": 1,
+    "averageRecoveryTime": "169.1s"
+  }
+}

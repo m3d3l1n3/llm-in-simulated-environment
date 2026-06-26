@@ -1,0 +1,97 @@
+{
+  "runId": "Guided Baseline_06-59-50_life_03",
+  "generatedAt": "2026-06-17T07:59:50.928Z",
+  "coherence": {
+    "totalDecisions": 134,
+    "goalsStarted": 134,
+    "goalsCompleted": 2,
+    "completionRate": "1.5%"
+  },
+  "actionDistribution": {
+    "chop_tree": 28,
+    "craft": 17,
+    "break_around": 6,
+    "pillar_up": 4,
+    "explore": 15,
+    "mine": 3,
+    "build_shelter": 73,
+    "dig_emergency_shelter": 4,
+    "attack": 5,
+    "eat": 1,
+    "flee_from": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "build_shelter",
+      "count": 73
+    },
+    {
+      "action": "chop_tree",
+      "count": 28
+    },
+    {
+      "action": "craft",
+      "count": 17
+    },
+    {
+      "action": "explore",
+      "count": 15
+    },
+    {
+      "action": "break_around",
+      "count": 6
+    }
+  ],
+  "goalDistribution": {
+    "gather wood for tools": 10,
+    "progress_from_logs": 7,
+    "craft_wooden_pickaxe": 5,
+    "escape_trap": 5,
+    "gather wood for crafting": 2,
+    "craft wooden pickaxe": 1,
+    "mine_stone": 3,
+    "progress_to_stone_tools": 2,
+    "explore_new_area": 3,
+    "build shelter": 71,
+    "build emergency shelter": 3,
+    "build_night_shelter": 3,
+    "gather wood": 4,
+    "forced_recovery": 1,
+    "gather resources": 2,
+    "craft furnace": 1,
+    "explore for animals/resources": 3,
+    "hunt for food": 3,
+    "emergency_shelter_night": 3,
+    "build shelter for the night": 1,
+    "find safety and food": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "build shelter",
+      "count": 71
+    },
+    {
+      "action": "gather wood for tools",
+      "count": 10
+    },
+    {
+      "action": "progress_from_logs",
+      "count": 7
+    },
+    {
+      "action": "craft_wooden_pickaxe",
+      "count": 5
+    },
+    {
+      "action": "escape_trap",
+      "count": 5
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 6
+  },
+  "adaptation": {
+    "perturbationCount": 1,
+    "averageRecoveryTime": "228.4s"
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "savedAt": 1781683190925,
+  "loopCount": 134,
+  "goalManager": {
+    "currentTier": "stone_tools",
+    "highestTierReached": "shelter",
+    "activePlan": "escape_trap",
+    "planSinceLoop": 134,
+    "goalHistory": [
+      {
+        "goal": "forced_recovery",
+        "reasoning": "Stuck for many loops; trying escape strategy #1 (rotating to avoid repeating failed approaches).",
+        "isGuard": true,
+        "loopCount": 105,
+        "timestamp": 1781682450284
+      },
+      {
+        "goal": "gather resources",
+        "reasoning": "Need to gather logs for crafting wooden tools and avoid repeating failed actions.",
+        "isGuard": false,
+        "loopCount": 106,
+        "timestamp": 1781682500713
+      },
+      {
+        "goal": "gather wood for tools",
+        "reasoning": "Need logs to craft wooden tools and sticks, and I cannot explore due to previous failures.",
+        "isGuard": false,
+        "loopCount": 107,
+        "timestamp": 1781682549726
+      },
+      {
+        "goal": "gather resources",
+        "reasoning": "Need to gather logs for crafting wooden tools and sticks, and I cannot explore due to previous failures.",
+        "isGuard": false,
+        "loopCount": 108,
+        "timestamp": 1781682598807
+      },
+      {
+        "goal": "gather wood for tools",
+        "reasoning": "I need logs to craft wooden tools and sticks, and I cannot explore due to previous failures.",
+        "isGuard": false,
+        "loopCount": 109,
+        "timestamp": 1781682667044
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Enough logs; craft planks instead of chopping more.",
+        "isGuard": true,
+        "loopCount": 110,
+        "timestamp": 1781682710205
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 111,
+        "timestamp": 1781682715741
+      },
+      {
+        "goal": "craft_wooden_pickaxe",
+        "reasoning": "No pickaxe; have planks and sticks. Craft wooden_pickaxe to mine stone.",
+        "isGuard": true,
+        "loopCount": 112,
+        "timestamp": 1781682721161
+      },
+      {
+        "goal": "mine_stone",
+        "reasoning": "Have pickaxe and 4 logs but only 1 cobblestone. Mining stone to progress toward stone tools.",
+        "isGuard": true,
+        "loopCount": 113,
+        "timestamp": 1781682735108
+      },
+      {
+        "goal": "progress_to_stone_tools",
+        "reasoning": "Enough cobblestone; craft stone_pickaxe instead of mining more.",
+        "isGuard": true,
+        "loopCount": 114,
+        "timestamp": 1781682764839
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Enough logs; craft planks instead of chopping more.",
+        "isGuard": true,
+        "loopCount": 115,
+        "timestamp": 1781682770522
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 116,
+        "timestamp": 1781682776126
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 117,
+        "timestamp": 1781682786636
+      },
+      {
+        "goal": "craft furnace",
+        "reasoning": "I need a furnace to smelt food and potentially iron later, which is essential for survival.",
+        "isGuard": false,
+        "loopCount": 118,
+        "timestamp": 1781682793616
+      },
+      {
+        "goal": "explore for animals/resources",
+        "reasoning": "I need to find animals for food and resources for crafting a bed and shelter.",
+        "isGuard": false,
+        "loopCount": 119,
+        "timestamp": 1781682801995
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 120,
+        "timestamp": 1781682807534
+      },
+      {
+        "goal": "explore for animals/resources",
+        "reasoning": "I need to find animals for food and resources for crafting a bed and shelter.",
+        "isGuard": false,
+        "loopCount": 121,
+        "timestamp": 1781682858931
+      },
+      {
+        "goal": "explore for animals/resources",
+        "reasoning": "I need to find animals for food and resources for crafting a bed and shelter.",
+        "isGuard": false,
+        "loopCount": 122,
+        "timestamp": 1781682874178
+      },
+      {
+        "goal": "hunt for food",
+        "reasoning": "I have low food and need to find animals to eat immediately.",
+        "isGuard": false,
+        "loopCount": 123,
+        "timestamp": 1781682900462
+      },
+      {
+        "goal": "build_night_shelter",
+        "reasoning": "Night on surface with 58 blocks. Building proper shelter.",
+        "isGuard": true,
+        "loopCount": 124,
+        "timestamp": 1781682950536
+      },
+      {
+        "goal": "build_night_shelter",
+        "reasoning": "Night on surface with 34 blocks. Building proper shelter.",
+        "isGuard": true,
+        "loopCount": 125,
+        "timestamp": 1781682986343
+      },
+      {
+        "goal": "emergency_shelter_night",
+        "reasoning": "Night on surface with insufficient building materials. Digging emergency shelter.",
+        "isGuard": true,
+        "loopCount": 126,
+        "timestamp": 1781683022125
+      },
+      {
+        "goal": "emergency_shelter_night",
+        "reasoning": "Night on surface with insufficient building materials. Digging emergency shelter.",
+        "isGuard": true,
+        "loopCount": 127,
+        "timestamp": 1781683027925
+      },
+      {
+        "goal": "emergency_shelter_night",
+        "reasoning": "Night on surface with insufficient building materials. Digging emergency shelter.",
+        "isGuard": true,
+        "loopCount": 128,
+        "timestamp": 1781683033698
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 129,
+        "timestamp": 1781683039476
+      },
+      {
+        "goal": "build shelter for the night",
+        "reasoning": "It's night time and I need to create a safe space to avoid hostile mobs.",
+        "isGuard": false,
+        "loopCount": 130,
+        "timestamp": 1781683067926
+      },
+      {
+        "goal": "hunt for food",
+        "reasoning": "Low health and no food in inventory. Need to attack an animal to regain health.",
+        "isGuard": false,
+        "loopCount": 131,
+        "timestamp": 1781683089533
+      },
+      {
+        "goal": "hunt for food",
+        "reasoning": "Low health and no food in inventory. Need to attack an animal to regain health.",
+        "isGuard": false,
+        "loopCount": 132,
+        "timestamp": 1781683120072
+      },
+      {
+        "goal": "find safety and food",
+        "reasoning": "It's night and I have critical health with no food. I need to find safety first.",
+        "isGuard": false,
+        "loopCount": 133,
+        "timestamp": 1781683126694
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 134,
+        "timestamp": 1781683140524
+      }
+    ],
+    "lastCompletedTier": "shelter"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": 22,
+        "y": 62,
+        "z": 77,
+        "distance": 3,
+        "tick": 73359,
+        "seenAt": 1781683140524
+      },
+      "gravel": {
+        "x": 16,
+        "y": 55,
+        "z": 71,
+        "distance": 10,
+        "tick": 73359,
+        "seenAt": 1781683140524
+      },
+      "water": {
+        "x": 31,
+        "y": 61,
+        "z": 69,
+        "distance": 12,
+        "tick": 73359,
+        "seenAt": 1781683140524
+      },
+      "water_hazard": {
+        "x": 31,
+        "y": 61,
+        "z": 69,
+        "distance": 12,
+        "seenAt": 1781683140524
+      },
+      "sand": {
+        "x": 11,
+        "y": 63,
+        "z": 93,
+        "distance": 6,
+        "tick": 71339,
+        "seenAt": 1781683039476
+      },
+      "birch_log": {
+        "x": 17,
+        "y": 64,
+        "z": 64,
+        "distance": 15,
+        "tick": 73359,
+        "seenAt": 1781683140524
+      },
+      "spruce_log": {
+        "x": -13,
+        "y": 71,
+        "z": -14,
+        "distance": 9,
+        "tick": 66699,
+        "seenAt": 1781682807534
+      },
+      "oak_log": {
+        "x": 20,
+        "y": 65,
+        "z": 71,
+        "distance": 9,
+        "tick": 73359,
+        "seenAt": 1781683140524
+      },
+      "cobblestone": {
+        "x": 9,
+        "y": 69,
+        "z": 92,
+        "distance": 3,
+        "tick": 71339,
+        "seenAt": 1781683039476
+      },
+      "stone": {
+        "x": 22,
+        "y": 59,
+        "z": 78,
+        "distance": 0,
+        "tick": 73359,
+        "seenAt": 1781683140524
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (-11, 68, -5) to (-11, 68, -5); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-11, 68, -5) to (-11, 68, -5); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-11, 68, -5) to (-11, 68, -5); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-11, 68, -5) to (-11, 68, -5); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-11, 68, -5) to (-11, 66, -5); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-11, 66, -5) to (3, 72, -13); inventory delta +5; avg nearby mobs 0.",
+      "Last 10 loops: moved from (3, 72, -13) to (-9, 65, -8); inventory delta +11; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-10, 66, 20) to (22, 66, 77); inventory delta -55; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781681152944,
+      "position": {
+        "x": 405.7,
+        "y": 62,
+        "z": 619.29,
+        "yaw": -1.3692107981894663,
+        "pitch": -0.39269913496199993
+      },
+      "health": 2,
+      "food": 9,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "build shelter for the night",
+        "reasoning": "It's currently night time, and I need to build shelter to avoid mobs spawning. I have enough resources to craft a furnace and use it for cooking food, but my immediate priority is to ensure safety.",
+        "actions": [
+          {
+            "name": "break_around",
+            "params": {
+              "direction": "escape"
+            }
+          },
+          {
+            "name": "dig_to_surface",
+            "params": {}
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "explore",
+          "goal": "escape_trap",
+          "params": {
+            "distance": 25
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781681096299
+        },
+        {
+          "action": "build_shelter",
+          "goal": "build shelter for the night",
+          "params": {},
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781681109997
+        },
+        {
+          "action": "break_around",
+          "goal": "build shelter for the night",
+          "params": {
+            "direction": "escape"
+          },
+          "success": false,
+          "hint": "No blocks to clear nearby. Try pillar_up or dig_to_surface if stuck.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": 0,
+          "timestamp": 1781681117473
+        },
+        {
+          "action": "eat",
+          "goal": "flee_danger",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781681152806
+        },
+        {
+          "action": "flee_from",
+          "goal": "flee_danger",
+          "params": {
+            "entity": "zombie"
+          },
+          "success": false,
+          "hint": "Unable to flee — still 0m from zombie",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781681152812
+        }
+      ]
+    }
+  },
+  "blockedActions": [
+    [
+      "dig_emergency_shelter",
+      134
+    ],
+    [
+      "chop_tree",
+      105
+    ],
+    [
+      "chopTree",
+      105
+    ],
+    [
+      "explore",
+      110
+    ],
+    [
+      "attack",
+      137
+    ]
+  ]
+}

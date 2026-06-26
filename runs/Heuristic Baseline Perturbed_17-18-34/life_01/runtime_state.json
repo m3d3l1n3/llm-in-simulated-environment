@@ -1,0 +1,186 @@
+{
+  "savedAt": 1781458118684,
+  "loopCount": 36,
+  "goalManager": {
+    "currentTier": "stone_tools",
+    "highestTierReached": "stone_tools",
+    "activePlan": null,
+    "planSinceLoop": 0,
+    "goalHistory": [],
+    "lastCompletedTier": null
+  },
+  "longMemory": {
+    "knownLocations": {
+      "birch_log": {
+        "x": 27,
+        "y": 71,
+        "z": 9,
+        "distance": 6,
+        "tick": 11799,
+        "seenAt": 1781458112704
+      },
+      "dirt": {
+        "x": 30,
+        "y": 66,
+        "z": 10,
+        "distance": 1,
+        "tick": 11799,
+        "seenAt": 1781458112704
+      },
+      "oak_log": {
+        "x": 28,
+        "y": 70,
+        "z": 14,
+        "distance": 6,
+        "tick": 11799,
+        "seenAt": 1781458112704
+      },
+      "gravel": {
+        "x": 34,
+        "y": 66,
+        "z": 8,
+        "distance": 5,
+        "tick": 11799,
+        "seenAt": 1781458112704
+      },
+      "spruce_log": {
+        "x": 3,
+        "y": 72,
+        "z": -30,
+        "distance": 8,
+        "tick": 2359,
+        "seenAt": 1781457641512
+      },
+      "water": {
+        "x": 0,
+        "y": 59,
+        "z": -22,
+        "distance": 13,
+        "tick": 2359,
+        "seenAt": 1781457641512
+      },
+      "water_hazard": {
+        "x": 0,
+        "y": 59,
+        "z": -22,
+        "distance": 13,
+        "seenAt": 1781457641512
+      },
+      "stone": {
+        "x": 30,
+        "y": 65,
+        "z": 10,
+        "distance": 0,
+        "tick": 11799,
+        "seenAt": 1781458112704
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (0, 84, 3) to (0, 76, 3); inventory delta +14; avg nearby mobs 0.",
+      "Last 10 loops: moved from (0, 72, -22) to (25, 71, 7); inventory delta +2; avg nearby mobs 0.",
+      "Last 10 loops: moved from (28, 70, 11) to (29, 65, 10); inventory delta +22; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781458114456,
+      "position": {
+        "x": 29.5,
+        "y": 65,
+        "z": 10.33,
+        "yaw": -1.7043140145721614,
+        "pitch": 0
+      },
+      "health": 20,
+      "food": 13,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "actions": [
+          {
+            "name": "attack",
+            "params": {
+              "entity": "sheep"
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "mine",
+          "params": {
+            "blockType": "coal_ore",
+            "count": 5
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781458016972
+        },
+        {
+          "action": "mine",
+          "params": {
+            "blockType": "coal_ore",
+            "count": 5
+          },
+          "success": false,
+          "hint": null,
+          "error": "No deepslate_coal_ore found within 32 blocks",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781458022063
+        },
+        {
+          "action": "break_around",
+          "params": {
+            "direction": "escape"
+          },
+          "success": true,
+          "hint": "Cleared 6 blocks! Try moving or exploring now.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": 6,
+          "timestamp": 1781458034453
+        },
+        {
+          "action": "pillar_up",
+          "params": {
+            "height": 10
+          },
+          "success": false,
+          "hint": "pillar_up stopped near open ground.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781458035593
+        },
+        {
+          "action": "explore",
+          "params": {
+            "distance": 25
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781458036664
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

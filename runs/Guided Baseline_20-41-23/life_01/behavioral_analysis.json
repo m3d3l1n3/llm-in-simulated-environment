@@ -1,0 +1,86 @@
+{
+  "runId": "Guided Baseline_20-41-23",
+  "generatedAt": "2026-06-17T20:51:41.468Z",
+  "coherence": {
+    "totalDecisions": 25,
+    "goalsStarted": 25,
+    "goalsCompleted": 0,
+    "completionRate": "0.0%"
+  },
+  "actionDistribution": {
+    "chop_tree": 5,
+    "craft": 11,
+    "break_around": 2,
+    "pillar_up": 2,
+    "explore": 1,
+    "mine": 1,
+    "eat": 3,
+    "build_shelter": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 11
+    },
+    {
+      "action": "chop_tree",
+      "count": 5
+    },
+    {
+      "action": "eat",
+      "count": 3
+    },
+    {
+      "action": "break_around",
+      "count": 2
+    },
+    {
+      "action": "pillar_up",
+      "count": 2
+    }
+  ],
+  "goalDistribution": {
+    "gather wood for tools": 4,
+    "progress_from_logs": 3,
+    "gather wood for crafting": 3,
+    "craft planks from logs": 1,
+    "craft_wooden_pickaxe": 2,
+    "escape_trap": 2,
+    "craft wooden planks": 1,
+    "craft wooden pickaxe": 1,
+    "mine_stone": 2,
+    "progress_to_stone_tools": 2,
+    "hunt for food": 1,
+    "heal": 2,
+    "build_night_shelter": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "gather wood for tools",
+      "count": 4
+    },
+    {
+      "action": "progress_from_logs",
+      "count": 3
+    },
+    {
+      "action": "gather wood for crafting",
+      "count": 3
+    },
+    {
+      "action": "craft_wooden_pickaxe",
+      "count": 2
+    },
+    {
+      "action": "escape_trap",
+      "count": 2
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 5
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

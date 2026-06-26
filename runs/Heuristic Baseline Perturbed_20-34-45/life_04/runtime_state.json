@@ -1,0 +1,411 @@
+{
+  "savedAt": 1781472885064,
+  "loopCount": 45,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "naked",
+    "activePlan": "progress_from_logs",
+    "planSinceLoop": 19,
+    "goalHistory": [
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 16,
+        "timestamp": 1781471855903
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 17,
+        "timestamp": 1781471891234
+      },
+      {
+        "goal": "emergency_shelter_night",
+        "reasoning": "Night on surface with insufficient building materials. Digging emergency shelter.",
+        "isGuard": true,
+        "loopCount": 18,
+        "timestamp": 1781471926542
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 19,
+        "timestamp": 1781471937669
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 20,
+        "timestamp": 1781471972990
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 21,
+        "timestamp": 1781472008307
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 22,
+        "timestamp": 1781472043622
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 23,
+        "timestamp": 1781472078926
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 24,
+        "timestamp": 1781472114233
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 25,
+        "timestamp": 1781472149539
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 26,
+        "timestamp": 1781472184868
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 27,
+        "timestamp": 1781472220176
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 28,
+        "timestamp": 1781472255482
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 29,
+        "timestamp": 1781472290791
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 30,
+        "timestamp": 1781472326104
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 31,
+        "timestamp": 1781472361423
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 32,
+        "timestamp": 1781472396729
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 33,
+        "timestamp": 1781472432039
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 34,
+        "timestamp": 1781472467360
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 35,
+        "timestamp": 1781472502677
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 36,
+        "timestamp": 1781472537980
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 37,
+        "timestamp": 1781472573298
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 38,
+        "timestamp": 1781472608617
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 39,
+        "timestamp": 1781472643931
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 40,
+        "timestamp": 1781472679247
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 41,
+        "timestamp": 1781472714566
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 42,
+        "timestamp": 1781472749869
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 43,
+        "timestamp": 1781472785170
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 44,
+        "timestamp": 1781472820481
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 45,
+        "timestamp": 1781472855801
+      }
+    ],
+    "lastCompletedTier": null
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": -36,
+        "y": 61,
+        "z": 10,
+        "distance": 0,
+        "tick": 71239,
+        "seenAt": 1781472855801
+      },
+      "gravel": {
+        "x": -43,
+        "y": 60,
+        "z": 4,
+        "distance": 9,
+        "tick": 71239,
+        "seenAt": 1781472855801
+      },
+      "water": {
+        "x": -40,
+        "y": 62,
+        "z": 10,
+        "distance": 3,
+        "tick": 71239,
+        "seenAt": 1781472855801
+      },
+      "water_hazard": {
+        "x": -40,
+        "y": 62,
+        "z": 10,
+        "distance": 3,
+        "seenAt": 1781472855801
+      },
+      "stone": {
+        "x": -37,
+        "y": 60,
+        "z": 10,
+        "distance": 1,
+        "tick": 71239,
+        "seenAt": 1781472855801
+      },
+      "sand": {
+        "x": -37,
+        "y": 61,
+        "z": 9,
+        "distance": 1,
+        "tick": 71239,
+        "seenAt": 1781472855801
+      },
+      "oak_log": {
+        "x": -38,
+        "y": 64,
+        "z": 18,
+        "distance": 8,
+        "tick": 71239,
+        "seenAt": 1781472855801
+      },
+      "birch_log": {
+        "x": -20,
+        "y": 64,
+        "z": 24,
+        "distance": 14,
+        "tick": 44559,
+        "seenAt": 1781471521900
+      },
+      "spruce_log": {
+        "x": -34,
+        "y": 64,
+        "z": 0,
+        "distance": 11,
+        "tick": 71239,
+        "seenAt": 1781472855801
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (-10, 79, 7) to (12, 72, -18); inventory delta +9; avg nearby mobs 0.",
+      "Last 10 loops: moved from (47, 69, -18) to (61, 89, -2); inventory delta +3; avg nearby mobs 0.",
+      "Last 10 loops: moved from (61, 89, -2) to (74, 94, 4); inventory delta -10; avg nearby mobs 0.",
+      "Last 10 loops: moved from (74, 94, 4) to (74, 94, 4); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-13, 76, 0) to (-37, 63, 10); inventory delta +9; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-37, 63, 10) to (-37, 61, 10); inventory delta +2; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-37, 61, 10) to (-37, 61, 10); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-37, 61, 10) to (-37, 61, 10); inventory delta +0; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781471363180,
+      "position": {
+        "x": 74.31,
+        "y": 94,
+        "z": 4.5,
+        "yaw": 1.259306374428136,
+        "pitch": -0.6422046587476506
+      },
+      "health": 14,
+      "food": 13,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "dig_emergency_night",
+        "reasoning": "Heuristic: night emergency shelter",
+        "actions": [
+          {
+            "name": "dig_emergency_shelter",
+            "params": {}
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "wait",
+          "params": {
+            "ms": 3000
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781471325749
+        },
+        {
+          "action": "wait",
+          "params": {
+            "ms": 3000
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781471334377
+        },
+        {
+          "action": "wait",
+          "params": {
+            "ms": 3000
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781471343017
+        },
+        {
+          "action": "wait",
+          "params": {
+            "ms": 3000
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781471351668
+        },
+        {
+          "action": "wait",
+          "params": {
+            "ms": 3000
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781471360314
+        }
+      ]
+    }
+  },
+  "blockedActions": [
+    [
+      "dig_emergency_shelter",
+      33
+    ]
+  ]
+}

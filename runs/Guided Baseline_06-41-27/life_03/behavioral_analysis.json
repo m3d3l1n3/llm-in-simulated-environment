@@ -1,0 +1,82 @@
+{
+  "runId": "Guided Baseline_06-41-27_life_03",
+  "generatedAt": "2026-06-18T07:07:48.232Z",
+  "coherence": {
+    "totalDecisions": 16,
+    "goalsStarted": 16,
+    "goalsCompleted": 0,
+    "completionRate": "0.0%"
+  },
+  "actionDistribution": {
+    "chop_tree": 4,
+    "craft": 7,
+    "break_around": 2,
+    "pillar_up": 2,
+    "explore": 2,
+    "go_to_near": 1,
+    "mine": 1,
+    "eat": 1,
+    "flee_from": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 7
+    },
+    {
+      "action": "chop_tree",
+      "count": 4
+    },
+    {
+      "action": "break_around",
+      "count": 2
+    },
+    {
+      "action": "pillar_up",
+      "count": 2
+    },
+    {
+      "action": "explore",
+      "count": 2
+    }
+  ],
+  "goalDistribution": {
+    "gather wood for tools": 2,
+    "progress_from_logs": 3,
+    "craft_wooden_pickaxe": 4,
+    "escape_trap": 1,
+    "gather resources to craft wood": 3,
+    "craft a crafting table": 1,
+    "mine_stone": 1,
+    "flee_danger": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "craft_wooden_pickaxe",
+      "count": 4
+    },
+    {
+      "action": "progress_from_logs",
+      "count": 3
+    },
+    {
+      "action": "gather resources to craft wood",
+      "count": 3
+    },
+    {
+      "action": "gather wood for tools",
+      "count": 2
+    },
+    {
+      "action": "escape_trap",
+      "count": 1
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 3
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

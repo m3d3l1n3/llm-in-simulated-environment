@@ -1,0 +1,85 @@
+{
+  "runId": "Heuristic Baseline Perturbed_20-34-45",
+  "generatedAt": "2026-06-14T20:44:47.088Z",
+  "coherence": {
+    "totalDecisions": 36,
+    "goalsStarted": 36,
+    "goalsCompleted": 1,
+    "completionRate": "2.8%"
+  },
+  "actionDistribution": {
+    "chop_tree": 4,
+    "craft": 8,
+    "explore": 7,
+    "mine": 8,
+    "break_around": 4,
+    "pillar_up": 2,
+    "equip": 3,
+    "smelt": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 8
+    },
+    {
+      "action": "mine",
+      "count": 8
+    },
+    {
+      "action": "explore",
+      "count": 7
+    },
+    {
+      "action": "chop_tree",
+      "count": 4
+    },
+    {
+      "action": "break_around",
+      "count": 4
+    }
+  ],
+  "goalDistribution": {
+    "gather_wood": 4,
+    "progress_from_logs": 4,
+    "craft_planks": 1,
+    "craft_wooden_pickaxe": 1,
+    "descend_to_mine": 3,
+    "mine_stone": 2,
+    "escape_trap": 4,
+    "craft_stone_pickaxe": 1,
+    "craft_furnace": 1,
+    "mine_coal": 10,
+    "replace_worn_tool": 3,
+    "smelt_charcoal": 2
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "mine_coal",
+      "count": 10
+    },
+    {
+      "action": "gather_wood",
+      "count": 4
+    },
+    {
+      "action": "progress_from_logs",
+      "count": 4
+    },
+    {
+      "action": "escape_trap",
+      "count": 4
+    },
+    {
+      "action": "descend_to_mine",
+      "count": 3
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 2
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

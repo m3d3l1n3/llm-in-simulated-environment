@@ -1,0 +1,84 @@
+{
+  "runId": "Heuristic Baseline Perturbed_11-23-54_life_04",
+  "generatedAt": "2026-06-14T12:23:54.766Z",
+  "coherence": {
+    "totalDecisions": 175,
+    "goalsStarted": 175,
+    "goalsCompleted": 2,
+    "completionRate": "1.1%"
+  },
+  "actionDistribution": {
+    "chop_tree": 28,
+    "craft": 8,
+    "explore": 17,
+    "mine": 1,
+    "break_around": 4,
+    "pillar_up": 3,
+    "build_shelter": 2,
+    "move_to": 2
+  },
+  "mostFrequentActions": [
+    {
+      "action": "chop_tree",
+      "count": 28
+    },
+    {
+      "action": "explore",
+      "count": 17
+    },
+    {
+      "action": "craft",
+      "count": 8
+    },
+    {
+      "action": "break_around",
+      "count": 4
+    },
+    {
+      "action": "pillar_up",
+      "count": 3
+    }
+  ],
+  "goalDistribution": {
+    "gather_wood": 139,
+    "progress_from_logs": 3,
+    "craft_wooden_pickaxe": 1,
+    "descend_to_mine": 2,
+    "mine_stone": 2,
+    "progress_to_stone_tools": 2,
+    "escape_trap": 4,
+    "explore": 2,
+    "explore_new_area": 9,
+    "build_night_shelter": 2,
+    "stock_food": 9
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "gather_wood",
+      "count": 139
+    },
+    {
+      "action": "explore_new_area",
+      "count": 9
+    },
+    {
+      "action": "stock_food",
+      "count": 9
+    },
+    {
+      "action": "escape_trap",
+      "count": 4
+    },
+    {
+      "action": "progress_from_logs",
+      "count": 3
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 4
+  },
+  "adaptation": {
+    "perturbationCount": 1,
+    "averageRecoveryTime": "1338.6s"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "savedAt": 1781766215078,
+  "loopCount": 32,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "wood_tools",
+    "activePlan": "wait_in_tree",
+    "planSinceLoop": 32,
+    "goalHistory": [
+      {
+        "goal": "wait_in_tree",
+        "reasoning": "Night time but standing in a tree. Digging down would cause a dangerous fall. Waiting for safety.",
+        "isGuard": true,
+        "loopCount": 32,
+        "timestamp": 1781766212335
+      }
+    ],
+    "lastCompletedTier": "wood_tools"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "birch_log": {
+        "x": 1,
+        "y": 76,
+        "z": -3,
+        "distance": 10,
+        "tick": 28785,
+        "seenAt": 1781766212335
+      },
+      "dirt": {
+        "x": 0,
+        "y": 70,
+        "z": 2,
+        "distance": 15,
+        "tick": 28785,
+        "seenAt": 1781766212335
+      },
+      "gravel": {
+        "x": 411,
+        "y": 57,
+        "z": 588,
+        "distance": 6,
+        "tick": 28679,
+        "seenAt": 1781766206018
+      },
+      "cobblestone": {
+        "x": 405,
+        "y": 63,
+        "z": 589,
+        "distance": 4,
+        "tick": 28679,
+        "seenAt": 1781766206018
+      },
+      "oak_log": {
+        "x": 1,
+        "y": 80,
+        "z": 1,
+        "distance": 5,
+        "tick": 28785,
+        "seenAt": 1781766212335
+      },
+      "water": {
+        "x": 401,
+        "y": 62,
+        "z": 592,
+        "distance": 9,
+        "tick": 28679,
+        "seenAt": 1781766206018
+      },
+      "water_hazard": {
+        "x": 401,
+        "y": 62,
+        "z": 592,
+        "distance": 9,
+        "seenAt": 1781766206018
+      },
+      "spruce_log": {
+        "x": -18,
+        "y": 67,
+        "z": -38,
+        "distance": 9,
+        "tick": 25499,
+        "seenAt": 1781766046895
+      },
+      "stone": {
+        "x": 410,
+        "y": 57,
+        "z": 588,
+        "distance": 6,
+        "tick": 28679,
+        "seenAt": 1781766206018
+      },
+      "sand": {
+        "x": 410,
+        "y": 62,
+        "z": 589,
+        "distance": 1,
+        "tick": 28679,
+        "seenAt": 1781766206018
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (0, 83, 0) to (-1, 83, 3); inventory delta +10; avg nearby mobs 0.",
+      "Last 10 loops: moved from (4, 80, 0) to (3, 66, 0); inventory delta +30; avg nearby mobs 0.",
+      "Last 10 loops: moved from (3, 66, 0) to (1, 64, 0); inventory delta +24; avg nearby mobs 0.",
+      "Last 10 loops: moved from (5, 70, -1) to (-10, 71, -11); inventory delta +15; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-10, 71, -11) to (-17, 66, -41); inventory delta +9; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-17, 63, -39) to (410, 63, 588); inventory delta -2; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781766210704,
+      "position": {
+        "x": 409.76,
+        "y": 63,
+        "z": 589.32,
+        "yaw": -0.00029507824862218257,
+        "pitch": -1.4791665543809311
+      },
+      "health": 9,
+      "food": 8,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "gather resources for crafting",
+        "reasoning": "I need to gather more wood to craft a crafting table and a wooden pickaxe since I cannot mine stone without a pickaxe.",
+        "actions": [
+          {
+            "name": "chop_tree",
+            "params": {}
+          },
+          {
+            "name": "chop_tree",
+            "params": {}
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "break_around",
+          "goal": "escape_trap",
+          "params": {
+            "direction": "escape"
+          },
+          "success": true,
+          "hint": "Cleared 6 blocks! Try moving or exploring now.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": 6,
+          "timestamp": 1781766054173
+        },
+        {
+          "action": "mine",
+          "goal": "mine_stone",
+          "params": {
+            "blockType": "stone",
+            "count": 10
+          },
+          "success": false,
+          "hint": null,
+          "error": null,
+          "interrupted": true,
+          "interruptReason": "danger_interrupt",
+          "blocksCleared": null,
+          "timestamp": 1781766195317
+        },
+        {
+          "action": "mine",
+          "goal": "mine_stone",
+          "params": {
+            "blockType": "stone",
+            "count": 10
+          },
+          "success": false,
+          "hint": null,
+          "error": null,
+          "interrupted": true,
+          "interruptReason": "danger_interrupt",
+          "blocksCleared": null,
+          "timestamp": 1781766200673
+        },
+        {
+          "action": "eat",
+          "goal": "flee_danger",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781766206018
+        },
+        {
+          "action": "flee_from",
+          "goal": "flee_danger",
+          "params": {
+            "entity": "skeleton"
+          },
+          "success": true,
+          "hint": "Fled to 5m away",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781766206020
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

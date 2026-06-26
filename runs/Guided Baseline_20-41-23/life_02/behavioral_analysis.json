@@ -1,0 +1,75 @@
+{
+  "runId": "Guided Baseline_20-41-23_life_02",
+  "generatedAt": "2026-06-17T20:55:26.948Z",
+  "coherence": {
+    "totalDecisions": 12,
+    "goalsStarted": 12,
+    "goalsCompleted": 0,
+    "completionRate": "0.0%"
+  },
+  "actionDistribution": {
+    "chop_tree": 4,
+    "craft": 3,
+    "attack": 1,
+    "eat": 3,
+    "flee_from": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "chop_tree",
+      "count": 4
+    },
+    {
+      "action": "craft",
+      "count": 3
+    },
+    {
+      "action": "eat",
+      "count": 3
+    },
+    {
+      "action": "attack",
+      "count": 1
+    },
+    {
+      "action": "flee_from",
+      "count": 1
+    }
+  ],
+  "goalDistribution": {
+    "gather wood for tools": 6,
+    "progress_from_logs": 2,
+    "craft_wooden_pickaxe": 1,
+    "hunt for food": 2,
+    "flee_danger": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "gather wood for tools",
+      "count": 6
+    },
+    {
+      "action": "progress_from_logs",
+      "count": 2
+    },
+    {
+      "action": "hunt for food",
+      "count": 2
+    },
+    {
+      "action": "craft_wooden_pickaxe",
+      "count": 1
+    },
+    {
+      "action": "flee_danger",
+      "count": 1
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 2
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

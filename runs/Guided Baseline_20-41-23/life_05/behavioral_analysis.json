@@ -1,0 +1,95 @@
+{
+  "runId": "Guided Baseline_20-41-23_life_05",
+  "generatedAt": "2026-06-17T21:24:09.107Z",
+  "coherence": {
+    "totalDecisions": 39,
+    "goalsStarted": 39,
+    "goalsCompleted": 1,
+    "completionRate": "2.6%"
+  },
+  "actionDistribution": {
+    "chop_tree": 7,
+    "craft": 15,
+    "break_around": 3,
+    "pillar_up": 3,
+    "explore": 13,
+    "move_to": 2,
+    "attack": 2,
+    "dig_emergency_shelter": 1,
+    "build_shelter": 1,
+    "swim_up": 1,
+    "collect_food": 1,
+    "dig_to_surface": 1,
+    "eat": 1,
+    "flee_from": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 15
+    },
+    {
+      "action": "explore",
+      "count": 13
+    },
+    {
+      "action": "chop_tree",
+      "count": 7
+    },
+    {
+      "action": "break_around",
+      "count": 3
+    },
+    {
+      "action": "pillar_up",
+      "count": 3
+    }
+  ],
+  "goalDistribution": {
+    "gather wood for tools": 4,
+    "progress_from_logs": 4,
+    "craft_wooden_pickaxe": 3,
+    "forced_recovery": 1,
+    "mine_stone": 2,
+    "progress_to_stone_tools": 3,
+    "escape_trap": 2,
+    "gather wood for crafting": 2,
+    "craft planks for crafting tabl": 2,
+    "craft furnace for cooking food": 1,
+    "explore for animals/resources": 4,
+    "hunt for food": 6,
+    "emergency_shelter_night": 1,
+    "build shelter for the night": 2,
+    "escape_drowning": 1,
+    "dig emergency shelter": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "hunt for food",
+      "count": 6
+    },
+    {
+      "action": "gather wood for tools",
+      "count": 4
+    },
+    {
+      "action": "progress_from_logs",
+      "count": 4
+    },
+    {
+      "action": "explore for animals/resources",
+      "count": 4
+    },
+    {
+      "action": "craft_wooden_pickaxe",
+      "count": 3
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 4
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

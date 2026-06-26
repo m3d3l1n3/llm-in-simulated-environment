@@ -1,0 +1,455 @@
+{
+  "savedAt": 1781713056287,
+  "loopCount": 72,
+  "goalManager": {
+    "currentTier": "shelter",
+    "highestTierReached": "shelter",
+    "activePlan": "forced_recovery",
+    "planSinceLoop": 72,
+    "goalHistory": [
+      {
+        "goal": "gather resources",
+        "reasoning": "I need to gather stone to craft a wooden pickaxe and continue progressing towards stone tools, as exploring has failed multiple times.",
+        "isGuard": false,
+        "loopCount": 43,
+        "timestamp": 1781712356843
+      },
+      {
+        "goal": "gather resources",
+        "reasoning": "I need to gather stone to craft a wooden pickaxe and continue progressing towards stone tools, as exploring has failed multiple times.",
+        "isGuard": false,
+        "loopCount": 44,
+        "timestamp": 1781712364518
+      },
+      {
+        "goal": "gather resources",
+        "reasoning": "I need to craft a wooden pickaxe to mine stone, as exploring has failed multiple times and I cannot gather resources without a tool.",
+        "isGuard": false,
+        "loopCount": 45,
+        "timestamp": 1781712371804
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 46,
+        "timestamp": 1781712376904
+      },
+      {
+        "goal": "craft wooden pickaxe",
+        "reasoning": "I need to craft a wooden pickaxe to mine stone, as exploring has failed multiple times and I cannot gather resources without a tool.",
+        "isGuard": false,
+        "loopCount": 47,
+        "timestamp": 1781712402640
+      },
+      {
+        "goal": "craft wooden pickaxe",
+        "reasoning": "I need to craft a wooden pickaxe to mine stone, as exploring has failed multiple times and I cannot gather resources without a tool.",
+        "isGuard": false,
+        "loopCount": 48,
+        "timestamp": 1781712409823
+      },
+      {
+        "goal": "craft wooden pickaxe",
+        "reasoning": "I need a tool to gather resources, and I have enough materials to craft a wooden pickaxe.",
+        "isGuard": false,
+        "loopCount": 49,
+        "timestamp": 1781712416479
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 50,
+        "timestamp": 1781712421592
+      },
+      {
+        "goal": "gather wood for tools",
+        "reasoning": "I need to craft a wooden pickaxe to gather resources effectively, and I have oak logs available.",
+        "isGuard": false,
+        "loopCount": 51,
+        "timestamp": 1781712468437
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "I need to clear a path to escape my current position before I can gather resources effectively.",
+        "isGuard": false,
+        "loopCount": 52,
+        "timestamp": 1781712475321
+      },
+      {
+        "goal": "escape and gather resources",
+        "reasoning": "I am currently trapped and need to clear a path to escape before I can gather resources effectively.",
+        "isGuard": false,
+        "loopCount": 53,
+        "timestamp": 1781712486746
+      },
+      {
+        "goal": "forced_recovery",
+        "reasoning": "Stuck for many loops; trying escape strategy #3 (rotating to avoid repeating failed approaches).",
+        "isGuard": true,
+        "loopCount": 54,
+        "timestamp": 1781712531407
+      },
+      {
+        "goal": "escape and gather resources",
+        "reasoning": "I need to clear a path to escape before I can gather resources effectively.",
+        "isGuard": false,
+        "loopCount": 55,
+        "timestamp": 1781712538696
+      },
+      {
+        "goal": "escape and gather resources",
+        "reasoning": "I need to clear a path to escape before I can gather resources effectively.",
+        "isGuard": false,
+        "loopCount": 56,
+        "timestamp": 1781712577451
+      },
+      {
+        "goal": "escape and gather resources",
+        "reasoning": "I need to clear a path to escape before I can gather resources effectively.",
+        "isGuard": false,
+        "loopCount": 57,
+        "timestamp": 1781712613923
+      },
+      {
+        "goal": "forced_recovery",
+        "reasoning": "Stuck for many loops; trying escape strategy #4 (rotating to avoid repeating failed approaches).",
+        "isGuard": true,
+        "loopCount": 58,
+        "timestamp": 1781712649045
+      },
+      {
+        "goal": "escape and gather resources",
+        "reasoning": "I need to clear a path to escape before I can gather resources effectively.",
+        "isGuard": false,
+        "loopCount": 59,
+        "timestamp": 1781712685274
+      },
+      {
+        "goal": "escape and gather resources",
+        "reasoning": "I need to clear a path to escape before I can gather resources effectively.",
+        "isGuard": false,
+        "loopCount": 60,
+        "timestamp": 1781712721776
+      },
+      {
+        "goal": "gather resources and escape",
+        "reasoning": "I need to gather resources to craft tools and escape the current situation, as previous attempts to explore have failed.",
+        "isGuard": false,
+        "loopCount": 61,
+        "timestamp": 1781712759548
+      },
+      {
+        "goal": "hunt for food",
+        "reasoning": "I have low food and need to find something to eat immediately.",
+        "isGuard": false,
+        "loopCount": 62,
+        "timestamp": 1781712783883
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stranded high up with no path. Clearing obstacles then exploring to find ground level.",
+        "isGuard": true,
+        "loopCount": 63,
+        "timestamp": 1781712818996
+      },
+      {
+        "goal": "hunt for food",
+        "reasoning": "I have low food and need to find something to eat immediately.",
+        "isGuard": false,
+        "loopCount": 64,
+        "timestamp": 1781712877164
+      },
+      {
+        "goal": "build shelter",
+        "reasoning": "It's night time and I need to ensure safety from mobs by building a shelter.",
+        "isGuard": false,
+        "loopCount": 65,
+        "timestamp": 1781712913774
+      },
+      {
+        "goal": "dig emergency shelter",
+        "reasoning": "It's night time and I need to ensure safety from mobs by digging an emergency shelter.",
+        "isGuard": false,
+        "loopCount": 66,
+        "timestamp": 1781712925664
+      },
+      {
+        "goal": "escape and build shelter",
+        "reasoning": "I need to escape the current situation to build a shelter and ensure safety from mobs during the night.",
+        "isGuard": false,
+        "loopCount": 67,
+        "timestamp": 1781712933752
+      },
+      {
+        "goal": "dig emergency shelter",
+        "reasoning": "It's night time and I need to ensure safety from mobs by digging an emergency shelter.",
+        "isGuard": false,
+        "loopCount": 68,
+        "timestamp": 1781712970017
+      },
+      {
+        "goal": "build emergency shelter",
+        "reasoning": "It's night time, and I need to ensure safety from mobs. Since building a shelter has failed, I will try to dig an emergency shelter instead.",
+        "isGuard": false,
+        "loopCount": 69,
+        "timestamp": 1781712977259
+      },
+      {
+        "goal": "escape to safety",
+        "reasoning": "I am currently exposed to the night and unable to build or dig a shelter. I need to escape to a safer location.",
+        "isGuard": false,
+        "loopCount": 70,
+        "timestamp": 1781712986031
+      },
+      {
+        "goal": "escape to safety",
+        "reasoning": "I cannot build or dig a shelter due to repeated failures. I need to find a safer location to avoid mobs.",
+        "isGuard": false,
+        "loopCount": 71,
+        "timestamp": 1781712996088
+      },
+      {
+        "goal": "forced_recovery",
+        "reasoning": "Stuck for many loops; trying escape strategy #5 (rotating to avoid repeating failed approaches).",
+        "isGuard": true,
+        "loopCount": 72,
+        "timestamp": 1781713002366
+      }
+    ],
+    "lastCompletedTier": "naked"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": 15,
+        "y": 57,
+        "z": -5,
+        "distance": 6,
+        "tick": 73259,
+        "seenAt": 1781713002366
+      },
+      "gravel": {
+        "x": 14,
+        "y": 52,
+        "z": -5,
+        "distance": 10,
+        "tick": 73259,
+        "seenAt": 1781713002366
+      },
+      "spruce_log": {
+        "x": -23,
+        "y": 71,
+        "z": 6,
+        "distance": 15,
+        "tick": 40299,
+        "seenAt": 1781711355103
+      },
+      "cobblestone": {
+        "x": 15,
+        "y": 64,
+        "z": -9,
+        "distance": 3,
+        "tick": 73259,
+        "seenAt": 1781713002366
+      },
+      "sand": {
+        "x": 415,
+        "y": 63,
+        "z": 565,
+        "distance": 1,
+        "tick": 35899,
+        "seenAt": 1781711135589
+      },
+      "water": {
+        "x": 14,
+        "y": 49,
+        "z": -13,
+        "distance": 12,
+        "tick": 73259,
+        "seenAt": 1781713002366
+      },
+      "water_hazard": {
+        "x": 14,
+        "y": 49,
+        "z": -13,
+        "distance": 12,
+        "seenAt": 1781713002366
+      },
+      "oak_log": {
+        "x": 14,
+        "y": 61,
+        "z": -10,
+        "distance": 1,
+        "tick": 73259,
+        "seenAt": 1781713002366
+      },
+      "birch_log": {
+        "x": 7,
+        "y": 70,
+        "z": -13,
+        "distance": 12,
+        "tick": 73259,
+        "seenAt": 1781713002366
+      },
+      "stone": {
+        "x": 15,
+        "y": 61,
+        "z": -9,
+        "distance": 0,
+        "tick": 73259,
+        "seenAt": 1781713002366
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (420, 61, 599) to (420, 61, 599); inventory delta +13; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-10, 79, 7) to (-8, 71, 7); inventory delta +15; avg nearby mobs 0.",
+      "Last 10 loops: moved from (7, 71, 6) to (20, 68, -8); inventory delta +45; avg nearby mobs 0.",
+      "Last 10 loops: moved from (14, 67, -9) to (14, 62, -10); inventory delta -28; avg nearby mobs 0.",
+      "Last 10 loops: moved from (14, 61, -10) to (14, 61, -10); inventory delta +2; avg nearby mobs 0.",
+      "Last 10 loops: moved from (14, 61, -10) to (15, 61, -10); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (15, 61, -10) to (15, 61, -10); inventory delta -1; avg nearby mobs 0.",
+      "Last 10 loops: moved from (15, 62, -10) to (14, 62, -10); inventory delta -2; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781711138890,
+      "position": {
+        "x": 415.41,
+        "y": 64.55,
+        "z": 565.11,
+        "yaw": -0.0018656508700440888,
+        "pitch": -0.0000796817799106897
+      },
+      "health": 8,
+      "food": 3,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "escape and gather resources",
+        "reasoning": "I need to clear a path to escape my current position and then explore for animals or resources.",
+        "actions": [
+          {
+            "name": "break_around",
+            "params": {
+              "direction": "escape"
+            }
+          },
+          {
+            "name": "dig_to_surface",
+            "params": {}
+          },
+          {
+            "name": "explore",
+            "params": {
+              "distance": 30
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "break_around",
+          "goal": "escape and gather resources",
+          "params": {
+            "direction": "escape"
+          },
+          "success": true,
+          "hint": "Cleared 6 blocks! Try moving or exploring now.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": 6,
+          "timestamp": 1781711103134
+        },
+        {
+          "action": "dig_to_surface",
+          "goal": "escape and gather resources",
+          "params": {},
+          "success": true,
+          "hint": "At surface! Use explore() to find resources.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781711123237
+        },
+        {
+          "action": "explore",
+          "goal": "escape and gather resources",
+          "params": {
+            "distance": 30
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781711129349
+        },
+        {
+          "action": "eat",
+          "goal": "flee_danger",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781711135590
+        },
+        {
+          "action": "flee_from",
+          "goal": "flee_danger",
+          "params": {
+            "entity": "spider"
+          },
+          "success": true,
+          "hint": "Fled to 3m away",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781711135840
+        }
+      ]
+    }
+  },
+  "blockedActions": [
+    [
+      "break_around",
+      73
+    ],
+    [
+      "mine",
+      72
+    ],
+    [
+      "build_shelter",
+      80
+    ],
+    [
+      "dig_emergency_shelter",
+      74
+    ],
+    [
+      "breakAround",
+      73
+    ],
+    [
+      "clear_path",
+      73
+    ],
+    [
+      "clearPath",
+      73
+    ]
+  ]
+}

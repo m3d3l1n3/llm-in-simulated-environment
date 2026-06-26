@@ -1,0 +1,41 @@
+{"timestamp":1781470640044,"runTime":12266,"action":"chop_tree","params":{"count":2},"success":true,"duration":11734,"result":{"success":true,"logsChopped":1,"hint":"Chopped 1 logs"}}
+{"timestamp":1781470662011,"runTime":34233,"action":"chop_tree","params":{"count":2},"success":true,"duration":16367,"result":{"success":true,"logsChopped":1,"hint":"Chopped 1 logs"}}
+{"timestamp":1781470672929,"runTime":45151,"action":"chop_tree","params":{"count":2},"success":true,"duration":5082,"result":{"success":true,"logsChopped":2,"hint":"Chopped 2 logs"}}
+{"timestamp":1781470685110,"runTime":57332,"action":"chop_tree","params":{"count":2},"success":true,"duration":6342,"result":{"success":true,"logsChopped":2,"hint":"Chopped 2 logs"}}
+{"timestamp":1781470710979,"runTime":83201,"action":"craft","params":{"item":"planks","count":4},"success":false,"duration":20010,"error":"Failed to craft planks from logs"}
+{"timestamp":1781470736845,"runTime":109067,"action":"craft","params":{"item":"stick","count":4},"success":false,"duration":20014,"error":"Failed to craft planks from logs"}
+{"timestamp":1781470762695,"runTime":134917,"action":"craft","params":{"item":"stick","count":4},"success":false,"duration":20011,"error":"Failed to craft planks from logs"}
+{"timestamp":1781470776351,"runTime":148573,"action":"chop_tree","params":{"count":2},"success":true,"duration":7784,"result":{"success":true,"logsChopped":2,"hint":"Chopped 2 logs"}}
+{"timestamp":1781470786679,"runTime":158901,"action":"explore","params":{"distance":35},"success":true,"duration":4480,"result":{"success":true,"fallback":true,"direction":"south","distanceTraveled":17.958283307281683,"position":{"x":12,"y":72,"z":-18}}}
+{"timestamp":1781470799743,"runTime":171965,"action":"explore","params":{"distance":35},"success":true,"duration":7432,"result":{"success":true,"position":{"x":47,"y":69,"z":-18},"distanceTraveled":35.463709116131874,"direction":"east"}}
+{"timestamp":1781470827131,"runTime":199353,"action":"explore","params":{"distance":35},"success":true,"duration":21798,"result":{"success":true,"fallback":true,"direction":"north_east","distanceTraveled":24.285851145415894,"position":{"x":64,"y":66,"z":-35}}}
+{"timestamp":1781470852341,"runTime":224563,"action":"explore","params":{"distance":35},"success":true,"duration":19366,"result":{"success":true,"fallback":true,"direction":"south_east","distanceTraveled":27.10526791425575,"position":{"x":81,"y":77,"z":-18}}}
+{"timestamp":1781470870613,"runTime":242835,"action":"explore","params":{"distance":35},"success":true,"duration":12676,"result":{"success":true,"position":{"x":116,"y":81,"z":17},"distanceTraveled":50.38701716867048,"direction":"south_east"}}
+{"timestamp":1781470899128,"runTime":271350,"action":"attack","params":{"entity":"sheep"},"success":true,"duration":22336,"result":{"success":true,"entity":"sheep","attacks":6,"entityDead":true,"hint":"Collected drops. If hungry, use eat action."}}
+{"timestamp":1781470962445,"runTime":334667,"action":"explore","params":{"distance":35},"success":true,"duration":21880,"result":{"success":true,"fallback":true,"direction":"south_east","distanceTraveled":26.753685988516516,"position":{"x":66,"y":89,"z":-3}}}
+{"timestamp":1781470996275,"runTime":368497,"action":"chop_tree","params":{"count":3},"success":true,"duration":28088,"result":{"success":true,"logsChopped":3,"hint":"Chopped 3 logs"}}
+{"timestamp":1781471003679,"runTime":375901,"action":"eat","params":{},"success":true,"duration":1588,"result":{"success":true,"food":"mutton","newFoodLevel":16}}
+{"timestamp":1781471011079,"runTime":383301,"action":"eat","params":{},"success":true,"duration":1591,"result":{"success":true,"food":"mutton","newFoodLevel":18}}
+{"timestamp":1781471036921,"runTime":409143,"action":"craft","params":{"item":"crafting_table"},"success":false,"duration":20032,"error":"Failed to craft planks from logs"}
+{"timestamp":1781471043842,"runTime":416064,"action":"break_around","params":{"direction":"escape"},"success":true,"duration":1106,"result":{"success":true,"blocksCleared":3,"blocks":[{"block":"oak_leaves","position":{"x":60,"y":90,"z":-2},"location":"forward head"},{"block":"oak_leaves","position":{"x":61,"y":89,"z":-1},"location":"side feet"},{"block":"oak_leaves","position":{"x":61,"y":90,"z":-1},"location":"side head"}],"hint":"Cleared 3 blocks! Try moving or exploring now."}}
+{"timestamp":1781471044990,"runTime":417212,"action":"pillar_up","params":{"height":5},"success":false,"duration":1148,"result":{"success":false,"blocksPlaced":0,"startY":89,"endY":89,"rose":0,"hint":"pillar_up stopped near open ground."}}
+{"timestamp":1781471055227,"runTime":427449,"action":"explore","params":{"distance":25},"success":true,"duration":10237,"result":{"success":true,"position":{"x":86,"y":77,"z":23},"distanceTraveled":37.845314731871206,"direction":"south_east"}}
+{"timestamp":1781471080578,"runTime":452800,"action":"craft","params":{"item":"stick","count":4},"success":false,"duration":20007,"error":"Failed to craft planks from logs"}
+{"timestamp":1781471213305,"runTime":585527,"action":"dig_emergency_shelter","params":{},"success":true,"duration":20452,"result":{"success":true,"depth":2,"sealed":true,"message":"Emergency pit shelter dug"}}
+{"timestamp":1781471222004,"runTime":594226,"action":"wait","params":{"ms":3000},"success":true,"duration":3014,"result":{"success":true}}
+{"timestamp":1781471230678,"runTime":602900,"action":"wait","params":{"ms":3000},"success":true,"duration":3004,"result":{"success":true}}
+{"timestamp":1781471239318,"runTime":611540,"action":"wait","params":{"ms":3000},"success":true,"duration":3002,"result":{"success":true}}
+{"timestamp":1781471247976,"runTime":620198,"action":"wait","params":{"ms":3000},"success":true,"duration":3012,"result":{"success":true}}
+{"timestamp":1781471256624,"runTime":628846,"action":"wait","params":{"ms":3000},"success":true,"duration":3004,"result":{"success":true}}
+{"timestamp":1781471265261,"runTime":637483,"action":"wait","params":{"ms":3000},"success":true,"duration":2999,"result":{"success":true}}
+{"timestamp":1781471273917,"runTime":646139,"action":"wait","params":{"ms":3000},"success":true,"duration":3008,"result":{"success":true}}
+{"timestamp":1781471282560,"runTime":654782,"action":"wait","params":{"ms":3000},"success":true,"duration":3001,"result":{"success":true}}
+{"timestamp":1781471291207,"runTime":663429,"action":"wait","params":{"ms":3000},"success":true,"duration":3005,"result":{"success":true}}
+{"timestamp":1781471299849,"runTime":672071,"action":"wait","params":{"ms":3000},"success":true,"duration":3012,"result":{"success":true}}
+{"timestamp":1781471308477,"runTime":680699,"action":"wait","params":{"ms":3000},"success":true,"duration":3000,"result":{"success":true}}
+{"timestamp":1781471317114,"runTime":689336,"action":"wait","params":{"ms":3000},"success":true,"duration":3013,"result":{"success":true}}
+{"timestamp":1781471325749,"runTime":697971,"action":"wait","params":{"ms":3000},"success":true,"duration":3002,"result":{"success":true}}
+{"timestamp":1781471334377,"runTime":706599,"action":"wait","params":{"ms":3000},"success":true,"duration":2999,"result":{"success":true}}
+{"timestamp":1781471343017,"runTime":715239,"action":"wait","params":{"ms":3000},"success":true,"duration":3014,"result":{"success":true}}
+{"timestamp":1781471351668,"runTime":723890,"action":"wait","params":{"ms":3000},"success":true,"duration":3014,"result":{"success":true}}
+{"timestamp":1781471360314,"runTime":732536,"action":"wait","params":{"ms":3000},"success":true,"duration":3006,"result":{"success":true}}

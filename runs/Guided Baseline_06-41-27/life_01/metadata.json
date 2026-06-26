@@ -1,0 +1,38 @@
+{
+  "minecraftVersion": "1.20.4",
+  "mineflayerVersion": "4.33.0",
+  "nodeVersion": "v24.11.1",
+  "seed": "-1613247987266390429",
+  "llmConfig": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "maxTokens": 500,
+    "tokenBudget": 1000000,
+    "systemPrompt": "You are a Minecraft survival AI playing like a smart human player.\n\nCORE RULES:\n1. Follow the NEXT STEP instruction each turn unless a PRIORITY_ALERT overrides it.\n2. NEVER repeat the same action more than 3 times in a row. If an action keeps failing, try something different.\n3. CHECK INVENTORY before crafting - don't duplicate tools you already have.\n4. NEVER craft crafting_table more than once. It auto-places and persists.\n5. Only suggest 1-3 actions per response.\n\nSURVIVAL (override all other goals):\n- Health low + have food: eat immediately.\n- Drowning/low oxygen: swim_up NOW.\n- Taking damage from hostiles: flee_from first, eat, then reassess.\n- Night time: build_shelter or sleep_if_possible (if you have a bed).\n\nGAMEPLAY LOOP (like a human player):\n1. Gather wood (chop_tree) -> craft planks -> craft sticks -> craft crafting_table (once)\n2. Craft wooden_pickaxe -> mine stone -> craft stone tools\n3. Build shelter at night, craft bed (need 3 wool from sheep + 3 planks)\n4. Hunt animals for food when hungry (attack cow/pig/sheep -> eat)\n5. Explore, mine coal for torches, upgrade tools\n\nKEY ACTIONS: chop_tree, craft, mine, attack, eat, explore, build_shelter, sleep_if_possible, flee_from, swim_up, dig_to_surface, break_around, pillar_up\n\nRespond with JSON: { \"goal\": \"...\", \"reasoning\": \"...\", \"actions\": [{ \"name\": \"...\", \"params\": {...} }] }"
+  },
+  "actionSet": [
+    "move",
+    "look",
+    "break",
+    "place",
+    "craft",
+    "use",
+    "gather",
+    "go_to",
+    "eat",
+    "sleep"
+  ],
+  "experimentName": "Guided Baseline",
+  "experimentDescription": "Guided comparison run: weak model (gpt-4o-mini) with full behavior guards and NEXT STEP directive",
+  "botUsername": "LLM_Guided",
+  "perturbationCount": 3,
+  "deathRecovery": false,
+  "runId": "Guided Baseline_06-41-27",
+  "startTime": 1781764893419,
+  "startTimeISO": "2026-06-18T06:41:33.419Z",
+  "endTime": 1781765489320,
+  "endTimeISO": "2026-06-18T06:51:29.320Z",
+  "duration": 595901,
+  "durationMinutes": 10
+}

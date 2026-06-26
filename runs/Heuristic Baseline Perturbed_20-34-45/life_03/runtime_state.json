@@ -1,0 +1,203 @@
+{
+  "savedAt": 1781471367729,
+  "loopCount": 44,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "stone_tools",
+    "activePlan": "gather_wood",
+    "planSinceLoop": 44,
+    "goalHistory": [
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 44,
+        "timestamp": 1781471366652
+      }
+    ],
+    "lastCompletedTier": "stone_tools"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "birch_log": {
+        "x": 1,
+        "y": 76,
+        "z": -3,
+        "distance": 11,
+        "tick": 41439,
+        "seenAt": 1781471366652
+      },
+      "dirt": {
+        "x": 75,
+        "y": 93,
+        "z": 4,
+        "distance": 1,
+        "tick": 41259,
+        "seenAt": 1781471357308
+      },
+      "gravel": {
+        "x": 90,
+        "y": 83,
+        "z": 18,
+        "distance": 8,
+        "tick": 35839,
+        "seenAt": 1781471085910
+      },
+      "water": {
+        "x": 67,
+        "y": 62,
+        "z": -39,
+        "distance": 6,
+        "tick": 30779,
+        "seenAt": 1781470832975
+      },
+      "water_hazard": {
+        "x": 67,
+        "y": 62,
+        "z": -39,
+        "distance": 6,
+        "seenAt": 1781470832975
+      },
+      "stone": {
+        "x": 75,
+        "y": 92,
+        "z": 3,
+        "distance": 2,
+        "tick": 41259,
+        "seenAt": 1781471357308
+      },
+      "sand": {
+        "x": 75,
+        "y": 58,
+        "z": -40,
+        "distance": 14,
+        "tick": 30779,
+        "seenAt": 1781470832975
+      },
+      "oak_log": {
+        "x": 0,
+        "y": 81,
+        "z": 2,
+        "distance": 5,
+        "tick": 41439,
+        "seenAt": 1781471366652
+      },
+      "spruce_log": {
+        "x": 13,
+        "y": 71,
+        "z": -32,
+        "distance": 14,
+        "tick": 29959,
+        "seenAt": 1781470792310
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (1, 62, -37) to (1, 62, -33); inventory delta +11; avg nearby mobs 0.",
+      "Last 10 loops: moved from (18, 71, -21) to (67, 90, -2); inventory delta +9; avg nearby mobs 0.",
+      "Last 10 loops: moved from (93, 81, -3) to (91, 89, 17); inventory delta +1; avg nearby mobs 0.",
+      "Last 10 loops: moved from (116, 81, 17) to (583, 61, 599); inventory delta +10; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-10, 79, 7) to (12, 72, -18); inventory delta +9; avg nearby mobs 0.",
+      "Last 10 loops: moved from (47, 69, -18) to (61, 89, -2); inventory delta +3; avg nearby mobs 0.",
+      "Last 10 loops: moved from (61, 89, -2) to (74, 94, 4); inventory delta -10; avg nearby mobs 0.",
+      "Last 10 loops: moved from (74, 94, 4) to (74, 94, 4); inventory delta +0; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781471363180,
+      "position": {
+        "x": 74.31,
+        "y": 94,
+        "z": 4.5,
+        "yaw": 1.259306374428136,
+        "pitch": -0.6422046587476506
+      },
+      "health": 14,
+      "food": 13,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "dig_emergency_night",
+        "reasoning": "Heuristic: night emergency shelter",
+        "actions": [
+          {
+            "name": "dig_emergency_shelter",
+            "params": {}
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "wait",
+          "params": {
+            "ms": 3000
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781471325749
+        },
+        {
+          "action": "wait",
+          "params": {
+            "ms": 3000
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781471334377
+        },
+        {
+          "action": "wait",
+          "params": {
+            "ms": 3000
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781471343017
+        },
+        {
+          "action": "wait",
+          "params": {
+            "ms": 3000
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781471351668
+        },
+        {
+          "action": "wait",
+          "params": {
+            "ms": 3000
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781471360314
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

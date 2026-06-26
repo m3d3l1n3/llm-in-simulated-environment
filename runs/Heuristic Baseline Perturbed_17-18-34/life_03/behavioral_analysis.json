@@ -1,0 +1,98 @@
+{
+  "runId": "Heuristic Baseline Perturbed_17-18-34_life_03",
+  "generatedAt": "2026-06-14T18:15:29.741Z",
+  "coherence": {
+    "totalDecisions": 127,
+    "goalsStarted": 127,
+    "goalsCompleted": 3,
+    "completionRate": "2.4%"
+  },
+  "actionDistribution": {
+    "chop_tree": 6,
+    "craft": 15,
+    "mine": 4,
+    "build_shelter": 1,
+    "break_around": 12,
+    "explore": 15,
+    "move_to": 2,
+    "attack": 12,
+    "pillar_up": 5,
+    "dig_emergency_shelter": 4,
+    "wait": 31,
+    "swim_up": 11,
+    "dig_to_surface": 6
+  },
+  "mostFrequentActions": [
+    {
+      "action": "wait",
+      "count": 31
+    },
+    {
+      "action": "craft",
+      "count": 15
+    },
+    {
+      "action": "explore",
+      "count": 15
+    },
+    {
+      "action": "break_around",
+      "count": 12
+    },
+    {
+      "action": "attack",
+      "count": 12
+    }
+  ],
+  "goalDistribution": {
+    "gather_wood": 7,
+    "progress_from_logs": 9,
+    "craft_planks": 1,
+    "craft_wooden_pickaxe": 2,
+    "mine_stone": 10,
+    "progress_to_stone_tools": 1,
+    "mine_coal": 2,
+    "build_night_shelter": 2,
+    "escape_trap": 5,
+    "return_to_crafting_table": 2,
+    "stock_food": 4,
+    "find_food": 9,
+    "emergency_shelter_night": 5,
+    "wait_in_shelter": 31,
+    "craft_stone_pickaxe": 1,
+    "hunt_food": 8,
+    "forage_for_food": 6,
+    "escape_drowning": 20,
+    "forced_recovery": 1,
+    "explore_new_area": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "wait_in_shelter",
+      "count": 31
+    },
+    {
+      "action": "escape_drowning",
+      "count": 20
+    },
+    {
+      "action": "mine_stone",
+      "count": 10
+    },
+    {
+      "action": "progress_from_logs",
+      "count": 9
+    },
+    {
+      "action": "find_food",
+      "count": 9
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 9
+  },
+  "adaptation": {
+    "perturbationCount": 2,
+    "averageRecoveryTime": "328.4s"
+  }
+}

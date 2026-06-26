@@ -1,0 +1,18 @@
+{"event":"RUN_START","timestamp":1781464136809,"runTime":7,"config":{"loopInterval":5000,"maxActionsPerLoop":3,"logToFile":true,"logDirectory":"./runs","runName":"Heuristic Baseline Perturbed_19-08-44","llm":{"provider":"heuristic","explorationDistance":35,"targetLogs":4,"targetCobble":12,"targetCoal":5,"targetIronOre":8,"targetDiamond":3,"apiKey":"***REDACTED***"},"inventoryDisplayInterval":15000,"maxReconnectAttempts":10,"statePersistIntervalMs":60000},"metadata":{"experimentName":"Heuristic Baseline Perturbed","experimentDescription":"Deterministic rule-based agent under identical perturbations to research_autonomous. Measures maximum scripted progression under stress.","botUsername":"HeuristicBot","minecraftVersion":"1.20.4","seed":"-1613247987266390429","llmConfig":{"provider":"heuristic","explorationDistance":35,"targetLogs":4,"targetCobble":12,"targetCoal":5,"targetIronOre":8,"targetDiamond":3},"perturbationCount":3,"deathRecovery":false}}
+{"event":"ITEM_COLLECTED","timestamp":1781464168400,"runTime":31598,"collector":"HeuristicBot","item":{"present":true,"itemId":131,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781464172251,"runTime":35449,"collector":"HeuristicBot","item":{"present":true,"itemId":131,"itemCount":1}}
+{"event":"BEHAVIOR_WARNING","timestamp":1781464182650,"runTime":45848,"type":"action_dominance","action":"chop_tree","ratio":1}
+{"event":"ITEM_COLLECTED","timestamp":1781464193750,"runTime":56948,"collector":"HeuristicBot","item":{"present":true,"itemId":131,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781464193849,"runTime":57047,"collector":"HeuristicBot","item":{"present":true,"itemId":131,"itemCount":1}}
+{"event":"BEHAVIOR_WARNING","timestamp":1781464195090,"runTime":58288,"type":"action_dominance","action":"chop_tree","ratio":1}
+{"event":"BEHAVIOR_WARNING","timestamp":1781464200676,"runTime":63874,"type":"action_dominance","action":"chop_tree","ratio":0.6666666666666666}
+{"event":"ITEM_COLLECTED","timestamp":1781464222800,"runTime":85998,"collector":"HeuristicBot","item":{"present":true,"itemId":131,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781464235950,"runTime":99148,"collector":"HeuristicBot","item":{"present":true,"itemId":131,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781464236350,"runTime":99548,"collector":"HeuristicBot","item":{"present":true,"itemId":131,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781464468002,"runTime":331200,"collector":"HeuristicBot","item":{"present":true,"itemId":844,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781464647251,"runTime":510449,"collector":"HeuristicBot","item":{"present":true,"itemId":48,"itemCount":1}}
+{"event":"PERTURBATION","timestamp":1781464724205,"runTime":587403,"type":"FORCED_DEATH","time":600067,"params":{}}
+{"event":"BOT_HURT","timestamp":1781464724247,"runTime":587445,"health":20,"source":"environmental","position":{"x":0.9164993138284936,"y":77,"z":2.277541556589916}}
+{"event":"BOT_DEATH","timestamp":1781464724252,"runTime":587450,"position":{"x":0.9164993138284936,"y":77,"z":2.277541556589916},"loopCount":24,"lastGoal":null}
+{"event":"BOT_SPAWN","timestamp":1781464724323,"runTime":587521,"position":{"x":-2.5,"y":78,"z":-8.5}}
+{"event":"RUN_END","timestamp":1781464726302,"runTime":589500,"loops_executed":24,"memory_size":0}

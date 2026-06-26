@@ -1,0 +1,65 @@
+{
+  "runId": "Guided Baseline_20-41-23_life_07",
+  "generatedAt": "2026-06-17T21:41:24.028Z",
+  "coherence": {
+    "totalDecisions": 9,
+    "goalsStarted": 9,
+    "goalsCompleted": 0,
+    "completionRate": "0.0%"
+  },
+  "actionDistribution": {
+    "chop_tree": 1,
+    "craft": 3,
+    "eat": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 3
+    },
+    {
+      "action": "chop_tree",
+      "count": 1
+    },
+    {
+      "action": "eat",
+      "count": 1
+    }
+  ],
+  "goalDistribution": {
+    "gather wood for tools": 2,
+    "progress_from_logs": 2,
+    "craft_wooden_pickaxe": 2,
+    "hunt for food": 2,
+    "escape_trap": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "gather wood for tools",
+      "count": 2
+    },
+    {
+      "action": "progress_from_logs",
+      "count": 2
+    },
+    {
+      "action": "craft_wooden_pickaxe",
+      "count": 2
+    },
+    {
+      "action": "hunt for food",
+      "count": 2
+    },
+    {
+      "action": "escape_trap",
+      "count": 1
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 1
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

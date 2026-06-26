@@ -1,0 +1,60 @@
+{
+  "runId": "Heuristic Baseline Perturbed_19-08-44",
+  "generatedAt": "2026-06-14T19:18:46.306Z",
+  "coherence": {
+    "totalDecisions": 24,
+    "goalsStarted": 24,
+    "goalsCompleted": 0,
+    "completionRate": "0.0%"
+  },
+  "actionDistribution": {
+    "chop_tree": 4,
+    "craft": 5
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 5
+    },
+    {
+      "action": "chop_tree",
+      "count": 4
+    }
+  ],
+  "goalDistribution": {
+    "gather_wood": 5,
+    "progress_from_logs": 3,
+    "craft_planks": 1,
+    "craft_wooden_pickaxe": 1,
+    "mine_stone": 14
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "mine_stone",
+      "count": 14
+    },
+    {
+      "action": "gather_wood",
+      "count": 5
+    },
+    {
+      "action": "progress_from_logs",
+      "count": 3
+    },
+    {
+      "action": "craft_planks",
+      "count": 1
+    },
+    {
+      "action": "craft_wooden_pickaxe",
+      "count": 1
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 0
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

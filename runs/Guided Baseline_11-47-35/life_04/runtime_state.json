@@ -1,0 +1,457 @@
+{
+  "savedAt": 1781700455594,
+  "loopCount": 57,
+  "goalManager": {
+    "currentTier": "shelter",
+    "highestTierReached": "shelter",
+    "activePlan": "escape_trap",
+    "planSinceLoop": 57,
+    "goalHistory": [
+      {
+        "goal": "hunt for food",
+        "reasoning": "Low food inventory and health is not critical, so I need to find food before it gets dark.",
+        "isGuard": false,
+        "loopCount": 28,
+        "timestamp": 1781699685715
+      },
+      {
+        "goal": "hunt for food",
+        "reasoning": "Low food inventory and health is not critical, so I need to find food before it gets dark.",
+        "isGuard": false,
+        "loopCount": 29,
+        "timestamp": 1781699692288
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 30,
+        "timestamp": 1781699697435
+      },
+      {
+        "goal": "hunt for food",
+        "reasoning": "Low food inventory and health is not critical, so I need to find food before it gets dark.",
+        "isGuard": false,
+        "loopCount": 31,
+        "timestamp": 1781699764686
+      },
+      {
+        "goal": "forced_recovery",
+        "reasoning": "Stuck for many loops; trying escape strategy #1 (rotating to avoid repeating failed approaches).",
+        "isGuard": true,
+        "loopCount": 32,
+        "timestamp": 1781699769797
+      },
+      {
+        "goal": "hunt for food",
+        "reasoning": "Low food inventory and health is not critical, so I need to find food before it gets dark. Since exploring and attacking failed, I will gather resources nearby.",
+        "isGuard": false,
+        "loopCount": 33,
+        "timestamp": 1781699813360
+      },
+      {
+        "goal": "explore for resources",
+        "reasoning": "It's dusk and mobs may spawn soon. I need to explore to find resources and possibly locate food before night falls.",
+        "isGuard": false,
+        "loopCount": 34,
+        "timestamp": 1781699826844
+      },
+      {
+        "goal": "escape and gather resources",
+        "reasoning": "I am currently trapped and need to clear a path to escape. After that, I will explore for resources.",
+        "isGuard": false,
+        "loopCount": 35,
+        "timestamp": 1781699833614
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 36,
+        "timestamp": 1781699859292
+      },
+      {
+        "goal": "escape and gather resources",
+        "reasoning": "I need to clear a path to escape before I can explore for resources, as I am currently trapped.",
+        "isGuard": false,
+        "loopCount": 37,
+        "timestamp": 1781699876615
+      },
+      {
+        "goal": "escape and gather resources",
+        "reasoning": "I need to clear a path to escape before I can explore for resources, as I am currently trapped.",
+        "isGuard": false,
+        "loopCount": 38,
+        "timestamp": 1781699967105
+      },
+      {
+        "goal": "hunt for food",
+        "reasoning": "I have low food and no food in my inventory, so I need to hunt animals immediately.",
+        "isGuard": false,
+        "loopCount": 39,
+        "timestamp": 1781700003853
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 40,
+        "timestamp": 1781700008935
+      },
+      {
+        "goal": "hunt for food",
+        "reasoning": "I have low food and no food in my inventory, so I need to hunt animals immediately.",
+        "isGuard": false,
+        "loopCount": 41,
+        "timestamp": 1781700047865
+      },
+      {
+        "goal": "hunt for food",
+        "reasoning": "I have low food and no food in my inventory, so I need to hunt animals immediately.",
+        "isGuard": false,
+        "loopCount": 42,
+        "timestamp": 1781700062437
+      },
+      {
+        "goal": "build shelter for the night",
+        "reasoning": "It is currently night time, and I need to ensure safety from potential mobs. I will dig an emergency shelter to protect myself.",
+        "isGuard": false,
+        "loopCount": 43,
+        "timestamp": 1781700069085
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 44,
+        "timestamp": 1781700089312
+      },
+      {
+        "goal": "hunt for food",
+        "reasoning": "I have low food and no food inventory, so I need to hunt animals immediately.",
+        "isGuard": false,
+        "loopCount": 45,
+        "timestamp": 1781700136570
+      },
+      {
+        "goal": "hunt for food",
+        "reasoning": "I have low food and no food inventory, so I need to hunt animals immediately.",
+        "isGuard": false,
+        "loopCount": 46,
+        "timestamp": 1781700143920
+      },
+      {
+        "goal": "hunt for food",
+        "reasoning": "I have low food and no food inventory, so I need to hunt animals immediately.",
+        "isGuard": false,
+        "loopCount": 47,
+        "timestamp": 1781700180829
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 48,
+        "timestamp": 1781700185924
+      },
+      {
+        "goal": "hunt for food",
+        "reasoning": "I have low food and no food inventory, so I need to hunt animals immediately.",
+        "isGuard": false,
+        "loopCount": 49,
+        "timestamp": 1781700224816
+      },
+      {
+        "goal": "hunt for food",
+        "reasoning": "I have low food and no food inventory, so I need to hunt animals immediately.",
+        "isGuard": false,
+        "loopCount": 50,
+        "timestamp": 1781700237608
+      },
+      {
+        "goal": "hunt for food",
+        "reasoning": "I have low food and no food inventory, so I need to hunt animals immediately.",
+        "isGuard": false,
+        "loopCount": 51,
+        "timestamp": 1781700249707
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 52,
+        "timestamp": 1781700264823
+      },
+      {
+        "goal": "hunt for food",
+        "reasoning": "I have low food and no food inventory, so I need to hunt animals immediately.",
+        "isGuard": false,
+        "loopCount": 53,
+        "timestamp": 1781700306829
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "I am currently trapped with no path to explore, so I need to clear a block to create an exit.",
+        "isGuard": false,
+        "loopCount": 54,
+        "timestamp": 1781700338695
+      },
+      {
+        "goal": "escape trap",
+        "reasoning": "I need to clear a block to create an exit since I have no path to explore.",
+        "isGuard": false,
+        "loopCount": 55,
+        "timestamp": 1781700361304
+      },
+      {
+        "goal": "craft_stone_pickaxe",
+        "reasoning": "No pickaxe; have enough cobblestone and sticks. Craft stone_pickaxe to mine again.",
+        "isGuard": true,
+        "loopCount": 56,
+        "timestamp": 1781700412342
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 57,
+        "timestamp": 1781700424665
+      }
+    ],
+    "lastCompletedTier": "naked"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": 23,
+        "y": 59,
+        "z": 13,
+        "distance": 1,
+        "tick": 73759,
+        "seenAt": 1781700424664
+      },
+      "gravel": {
+        "x": 18,
+        "y": 50,
+        "z": 3,
+        "distance": 15,
+        "tick": 73759,
+        "seenAt": 1781700424664
+      },
+      "spruce_log": {
+        "x": -10,
+        "y": 75,
+        "z": -14,
+        "distance": 9,
+        "tick": 47899,
+        "seenAt": 1781699131635
+      },
+      "water": {
+        "x": -3,
+        "y": 62,
+        "z": -22,
+        "distance": 15,
+        "tick": 47899,
+        "seenAt": 1781699131635
+      },
+      "water_hazard": {
+        "x": -3,
+        "y": 62,
+        "z": -22,
+        "distance": 15,
+        "seenAt": 1781699131635
+      },
+      "sand": {
+        "x": 545,
+        "y": 62,
+        "z": 408,
+        "distance": 0,
+        "tick": 35319,
+        "seenAt": 1781698502925
+      },
+      "cobblestone": {
+        "x": -55,
+        "y": 62,
+        "z": -44,
+        "distance": 1,
+        "tick": 26279,
+        "seenAt": 1781698051203
+      },
+      "dark_oak_log": {
+        "x": 147,
+        "y": 71,
+        "z": 42,
+        "distance": 14,
+        "tick": 46299,
+        "seenAt": 1781699051888
+      },
+      "oak_log": {
+        "x": 22,
+        "y": 69,
+        "z": 11,
+        "distance": 9,
+        "tick": 73759,
+        "seenAt": 1781700424664
+      },
+      "birch_log": {
+        "x": 27,
+        "y": 71,
+        "z": 9,
+        "distance": 12,
+        "tick": 73759,
+        "seenAt": 1781700424664
+      },
+      "stone": {
+        "x": 22,
+        "y": 60,
+        "z": 14,
+        "distance": 0,
+        "tick": 73759,
+        "seenAt": 1781700424664
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (30, 68, 22) to (55, 64, 42); inventory delta +2; avg nearby mobs 0.",
+      "Last 10 loops: moved from (58, 64, 47) to (61, 64, 36); inventory delta +15; avg nearby mobs 0.",
+      "Last 10 loops: moved from (61, 64, 36) to (93, 81, -3); inventory delta +6; avg nearby mobs 0.",
+      "Last 10 loops: moved from (2, 78, -3) to (22, 69, 14); inventory delta +14; avg nearby mobs 0.",
+      "Last 10 loops: moved from (21, 67, 16) to (26, 60, 16); inventory delta +56; avg nearby mobs 0.",
+      "Last 10 loops: moved from (24, 63, 14) to (23, 60, 13); inventory delta +4; avg nearby mobs 0.",
+      "Last 10 loops: moved from (23, 60, 13) to (25, 60, 12); inventory delta +6; avg nearby mobs 0.",
+      "Last 10 loops: moved from (25, 60, 12) to (25, 60, 12); inventory delta +1; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781699055269,
+      "position": {
+        "x": 137.71,
+        "y": 72,
+        "z": 30.92,
+        "yaw": -2.356784287162788,
+        "pitch": 0.0008688629375335211
+      },
+      "health": 4,
+      "food": 7,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "hunt for food",
+        "reasoning": "I have low food and need to find animals to gather food before exploring further.",
+        "actions": [
+          {
+            "name": "explore",
+            "params": {
+              "distance": 30
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "explore",
+          "goal": "hunt for food",
+          "params": {
+            "distance": 30
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781699040568
+        },
+        {
+          "action": "eat",
+          "goal": "flee_danger",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781699046237
+        },
+        {
+          "action": "flee_from",
+          "goal": "flee_danger",
+          "params": {
+            "entity": "pillager"
+          },
+          "success": false,
+          "hint": "Unable to flee — still 7m from pillager",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781699046239
+        },
+        {
+          "action": "eat",
+          "goal": "flee_danger",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781699051888
+        },
+        {
+          "action": "flee_from",
+          "goal": "flee_danger",
+          "params": {
+            "entity": "pillager"
+          },
+          "success": false,
+          "hint": "Unable to flee — still 7m from pillager",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781699051891
+        }
+      ]
+    }
+  },
+  "blockedActions": [
+    [
+      "craft",
+      30
+    ],
+    [
+      "dig_emergency_shelter",
+      58
+    ],
+    [
+      "explore",
+      59
+    ],
+    [
+      "attack",
+      55
+    ],
+    [
+      "break_around",
+      57
+    ],
+    [
+      "breakAround",
+      57
+    ],
+    [
+      "clear_path",
+      57
+    ],
+    [
+      "clearPath",
+      57
+    ]
+  ]
+}

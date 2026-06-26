@@ -1,0 +1,73 @@
+{"event":"RUN_START","timestamp":1781449857972,"runTime":2,"config":{"loopInterval":5000,"maxActionsPerLoop":3,"logToFile":true,"logDirectory":"./runs","runName":"Heuristic Baseline Perturbed_15-10-47","llm":{"provider":"heuristic","explorationDistance":35,"targetLogs":4,"targetCobble":12,"targetCoal":5,"targetIronOre":8,"targetDiamond":3,"apiKey":"***REDACTED***"},"inventoryDisplayInterval":15000,"maxReconnectAttempts":10,"statePersistIntervalMs":60000},"metadata":{"experimentName":"Heuristic Baseline Perturbed","experimentDescription":"Deterministic rule-based agent under identical perturbations to research_autonomous. Measures maximum scripted progression under stress.","botUsername":"HeuristicBot","minecraftVersion":"1.20.4","seed":"-1613247987266390429","llmConfig":{"provider":"heuristic","explorationDistance":35,"targetLogs":4,"targetCobble":12,"targetCoal":5,"targetIronOre":8,"targetDiamond":3},"perturbationCount":3,"deathRecovery":false}}
+{"event":"ITEM_COLLECTED","timestamp":1781449866786,"runTime":8816,"collector":"HeuristicBot","item":{"present":true,"itemId":131,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781449867382,"runTime":9412,"collector":"HeuristicBot","item":{"present":true,"itemId":133,"itemCount":1}}
+{"event":"BEHAVIOR_WARNING","timestamp":1781449868247,"runTime":10277,"type":"action_dominance","action":"chop_tree","ratio":1}
+{"event":"ITEM_COLLECTED","timestamp":1781449875730,"runTime":17760,"collector":"HeuristicBot","item":{"present":true,"itemId":48,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781449881531,"runTime":23561,"collector":"HeuristicBot","item":{"present":true,"itemId":131,"itemCount":1}}
+{"event":"BEHAVIOR_WARNING","timestamp":1781449881768,"runTime":23798,"type":"action_dominance","action":"chop_tree","ratio":1}
+{"event":"BEHAVIOR_WARNING","timestamp":1781449887438,"runTime":29468,"type":"action_dominance","action":"chop_tree","ratio":0.6666666666666666}
+{"event":"ITEM_COLLECTED","timestamp":1781449902182,"runTime":44212,"collector":"HeuristicBot","item":{"present":true,"itemId":131,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781449926137,"runTime":68167,"collector":"HeuristicBot","item":{"present":true,"itemId":131,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781449929381,"runTime":71411,"collector":"HeuristicBot","item":{"present":true,"itemId":133,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781449948132,"runTime":90162,"collector":"HeuristicBot","item":{"present":true,"itemId":844,"itemCount":2}}
+{"event":"GOAL_THRASH","timestamp":1781449950276,"runTime":92306,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["gather_wood","progress_from_logs","progress_from_logs","gather_wood","progress_from_logs","gather_wood"]}
+{"event":"ITEM_COLLECTED","timestamp":1781449958931,"runTime":100961,"collector":"HeuristicBot","item":{"present":true,"itemId":844,"itemCount":1}}
+{"event":"BEHAVIOR_WARNING","timestamp":1781449964238,"runTime":106268,"type":"action_dominance","action":"craft","ratio":0.625}
+{"event":"GOAL_THRASH","timestamp":1781449969662,"runTime":111692,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["progress_from_logs","gather_wood","progress_from_logs","gather_wood","craft_planks","craft_wooden_pickaxe"]}
+{"event":"GOAL_THRASH","timestamp":1781449979067,"runTime":121097,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["gather_wood","progress_from_logs","gather_wood","craft_planks","craft_wooden_pickaxe","descend_to_mine"]}
+{"event":"ITEM_COLLECTED","timestamp":1781449980581,"runTime":122611,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781449993380,"runTime":135410,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"GOAL_THRASH","timestamp":1781450014734,"runTime":156764,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["progress_from_logs","gather_wood","craft_planks","craft_wooden_pickaxe","descend_to_mine","mine_stone"]}
+{"event":"ITEM_COLLECTED","timestamp":1781450030498,"runTime":172528,"collector":"HeuristicBot","item":{"present":true,"itemId":131,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450036309,"runTime":178339,"collector":"HeuristicBot","item":{"present":true,"itemId":131,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450051254,"runTime":193284,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450055105,"runTime":197135,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450065354,"runTime":207384,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450065355,"runTime":207385,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450069630,"runTime":211660,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":2}}
+{"event":"ITEM_COLLECTED","timestamp":1781450117606,"runTime":259636,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450122648,"runTime":264678,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450124332,"runTime":266362,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450124633,"runTime":266663,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450124633,"runTime":266663,"collector":"HeuristicBot","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450126092,"runTime":268122,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450127950,"runTime":269980,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450137182,"runTime":279212,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450137633,"runTime":279663,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":2}}
+{"event":"ITEM_COLLECTED","timestamp":1781450137633,"runTime":279663,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450137681,"runTime":279711,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":4}}
+{"event":"ITEM_COLLECTED","timestamp":1781450138182,"runTime":280212,"collector":"HeuristicBot","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450138182,"runTime":280212,"collector":"HeuristicBot","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450144381,"runTime":286411,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"GOAL_COMPLETED","timestamp":1781450154134,"runTime":296164,"tier":"shelter"}
+{"event":"ITEM_COLLECTED","timestamp":1781450154958,"runTime":296988,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450156532,"runTime":298562,"collector":"HeuristicBot","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450166530,"runTime":308560,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450166630,"runTime":308660,"collector":"HeuristicBot","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450166981,"runTime":309011,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450166981,"runTime":309011,"collector":"HeuristicBot","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450168231,"runTime":310261,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450170982,"runTime":313012,"collector":"HeuristicBot","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450171181,"runTime":313211,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450174131,"runTime":316161,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450175381,"runTime":317411,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450177431,"runTime":319461,"collector":"HeuristicBot","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"BEHAVIOR_WARNING","timestamp":1781450194144,"runTime":336174,"type":"action_dominance","action":"craft","ratio":0.7}
+{"event":"GOAL_THRASH","timestamp":1781450199558,"runTime":341588,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["descend_to_mine","mine_stone","mine_stone","mine_stone","mine_stone","progress_to_stone_tools"]}
+{"event":"BEHAVIOR_WARNING","timestamp":1781450229561,"runTime":371591,"type":"action_dominance","action":"craft","ratio":0.7}
+{"event":"ITEM_COLLECTED","timestamp":1781450374148,"runTime":516178,"collector":"HeuristicBot"}
+{"event":"ITEM_COLLECTED","timestamp":1781450376681,"runTime":518711,"collector":"HeuristicBot","item":{"present":true,"itemId":201,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450376682,"runTime":518712,"collector":"HeuristicBot","item":{"present":true,"itemId":1124,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450389531,"runTime":531561,"collector":"HeuristicBot"}
+{"event":"ITEM_COLLECTED","timestamp":1781450391231,"runTime":533261,"collector":"HeuristicBot","item":{"present":true,"itemId":1124,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450391881,"runTime":533911,"collector":"HeuristicBot","item":{"present":true,"itemId":201,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450401431,"runTime":543461,"collector":"HeuristicBot"}
+{"event":"ITEM_COLLECTED","timestamp":1781450401531,"runTime":543561,"collector":"HeuristicBot"}
+{"event":"ITEM_COLLECTED","timestamp":1781450401881,"runTime":543911,"collector":"HeuristicBot","item":{"present":true,"itemId":201,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781450402531,"runTime":544561,"collector":"HeuristicBot","item":{"present":true,"itemId":1124,"itemCount":2}}
+{"event":"PERTURBATION","timestamp":1781450447698,"runTime":589728,"type":"FORCED_DEATH","time":600005,"params":{}}
+{"event":"BOT_HURT","timestamp":1781450447701,"runTime":589731,"health":20,"source":"environmental","position":{"x":96.46607525731,"y":66,"z":-23.5}}
+{"event":"BOT_DEATH","timestamp":1781450447733,"runTime":589763,"position":{"x":96.46607525731,"y":66,"z":-23.5},"loopCount":29,"lastGoal":null}
+{"event":"BOT_SPAWN","timestamp":1781450447787,"runTime":589817,"position":{"x":-3.5,"y":71,"z":1.5}}
+{"event":"BEHAVIOR_WARNING","timestamp":1781450448540,"runTime":590570,"type":"action_dominance","action":"dig_emergency_shelter","ratio":1}
+{"event":"RUN_END","timestamp":1781450449737,"runTime":591767,"loops_executed":29,"memory_size":0}

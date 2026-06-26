@@ -1,0 +1,79 @@
+{
+  "runId": "Autonomous Research_16-52-06",
+  "generatedAt": "2026-06-18T17:02:23.360Z",
+  "coherence": {
+    "totalDecisions": 18,
+    "goalsStarted": 18,
+    "goalsCompleted": 1,
+    "completionRate": "5.6%"
+  },
+  "actionDistribution": {
+    "chop_tree": 2,
+    "craft": 5,
+    "equip": 1,
+    "break_around": 1,
+    "pillar_up": 1,
+    "explore": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 5
+    },
+    {
+      "action": "chop_tree",
+      "count": 2
+    },
+    {
+      "action": "equip",
+      "count": 1
+    },
+    {
+      "action": "break_around",
+      "count": 1
+    },
+    {
+      "action": "pillar_up",
+      "count": 1
+    }
+  ],
+  "goalDistribution": {
+    "get wood to start tool progres": 1,
+    "craft crafting table and woode": 2,
+    "craft wooden pickaxe to mine s": 1,
+    "mine cobblestone for stone too": 7,
+    "craft stone pickaxe with exist": 1,
+    "hunt animals for food": 4,
+    "collect food by hunting nearby": 1,
+    "forced_recovery": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "mine cobblestone for stone too",
+      "count": 7
+    },
+    {
+      "action": "hunt animals for food",
+      "count": 4
+    },
+    {
+      "action": "craft crafting table and woode",
+      "count": 2
+    },
+    {
+      "action": "get wood to start tool progres",
+      "count": 1
+    },
+    {
+      "action": "craft wooden pickaxe to mine s",
+      "count": 1
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 1
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

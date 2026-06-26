@@ -1,0 +1,96 @@
+{
+  "runId": "Guided Baseline_15-17-36_life_03",
+  "generatedAt": "2026-06-17T16:17:36.289Z",
+  "coherence": {
+    "totalDecisions": 72,
+    "goalsStarted": 72,
+    "goalsCompleted": 1,
+    "completionRate": "1.4%"
+  },
+  "actionDistribution": {
+    "chop_tree": 11,
+    "craft": 15,
+    "mine": 12,
+    "break_around": 13,
+    "pillar_up": 5,
+    "explore": 14,
+    "light_area": 2,
+    "build_shelter": 3,
+    "dig_emergency_shelter": 4,
+    "dig_to_surface": 2,
+    "go_to_near": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 15
+    },
+    {
+      "action": "explore",
+      "count": 14
+    },
+    {
+      "action": "break_around",
+      "count": 13
+    },
+    {
+      "action": "mine",
+      "count": 12
+    },
+    {
+      "action": "chop_tree",
+      "count": 11
+    }
+  ],
+  "goalDistribution": {
+    "gather wood for tools": 8,
+    "progress_from_logs": 3,
+    "craft_wooden_pickaxe": 2,
+    "mine_stone": 4,
+    "progress_to_stone_tools": 3,
+    "escape_trap": 10,
+    "gather resources": 6,
+    "build_night_shelter": 1,
+    "gather resources for tools": 1,
+    "dig emergency shelter": 10,
+    "forced_recovery": 5,
+    "escape and gather resources": 7,
+    "build shelter for the night": 1,
+    "craft wooden pickaxe": 3,
+    "gather resources and escape": 1,
+    "hunt for food": 2,
+    "build shelter": 1,
+    "escape and build shelter": 1,
+    "build emergency shelter": 1,
+    "escape to safety": 2
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "escape_trap",
+      "count": 10
+    },
+    {
+      "action": "dig emergency shelter",
+      "count": 10
+    },
+    {
+      "action": "gather wood for tools",
+      "count": 8
+    },
+    {
+      "action": "escape and gather resources",
+      "count": 7
+    },
+    {
+      "action": "gather resources",
+      "count": 6
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 14
+  },
+  "adaptation": {
+    "perturbationCount": 1,
+    "averageRecoveryTime": "249.1s"
+  }
+}

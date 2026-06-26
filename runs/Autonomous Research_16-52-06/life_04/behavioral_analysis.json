@@ -1,0 +1,108 @@
+{
+  "runId": "Autonomous Research_16-52-06_life_04",
+  "generatedAt": "2026-06-18T17:52:06.676Z",
+  "coherence": {
+    "totalDecisions": 58,
+    "goalsStarted": 58,
+    "goalsCompleted": 1,
+    "completionRate": "1.7%"
+  },
+  "actionDistribution": {
+    "chop_tree": 2,
+    "craft": 12,
+    "equip": 2,
+    "mine": 7,
+    "explore": 9,
+    "break_around": 13,
+    "pillar_up": 8,
+    "go_to_near": 4,
+    "dig_emergency_shelter": 4,
+    "build_shelter": 5
+  },
+  "mostFrequentActions": [
+    {
+      "action": "break_around",
+      "count": 13
+    },
+    {
+      "action": "craft",
+      "count": 12
+    },
+    {
+      "action": "explore",
+      "count": 9
+    },
+    {
+      "action": "pillar_up",
+      "count": 8
+    },
+    {
+      "action": "mine",
+      "count": 7
+    }
+  ],
+  "goalDistribution": {
+    "gather wood to craft tools and": 1,
+    "gather wood and craft stone to": 1,
+    "craft wooden pickaxe and mine ": 1,
+    "mine cobblestone for stone too": 3,
+    "craft stone pickaxe and then m": 1,
+    "go to crafting table and craft": 2,
+    "escape_trap": 7,
+    "craft stone pickaxe at craftin": 1,
+    "craft stone pickaxe using new ": 1,
+    "get unstuck and gather resourc": 2,
+    "escape to surface": 1,
+    "mine coal and craft torches to": 1,
+    "mine coal ore for torches": 1,
+    "escape trap and get coal for t": 1,
+    "mine coal ore for torches and ": 1,
+    "escape trap and mine coal for ": 1,
+    "mine coal ore for torches to d": 1,
+    "build shelter and get torches ": 1,
+    "escape to surface and build sh": 1,
+    "build shelter for night surviv": 2,
+    "survive the night by pillaring": 4,
+    "replace_worn_tool": 1,
+    "survive the night safely": 4,
+    "survive the night by placing c": 1,
+    "pillar up to survive the night": 1,
+    "survive the night by building ": 2,
+    "survive the night by lighting ": 1,
+    "survive night by pillaring up ": 1,
+    "survive the night by digging e": 1,
+    "pillar up to safety": 1,
+    "collect food by hunting animal": 8,
+    "forced_recovery": 1,
+    "gather wood and progress towar": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "collect food by hunting animal",
+      "count": 8
+    },
+    {
+      "action": "escape_trap",
+      "count": 7
+    },
+    {
+      "action": "survive the night by pillaring",
+      "count": 4
+    },
+    {
+      "action": "survive the night safely",
+      "count": 4
+    },
+    {
+      "action": "mine cobblestone for stone too",
+      "count": 3
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 5
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

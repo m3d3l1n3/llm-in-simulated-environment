@@ -1,0 +1,89 @@
+{
+  "runId": "Heuristic Baseline Perturbed_15-10-47_life_02",
+  "generatedAt": "2026-06-14T15:32:09.552Z",
+  "coherence": {
+    "totalDecisions": 36,
+    "goalsStarted": 36,
+    "goalsCompleted": 1,
+    "completionRate": "2.8%"
+  },
+  "actionDistribution": {
+    "chop_tree": 3,
+    "craft": 11,
+    "explore": 6,
+    "mine": 5,
+    "break_around": 1,
+    "pillar_up": 1,
+    "build_shelter": 1,
+    "attack": 1,
+    "eat": 3,
+    "flee_from": 2
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 11
+    },
+    {
+      "action": "explore",
+      "count": 6
+    },
+    {
+      "action": "mine",
+      "count": 5
+    },
+    {
+      "action": "chop_tree",
+      "count": 3
+    },
+    {
+      "action": "eat",
+      "count": 3
+    }
+  ],
+  "goalDistribution": {
+    "gather_wood": 4,
+    "progress_from_logs": 4,
+    "craft_wooden_pickaxe": 1,
+    "descend_to_mine": 4,
+    "mine_stone": 7,
+    "progress_to_stone_tools": 2,
+    "escape_trap": 1,
+    "craft_table": 1,
+    "craft_furnace": 1,
+    "mine_coal": 5,
+    "explore_new_area": 1,
+    "build_night_shelter": 2,
+    "stock_food": 1,
+    "flee_danger": 2
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "mine_stone",
+      "count": 7
+    },
+    {
+      "action": "mine_coal",
+      "count": 5
+    },
+    {
+      "action": "gather_wood",
+      "count": 4
+    },
+    {
+      "action": "progress_from_logs",
+      "count": 4
+    },
+    {
+      "action": "descend_to_mine",
+      "count": 4
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 3
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

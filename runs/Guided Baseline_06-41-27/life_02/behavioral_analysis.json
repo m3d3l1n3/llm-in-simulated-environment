@@ -1,0 +1,82 @@
+{
+  "runId": "Guided Baseline_06-41-27_life_02",
+  "generatedAt": "2026-06-18T07:03:35.080Z",
+  "coherence": {
+    "totalDecisions": 32,
+    "goalsStarted": 32,
+    "goalsCompleted": 1,
+    "completionRate": "3.1%"
+  },
+  "actionDistribution": {
+    "chop_tree": 10,
+    "craft": 12,
+    "mine": 7,
+    "break_around": 1,
+    "eat": 1,
+    "flee_from": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 12
+    },
+    {
+      "action": "chop_tree",
+      "count": 10
+    },
+    {
+      "action": "mine",
+      "count": 7
+    },
+    {
+      "action": "break_around",
+      "count": 1
+    },
+    {
+      "action": "eat",
+      "count": 1
+    }
+  ],
+  "goalDistribution": {
+    "gather wood for tools": 2,
+    "progress_from_logs": 4,
+    "craft_wooden_pickaxe": 4,
+    "gather wood for crafting": 1,
+    "mine_stone": 11,
+    "gather resources for crafting": 4,
+    "progress_to_stone_tools": 2,
+    "escape_trap": 1,
+    "build_night_shelter": 1,
+    "flee_danger": 1,
+    "wait_in_tree": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "mine_stone",
+      "count": 11
+    },
+    {
+      "action": "progress_from_logs",
+      "count": 4
+    },
+    {
+      "action": "craft_wooden_pickaxe",
+      "count": 4
+    },
+    {
+      "action": "gather resources for crafting",
+      "count": 4
+    },
+    {
+      "action": "gather wood for tools",
+      "count": 2
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 5
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

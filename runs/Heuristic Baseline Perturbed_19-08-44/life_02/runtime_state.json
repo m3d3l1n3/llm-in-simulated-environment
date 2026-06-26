@@ -1,0 +1,189 @@
+{
+  "savedAt": 1781465587690,
+  "loopCount": 27,
+  "goalManager": {
+    "currentTier": "wood_tools",
+    "highestTierReached": "wood_tools",
+    "activePlan": null,
+    "planSinceLoop": 0,
+    "goalHistory": [],
+    "lastCompletedTier": null
+  },
+  "longMemory": {
+    "knownLocations": {
+      "stone": {
+        "x": 569,
+        "y": 58,
+        "z": 588,
+        "distance": 7,
+        "tick": 28459,
+        "seenAt": 1781465556524
+      },
+      "dirt": {
+        "x": 557,
+        "y": 53,
+        "z": 582,
+        "distance": 15,
+        "tick": 28459,
+        "seenAt": 1781465556524
+      },
+      "gravel": {
+        "x": 572,
+        "y": 56,
+        "z": 585,
+        "distance": 9,
+        "tick": 28459,
+        "seenAt": 1781465556524
+      },
+      "oak_log": {
+        "x": 26,
+        "y": 73,
+        "z": -9,
+        "distance": 3,
+        "tick": 23819,
+        "seenAt": 1781465322938
+      },
+      "spruce_log": {
+        "x": -13,
+        "y": 73,
+        "z": -14,
+        "distance": 16,
+        "tick": 11979,
+        "seenAt": 1781464730819
+      },
+      "birch_log": {
+        "x": 20,
+        "y": 72,
+        "z": -4,
+        "distance": 6,
+        "tick": 23819,
+        "seenAt": 1781465322938
+      },
+      "sand": {
+        "x": 567,
+        "y": 63,
+        "z": 584,
+        "distance": 1,
+        "tick": 28459,
+        "seenAt": 1781465556524
+      },
+      "water": {
+        "x": 575,
+        "y": 62,
+        "z": 584,
+        "distance": 7,
+        "tick": 28459,
+        "seenAt": 1781465556524
+      },
+      "water_hazard": {
+        "x": 575,
+        "y": 62,
+        "z": 584,
+        "distance": 7,
+        "seenAt": 1781465556524
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (-5, 80, 4) to (0, 76, 2); inventory delta +20; avg nearby mobs 0.",
+      "Last 10 loops: moved from (0, 76, 2) to (1, 77, 2); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (1, 73, -8) to (23, 72, -10); inventory delta +3; avg nearby mobs 0.",
+      "Last 10 loops: moved from (23, 72, -10) to (23, 70, -10); inventory delta +3; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781465583414,
+      "position": {
+        "x": 567.5,
+        "y": 64,
+        "z": 584.5,
+        "yaw": 4.7134585058784655,
+        "pitch": -0.12042772005208446
+      },
+      "health": 20,
+      "food": 20,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "actions": [
+          {
+            "name": "chop_tree",
+            "params": {
+              "count": 2
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "chop_tree",
+          "params": {
+            "count": 2
+          },
+          "success": true,
+          "hint": "Chopped 1 logs",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781464748665
+        },
+        {
+          "action": "chop_tree",
+          "params": {
+            "count": 2
+          },
+          "success": true,
+          "hint": "Chopped 2 logs",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781464797600
+        },
+        {
+          "action": "dig_emergency_shelter",
+          "params": {},
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781465306292
+        },
+        {
+          "action": "chop_tree",
+          "params": {
+            "count": 2
+          },
+          "success": true,
+          "hint": "Chopped 2 logs",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781465317452
+        },
+        {
+          "action": "wait",
+          "params": {
+            "ms": 3000
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781465325939
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

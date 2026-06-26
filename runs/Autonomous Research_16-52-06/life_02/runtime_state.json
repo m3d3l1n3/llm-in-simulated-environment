@@ -1,0 +1,198 @@
+{
+  "savedAt": 1781802784029,
+  "loopCount": 22,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "stone_tools",
+    "activePlan": null,
+    "planSinceLoop": 0,
+    "goalHistory": [],
+    "lastCompletedTier": "stone_tools"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "birch_log": {
+        "x": 4,
+        "y": 74,
+        "z": 12,
+        "distance": 1,
+        "tick": 27519,
+        "seenAt": 1781802783761
+      },
+      "spruce_log": {
+        "x": 13,
+        "y": 71,
+        "z": -32,
+        "distance": 12,
+        "tick": 21839,
+        "seenAt": 1781802500063
+      },
+      "dirt": {
+        "x": 4,
+        "y": 69,
+        "z": 9,
+        "distance": 5,
+        "tick": 27519,
+        "seenAt": 1781802783761
+      },
+      "gravel": {
+        "x": 0,
+        "y": 61,
+        "z": 3,
+        "distance": 15,
+        "tick": 27519,
+        "seenAt": 1781802783761
+      },
+      "oak_log": {
+        "x": 7,
+        "y": 74,
+        "z": 7,
+        "distance": 4,
+        "tick": 27519,
+        "seenAt": 1781802783761
+      },
+      "water": {
+        "x": 286,
+        "y": 62,
+        "z": 634,
+        "distance": 2,
+        "tick": 27399,
+        "seenAt": 1781802777368
+      },
+      "water_hazard": {
+        "x": 286,
+        "y": 62,
+        "z": 634,
+        "distance": 2,
+        "seenAt": 1781802777368
+      },
+      "stone": {
+        "x": 4,
+        "y": 67,
+        "z": 9,
+        "distance": 6,
+        "tick": 27519,
+        "seenAt": 1781802783761
+      },
+      "sand": {
+        "x": 275,
+        "y": 62,
+        "z": 634,
+        "distance": 12,
+        "tick": 27399,
+        "seenAt": 1781802777368
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (-3, 69, -3) to (-8, 72, -17); inventory delta +30; avg nearby mobs 0.",
+      "Last 10 loops: moved from (37, 73, -18) to (33, 75, 9); inventory delta +32; avg nearby mobs 0.",
+      "Last 10 loops: moved from (18, 70, 9) to (-3, 71, 21); inventory delta +1; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781802779798,
+      "position": {
+        "x": 287.3,
+        "y": 63,
+        "z": 632.29,
+        "yaw": 1.7862498273553862,
+        "pitch": 0.00008745820857258835
+      },
+      "health": 2,
+      "food": 2,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "get to solid ground safely then collect food",
+        "reasoning": "I'm on oak_leaves at night with light level 0. I need to get to solid ground safely. I have oak_planks in inventory so I can pillar_up to get a better view, but actually I should carefully navigate down. The priority alert says don't dig down from leaves. I'll explore to find solid ground nearby, then collect food since it's low at 7/20.",
+        "actions": [
+          {
+            "name": "explore",
+            "params": {
+              "distance": 10
+            }
+          },
+          {
+            "name": "collect_food",
+            "params": {
+              "count": 3
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "collect_food",
+          "goal": "get to solid ground safely then collect food",
+          "params": {
+            "count": 3
+          },
+          "success": false,
+          "hint": null,
+          "error": null,
+          "interrupted": true,
+          "interruptReason": "danger_interrupt",
+          "blocksCleared": null,
+          "timestamp": 1781802771284
+        },
+        {
+          "action": "eat",
+          "goal": null,
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781802771285
+        },
+        {
+          "action": "flee_from",
+          "goal": null,
+          "params": {
+            "entity": "zombie"
+          },
+          "success": true,
+          "hint": "Fled to 5m away",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781802772131
+        },
+        {
+          "action": "eat",
+          "goal": "flee_danger",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781802777369
+        },
+        {
+          "action": "flee_from",
+          "goal": "flee_danger",
+          "params": {
+            "entity": "zombie"
+          },
+          "success": true,
+          "hint": "Fled to 6m away",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781802778305
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

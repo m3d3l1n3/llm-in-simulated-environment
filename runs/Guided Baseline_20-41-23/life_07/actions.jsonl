@@ -1,0 +1,5 @@
+{"timestamp":1781732286490,"runTime":20048,"action":"chop_tree","params":{"count":3},"success":true,"duration":17826,"result":{"success":true,"logsChopped":3,"hint":"Chopped 3 logs"}}
+{"timestamp":1781732292039,"runTime":25597,"action":"craft","params":{"item":"planks","count":4},"success":true,"duration":116,"result":{"success":true,"item":"oak_planks","alreadyHad":0,"crafted":8}}
+{"timestamp":1781732297466,"runTime":31024,"action":"craft","params":{"item":"stick","count":4},"success":true,"duration":4,"result":{"success":true,"item":"stick","alreadyHad":0,"crafted":8}}
+{"timestamp":1781732343574,"runTime":77132,"action":"craft","params":{"item":"wooden_pickaxe"},"success":true,"duration":5089,"result":{"success":true,"item":"wooden_pickaxe","alreadyHad":0,"crafted":1}}
+{"timestamp":1781732455929,"runTime":189487,"action":"eat","params":{},"success":false,"duration":0,"result":{"success":false,"error":"No food in inventory","hint":"Hunt animals with attack action or find crops!"}}

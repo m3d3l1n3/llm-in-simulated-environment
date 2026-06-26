@@ -1,0 +1,84 @@
+{
+  "runId": "Guided Baseline_06-59-50",
+  "generatedAt": "2026-06-17T07:09:52.950Z",
+  "coherence": {
+    "totalDecisions": 33,
+    "goalsStarted": 33,
+    "goalsCompleted": 1,
+    "completionRate": "3.0%"
+  },
+  "actionDistribution": {
+    "chop_tree": 8,
+    "break_around": 4,
+    "explore": 4,
+    "craft": 13,
+    "mine": 4,
+    "pillar_up": 2,
+    "build_shelter": 6
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 13
+    },
+    {
+      "action": "chop_tree",
+      "count": 8
+    },
+    {
+      "action": "build_shelter",
+      "count": 6
+    },
+    {
+      "action": "break_around",
+      "count": 4
+    },
+    {
+      "action": "explore",
+      "count": 4
+    }
+  ],
+  "goalDistribution": {
+    "gather wood for tools": 3,
+    "escape_trap": 3,
+    "progress_from_logs": 3,
+    "gather wood for crafting": 3,
+    "craft planks": 1,
+    "craft_wooden_pickaxe": 1,
+    "gather cobblestone for stone t": 1,
+    "mine_stone": 4,
+    "progress_to_stone_tools": 4,
+    "gather wood": 3,
+    "gather resources for bed and s": 1,
+    "build shelter": 6
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "build shelter",
+      "count": 6
+    },
+    {
+      "action": "mine_stone",
+      "count": 4
+    },
+    {
+      "action": "progress_to_stone_tools",
+      "count": 4
+    },
+    {
+      "action": "gather wood for tools",
+      "count": 3
+    },
+    {
+      "action": "escape_trap",
+      "count": 3
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 6
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

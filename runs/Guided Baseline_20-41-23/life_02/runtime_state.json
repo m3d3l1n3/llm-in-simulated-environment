@@ -1,0 +1,217 @@
+{
+  "savedAt": 1781729726945,
+  "loopCount": 12,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "wood_tools",
+    "activePlan": "gather wood for tools",
+    "planSinceLoop": 12,
+    "goalHistory": [
+      {
+        "goal": "gather wood for tools",
+        "reasoning": "I need logs to craft a wooden pickaxe and progress towards stone tools.",
+        "isGuard": false,
+        "loopCount": 12,
+        "timestamp": 1781729724831
+      }
+    ],
+    "lastCompletedTier": "wood_tools"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "stone": {
+        "x": 5,
+        "y": 67,
+        "z": 7,
+        "distance": 11,
+        "tick": 19519,
+        "seenAt": 1781729723574
+      },
+      "dirt": {
+        "x": 7,
+        "y": 70,
+        "z": 7,
+        "distance": 8,
+        "tick": 19519,
+        "seenAt": 1781729723574
+      },
+      "gravel": {
+        "x": 175,
+        "y": 56,
+        "z": 66,
+        "distance": 10,
+        "tick": 19399,
+        "seenAt": 1781729718112
+      },
+      "oak_log": {
+        "x": 7,
+        "y": 76,
+        "z": 7,
+        "distance": 2,
+        "tick": 19519,
+        "seenAt": 1781729723574
+      },
+      "cobblestone": {
+        "x": 171,
+        "y": 66,
+        "z": 61,
+        "distance": 6,
+        "tick": 19399,
+        "seenAt": 1781729718112
+      },
+      "birch_log": {
+        "x": 4,
+        "y": 75,
+        "z": 12,
+        "distance": 5,
+        "tick": 19519,
+        "seenAt": 1781729723574
+      },
+      "spruce_log": {
+        "x": -23,
+        "y": 71,
+        "z": 3,
+        "distance": 1,
+        "tick": 17919,
+        "seenAt": 1781729643721
+      },
+      "water": {
+        "x": 174,
+        "y": 62,
+        "z": 75,
+        "distance": 9,
+        "tick": 19399,
+        "seenAt": 1781729718112
+      },
+      "water_hazard": {
+        "x": 174,
+        "y": 62,
+        "z": 75,
+        "distance": 9,
+        "seenAt": 1781729718112
+      },
+      "dark_oak_log": {
+        "x": 170,
+        "y": 66,
+        "z": 62,
+        "distance": 6,
+        "tick": 19399,
+        "seenAt": 1781729718112
+      },
+      "sand": {
+        "x": 175,
+        "y": 62,
+        "z": 73,
+        "distance": 7,
+        "tick": 19399,
+        "seenAt": 1781729718112
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (1, 81, 6) to (1, 77, 2); inventory delta +13; avg nearby mobs 0.",
+      "Last 10 loops: moved from (1, 76, 2) to (2, 65, 5); inventory delta +24; avg nearby mobs 0.",
+      "Last 10 loops: moved from (22, 72, -2) to (21, 64, 57); inventory delta +14; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781729722175,
+      "position": {
+        "x": 174.04,
+        "y": 66,
+        "z": 66.6,
+        "yaw": -3.091850769907567,
+        "pitch": 0
+      },
+      "health": 7,
+      "food": 14,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "hunt for food",
+        "reasoning": "I have low health and no food, so I need to attack an animal for food immediately.",
+        "actions": [
+          {
+            "name": "attack",
+            "params": {
+              "entity": "cow"
+            }
+          },
+          {
+            "name": "eat",
+            "params": {}
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "attack",
+          "goal": "hunt for food",
+          "params": {
+            "entity": "cow"
+          },
+          "success": true,
+          "hint": "Collected drops. If hungry, use eat action.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781729675070
+        },
+        {
+          "action": "eat",
+          "goal": "hunt for food",
+          "params": {},
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781729675120
+        },
+        {
+          "action": "eat",
+          "goal": "hunt for food",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781729712296
+        },
+        {
+          "action": "eat",
+          "goal": "flee_danger",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781729718112
+        },
+        {
+          "action": "flee_from",
+          "goal": "flee_danger",
+          "params": {
+            "entity": "pillager"
+          },
+          "success": true,
+          "hint": "Fled to 6m away",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781729718114
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

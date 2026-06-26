@@ -1,0 +1,225 @@
+{
+  "savedAt": 1781768340509,
+  "loopCount": 164,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "wood_tools",
+    "activePlan": "gather wood for tools",
+    "planSinceLoop": 164,
+    "goalHistory": [
+      {
+        "goal": "gather wood for tools",
+        "reasoning": "I need logs to craft planks and sticks for a wooden pickaxe to progress towards stone tools.",
+        "isGuard": false,
+        "loopCount": 164,
+        "timestamp": 1781768340376
+      }
+    ],
+    "lastCompletedTier": "wood_tools"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": -4,
+        "y": 71,
+        "z": -8,
+        "distance": 8,
+        "tick": 71319,
+        "seenAt": 1781768338742
+      },
+      "gravel": {
+        "x": -59,
+        "y": 65,
+        "z": 125,
+        "distance": 8,
+        "tick": 68499,
+        "seenAt": 1781768197730
+      },
+      "water": {
+        "x": -31,
+        "y": 62,
+        "z": 132,
+        "distance": 3,
+        "tick": 70599,
+        "seenAt": 1781768303207
+      },
+      "water_hazard": {
+        "x": -31,
+        "y": 62,
+        "z": 132,
+        "distance": 3,
+        "seenAt": 1781768303207
+      },
+      "sand": {
+        "x": -4,
+        "y": 59,
+        "z": 113,
+        "distance": 10,
+        "tick": 67079,
+        "seenAt": 1781768126678
+      },
+      "stone": {
+        "x": -4,
+        "y": 68,
+        "z": -9,
+        "distance": 11,
+        "tick": 71319,
+        "seenAt": 1781768338742
+      },
+      "birch_log": {
+        "x": -12,
+        "y": 77,
+        "z": -7,
+        "distance": 8,
+        "tick": 71319,
+        "seenAt": 1781768338742
+      },
+      "oak_log": {
+        "x": -4,
+        "y": 77,
+        "z": -8,
+        "distance": 2,
+        "tick": 71319,
+        "seenAt": 1781768338742
+      },
+      "cobblestone": {
+        "x": 3,
+        "y": 69,
+        "z": -2,
+        "distance": 13,
+        "tick": 71319,
+        "seenAt": 1781768338742
+      },
+      "spruce_log": {
+        "x": -10,
+        "y": 79,
+        "z": -14,
+        "distance": 8,
+        "tick": 71319,
+        "seenAt": 1781768338742
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (23, 66, 10) to (23, 66, 10); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (23, 66, 10) to (23, 66, 10); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (23, 66, 10) to (23, 66, 10); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (23, 66, 10) to (23, 66, 10); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (23, 66, 10) to (23, 66, 10); inventory delta +4; avg nearby mobs 0.",
+      "Last 10 loops: moved from (23, 66, 10) to (23, 66, 12); inventory delta +25; avg nearby mobs 0.",
+      "Last 10 loops: moved from (23, 66, 12) to (23, 66, 14); inventory delta +16; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-2, 69, 14) to (-13, 65, 116); inventory delta +3; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781768336903,
+      "position": {
+        "x": -32.3,
+        "y": 65,
+        "z": 133.29,
+        "yaw": 5.491629116393548,
+        "pitch": 0.0008082760227341446
+      },
+      "health": 20,
+      "food": 10,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "hunt for food",
+        "reasoning": "Low food inventory requires immediate action to gather food for survival.",
+        "actions": [
+          {
+            "name": "attack",
+            "params": {
+              "target": "cow"
+            }
+          },
+          {
+            "name": "attack",
+            "params": {
+              "target": "pig"
+            }
+          },
+          {
+            "name": "attack",
+            "params": {
+              "target": "sheep"
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "craft",
+          "goal": "progress_from_logs",
+          "params": {
+            "item": "stick",
+            "count": 4
+          },
+          "success": false,
+          "hint": null,
+          "error": "Error: missing ingredient",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781768075568
+        },
+        {
+          "action": "swim_up",
+          "goal": "escape_drowning",
+          "params": {},
+          "success": false,
+          "hint": "Still in water! Keep calling swim_up!",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781768120900
+        },
+        {
+          "action": "attack",
+          "goal": "hunt for food",
+          "params": {
+            "target": "pig"
+          },
+          "success": true,
+          "hint": "Collected drops. If hungry, use eat action.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781768172501
+        },
+        {
+          "action": "attack",
+          "goal": "hunt for food",
+          "params": {
+            "target": "sheep"
+          },
+          "success": true,
+          "hint": "Collected drops. If hungry, use eat action.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781768192030
+        },
+        {
+          "action": "eat",
+          "goal": "heal",
+          "params": {},
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781768297389
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

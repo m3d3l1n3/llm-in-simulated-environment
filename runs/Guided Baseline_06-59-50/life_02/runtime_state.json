@@ -1,0 +1,200 @@
+{
+  "savedAt": 1781681154977,
+  "loopCount": 45,
+  "goalManager": {
+    "currentTier": "stone_tools",
+    "highestTierReached": "stone_tools",
+    "activePlan": null,
+    "planSinceLoop": 0,
+    "goalHistory": [],
+    "lastCompletedTier": null
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": 406,
+        "y": 63,
+        "z": 618,
+        "distance": 1,
+        "tick": 33599,
+        "seenAt": 1781681152806
+      },
+      "oak_log": {
+        "x": 408,
+        "y": 67,
+        "z": 619,
+        "distance": 5,
+        "tick": 33599,
+        "seenAt": 1781681152806
+      },
+      "gravel": {
+        "x": 392,
+        "y": 61,
+        "z": 615,
+        "distance": 14,
+        "tick": 33599,
+        "seenAt": 1781681152806
+      },
+      "water": {
+        "x": 404,
+        "y": 55,
+        "z": 619,
+        "distance": 7,
+        "tick": 33599,
+        "seenAt": 1781681152806
+      },
+      "water_hazard": {
+        "x": 404,
+        "y": 55,
+        "z": 619,
+        "distance": 7,
+        "seenAt": 1781681152806
+      },
+      "spruce_log": {
+        "x": -16,
+        "y": 70,
+        "z": -10,
+        "distance": 6,
+        "tick": 21379,
+        "seenAt": 1781680540005
+      },
+      "sand": {
+        "x": 425,
+        "y": 64,
+        "z": 617,
+        "distance": 11,
+        "tick": 28699,
+        "seenAt": 1781680908186
+      },
+      "birch_log": {
+        "x": 409,
+        "y": 67,
+        "z": 622,
+        "distance": 6,
+        "tick": 33599,
+        "seenAt": 1781681152806
+      },
+      "stone": {
+        "x": 406,
+        "y": 62,
+        "z": 619,
+        "distance": 0,
+        "tick": 33599,
+        "seenAt": 1781681152806
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (3, 82, 2) to (-12, 74, -7); inventory delta +17; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-12, 74, -7) to (-10, 67, -7); inventory delta +28; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-10, 67, -7) to (-11, 67, -7); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-12, 70, -12) to (-11, 71, -8); inventory delta +14; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-40, 63, -19) to (-11, 68, 17); inventory delta +8; avg nearby mobs 0.",
+      "Last 10 loops: moved from (10, 65, 23) to (27, 70, 10); inventory delta +2; avg nearby mobs 0.",
+      "Last 10 loops: moved from (407, 68, 594) to (404, 61, 620); inventory delta +21; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781681152944,
+      "position": {
+        "x": 405.7,
+        "y": 62,
+        "z": 619.29,
+        "yaw": -1.3692107981894663,
+        "pitch": -0.39269913496199993
+      },
+      "health": 2,
+      "food": 9,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "build shelter for the night",
+        "reasoning": "It's currently night time, and I need to build shelter to avoid mobs spawning. I have enough resources to craft a furnace and use it for cooking food, but my immediate priority is to ensure safety.",
+        "actions": [
+          {
+            "name": "break_around",
+            "params": {
+              "direction": "escape"
+            }
+          },
+          {
+            "name": "dig_to_surface",
+            "params": {}
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "explore",
+          "goal": "escape_trap",
+          "params": {
+            "distance": 25
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781681096299
+        },
+        {
+          "action": "build_shelter",
+          "goal": "build shelter for the night",
+          "params": {},
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781681109997
+        },
+        {
+          "action": "break_around",
+          "goal": "build shelter for the night",
+          "params": {
+            "direction": "escape"
+          },
+          "success": false,
+          "hint": "No blocks to clear nearby. Try pillar_up or dig_to_surface if stuck.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": 0,
+          "timestamp": 1781681117473
+        },
+        {
+          "action": "eat",
+          "goal": "flee_danger",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781681152806
+        },
+        {
+          "action": "flee_from",
+          "goal": "flee_danger",
+          "params": {
+            "entity": "zombie"
+          },
+          "success": false,
+          "hint": "Unable to flee — still 0m from zombie",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781681152812
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

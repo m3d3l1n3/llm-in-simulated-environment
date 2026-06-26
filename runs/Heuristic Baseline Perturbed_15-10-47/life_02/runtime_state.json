@@ -1,0 +1,196 @@
+{
+  "savedAt": 1781451129549,
+  "loopCount": 36,
+  "goalManager": {
+    "currentTier": "stone_tools",
+    "highestTierReached": "stone_tools",
+    "activePlan": null,
+    "planSinceLoop": 0,
+    "goalHistory": [],
+    "lastCompletedTier": null
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": 369,
+        "y": 63,
+        "z": 588,
+        "distance": 2,
+        "tick": 25439,
+        "seenAt": 1781451127533
+      },
+      "gravel": {
+        "x": 368,
+        "y": 58,
+        "z": 587,
+        "distance": 7,
+        "tick": 25439,
+        "seenAt": 1781451127533
+      },
+      "birch_log": {
+        "x": 373,
+        "y": 65,
+        "z": 588,
+        "distance": 3,
+        "tick": 25439,
+        "seenAt": 1781451127533
+      },
+      "water": {
+        "x": 370,
+        "y": 62,
+        "z": 586,
+        "distance": 3,
+        "tick": 25439,
+        "seenAt": 1781451127533
+      },
+      "water_hazard": {
+        "x": 370,
+        "y": 62,
+        "z": 586,
+        "distance": 3,
+        "seenAt": 1781451127533
+      },
+      "sand": {
+        "x": 369,
+        "y": 63,
+        "z": 583,
+        "distance": 5,
+        "tick": 25439,
+        "seenAt": 1781451127533
+      },
+      "oak_log": {
+        "x": 375,
+        "y": 65,
+        "z": 592,
+        "distance": 6,
+        "tick": 25439,
+        "seenAt": 1781451127533
+      },
+      "stone": {
+        "x": 369,
+        "y": 61,
+        "z": 588,
+        "distance": 4,
+        "tick": 25439,
+        "seenAt": 1781451127533
+      },
+      "spruce_log": {
+        "x": -36,
+        "y": 64,
+        "z": -32,
+        "distance": 7,
+        "tick": 23539,
+        "seenAt": 1781451032145
+      },
+      "cobblestone": {
+        "x": 408,
+        "y": 64,
+        "z": 557,
+        "distance": 1,
+        "tick": 24879,
+        "seenAt": 1781451100269
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (-8, 72, -5) to (8, 72, -8); inventory delta +18; avg nearby mobs 0.",
+      "Last 10 loops: moved from (8, 70, -23) to (5, 69, -8); inventory delta +32; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-4, 71, 1) to (-5, 66, -24); inventory delta +9; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-16, 64, -22) to (-44, 63, -28); inventory delta +38; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-44, 63, -28) to (-36, 57, -31); inventory delta +3; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781451127538,
+      "position": {
+        "x": 369.08,
+        "y": 65,
+        "z": 588.4,
+        "yaw": -0.23863233642335402,
+        "pitch": 0.0007933556886416948
+      },
+      "health": 1,
+      "food": 11,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "actions": [
+          {
+            "name": "attack",
+            "params": {
+              "entity": "sheep"
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "eat",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781451115320
+        },
+        {
+          "action": "flee_from",
+          "params": {
+            "entity": "skeleton"
+          },
+          "success": true,
+          "hint": "Fled to 5m away",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781451115677
+        },
+        {
+          "action": "eat",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781451121594
+        },
+        {
+          "action": "flee_from",
+          "params": {
+            "entity": "skeleton"
+          },
+          "success": false,
+          "hint": "Unable to flee — still 11m from skeleton",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781451121596
+        },
+        {
+          "action": "eat",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781451127533
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

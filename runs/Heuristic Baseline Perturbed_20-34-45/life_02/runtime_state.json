@@ -1,0 +1,201 @@
+{
+  "savedAt": 1781470623594,
+  "loopCount": 35,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "stone_tools",
+    "activePlan": "gather_wood",
+    "planSinceLoop": 35,
+    "goalHistory": [
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 35,
+        "timestamp": 1781470622806
+      }
+    ],
+    "lastCompletedTier": "stone_tools"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "birch_log": {
+        "x": -13,
+        "y": 77,
+        "z": 5,
+        "distance": 8,
+        "tick": 26559,
+        "seenAt": 1781470622806
+      },
+      "dirt": {
+        "x": -9,
+        "y": 70,
+        "z": 5,
+        "distance": 14,
+        "tick": 26559,
+        "seenAt": 1781470622806
+      },
+      "gravel": {
+        "x": 559,
+        "y": 59,
+        "z": 624,
+        "distance": 6,
+        "tick": 26279,
+        "seenAt": 1781470609042
+      },
+      "spruce_log": {
+        "x": 13,
+        "y": 71,
+        "z": -32,
+        "distance": 11,
+        "tick": 14699,
+        "seenAt": 1781470028803
+      },
+      "water": {
+        "x": 555,
+        "y": 62,
+        "z": 627,
+        "distance": 5,
+        "tick": 26279,
+        "seenAt": 1781470609042
+      },
+      "water_hazard": {
+        "x": 555,
+        "y": 62,
+        "z": 627,
+        "distance": 5,
+        "seenAt": 1781470609042
+      },
+      "stone": {
+        "x": -9,
+        "y": 68,
+        "z": 6,
+        "distance": 15,
+        "tick": 26559,
+        "seenAt": 1781470622806
+      },
+      "sand": {
+        "x": 559,
+        "y": 65,
+        "z": 624,
+        "distance": 0,
+        "tick": 26279,
+        "seenAt": 1781470609042
+      },
+      "oak_log": {
+        "x": -8,
+        "y": 80,
+        "z": 8,
+        "distance": 4,
+        "tick": 26559,
+        "seenAt": 1781470622806
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (-2, 67, 8) to (-10, 71, 5); inventory delta +15; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-10, 71, -10) to (1, 62, -36); inventory delta +31; avg nearby mobs 0.",
+      "Last 10 loops: moved from (1, 62, -37) to (1, 62, -33); inventory delta +11; avg nearby mobs 0.",
+      "Last 10 loops: moved from (18, 71, -21) to (67, 90, -2); inventory delta +9; avg nearby mobs 0.",
+      "Last 10 loops: moved from (93, 81, -3) to (91, 89, 17); inventory delta +1; avg nearby mobs 0.",
+      "Last 10 loops: moved from (116, 81, 17) to (583, 61, 599); inventory delta +10; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781470619032,
+      "position": {
+        "x": 558.47,
+        "y": 65,
+        "z": 624.52,
+        "yaw": 2.357153228184907,
+        "pitch": -0.0006519152031740916
+      },
+      "health": 20,
+      "food": 15,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "explore",
+        "reasoning": "Heuristic: default explore",
+        "actions": [
+          {
+            "name": "explore",
+            "params": {
+              "distance": 35
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "explore",
+          "params": {
+            "distance": 35
+          },
+          "success": false,
+          "hint": null,
+          "error": "Pathfinder claimed success but only moved 0.7 blocks",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781470580181
+        },
+        {
+          "action": "break_around",
+          "params": {
+            "direction": "escape"
+          },
+          "success": true,
+          "hint": "Cleared 9 blocks! Try moving or exploring now.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": 9,
+          "timestamp": 1781470591479
+        },
+        {
+          "action": "pillar_up",
+          "params": {
+            "height": 10
+          },
+          "success": true,
+          "hint": "pillar_up stopped near open ground.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781470594754
+        },
+        {
+          "action": "explore",
+          "params": {
+            "distance": 25
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781470602837
+        },
+        {
+          "action": "build_shelter",
+          "params": {},
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781470616401
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

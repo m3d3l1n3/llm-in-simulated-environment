@@ -1,0 +1,205 @@
+{
+  "savedAt": 1781459053712,
+  "loopCount": 65,
+  "goalManager": {
+    "currentTier": "stone_tools",
+    "highestTierReached": "stone_tools",
+    "activePlan": null,
+    "planSinceLoop": 0,
+    "goalHistory": [],
+    "lastCompletedTier": null
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": 631,
+        "y": 50,
+        "z": 524,
+        "distance": 15,
+        "tick": 30479,
+        "seenAt": 1781459048061
+      },
+      "oak_log": {
+        "x": 2,
+        "y": 72,
+        "z": -7,
+        "distance": 8,
+        "tick": 23619,
+        "seenAt": 1781458704490
+      },
+      "gravel": {
+        "x": 625,
+        "y": 55,
+        "z": 528,
+        "distance": 14,
+        "tick": 30479,
+        "seenAt": 1781459048061
+      },
+      "spruce_log": {
+        "x": -13,
+        "y": 71,
+        "z": -14,
+        "distance": 16,
+        "tick": 14319,
+        "seenAt": 1781458238941
+      },
+      "water": {
+        "x": 631,
+        "y": 62,
+        "z": 537,
+        "distance": 10,
+        "tick": 30479,
+        "seenAt": 1781459048061
+      },
+      "water_hazard": {
+        "x": 631,
+        "y": 62,
+        "z": 537,
+        "distance": 10,
+        "seenAt": 1781459048061
+      },
+      "birch_log": {
+        "x": 1,
+        "y": 72,
+        "z": -3,
+        "distance": 8,
+        "tick": 23619,
+        "seenAt": 1781458704490
+      },
+      "stone": {
+        "x": 639,
+        "y": 58,
+        "z": 528,
+        "distance": 6,
+        "tick": 30479,
+        "seenAt": 1781459048061
+      },
+      "sand": {
+        "x": 637,
+        "y": 64,
+        "z": 532,
+        "distance": 3,
+        "tick": 30479,
+        "seenAt": 1781459048061
+      },
+      "cobblestone": {
+        "x": 637,
+        "y": 65,
+        "z": 532,
+        "distance": 3,
+        "tick": 30479,
+        "seenAt": 1781459048061
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (0, 72, -22) to (25, 71, 7); inventory delta +2; avg nearby mobs 0.",
+      "Last 10 loops: moved from (28, 70, 11) to (29, 65, 10); inventory delta +22; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-5, 78, -6) to (0, 70, -5); inventory delta +24; avg nearby mobs 0.",
+      "Last 10 loops: moved from (2, 69, -5) to (1, 64, -5); inventory delta +27; avg nearby mobs 0.",
+      "Last 10 loops: moved from (3, 64, -5) to (1, 65, -4); inventory delta -3; avg nearby mobs 0.",
+      "Last 10 loops: moved from (1, 65, -4) to (5, 64, -6); inventory delta +1; avg nearby mobs 0.",
+      "Last 10 loops: moved from (5, 64, -6) to (580, 61, 589); inventory delta -11; avg nearby mobs 0.",
+      "Last 10 loops: moved from (585, 62, 582) to (639, 64, 534); inventory delta -3; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781459051707,
+      "position": {
+        "x": 636.46,
+        "y": 64,
+        "z": 528.46,
+        "yaw": 0.869269628239516,
+        "pitch": -0.0010124273199476619
+      },
+      "health": 11.833333969116211,
+      "food": 10,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "mine_coal",
+        "reasoning": "Heuristic: mine coal",
+        "actions": [
+          {
+            "name": "mine",
+            "params": {
+              "blockType": "coal_ore",
+              "count": 5
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "attack",
+          "params": {
+            "entity": "sheep"
+          },
+          "success": false,
+          "hint": null,
+          "error": "No sheep found nearby",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781459006392
+        },
+        {
+          "action": "attack",
+          "params": {
+            "entity": "sheep"
+          },
+          "success": false,
+          "hint": null,
+          "error": "No sheep found nearby",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781459012762
+        },
+        {
+          "action": "attack",
+          "params": {
+            "entity": "sheep"
+          },
+          "success": false,
+          "hint": null,
+          "error": "No sheep found nearby",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781459019121
+        },
+        {
+          "action": "mine",
+          "params": {
+            "blockType": "coal_ore",
+            "count": 5
+          },
+          "success": false,
+          "hint": null,
+          "error": "No deepslate_coal_ore found within 32 blocks",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781459041739
+        },
+        {
+          "action": "dig_emergency_shelter",
+          "params": {},
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781459050139
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

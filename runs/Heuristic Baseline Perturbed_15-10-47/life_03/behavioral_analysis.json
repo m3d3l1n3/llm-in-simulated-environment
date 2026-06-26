@@ -1,0 +1,85 @@
+{
+  "runId": "Heuristic Baseline Perturbed_15-10-47_life_03",
+  "generatedAt": "2026-06-14T16:10:47.700Z",
+  "coherence": {
+    "totalDecisions": 84,
+    "goalsStarted": 84,
+    "goalsCompleted": 1,
+    "completionRate": "1.2%"
+  },
+  "actionDistribution": {
+    "chop_tree": 8,
+    "craft": 6,
+    "explore": 21,
+    "mine": 11,
+    "break_around": 17,
+    "dig_to_surface": 2
+  },
+  "mostFrequentActions": [
+    {
+      "action": "explore",
+      "count": 21
+    },
+    {
+      "action": "break_around",
+      "count": 17
+    },
+    {
+      "action": "mine",
+      "count": 11
+    },
+    {
+      "action": "chop_tree",
+      "count": 8
+    },
+    {
+      "action": "craft",
+      "count": 6
+    }
+  ],
+  "goalDistribution": {
+    "gather_wood": 15,
+    "progress_from_logs": 3,
+    "craft_wooden_pickaxe": 1,
+    "descend_to_mine": 1,
+    "mine_stone": 2,
+    "progress_to_stone_tools": 1,
+    "mine_coal": 8,
+    "explore_new_area": 2,
+    "mine_iron": 4,
+    "explore_for_iron": 2,
+    "escape_trap": 11,
+    "explore": 8,
+    "stock_food": 22,
+    "forced_recovery": 4
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "stock_food",
+      "count": 22
+    },
+    {
+      "action": "gather_wood",
+      "count": 15
+    },
+    {
+      "action": "escape_trap",
+      "count": 11
+    },
+    {
+      "action": "mine_coal",
+      "count": 8
+    },
+    {
+      "action": "explore",
+      "count": 8
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 4
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

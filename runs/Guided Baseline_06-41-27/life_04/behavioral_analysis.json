@@ -1,0 +1,101 @@
+{
+  "runId": "Guided Baseline_06-41-27_life_04",
+  "generatedAt": "2026-06-18T07:39:00.512Z",
+  "coherence": {
+    "totalDecisions": 164,
+    "goalsStarted": 164,
+    "goalsCompleted": 1,
+    "completionRate": "0.6%"
+  },
+  "actionDistribution": {
+    "chop_tree": 17,
+    "craft": 23,
+    "mine": 8,
+    "explore": 16,
+    "swim_up": 2,
+    "wait": 6,
+    "look": 1,
+    "break_around": 7,
+    "build_shelter": 83,
+    "dig_emergency_shelter": 1,
+    "pillar_up": 6,
+    "attack": 5,
+    "eat": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "build_shelter",
+      "count": 83
+    },
+    {
+      "action": "craft",
+      "count": 23
+    },
+    {
+      "action": "chop_tree",
+      "count": 17
+    },
+    {
+      "action": "explore",
+      "count": 16
+    },
+    {
+      "action": "mine",
+      "count": 8
+    }
+  ],
+  "goalDistribution": {
+    "gather wood for tools": 6,
+    "progress_from_logs": 20,
+    "craft_wooden_pickaxe": 2,
+    "gather cobblestone for stone t": 2,
+    "gather wood for crafting": 3,
+    "mine_stone": 1,
+    "mine stone for cobblestone": 2,
+    "explore_new_area": 2,
+    "escape_drowning": 2,
+    "gather resources for wooden to": 5,
+    "gather wood for sticks": 7,
+    "wait_in_tree": 5,
+    "escape_tree": 1,
+    "build_night_shelter": 2,
+    "build shelter": 82,
+    "build emergency shelter": 1,
+    "gather resources for tools": 2,
+    "craft sticks for tools": 1,
+    "escape_trap": 6,
+    "gather stone for tools": 2,
+    "hunt for food": 8,
+    "gather resources": 1,
+    "heal": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "build shelter",
+      "count": 82
+    },
+    {
+      "action": "progress_from_logs",
+      "count": 20
+    },
+    {
+      "action": "hunt for food",
+      "count": 8
+    },
+    {
+      "action": "gather wood for sticks",
+      "count": 7
+    },
+    {
+      "action": "gather wood for tools",
+      "count": 6
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 5
+  },
+  "adaptation": {
+    "perturbationCount": 1,
+    "averageRecoveryTime": "1079.6s"
+  }
+}

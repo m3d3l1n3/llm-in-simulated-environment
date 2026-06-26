@@ -1,0 +1,79 @@
+{
+  "runId": "Heuristic Baseline Perturbed_11-23-54_life_03",
+  "generatedAt": "2026-06-14T11:50:00.073Z",
+  "coherence": {
+    "totalDecisions": 22,
+    "goalsStarted": 22,
+    "goalsCompleted": 1,
+    "completionRate": "4.5%"
+  },
+  "actionDistribution": {
+    "chop_tree": 4,
+    "craft": 14,
+    "explore": 2,
+    "mine": 4,
+    "break_around": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 14
+    },
+    {
+      "action": "chop_tree",
+      "count": 4
+    },
+    {
+      "action": "mine",
+      "count": 4
+    },
+    {
+      "action": "explore",
+      "count": 2
+    },
+    {
+      "action": "break_around",
+      "count": 1
+    }
+  ],
+  "goalDistribution": {
+    "gather_wood": 6,
+    "progress_from_logs": 4,
+    "craft_wooden_pickaxe": 1,
+    "descend_to_mine": 1,
+    "mine_stone": 3,
+    "progress_to_stone_tools": 4,
+    "escape_trap": 1,
+    "craft_furnace": 1,
+    "mine_coal": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "gather_wood",
+      "count": 6
+    },
+    {
+      "action": "progress_from_logs",
+      "count": 4
+    },
+    {
+      "action": "progress_to_stone_tools",
+      "count": 4
+    },
+    {
+      "action": "mine_stone",
+      "count": 3
+    },
+    {
+      "action": "craft_wooden_pickaxe",
+      "count": 1
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 6
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

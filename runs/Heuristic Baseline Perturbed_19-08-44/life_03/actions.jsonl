@@ -1,0 +1,117 @@
+{"timestamp":1781465596052,"runTime":4342,"action":"chop_tree","params":{"count":2},"success":true,"duration":2598,"result":{"success":true,"logsChopped":2,"hint":"Chopped 2 logs"}}
+{"timestamp":1781465605559,"runTime":13849,"action":"chop_tree","params":{"count":2},"success":true,"duration":2601,"result":{"success":true,"logsChopped":2,"hint":"Chopped 2 logs"}}
+{"timestamp":1781465623400,"runTime":31690,"action":"chop_tree","params":{"count":2},"success":true,"duration":10961,"result":{"success":true,"logsChopped":2,"hint":"Chopped 2 logs"}}
+{"timestamp":1781465637450,"runTime":45740,"action":"chop_tree","params":{"count":2},"success":true,"duration":8244,"result":{"success":true,"logsChopped":2,"hint":"Chopped 2 logs"}}
+{"timestamp":1781465663244,"runTime":71534,"action":"craft","params":{"item":"planks","count":4},"success":false,"duration":20005,"error":"Failed to craft planks from logs"}
+{"timestamp":1781465689033,"runTime":97323,"action":"craft","params":{"item":"planks","count":4},"success":false,"duration":20011,"error":"Failed to craft planks from logs"}
+{"timestamp":1781465714883,"runTime":123173,"action":"craft","params":{"item":"planks","count":4},"success":false,"duration":20010,"error":"Failed to craft planks from logs"}
+{"timestamp":1781465729670,"runTime":137960,"action":"chop_tree","params":{"count":2},"success":true,"duration":8996,"result":{"success":true,"logsChopped":2,"hint":"Chopped 2 logs"}}
+{"timestamp":1781465744925,"runTime":153215,"action":"explore","params":{"distance":35},"success":true,"duration":9381,"result":{"success":true,"direction":"north_west","distanceTraveled":25.408022149295416,"position":{"x":-27,"y":64,"z":-10}}}
+{"timestamp":1781465765103,"runTime":173393,"action":"explore","params":{"distance":35},"success":true,"duration":14166,"result":{"success":true,"fallback":true,"direction":"west","distanceTraveled":16.537835408541188,"position":{"x":-44,"y":63,"z":-10}}}
+{"timestamp":1781465781808,"runTime":190098,"action":"explore","params":{"distance":35},"success":true,"duration":11239,"result":{"success":true,"position":{"x":-9,"y":64,"z":25},"distanceTraveled":50.11824763195571,"direction":"south_east"}}
+{"timestamp":1781465796378,"runTime":204668,"action":"explore","params":{"distance":35},"success":true,"duration":8635,"result":{"success":true,"position":{"x":-9,"y":71,"z":-10},"distanceTraveled":35.36689252003277,"direction":"north"}}
+{"timestamp":1781465807715,"runTime":216005,"action":"explore","params":{"distance":35},"success":true,"duration":5665,"result":{"success":true,"fallback":true,"direction":"south_west","distanceTraveled":24.979851835323235,"position":{"x":-26,"y":64,"z":7}}}
+{"timestamp":1781465854657,"runTime":262947,"action":"explore","params":{"distance":35},"success":true,"duration":5286,"result":{"success":true,"direction":"south","distanceTraveled":17.503048903911083,"position":{"x":-45,"y":63,"z":42}}}
+{"timestamp":1781465870872,"runTime":279162,"action":"explore","params":{"distance":35},"success":true,"duration":10781,"result":{"success":true,"position":{"x":-10,"y":65,"z":77},"distanceTraveled":50.12122398468079,"direction":"south_east"}}
+{"timestamp":1781465887804,"runTime":296094,"action":"chop_tree","params":{"count":3},"success":true,"duration":10841,"result":{"success":true,"logsChopped":3,"hint":"Chopped 3 logs"}}
+{"timestamp":1781465913814,"runTime":322104,"action":"craft","params":{"item":"planks","count":4},"success":false,"duration":20004,"error":"Failed to craft planks from logs"}
+{"timestamp":1781465939910,"runTime":348200,"action":"craft","params":{"item":"planks","count":4},"success":false,"duration":20005,"error":"Failed to craft planks from logs"}
+{"timestamp":1781465949006,"runTime":357296,"action":"break_around","params":{"direction":"escape"},"success":true,"duration":3119,"result":{"success":true,"blocksCleared":2,"blocks":[{"block":"oak_log","position":{"x":-12,"y":66,"z":78},"location":"above head"},{"block":"short_grass","position":{"x":-13,"y":64,"z":78},"location":"side feet"}],"hint":"Cleared 2 blocks! Try moving or exploring now."}}
+{"timestamp":1781465949006,"runTime":357296,"action":"break_around","params":{"direction":"up"},"success":false,"duration":0,"result":{"success":false,"blocksCleared":0,"blocks":[],"hint":"No blocks to clear nearby. Try pillar_up or dig_to_surface if stuck."}}
+{"timestamp":1781465952525,"runTime":360815,"action":"explore","params":{"distance":25},"success":true,"duration":3519,"result":{"success":true,"fallback":true,"direction":"east","distanceTraveled":12.666965896042004,"position":{"x":0,"y":66,"z":78}}}
+{"timestamp":1781465996262,"runTime":404552,"action":"swim_up","params":{},"success":false,"duration":2225,"result":{"success":false,"startY":61,"endY":62,"rose":0,"oxygen":20,"oxygenRecovered":false,"inWater":true,"stillDrowning":true,"hint":"Still in water! Keep calling swim_up!"}}
+{"timestamp":1781466014609,"runTime":422899,"action":"attack","params":{"entity":"sheep"},"success":true,"duration":12458,"result":{"success":true,"entity":"sheep","attacks":8,"entityDead":true,"hint":"Collected drops. If hungry, use eat action."}}
+{"timestamp":1781466036275,"runTime":444565,"action":"attack","params":{"entity":"sheep"},"success":true,"duration":15731,"result":{"success":true,"entity":"sheep","attacks":9,"entityDead":true,"hint":"Collected drops. If hungry, use eat action."}}
+{"timestamp":1781466085879,"runTime":494169,"action":"attack","params":{"entity":"sheep"},"success":true,"duration":7823,"result":{"success":true,"entity":"sheep","attacks":8,"entityDead":true,"hint":"Collected drops. If hungry, use eat action."}}
+{"timestamp":1781466099952,"runTime":508242,"action":"explore","params":{"distance":30},"success":true,"duration":8238,"result":{"success":true,"position":{"x":-38,"y":68,"z":100},"distanceTraveled":42.47940677551889,"direction":"north_east"}}
+{"timestamp":1781466134450,"runTime":542740,"action":"attack","params":{"entity":"sheep"},"success":true,"duration":28202,"result":{"success":true,"entity":"sheep","attacks":8,"entityDead":true,"hint":"Collected drops. If hungry, use eat action."}}
+{"timestamp":1781466146432,"runTime":554722,"action":"dig_emergency_shelter","params":{},"success":true,"duration":6084,"result":{"success":true,"depth":2,"sealed":true,"message":"Emergency pit shelter dug"}}
+{"timestamp":1781466154796,"runTime":563086,"action":"wait","params":{"ms":3000},"success":true,"duration":3004,"result":{"success":true}}
+{"timestamp":1781466163129,"runTime":571419,"action":"wait","params":{"ms":3000},"success":true,"duration":3001,"result":{"success":true}}
+{"timestamp":1781466171477,"runTime":579767,"action":"wait","params":{"ms":3000},"success":true,"duration":3005,"result":{"success":true}}
+{"timestamp":1781466179823,"runTime":588113,"action":"wait","params":{"ms":3000},"success":true,"duration":3000,"result":{"success":true}}
+{"timestamp":1781466188189,"runTime":596479,"action":"wait","params":{"ms":3000},"success":true,"duration":3013,"result":{"success":true}}
+{"timestamp":1781466196508,"runTime":604798,"action":"wait","params":{"ms":3000},"success":true,"duration":3002,"result":{"success":true}}
+{"timestamp":1781466204919,"runTime":613209,"action":"wait","params":{"ms":3000},"success":true,"duration":3001,"result":{"success":true}}
+{"timestamp":1781466213254,"runTime":621544,"action":"wait","params":{"ms":3000},"success":true,"duration":3012,"result":{"success":true}}
+{"timestamp":1781466221592,"runTime":629882,"action":"wait","params":{"ms":3000},"success":true,"duration":3008,"result":{"success":true}}
+{"timestamp":1781466229957,"runTime":638247,"action":"wait","params":{"ms":3000},"success":true,"duration":3001,"result":{"success":true}}
+{"timestamp":1781466238300,"runTime":646590,"action":"wait","params":{"ms":3000},"success":true,"duration":3010,"result":{"success":true}}
+{"timestamp":1781466246608,"runTime":654898,"action":"wait","params":{"ms":3000},"success":true,"duration":3001,"result":{"success":true}}
+{"timestamp":1781466254950,"runTime":663240,"action":"wait","params":{"ms":3000},"success":true,"duration":3010,"result":{"success":true}}
+{"timestamp":1781466263301,"runTime":671591,"action":"wait","params":{"ms":3000},"success":true,"duration":3009,"result":{"success":true}}
+{"timestamp":1781466271622,"runTime":679912,"action":"wait","params":{"ms":3000},"success":true,"duration":3000,"result":{"success":true}}
+{"timestamp":1781466279987,"runTime":688277,"action":"wait","params":{"ms":3000},"success":true,"duration":3007,"result":{"success":true}}
+{"timestamp":1781466288352,"runTime":696642,"action":"wait","params":{"ms":3000},"success":true,"duration":3003,"result":{"success":true}}
+{"timestamp":1781466296694,"runTime":704984,"action":"wait","params":{"ms":3000},"success":true,"duration":3004,"result":{"success":true}}
+{"timestamp":1781466305041,"runTime":713331,"action":"wait","params":{"ms":3000},"success":true,"duration":3002,"result":{"success":true}}
+{"timestamp":1781466313374,"runTime":721664,"action":"wait","params":{"ms":3000},"success":true,"duration":3012,"result":{"success":true}}
+{"timestamp":1781466321705,"runTime":729995,"action":"wait","params":{"ms":3000},"success":true,"duration":3001,"result":{"success":true}}
+{"timestamp":1781466330032,"runTime":738322,"action":"wait","params":{"ms":3000},"success":true,"duration":3001,"result":{"success":true}}
+{"timestamp":1781466338409,"runTime":746699,"action":"wait","params":{"ms":3000},"success":true,"duration":3000,"result":{"success":true}}
+{"timestamp":1781466346758,"runTime":755048,"action":"wait","params":{"ms":3000},"success":true,"duration":3005,"result":{"success":true}}
+{"timestamp":1781466355099,"runTime":763389,"action":"wait","params":{"ms":3000},"success":true,"duration":3010,"result":{"success":true}}
+{"timestamp":1781466363412,"runTime":771702,"action":"wait","params":{"ms":3000},"success":true,"duration":3008,"result":{"success":true}}
+{"timestamp":1781466371732,"runTime":780022,"action":"wait","params":{"ms":3000},"success":true,"duration":3011,"result":{"success":true}}
+{"timestamp":1781466380063,"runTime":788353,"action":"wait","params":{"ms":3000},"success":true,"duration":3001,"result":{"success":true}}
+{"timestamp":1781466388382,"runTime":796672,"action":"wait","params":{"ms":3000},"success":true,"duration":3009,"result":{"success":true}}
+{"timestamp":1781466396702,"runTime":804992,"action":"wait","params":{"ms":3000},"success":true,"duration":3009,"result":{"success":true}}
+{"timestamp":1781466405016,"runTime":813306,"action":"wait","params":{"ms":3000},"success":true,"duration":3001,"result":{"success":true}}
+{"timestamp":1781466413352,"runTime":821642,"action":"wait","params":{"ms":3000},"success":true,"duration":3003,"result":{"success":true}}
+{"timestamp":1781466421714,"runTime":830004,"action":"wait","params":{"ms":3000},"success":true,"duration":3011,"result":{"success":true}}
+{"timestamp":1781466430047,"runTime":838337,"action":"wait","params":{"ms":3000},"success":true,"duration":3003,"result":{"success":true}}
+{"timestamp":1781466438366,"runTime":846656,"action":"wait","params":{"ms":3000},"success":true,"duration":3011,"result":{"success":true}}
+{"timestamp":1781466446668,"runTime":854958,"action":"wait","params":{"ms":3000},"success":true,"duration":3007,"result":{"success":true}}
+{"timestamp":1781466454978,"runTime":863268,"action":"wait","params":{"ms":3000},"success":true,"duration":3014,"result":{"success":true}}
+{"timestamp":1781466463301,"runTime":871591,"action":"wait","params":{"ms":3000},"success":true,"duration":3014,"result":{"success":true}}
+{"timestamp":1781466471625,"runTime":879915,"action":"wait","params":{"ms":3000},"success":true,"duration":3007,"result":{"success":true}}
+{"timestamp":1781466479946,"runTime":888236,"action":"wait","params":{"ms":3000},"success":true,"duration":3006,"result":{"success":true}}
+{"timestamp":1781466488270,"runTime":896560,"action":"wait","params":{"ms":3000},"success":true,"duration":3006,"result":{"success":true}}
+{"timestamp":1781466496601,"runTime":904891,"action":"wait","params":{"ms":3000},"success":true,"duration":3001,"result":{"success":true}}
+{"timestamp":1781466504925,"runTime":913215,"action":"wait","params":{"ms":3000},"success":true,"duration":3004,"result":{"success":true}}
+{"timestamp":1781466513246,"runTime":921536,"action":"wait","params":{"ms":3000},"success":true,"duration":3011,"result":{"success":true}}
+{"timestamp":1781466521591,"runTime":929881,"action":"wait","params":{"ms":3000},"success":true,"duration":3012,"result":{"success":true}}
+{"timestamp":1781466529904,"runTime":938194,"action":"wait","params":{"ms":3000},"success":true,"duration":3001,"result":{"success":true}}
+{"timestamp":1781466538216,"runTime":946506,"action":"wait","params":{"ms":3000},"success":true,"duration":3009,"result":{"success":true}}
+{"timestamp":1781466546561,"runTime":954851,"action":"wait","params":{"ms":3000},"success":true,"duration":3000,"result":{"success":true}}
+{"timestamp":1781466554867,"runTime":963157,"action":"wait","params":{"ms":3000},"success":true,"duration":3004,"result":{"success":true}}
+{"timestamp":1781466563172,"runTime":971462,"action":"wait","params":{"ms":3000},"success":true,"duration":3007,"result":{"success":true}}
+{"timestamp":1781466571492,"runTime":979782,"action":"wait","params":{"ms":3000},"success":true,"duration":3000,"result":{"success":true}}
+{"timestamp":1781466579834,"runTime":988124,"action":"wait","params":{"ms":3000},"success":true,"duration":3007,"result":{"success":true}}
+{"timestamp":1781466588200,"runTime":996490,"action":"wait","params":{"ms":3000},"success":true,"duration":3006,"result":{"success":true}}
+{"timestamp":1781466596603,"runTime":1004893,"action":"wait","params":{"ms":3000},"success":true,"duration":3000,"result":{"success":true}}
+{"timestamp":1781466605232,"runTime":1013522,"action":"wait","params":{"ms":3000},"success":true,"duration":3001,"result":{"success":true}}
+{"timestamp":1781466613693,"runTime":1021983,"action":"wait","params":{"ms":3000},"success":true,"duration":3004,"result":{"success":true}}
+{"timestamp":1781466622249,"runTime":1030539,"action":"wait","params":{"ms":3000},"success":true,"duration":3006,"result":{"success":true}}
+{"timestamp":1781466630725,"runTime":1039015,"action":"wait","params":{"ms":3000},"success":true,"duration":3003,"result":{"success":true}}
+{"timestamp":1781466639170,"runTime":1047460,"action":"wait","params":{"ms":3000},"success":true,"duration":3012,"result":{"success":true}}
+{"timestamp":1781466647491,"runTime":1055781,"action":"wait","params":{"ms":3000},"success":true,"duration":3010,"result":{"success":true}}
+{"timestamp":1781466655800,"runTime":1064090,"action":"wait","params":{"ms":3000},"success":true,"duration":2999,"result":{"success":true}}
+{"timestamp":1781466664115,"runTime":1072405,"action":"wait","params":{"ms":3000},"success":true,"duration":3006,"result":{"success":true}}
+{"timestamp":1781466672451,"runTime":1080741,"action":"wait","params":{"ms":3000},"success":true,"duration":3012,"result":{"success":true}}
+{"timestamp":1781466680788,"runTime":1089078,"action":"wait","params":{"ms":3000},"success":true,"duration":3008,"result":{"success":true}}
+{"timestamp":1781466689100,"runTime":1097390,"action":"wait","params":{"ms":3000},"success":true,"duration":3002,"result":{"success":true}}
+{"timestamp":1781466697427,"runTime":1105717,"action":"wait","params":{"ms":3000},"success":true,"duration":3013,"result":{"success":true}}
+{"timestamp":1781466705747,"runTime":1114037,"action":"wait","params":{"ms":3000},"success":true,"duration":3013,"result":{"success":true}}
+{"timestamp":1781466714066,"runTime":1122356,"action":"wait","params":{"ms":3000},"success":true,"duration":3006,"result":{"success":true}}
+{"timestamp":1781466722401,"runTime":1130691,"action":"wait","params":{"ms":3000},"success":true,"duration":3015,"result":{"success":true}}
+{"timestamp":1781466730726,"runTime":1139016,"action":"wait","params":{"ms":3000},"success":true,"duration":3001,"result":{"success":true}}
+{"timestamp":1781466739044,"runTime":1147334,"action":"wait","params":{"ms":3000},"success":true,"duration":3003,"result":{"success":true}}
+{"timestamp":1781466747381,"runTime":1155671,"action":"wait","params":{"ms":3000},"success":true,"duration":3011,"result":{"success":true}}
+{"timestamp":1781466755702,"runTime":1163992,"action":"wait","params":{"ms":3000},"success":true,"duration":3006,"result":{"success":true}}
+{"timestamp":1781466764022,"runTime":1172312,"action":"wait","params":{"ms":3000},"success":true,"duration":3001,"result":{"success":true}}
+{"timestamp":1781466772374,"runTime":1180664,"action":"wait","params":{"ms":3000},"success":true,"duration":3008,"result":{"success":true}}
+{"timestamp":1781466780701,"runTime":1188991,"action":"wait","params":{"ms":3000},"success":true,"duration":3006,"result":{"success":true}}
+{"timestamp":1781466786024,"runTime":1194314,"action":"explore","params":{"distance":30},"success":false,"duration":4,"result":{"success":false,"error":"Pathfinder claimed success but only moved 0.8 blocks","distanceTraveled":0.7745595950076499,"direction":"north","position":{"x":-37,"y":62,"z":188}}}
+{"timestamp":1781466904500,"runTime":1312790,"action":"break_around","params":{"direction":"escape"},"success":true,"duration":7103,"result":{"success":true,"blocksCleared":8,"blocks":[{"block":"dirt","position":{"x":-38,"y":62,"z":188},"location":"forward feet"},{"block":"grass_block","position":{"x":-38,"y":63,"z":188},"location":"forward head"},{"block":"dirt","position":{"x":-36,"y":62,"z":188},"location":"side feet"},{"block":"grass_block","position":{"x":-36,"y":63,"z":188},"location":"side head"},{"block":"dirt","position":{"x":-37,"y":62,"z":189},"location":"side feet"},{"block":"grass_block","position":{"x":-37,"y":63,"z":189},"location":"side head"},{"block":"dirt","position":{"x":-37,"y":62,"z":187},"location":"side feet"},{"block":"grass_block","position":{"x":-37,"y":63,"z":187},"location":"side head"}],"hint":"Cleared 8 blocks! Try moving or exploring now."}}
+{"timestamp":1781466905650,"runTime":1313940,"action":"pillar_up","params":{"height":5},"success":false,"duration":1150,"result":{"success":false,"blocksPlaced":0,"startY":62,"endY":62,"rose":0,"hint":"pillar_up stopped near open ground."}}
+{"timestamp":1781466910002,"runTime":1318292,"action":"explore","params":{"distance":30},"success":false,"duration":4352,"result":{"success":false,"error":"No path to the goal!","distanceTraveled":2.1692466142917626}}
+{"timestamp":1781467026602,"runTime":1434892,"action":"break_around","params":{"direction":"escape"},"success":true,"duration":5315,"result":{"success":true,"blocksCleared":6,"blocks":[{"block":"dirt","position":{"x":-37,"y":62,"z":190},"location":"forward feet"},{"block":"grass_block","position":{"x":-37,"y":63,"z":190},"location":"forward head"},{"block":"dirt","position":{"x":-36,"y":62,"z":189},"location":"side feet"},{"block":"grass_block","position":{"x":-36,"y":63,"z":189},"location":"side head"},{"block":"dirt","position":{"x":-38,"y":62,"z":189},"location":"side feet"},{"block":"grass_block","position":{"x":-38,"y":63,"z":189},"location":"side head"}],"hint":"Cleared 6 blocks! Try moving or exploring now."}}
+{"timestamp":1781467027745,"runTime":1436035,"action":"pillar_up","params":{"height":5},"success":false,"duration":1143,"result":{"success":false,"blocksPlaced":0,"startY":62,"endY":62,"rose":0,"hint":"pillar_up stopped near open ground."}}
+{"timestamp":1781467031803,"runTime":1440093,"action":"explore","params":{"distance":25},"success":false,"duration":4058,"result":{"success":false,"error":"No path to the goal!","distanceTraveled":1.8329230561182766}}
+{"timestamp":1781467148476,"runTime":1556766,"action":"break_around","params":{"direction":"escape"},"success":true,"duration":5352,"result":{"success":true,"blocksCleared":6,"blocks":[{"block":"dirt","position":{"x":-37,"y":62,"z":191},"location":"forward feet"},{"block":"grass_block","position":{"x":-37,"y":63,"z":191},"location":"forward head"},{"block":"dirt","position":{"x":-36,"y":62,"z":190},"location":"side feet"},{"block":"grass_block","position":{"x":-36,"y":63,"z":190},"location":"side head"},{"block":"dirt","position":{"x":-38,"y":62,"z":190},"location":"side feet"},{"block":"grass_block","position":{"x":-38,"y":63,"z":190},"location":"side head"}],"hint":"Cleared 6 blocks! Try moving or exploring now."}}
+{"timestamp":1781467151311,"runTime":1559601,"action":"pillar_up","params":{"height":5},"success":true,"duration":2835,"result":{"success":true,"blocksPlaced":1,"startY":62,"endY":63,"rose":1,"hint":"pillar_up stopped near open ground."}}
+{"timestamp":1781467170431,"runTime":1578721,"action":"attack","params":{"entity":"sheep"},"success":true,"duration":13795,"result":{"success":true,"entity":"sheep","attacks":8,"entityDead":true,"hint":"Collected drops. If hungry, use eat action."}}
+{"timestamp":1781467194009,"runTime":1602299,"action":"chop_tree","params":{"count":2},"success":true,"duration":17409,"result":{"success":true,"logsChopped":2,"hint":"Chopped 2 logs"}}
+{"timestamp":1781467213506,"runTime":1621796,"action":"chop_tree","params":{"count":2},"success":true,"duration":13595,"result":{"success":true,"logsChopped":2,"hint":"Chopped 2 logs"}}
+{"timestamp":1781467374895,"runTime":1783185,"action":"build_shelter","params":{},"success":true,"duration":12170,"result":{"success":true,"blocksPlaced":21,"shelterLocation":{"x":-61,"y":65,"z":219}}}

@@ -1,0 +1,278 @@
+{
+  "savedAt": 1781461114415,
+  "loopCount": 12,
+  "goalManager": {
+    "currentTier": "stone_tools",
+    "highestTierReached": "shelter",
+    "activePlan": "craft_torches",
+    "planSinceLoop": 12,
+    "goalHistory": [
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 1,
+        "timestamp": 1781460934312
+      },
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 2,
+        "timestamp": 1781460954050
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Enough logs; craft planks instead of chopping more.",
+        "isGuard": true,
+        "loopCount": 3,
+        "timestamp": 1781460971935
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 4,
+        "timestamp": 1781460977589
+      },
+      {
+        "goal": "craft_wooden_pickaxe",
+        "reasoning": "No pickaxe; have planks and sticks. Craft wooden_pickaxe to mine stone.",
+        "isGuard": true,
+        "loopCount": 5,
+        "timestamp": 1781460983156
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Have table and wood; craft sticks for tools.",
+        "isGuard": true,
+        "loopCount": 6,
+        "timestamp": 1781460995185
+      },
+      {
+        "goal": "mine_stone",
+        "reasoning": "Heuristic: mine stone",
+        "isGuard": false,
+        "loopCount": 7,
+        "timestamp": 1781461000964
+      },
+      {
+        "goal": "mine_stone",
+        "reasoning": "Heuristic: mine stone",
+        "isGuard": false,
+        "loopCount": 8,
+        "timestamp": 1781461036849
+      },
+      {
+        "goal": "progress_to_stone_tools",
+        "reasoning": "Enough cobblestone; craft stone_pickaxe instead of mining more.",
+        "isGuard": true,
+        "loopCount": 9,
+        "timestamp": 1781461067178
+      },
+      {
+        "goal": "craft_furnace",
+        "reasoning": "Heuristic: craft furnace",
+        "isGuard": false,
+        "loopCount": 10,
+        "timestamp": 1781461075439
+      },
+      {
+        "goal": "mine_coal",
+        "reasoning": "Heuristic: mine coal",
+        "isGuard": false,
+        "loopCount": 11,
+        "timestamp": 1781461081394
+      },
+      {
+        "goal": "craft_torches",
+        "reasoning": "Heuristic: craft torches",
+        "isGuard": false,
+        "loopCount": 12,
+        "timestamp": 1781461109544
+      }
+    ],
+    "lastCompletedTier": "shelter"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": 16,
+        "y": 63,
+        "z": -32,
+        "distance": 1,
+        "tick": 71739,
+        "seenAt": 1781461109544
+      },
+      "gravel": {
+        "x": 23,
+        "y": 65,
+        "z": -26,
+        "distance": 8,
+        "tick": 71739,
+        "seenAt": 1781461109544
+      },
+      "water": {
+        "x": -1,
+        "y": 61,
+        "z": -23,
+        "distance": 15,
+        "tick": 71159,
+        "seenAt": 1781461081394
+      },
+      "water_hazard": {
+        "x": -1,
+        "y": 61,
+        "z": -23,
+        "distance": 15,
+        "seenAt": 1781461081394
+      },
+      "sand": {
+        "x": 54,
+        "y": 60,
+        "z": -105,
+        "distance": 1,
+        "tick": 67679,
+        "seenAt": 1781460907217
+      },
+      "cobblestone": {
+        "x": 23,
+        "y": 65,
+        "z": -36,
+        "distance": 8,
+        "tick": 71739,
+        "seenAt": 1781461109544
+      },
+      "spruce_log": {
+        "x": 13,
+        "y": 65,
+        "z": -32,
+        "distance": 4,
+        "tick": 71739,
+        "seenAt": 1781461109544
+      },
+      "oak_log": {
+        "x": 19,
+        "y": 69,
+        "z": -27,
+        "distance": 7,
+        "tick": 71739,
+        "seenAt": 1781461109544
+      },
+      "birch_log": {
+        "x": 12,
+        "y": 69,
+        "z": -28,
+        "distance": 7,
+        "tick": 71739,
+        "seenAt": 1781461109544
+      },
+      "stone": {
+        "x": 16,
+        "y": 63,
+        "z": -30,
+        "distance": 0,
+        "tick": 71739,
+        "seenAt": 1781461109544
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (40, 65, -30) to (40, 65, -30); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (40, 65, -30) to (40, 65, -30); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (40, 65, -30) to (12, 69, -26); inventory delta -4; avg nearby mobs 0.",
+      "Last 10 loops: moved from (12, 69, -26) to (-38, 64, 26); inventory delta +8; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-38, 64, 26) to (0, 60, -74); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (3, 59, -80) to (33, 59, -94); inventory delta -1; avg nearby mobs 0.",
+      "Last 10 loops: moved from (28, 62, -99) to (46, 62, -101); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (0, 72, -6) to (12, 69, -25); inventory delta +23; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781460925509,
+      "position": {
+        "x": 54.62,
+        "y": 61,
+        "z": -104.1,
+        "yaw": -1.8288341593435637,
+        "pitch": 0.001138907472067796
+      },
+      "health": 0.3683357238769531,
+      "food": 0,
+      "inWater": true,
+      "causeHint": "drowned",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "escape_drowning",
+        "reasoning": "Heuristic: drowning",
+        "actions": [
+          {
+            "name": "swim_up",
+            "params": {}
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "swim_up",
+          "params": {},
+          "success": true,
+          "hint": "Escaped water!",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781460820557
+        },
+        {
+          "action": "dig_emergency_shelter",
+          "params": {},
+          "success": false,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781460861871
+        },
+        {
+          "action": "swim_up",
+          "params": {},
+          "success": false,
+          "hint": "Still in water! Keep calling swim_up!",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781460869789
+        },
+        {
+          "action": "dig_emergency_shelter",
+          "params": {},
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781460893564
+        },
+        {
+          "action": "swim_up",
+          "params": {},
+          "success": false,
+          "hint": "Still in water! Keep calling swim_up!",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781460901459
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

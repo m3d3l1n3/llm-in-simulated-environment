@@ -1,0 +1,433 @@
+{
+  "savedAt": 1781439834762,
+  "loopCount": 175,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "shelter",
+    "activePlan": "stock_food",
+    "planSinceLoop": 168,
+    "goalHistory": [
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 146,
+        "timestamp": 1781439194025
+      },
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 147,
+        "timestamp": 1781439206604
+      },
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 148,
+        "timestamp": 1781439224797
+      },
+      {
+        "goal": "explore_new_area",
+        "reasoning": "Breaking repetition. Exploring to find new resources.",
+        "isGuard": true,
+        "loopCount": 149,
+        "timestamp": 1781439241367
+      },
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 150,
+        "timestamp": 1781439258509
+      },
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 151,
+        "timestamp": 1781439289908
+      },
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 152,
+        "timestamp": 1781439295474
+      },
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 153,
+        "timestamp": 1781439301032
+      },
+      {
+        "goal": "explore_new_area",
+        "reasoning": "Breaking repetition. Exploring to find new resources.",
+        "isGuard": true,
+        "loopCount": 154,
+        "timestamp": 1781439306602
+      },
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 155,
+        "timestamp": 1781439315779
+      },
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 156,
+        "timestamp": 1781439337258
+      },
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 157,
+        "timestamp": 1781439353787
+      },
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks [Fallback: all previous actions were blocked. Using safe default.]",
+        "isGuard": false,
+        "loopCount": 158,
+        "timestamp": 1781439373410
+      },
+      {
+        "goal": "explore_new_area",
+        "reasoning": "Breaking repetition. Exploring to find new resources.",
+        "isGuard": true,
+        "loopCount": 159,
+        "timestamp": 1781439383744
+      },
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 160,
+        "timestamp": 1781439400272
+      },
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 161,
+        "timestamp": 1781439428180
+      },
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 162,
+        "timestamp": 1781439447540
+      },
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks [Fallback: all previous actions were blocked. Using safe default.]",
+        "isGuard": false,
+        "loopCount": 163,
+        "timestamp": 1781439467232
+      },
+      {
+        "goal": "explore_new_area",
+        "reasoning": "Breaking repetition. Exploring to find new resources.",
+        "isGuard": true,
+        "loopCount": 164,
+        "timestamp": 1781439478000
+      },
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 165,
+        "timestamp": 1781439486922
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 166,
+        "timestamp": 1781439521413
+      },
+      {
+        "goal": "build_night_shelter",
+        "reasoning": "Night on surface with 28 blocks. Building proper shelter.",
+        "isGuard": true,
+        "loopCount": 167,
+        "timestamp": 1781439556994
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 168,
+        "timestamp": 1781439571266
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 169,
+        "timestamp": 1781439606830
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 170,
+        "timestamp": 1781439642396
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 171,
+        "timestamp": 1781439677952
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 172,
+        "timestamp": 1781439713524
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 173,
+        "timestamp": 1781439749079
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 174,
+        "timestamp": 1781439784640
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 175,
+        "timestamp": 1781439820206
+      }
+    ],
+    "lastCompletedTier": "shelter"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": 6,
+        "y": 66,
+        "z": -26,
+        "distance": 2,
+        "tick": 71559,
+        "seenAt": 1781439820206
+      },
+      "gravel": {
+        "x": 1,
+        "y": 52,
+        "z": -32,
+        "distance": 14,
+        "tick": 71559,
+        "seenAt": 1781439820206
+      },
+      "water": {
+        "x": 0,
+        "y": 59,
+        "z": -23,
+        "distance": 8,
+        "tick": 71559,
+        "seenAt": 1781439820206
+      },
+      "water_hazard": {
+        "x": 0,
+        "y": 59,
+        "z": -23,
+        "distance": 8,
+        "seenAt": 1781439820206
+      },
+      "cobblestone": {
+        "x": 6,
+        "y": 66,
+        "z": -25,
+        "distance": 2,
+        "tick": 71559,
+        "seenAt": 1781439820206
+      },
+      "sand": {
+        "x": 549,
+        "y": 64,
+        "z": 601,
+        "distance": 0,
+        "tick": 24119,
+        "seenAt": 1781437449126
+      },
+      "spruce_log": {
+        "x": 6,
+        "y": 68,
+        "z": -31,
+        "distance": 6,
+        "tick": 71559,
+        "seenAt": 1781439820206
+      },
+      "oak_log": {
+        "x": 7,
+        "y": 70,
+        "z": -23,
+        "distance": 6,
+        "tick": 71559,
+        "seenAt": 1781439820206
+      },
+      "birch_log": {
+        "x": 10,
+        "y": 69,
+        "z": -24,
+        "distance": 6,
+        "tick": 71559,
+        "seenAt": 1781439820206
+      },
+      "stone": {
+        "x": 7,
+        "y": 64,
+        "z": -25,
+        "distance": 0,
+        "tick": 71559,
+        "seenAt": 1781439820206
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (5, 64, -26) to (5, 64, -26); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (5, 64, -26) to (5, 64, -26); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (5, 64, -26) to (5, 64, -26); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (5, 64, -26) to (5, 64, -26); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (5, 64, -26) to (6, 64, -26); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (6, 64, -26) to (6, 64, -28); inventory delta +9; avg nearby mobs 0.",
+      "Last 10 loops: moved from (3, 64, -27) to (4, 64, -25); inventory delta +10; avg nearby mobs 0.",
+      "Last 10 loops: moved from (5, 64, -31) to (6, 64, -26); inventory delta -13; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781437797603,
+      "position": {
+        "x": 3.5,
+        "y": 72,
+        "z": -13.54,
+        "yaw": 2.3759953592130953,
+        "pitch": -0.659734460582778
+      },
+      "health": 20,
+      "food": 20,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "mine_coal",
+        "reasoning": "Heuristic: mine coal",
+        "actions": [
+          {
+            "name": "mine",
+            "params": {
+              "blockType": "coal_ore",
+              "count": 5
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "craft",
+          "params": {
+            "item": "stone_axe"
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781437756812
+        },
+        {
+          "action": "craft",
+          "params": {
+            "item": "planks",
+            "count": 4
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781437762349
+        },
+        {
+          "action": "craft",
+          "params": {
+            "item": "stick",
+            "count": 4
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781437767763
+        },
+        {
+          "action": "craft",
+          "params": {
+            "item": "furnace"
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781437773191
+        },
+        {
+          "action": "mine",
+          "params": {
+            "blockType": "coal_ore",
+            "count": 5
+          },
+          "success": false,
+          "hint": null,
+          "error": "No deepslate_coal_ore found within 32 blocks",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781437794524
+        }
+      ]
+    }
+  },
+  "blockedActions": [
+    [
+      "chop_tree",
+      164
+    ],
+    [
+      "chopTree",
+      164
+    ],
+    [
+      "build_shelter",
+      182
+    ]
+  ]
+}

@@ -1,0 +1,5 @@
+{"timestamp":1781729749620,"runTime":18662,"action":"chop_tree","params":{"count":3},"success":true,"duration":16846,"result":{"success":true,"logsChopped":3,"hint":"Chopped 3 logs"}}
+{"timestamp":1781729755172,"runTime":24214,"action":"craft","params":{"item":"planks","count":4},"success":true,"duration":117,"result":{"success":true,"item":"oak_planks","alreadyHad":0,"crafted":8}}
+{"timestamp":1781729760615,"runTime":29657,"action":"craft","params":{"item":"stick","count":4},"success":true,"duration":4,"result":{"success":true,"item":"stick","alreadyHad":0,"crafted":8}}
+{"timestamp":1781729782929,"runTime":51971,"action":"craft","params":{"item":"wooden_pickaxe"},"success":false,"duration":16824,"error":"Error: missing ingredient"}
+{"timestamp":1781729862575,"runTime":131617,"action":"chop_tree","params":{"count":3},"success":false,"duration":813,"error":"No accessible trees found nearby. Try exploring to a new area."}

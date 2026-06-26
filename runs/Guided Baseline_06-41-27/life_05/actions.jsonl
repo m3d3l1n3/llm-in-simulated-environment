@@ -1,0 +1,6 @@
+{"timestamp":1781768366743,"runTime":22222,"action":"chop_tree","params":{"count":3},"success":true,"duration":20466,"result":{"success":true,"logsChopped":3,"hint":"Chopped 3 logs"}}
+{"timestamp":1781768372325,"runTime":27804,"action":"craft","params":{"item":"planks","count":4},"success":true,"duration":118,"result":{"success":true,"item":"oak_planks","alreadyHad":0,"crafted":8}}
+{"timestamp":1781768377786,"runTime":33265,"action":"craft","params":{"item":"stick","count":4},"success":true,"duration":6,"result":{"success":true,"item":"stick","alreadyHad":0,"crafted":8}}
+{"timestamp":1781768407319,"runTime":62798,"action":"craft","params":{"item":"wooden_pickaxe"},"success":false,"duration":24060,"error":"Failed to reach (-14, 68, -38): Pathfinding timeout"}
+{"timestamp":1781768430655,"runTime":86134,"action":"craft","params":{"item":"wooden_pickaxe"},"success":true,"duration":17528,"result":{"success":true,"item":"wooden_pickaxe","alreadyHad":0,"crafted":1}}
+{"timestamp":1781768452751,"runTime":108230,"action":"mine","params":{"blockType":"stone","count":3},"success":true,"duration":14717,"result":{"success":true,"blockType":"stone","mined":3}}

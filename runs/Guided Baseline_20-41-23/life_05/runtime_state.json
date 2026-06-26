@@ -1,0 +1,216 @@
+{
+  "savedAt": 1781731449104,
+  "loopCount": 40,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "stone_tools",
+    "activePlan": null,
+    "planSinceLoop": 0,
+    "goalHistory": [],
+    "lastCompletedTier": "stone_tools"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": 8,
+        "y": 71,
+        "z": -10,
+        "distance": 2,
+        "tick": 54019,
+        "seenAt": 1781731448600
+      },
+      "gravel": {
+        "x": -30,
+        "y": 61,
+        "z": 115,
+        "distance": 9,
+        "tick": 53799,
+        "seenAt": 1781731437780
+      },
+      "cobblestone": {
+        "x": -30,
+        "y": 64,
+        "z": -7,
+        "distance": 5,
+        "tick": 52659,
+        "seenAt": 1781731380974
+      },
+      "water": {
+        "x": -30,
+        "y": 62,
+        "z": 127,
+        "distance": 6,
+        "tick": 53799,
+        "seenAt": 1781731437780
+      },
+      "water_hazard": {
+        "x": -30,
+        "y": 62,
+        "z": 127,
+        "distance": 6,
+        "seenAt": 1781731437780
+      },
+      "dark_oak_log": {
+        "x": 170,
+        "y": 66,
+        "z": 62,
+        "distance": 6,
+        "tick": 19399,
+        "seenAt": 1781729718112
+      },
+      "sand": {
+        "x": -20,
+        "y": 64,
+        "z": 108,
+        "distance": 2,
+        "tick": 53559,
+        "seenAt": 1781731426084
+      },
+      "birch_log": {
+        "x": 7,
+        "y": 73,
+        "z": -13,
+        "distance": 3,
+        "tick": 54019,
+        "seenAt": 1781731448600
+      },
+      "stone": {
+        "x": 8,
+        "y": 68,
+        "z": -10,
+        "distance": 5,
+        "tick": 54019,
+        "seenAt": 1781731448600
+      },
+      "oak_log": {
+        "x": 9,
+        "y": 73,
+        "z": -16,
+        "distance": 6,
+        "tick": 54019,
+        "seenAt": 1781731448600
+      },
+      "lava": {
+        "x": -17,
+        "y": 53,
+        "z": 39,
+        "distance": 13,
+        "tick": 49259,
+        "seenAt": 1781731210446
+      },
+      "spruce_log": {
+        "x": -32,
+        "y": 64,
+        "z": -14,
+        "distance": 2,
+        "tick": 52659,
+        "seenAt": 1781731380974
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (22, 72, -2) to (21, 64, 57); inventory delta +14; avg nearby mobs 0.",
+      "Last 10 loops: moved from (17, 68, 0) to (17, 67, 3); inventory delta +17; avg nearby mobs 0.",
+      "Last 10 loops: moved from (425, 68, 592) to (429, 62, 596); inventory delta -1; avg nearby mobs 0.",
+      "Last 10 loops: moved from (427, 62, 597) to (434, 62, 597); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (0, 70, 10) to (-3, 70, 22); inventory delta +17; avg nearby mobs 0.",
+      "Last 10 loops: moved from (4, 78, 6) to (-14, 64, 27); inventory delta +21; avg nearby mobs 0.",
+      "Last 10 loops: moved from (4, 78, 6) to (-11, 71, 6); inventory delta -4; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-56, 63, -9) to (8, 73, -10); inventory delta -22; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781731446824,
+      "position": {
+        "x": -30.13,
+        "y": 67,
+        "z": 122.11,
+        "yaw": 2.3571028944400974,
+        "pitch": -0.0009496066788319268
+      },
+      "health": 13,
+      "food": 3,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "dig emergency shelter",
+        "reasoning": "It's night time and I need to dig a shelter to protect myself from mobs.",
+        "actions": [
+          {
+            "name": "dig_to_surface",
+            "params": {}
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "swim_up",
+          "goal": "escape_drowning",
+          "params": {},
+          "success": false,
+          "hint": "Still in water! Keep calling swim_up!",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781731420271
+        },
+        {
+          "action": "collect_food",
+          "goal": "hunt for food",
+          "params": {},
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781731431971
+        },
+        {
+          "action": "dig_to_surface",
+          "goal": "dig emergency shelter",
+          "params": {},
+          "success": false,
+          "hint": "Aborted for survival. Flee or swim_up first.",
+          "error": null,
+          "interrupted": true,
+          "interruptReason": "danger_interrupt",
+          "blocksCleared": null,
+          "timestamp": 1781731442731
+        },
+        {
+          "action": "eat",
+          "goal": null,
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781731442731
+        },
+        {
+          "action": "flee_from",
+          "goal": null,
+          "params": {
+            "entity": "zombie"
+          },
+          "success": true,
+          "hint": "Fled to 5m away",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781731443178
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

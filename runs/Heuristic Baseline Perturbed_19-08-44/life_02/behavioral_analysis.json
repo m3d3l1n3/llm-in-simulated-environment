@@ -1,0 +1,60 @@
+{
+  "runId": "Heuristic Baseline Perturbed_19-08-44_life_02",
+  "generatedAt": "2026-06-14T19:33:07.697Z",
+  "coherence": {
+    "totalDecisions": 27,
+    "goalsStarted": 27,
+    "goalsCompleted": 0,
+    "completionRate": "0.0%"
+  },
+  "actionDistribution": {
+    "chop_tree": 3,
+    "dig_emergency_shelter": 1,
+    "wait": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "chop_tree",
+      "count": 3
+    },
+    {
+      "action": "dig_emergency_shelter",
+      "count": 1
+    },
+    {
+      "action": "wait",
+      "count": 1
+    }
+  ],
+  "goalDistribution": {
+    "gather_wood": 4,
+    "progress_from_logs": 21,
+    "emergency_shelter_night": 1,
+    "wait_in_shelter": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "progress_from_logs",
+      "count": 21
+    },
+    {
+      "action": "gather_wood",
+      "count": 4
+    },
+    {
+      "action": "emergency_shelter_night",
+      "count": 1
+    },
+    {
+      "action": "wait_in_shelter",
+      "count": 1
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 0
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

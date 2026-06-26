@@ -1,0 +1,12 @@
+{"timestamp":1781460948519,"runTime":14763,"action":"chop_tree","params":{"count":2},"success":true,"duration":14206,"result":{"success":true,"logsChopped":2,"hint":"Chopped 2 logs"}}
+{"timestamp":1781460966404,"runTime":32648,"action":"chop_tree","params":{"count":2},"success":true,"duration":12354,"result":{"success":true,"logsChopped":2,"hint":"Chopped 2 logs"}}
+{"timestamp":1781460972050,"runTime":38294,"action":"craft","params":{"item":"planks","count":4},"success":true,"duration":115,"result":{"success":true,"item":"oak_planks","alreadyHad":0,"crafted":8}}
+{"timestamp":1781460977601,"runTime":43845,"action":"craft","params":{"item":"stick","count":4},"success":true,"duration":12,"result":{"success":true,"item":"stick","alreadyHad":0,"crafted":4}}
+{"timestamp":1781460989484,"runTime":55728,"action":"craft","params":{"item":"wooden_pickaxe"},"success":true,"duration":6328,"result":{"success":true,"item":"wooden_pickaxe","alreadyHad":0,"crafted":1}}
+{"timestamp":1781460995190,"runTime":61434,"action":"craft","params":{"item":"stick","count":4},"success":true,"duration":5,"result":{"success":true,"item":"stick","alreadyHad":2,"crafted":2}}
+{"timestamp":1781461060865,"runTime":127109,"action":"mine","params":{"blockType":"stone","count":10},"success":true,"duration":24016,"result":{"success":true,"blockType":"stone","mined":10}}
+{"timestamp":1781461069238,"runTime":135482,"action":"craft","params":{"item":"stone_pickaxe"},"success":true,"duration":2060,"result":{"success":true,"item":"stone_pickaxe","alreadyHad":0,"crafted":1}}
+{"timestamp":1781461069250,"runTime":135494,"action":"craft","params":{"item":"stone_axe"},"success":true,"duration":12,"result":{"success":true,"item":"stone_axe","alreadyHad":0,"crafted":1}}
+{"timestamp":1781461075450,"runTime":141694,"action":"craft","params":{"item":"furnace"},"success":true,"duration":11,"result":{"success":true,"item":"furnace","alreadyHad":0,"crafted":1}}
+{"timestamp":1781461104262,"runTime":170506,"action":"mine","params":{"blockType":"coal_ore","count":5},"success":true,"duration":22868,"result":{"success":true,"blockType":"coal_ore","mined":5}}
+{"timestamp":1781461109551,"runTime":175795,"action":"craft","params":{"item":"torch","count":16},"success":false,"duration":6,"error":"Error: missing ingredient"}

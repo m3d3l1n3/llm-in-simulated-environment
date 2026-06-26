@@ -1,0 +1,5 @@
+{"timestamp":1781464748665,"runTime":18341,"action":"chop_tree","params":{"count":2},"success":true,"duration":17844,"result":{"success":true,"logsChopped":1,"hint":"Chopped 1 logs"}}
+{"timestamp":1781464797600,"runTime":67276,"action":"chop_tree","params":{"count":2},"success":true,"duration":7968,"result":{"success":true,"logsChopped":2,"hint":"Chopped 2 logs"}}
+{"timestamp":1781465306292,"runTime":575968,"action":"dig_emergency_shelter","params":{},"success":true,"duration":6273,"result":{"success":true,"depth":2,"sealed":true,"message":"Emergency pit shelter dug"}}
+{"timestamp":1781465317452,"runTime":587128,"action":"chop_tree","params":{"count":2},"success":true,"duration":5635,"result":{"success":true,"logsChopped":2,"hint":"Chopped 2 logs"}}
+{"timestamp":1781465325939,"runTime":595615,"action":"wait","params":{"ms":3000},"success":true,"duration":3001,"result":{"success":true}}

@@ -1,0 +1,223 @@
+{
+  "savedAt": 1781711144536,
+  "loopCount": 65,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "stone_tools",
+    "activePlan": "gather wood for tools",
+    "planSinceLoop": 65,
+    "goalHistory": [
+      {
+        "goal": "gather wood for tools",
+        "reasoning": "I need logs to craft a wooden pickaxe and progress towards stone tools.",
+        "isGuard": false,
+        "loopCount": 65,
+        "timestamp": 1781711144160
+      }
+    ],
+    "lastCompletedTier": "stone_tools"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": -6,
+        "y": 69,
+        "z": 8,
+        "distance": 15,
+        "tick": 36039,
+        "seenAt": 1781711142186
+      },
+      "gravel": {
+        "x": 411,
+        "y": 55,
+        "z": 569,
+        "distance": 11,
+        "tick": 35899,
+        "seenAt": 1781711135589
+      },
+      "spruce_log": {
+        "x": -16,
+        "y": 72,
+        "z": -10,
+        "distance": 11,
+        "tick": 15339,
+        "seenAt": 1781710106469
+      },
+      "cobblestone": {
+        "x": 419,
+        "y": 64,
+        "z": 601,
+        "distance": 3,
+        "tick": 35139,
+        "seenAt": 1781711096191
+      },
+      "birch_log": {
+        "x": -13,
+        "y": 77,
+        "z": 5,
+        "distance": 11,
+        "tick": 36039,
+        "seenAt": 1781711142186
+      },
+      "stone": {
+        "x": 414,
+        "y": 57,
+        "z": 563,
+        "distance": 7,
+        "tick": 35899,
+        "seenAt": 1781711135589
+      },
+      "sand": {
+        "x": 415,
+        "y": 63,
+        "z": 565,
+        "distance": 1,
+        "tick": 35899,
+        "seenAt": 1781711135589
+      },
+      "water": {
+        "x": 415,
+        "y": 62,
+        "z": 563,
+        "distance": 3,
+        "tick": 35899,
+        "seenAt": 1781711135589
+      },
+      "water_hazard": {
+        "x": 415,
+        "y": 62,
+        "z": 563,
+        "distance": 3,
+        "seenAt": 1781711135589
+      },
+      "oak_log": {
+        "x": -8,
+        "y": 80,
+        "z": 8,
+        "distance": 4,
+        "tick": 36039,
+        "seenAt": 1781711142186
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (6, 64, -1) to (9, 64, 0); inventory delta +26; avg nearby mobs 0.",
+      "Last 10 loops: moved from (5, 64, -3) to (10, 64, 1); inventory delta +9; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-9, 72, -8) to (2, 66, 3); inventory delta +23; avg nearby mobs 0.",
+      "Last 10 loops: moved from (18, 72, -14) to (2, 65, 3); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (2, 65, 3) to (420, 68, 599); inventory delta -6; avg nearby mobs 0.",
+      "Last 10 loops: moved from (420, 68, 599) to (420, 67, 599); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (420, 67, 599) to (420, 61, 599); inventory delta -7; avg nearby mobs 0.",
+      "Last 10 loops: moved from (420, 61, 599) to (420, 61, 599); inventory delta +13; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781711138890,
+      "position": {
+        "x": 415.41,
+        "y": 64.55,
+        "z": 565.11,
+        "yaw": -0.0018656508700440888,
+        "pitch": -0.0000796817799106897
+      },
+      "health": 8,
+      "food": 3,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "escape and gather resources",
+        "reasoning": "I need to clear a path to escape my current position and then explore for animals or resources.",
+        "actions": [
+          {
+            "name": "break_around",
+            "params": {
+              "direction": "escape"
+            }
+          },
+          {
+            "name": "dig_to_surface",
+            "params": {}
+          },
+          {
+            "name": "explore",
+            "params": {
+              "distance": 30
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "break_around",
+          "goal": "escape and gather resources",
+          "params": {
+            "direction": "escape"
+          },
+          "success": true,
+          "hint": "Cleared 6 blocks! Try moving or exploring now.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": 6,
+          "timestamp": 1781711103134
+        },
+        {
+          "action": "dig_to_surface",
+          "goal": "escape and gather resources",
+          "params": {},
+          "success": true,
+          "hint": "At surface! Use explore() to find resources.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781711123237
+        },
+        {
+          "action": "explore",
+          "goal": "escape and gather resources",
+          "params": {
+            "distance": 30
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781711129349
+        },
+        {
+          "action": "eat",
+          "goal": "flee_danger",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781711135590
+        },
+        {
+          "action": "flee_from",
+          "goal": "flee_danger",
+          "params": {
+            "entity": "spider"
+          },
+          "success": true,
+          "hint": "Fled to 3m away",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781711135840
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

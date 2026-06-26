@@ -1,0 +1,95 @@
+{
+  "runId": "Guided Baseline_11-47-35_life_04",
+  "generatedAt": "2026-06-17T12:47:35.596Z",
+  "coherence": {
+    "totalDecisions": 57,
+    "goalsStarted": 57,
+    "goalsCompleted": 1,
+    "completionRate": "1.8%"
+  },
+  "actionDistribution": {
+    "chop_tree": 9,
+    "craft": 13,
+    "mine": 3,
+    "break_around": 14,
+    "explore": 18,
+    "equip": 1,
+    "light_area": 2,
+    "pillar_up": 2,
+    "build_shelter": 1,
+    "dig_emergency_shelter": 2,
+    "attack": 9,
+    "dig_to_surface": 1,
+    "go_to_near": 2
+  },
+  "mostFrequentActions": [
+    {
+      "action": "explore",
+      "count": 18
+    },
+    {
+      "action": "break_around",
+      "count": 14
+    },
+    {
+      "action": "craft",
+      "count": 13
+    },
+    {
+      "action": "chop_tree",
+      "count": 9
+    },
+    {
+      "action": "attack",
+      "count": 9
+    }
+  ],
+  "goalDistribution": {
+    "gather wood for tools": 5,
+    "progress_from_logs": 2,
+    "craft_wooden_pickaxe": 1,
+    "mine_stone": 6,
+    "progress_to_stone_tools": 3,
+    "escape_trap": 11,
+    "replace_worn_tool": 1,
+    "gather resources": 1,
+    "build shelter": 1,
+    "build emergency shelter": 2,
+    "craft_stone_pickaxe": 3,
+    "hunt for food": 14,
+    "forced_recovery": 1,
+    "explore for resources": 1,
+    "escape and gather resources": 3,
+    "build shelter for the night": 1,
+    "escape trap": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "hunt for food",
+      "count": 14
+    },
+    {
+      "action": "escape_trap",
+      "count": 11
+    },
+    {
+      "action": "mine_stone",
+      "count": 6
+    },
+    {
+      "action": "gather wood for tools",
+      "count": 5
+    },
+    {
+      "action": "progress_to_stone_tools",
+      "count": 3
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 8
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

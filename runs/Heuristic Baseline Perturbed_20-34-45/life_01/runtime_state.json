@@ -1,0 +1,195 @@
+{
+  "savedAt": 1781469887085,
+  "loopCount": 36,
+  "goalManager": {
+    "currentTier": "stone_tools",
+    "highestTierReached": "stone_tools",
+    "activePlan": null,
+    "planSinceLoop": 0,
+    "goalHistory": [],
+    "lastCompletedTier": null
+  },
+  "longMemory": {
+    "knownLocations": {
+      "birch_log": {
+        "x": 12,
+        "y": 69,
+        "z": -28,
+        "distance": 13,
+        "tick": 8599,
+        "seenAt": 1781469723920
+      },
+      "dirt": {
+        "x": 3,
+        "y": 62,
+        "z": -42,
+        "distance": 0,
+        "tick": 11799,
+        "seenAt": 1781469884088
+      },
+      "gravel": {
+        "x": 0,
+        "y": 52,
+        "z": -37,
+        "distance": 11,
+        "tick": 11799,
+        "seenAt": 1781469884088
+      },
+      "spruce_log": {
+        "x": 5,
+        "y": 64,
+        "z": -44,
+        "distance": 3,
+        "tick": 11799,
+        "seenAt": 1781469884088
+      },
+      "oak_log": {
+        "x": 7,
+        "y": 70,
+        "z": -23,
+        "distance": 13,
+        "tick": 8599,
+        "seenAt": 1781469723920
+      },
+      "water": {
+        "x": 11,
+        "y": 62,
+        "z": -50,
+        "distance": 11,
+        "tick": 11799,
+        "seenAt": 1781469884088
+      },
+      "water_hazard": {
+        "x": 11,
+        "y": 62,
+        "z": -50,
+        "distance": 11,
+        "seenAt": 1781469884088
+      },
+      "stone": {
+        "x": 2,
+        "y": 61,
+        "z": -42,
+        "distance": 1,
+        "tick": 11799,
+        "seenAt": 1781469884088
+      },
+      "sand": {
+        "x": 5,
+        "y": 62,
+        "z": -57,
+        "distance": 15,
+        "tick": 11799,
+        "seenAt": 1781469884088
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (-2, 67, 8) to (-10, 71, 5); inventory delta +15; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-10, 71, -10) to (1, 62, -36); inventory delta +31; avg nearby mobs 0.",
+      "Last 10 loops: moved from (1, 62, -37) to (1, 62, -33); inventory delta +11; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781469885080,
+      "position": {
+        "x": 2.7,
+        "y": 62,
+        "z": -41.7,
+        "yaw": -1.8164088084352041,
+        "pitch": -1.1938052083640471
+      },
+      "health": 20,
+      "food": 19,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "smelt_charcoal",
+        "reasoning": "Heuristic: smelting charcoal from logs for torches",
+        "actions": [
+          {
+            "name": "smelt",
+            "params": {
+              "item": "oak_log",
+              "count": 1
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "explore",
+          "params": {
+            "distance": 25
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781469718617
+        },
+        {
+          "action": "mine",
+          "params": {
+            "blockType": "coal_ore",
+            "count": 5
+          },
+          "success": false,
+          "hint": null,
+          "error": "No deepslate_coal_ore found within 32 blocks",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781469829759
+        },
+        {
+          "action": "break_around",
+          "params": {
+            "direction": "escape"
+          },
+          "success": true,
+          "hint": "Cleared 4 blocks! Try moving or exploring now.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": 4,
+          "timestamp": 1781469837841
+        },
+        {
+          "action": "explore",
+          "params": {
+            "distance": 25
+          },
+          "success": false,
+          "hint": null,
+          "error": "Pathfinder claimed success but only moved 0.4 blocks",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781469867892
+        },
+        {
+          "action": "smelt",
+          "params": {
+            "item": "oak_log",
+            "count": 1
+          },
+          "success": false,
+          "hint": null,
+          "error": "No furnace found nearby and could not place one. Craft furnace (8 cobblestone) then smelt.",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781469878786
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

@@ -1,0 +1,82 @@
+{
+  "runId": "Guided Baseline_20-41-23_life_04",
+  "generatedAt": "2026-06-17T21:11:58.331Z",
+  "coherence": {
+    "totalDecisions": 34,
+    "goalsStarted": 34,
+    "goalsCompleted": 2,
+    "completionRate": "5.9%"
+  },
+  "actionDistribution": {
+    "chop_tree": 5,
+    "explore": 5,
+    "break_around": 2,
+    "pillar_up": 1,
+    "go_to_near": 2,
+    "craft": 5,
+    "mine": 1,
+    "swim_up": 2,
+    "dig_to_surface": 2
+  },
+  "mostFrequentActions": [
+    {
+      "action": "chop_tree",
+      "count": 5
+    },
+    {
+      "action": "explore",
+      "count": 5
+    },
+    {
+      "action": "craft",
+      "count": 5
+    },
+    {
+      "action": "break_around",
+      "count": 2
+    },
+    {
+      "action": "go_to_near",
+      "count": 2
+    }
+  ],
+  "goalDistribution": {
+    "gather wood for tools": 1,
+    "explore for accessible trees": 1,
+    "escape_trap": 2,
+    "gather wood for crafting tools": 6,
+    "progress_from_logs": 2,
+    "craft_wooden_pickaxe": 3,
+    "mine_stone": 6,
+    "escape_drowning": 13
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "escape_drowning",
+      "count": 13
+    },
+    {
+      "action": "gather wood for crafting tools",
+      "count": 6
+    },
+    {
+      "action": "mine_stone",
+      "count": 6
+    },
+    {
+      "action": "craft_wooden_pickaxe",
+      "count": 3
+    },
+    {
+      "action": "escape_trap",
+      "count": 2
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 5
+  },
+  "adaptation": {
+    "perturbationCount": 2,
+    "averageRecoveryTime": "50.2s"
+  }
+}

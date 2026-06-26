@@ -1,0 +1,413 @@
+{
+  "savedAt": 1781467724148,
+  "loopCount": 136,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "shelter",
+    "activePlan": "craft_planks",
+    "planSinceLoop": 127,
+    "goalHistory": [
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 107,
+        "timestamp": 1781466791417
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 108,
+        "timestamp": 1781466826749
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 109,
+        "timestamp": 1781466862074
+      },
+      {
+        "goal": "forced_recovery",
+        "reasoning": "Stuck for many loops; trying escape strategy #1 (rotating to avoid repeating failed approaches).",
+        "isGuard": true,
+        "loopCount": 110,
+        "timestamp": 1781466897397
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 111,
+        "timestamp": 1781466915337
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 112,
+        "timestamp": 1781466950637
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 113,
+        "timestamp": 1781466985966
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 114,
+        "timestamp": 1781467021287
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 115,
+        "timestamp": 1781467037111
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 116,
+        "timestamp": 1781467072460
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 117,
+        "timestamp": 1781467107803
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 118,
+        "timestamp": 1781467143124
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 119,
+        "timestamp": 1781467156636
+      },
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 120,
+        "timestamp": 1781467176599
+      },
+      {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "isGuard": false,
+        "loopCount": 121,
+        "timestamp": 1781467199911
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Enough logs; craft planks instead of chopping more.",
+        "isGuard": true,
+        "loopCount": 122,
+        "timestamp": 1781467219626
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Enough logs; craft planks instead of chopping more.",
+        "isGuard": true,
+        "loopCount": 123,
+        "timestamp": 1781467255640
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Enough logs; craft planks instead of chopping more.",
+        "isGuard": true,
+        "loopCount": 124,
+        "timestamp": 1781467291392
+      },
+      {
+        "goal": "progress_from_logs",
+        "reasoning": "Enough logs; craft planks instead of chopping more.",
+        "isGuard": true,
+        "loopCount": 125,
+        "timestamp": 1781467327053
+      },
+      {
+        "goal": "build_night_shelter",
+        "reasoning": "Night on surface with 21 blocks. Building proper shelter.",
+        "isGuard": true,
+        "loopCount": 126,
+        "timestamp": 1781467362725
+      },
+      {
+        "goal": "craft_planks",
+        "reasoning": "Heuristic: craft planks",
+        "isGuard": false,
+        "loopCount": 127,
+        "timestamp": 1781467380602
+      },
+      {
+        "goal": "craft_planks",
+        "reasoning": "Heuristic: craft planks",
+        "isGuard": false,
+        "loopCount": 128,
+        "timestamp": 1781467416285
+      },
+      {
+        "goal": "craft_planks",
+        "reasoning": "Heuristic: craft planks",
+        "isGuard": false,
+        "loopCount": 129,
+        "timestamp": 1781467451974
+      },
+      {
+        "goal": "craft_planks",
+        "reasoning": "Heuristic: craft planks",
+        "isGuard": false,
+        "loopCount": 130,
+        "timestamp": 1781467487693
+      },
+      {
+        "goal": "craft_planks",
+        "reasoning": "Heuristic: craft planks",
+        "isGuard": false,
+        "loopCount": 131,
+        "timestamp": 1781467523397
+      },
+      {
+        "goal": "craft_planks",
+        "reasoning": "Heuristic: craft planks",
+        "isGuard": false,
+        "loopCount": 132,
+        "timestamp": 1781467559079
+      },
+      {
+        "goal": "craft_planks",
+        "reasoning": "Heuristic: craft planks",
+        "isGuard": false,
+        "loopCount": 133,
+        "timestamp": 1781467594780
+      },
+      {
+        "goal": "craft_planks",
+        "reasoning": "Heuristic: craft planks",
+        "isGuard": false,
+        "loopCount": 134,
+        "timestamp": 1781467630475
+      },
+      {
+        "goal": "craft_planks",
+        "reasoning": "Heuristic: craft planks",
+        "isGuard": false,
+        "loopCount": 135,
+        "timestamp": 1781467666168
+      },
+      {
+        "goal": "craft_planks",
+        "reasoning": "Heuristic: craft planks",
+        "isGuard": false,
+        "loopCount": 136,
+        "timestamp": 1781467701869
+      }
+    ],
+    "lastCompletedTier": "shelter"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "stone": {
+        "x": -61,
+        "y": 62,
+        "z": 219,
+        "distance": 3,
+        "tick": 71399,
+        "seenAt": 1781467701869
+      },
+      "dirt": {
+        "x": -59,
+        "y": 65,
+        "z": 219,
+        "distance": 1,
+        "tick": 71399,
+        "seenAt": 1781467701869
+      },
+      "gravel": {
+        "x": -64,
+        "y": 61,
+        "z": 222,
+        "distance": 5,
+        "tick": 71399,
+        "seenAt": 1781467701869
+      },
+      "spruce_log": {
+        "x": -23,
+        "y": 67,
+        "z": 6,
+        "distance": 4,
+        "tick": 33639,
+        "seenAt": 1781465813822
+      },
+      "sand": {
+        "x": -33,
+        "y": 64,
+        "z": 98,
+        "distance": 6,
+        "tick": 39479,
+        "seenAt": 1781466106248
+      },
+      "water": {
+        "x": -52,
+        "y": 62,
+        "z": 215,
+        "distance": 10,
+        "tick": 71399,
+        "seenAt": 1781467701869
+      },
+      "water_hazard": {
+        "x": -52,
+        "y": 62,
+        "z": 215,
+        "distance": 10,
+        "seenAt": 1781467701869
+      },
+      "oak_log": {
+        "x": -57,
+        "y": 66,
+        "z": 220,
+        "distance": 3,
+        "tick": 71399,
+        "seenAt": 1781467701869
+      },
+      "birch_log": {
+        "x": -62,
+        "y": 66,
+        "z": 219,
+        "distance": 1,
+        "tick": 71399,
+        "seenAt": 1781467701869
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (-37, 62, 188) to (-37, 62, 188); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-37, 62, 188) to (-37, 62, 188); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-37, 62, 188) to (-37, 62, 188); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-37, 62, 188) to (-37, 62, 188); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-37, 62, 188) to (-37, 62, 188); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-37, 62, 188) to (-37, 62, 188); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-37, 62, 187) to (-48, 64, 221); inventory delta +11; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-62, 64, 222) to (-61, 65, 219); inventory delta -19; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781465583414,
+      "position": {
+        "x": 567.5,
+        "y": 64,
+        "z": 584.5,
+        "yaw": 4.7134585058784655,
+        "pitch": -0.12042772005208446
+      },
+      "health": 20,
+      "food": 20,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "actions": [
+          {
+            "name": "chop_tree",
+            "params": {
+              "count": 2
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "chop_tree",
+          "params": {
+            "count": 2
+          },
+          "success": true,
+          "hint": "Chopped 1 logs",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781464748665
+        },
+        {
+          "action": "chop_tree",
+          "params": {
+            "count": 2
+          },
+          "success": true,
+          "hint": "Chopped 2 logs",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781464797600
+        },
+        {
+          "action": "dig_emergency_shelter",
+          "params": {},
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781465306292
+        },
+        {
+          "action": "chop_tree",
+          "params": {
+            "count": 2
+          },
+          "success": true,
+          "hint": "Chopped 2 logs",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781465317452
+        },
+        {
+          "action": "wait",
+          "params": {
+            "ms": 3000
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781465325939
+        }
+      ]
+    }
+  },
+  "blockedActions": [
+    [
+      "explore",
+      122
+    ],
+    [
+      "build_shelter",
+      141
+    ]
+  ]
+}

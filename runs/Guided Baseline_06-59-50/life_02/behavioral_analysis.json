@@ -1,0 +1,93 @@
+{
+  "runId": "Guided Baseline_06-59-50_life_02",
+  "generatedAt": "2026-06-17T07:25:54.981Z",
+  "coherence": {
+    "totalDecisions": 45,
+    "goalsStarted": 45,
+    "goalsCompleted": 1,
+    "completionRate": "2.2%"
+  },
+  "actionDistribution": {
+    "chop_tree": 14,
+    "craft": 14,
+    "move_to": 2,
+    "mine": 6,
+    "break_around": 4,
+    "pillar_up": 3,
+    "explore": 4,
+    "go_to_near": 1,
+    "eat": 2,
+    "build_shelter": 1,
+    "flee_from": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "chop_tree",
+      "count": 14
+    },
+    {
+      "action": "craft",
+      "count": 14
+    },
+    {
+      "action": "mine",
+      "count": 6
+    },
+    {
+      "action": "break_around",
+      "count": 4
+    },
+    {
+      "action": "explore",
+      "count": 4
+    }
+  ],
+  "goalDistribution": {
+    "gather wood for tools": 4,
+    "progress_from_logs": 4,
+    "craft_wooden_pickaxe": 8,
+    "gather resources for crafting": 1,
+    "craft wooden pickaxe": 4,
+    "mine stone for cobblestone": 1,
+    "escape_trap": 4,
+    "gather wood for crafting table": 1,
+    "gather stone for tools": 2,
+    "gather wood and prepare for cr": 1,
+    "craft crafting table": 1,
+    "mine_stone": 8,
+    "heal": 1,
+    "progress_to_stone_tools": 1,
+    "explore for animals/resources": 1,
+    "build shelter for the night": 2,
+    "flee_danger": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "craft_wooden_pickaxe",
+      "count": 8
+    },
+    {
+      "action": "mine_stone",
+      "count": 8
+    },
+    {
+      "action": "gather wood for tools",
+      "count": 4
+    },
+    {
+      "action": "progress_from_logs",
+      "count": 4
+    },
+    {
+      "action": "craft wooden pickaxe",
+      "count": 4
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 4
+  },
+  "adaptation": {
+    "perturbationCount": 1,
+    "averageRecoveryTime": "227.7s"
+  }
+}

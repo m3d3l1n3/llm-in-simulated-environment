@@ -1,0 +1,236 @@
+{
+  "savedAt": 1781732262425,
+  "loopCount": 49,
+  "goalManager": {
+    "currentTier": "stone_tools",
+    "highestTierReached": "stone_tools",
+    "activePlan": null,
+    "planSinceLoop": 0,
+    "goalHistory": [],
+    "lastCompletedTier": null
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": -30,
+        "y": 61,
+        "z": -56,
+        "distance": 1,
+        "tick": 69659,
+        "seenAt": 1781732229918
+      },
+      "gravel": {
+        "x": -26,
+        "y": 55,
+        "z": -55,
+        "distance": 7,
+        "tick": 69659,
+        "seenAt": 1781732229918
+      },
+      "cobblestone": {
+        "x": -27,
+        "y": 64,
+        "z": -56,
+        "distance": 3,
+        "tick": 69659,
+        "seenAt": 1781732229918
+      },
+      "water": {
+        "x": -30,
+        "y": 62,
+        "z": -57,
+        "distance": 0,
+        "tick": 69659,
+        "seenAt": 1781732229918
+      },
+      "water_hazard": {
+        "x": -30,
+        "y": 62,
+        "z": -57,
+        "distance": 0,
+        "seenAt": 1781732229918
+      },
+      "dark_oak_log": {
+        "x": 170,
+        "y": 66,
+        "z": 62,
+        "distance": 6,
+        "tick": 19399,
+        "seenAt": 1781729718112
+      },
+      "sand": {
+        "x": -34,
+        "y": 60,
+        "z": -61,
+        "distance": 6,
+        "tick": 69659,
+        "seenAt": 1781732229918
+      },
+      "oak_log": {
+        "x": -4,
+        "y": 71,
+        "z": -19,
+        "distance": 14,
+        "tick": 62939,
+        "seenAt": 1781731895101
+      },
+      "lava": {
+        "x": -17,
+        "y": 53,
+        "z": 39,
+        "distance": 13,
+        "tick": 49259,
+        "seenAt": 1781731210446
+      },
+      "birch_log": {
+        "x": 4,
+        "y": 72,
+        "z": 12,
+        "distance": 9,
+        "tick": 59079,
+        "seenAt": 1781731701657
+      },
+      "stone": {
+        "x": -27,
+        "y": 59,
+        "z": -57,
+        "distance": 3,
+        "tick": 69659,
+        "seenAt": 1781732229918
+      },
+      "spruce_log": {
+        "x": -28,
+        "y": 64,
+        "z": -54,
+        "distance": 3,
+        "tick": 69659,
+        "seenAt": 1781732229918
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (0, 70, 10) to (-3, 70, 22); inventory delta +17; avg nearby mobs 0.",
+      "Last 10 loops: moved from (4, 78, 6) to (-14, 64, 27); inventory delta +21; avg nearby mobs 0.",
+      "Last 10 loops: moved from (4, 78, 6) to (-11, 71, 6); inventory delta -4; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-56, 63, -9) to (8, 73, -10); inventory delta -22; avg nearby mobs 0.",
+      "Last 10 loops: moved from (8, 73, -10) to (2, 65, 5); inventory delta +36; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-26, 71, -38) to (-49, 62, -45); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-37, 64, -33) to (-11, 67, -33); inventory delta -1; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-36, 62, -58) to (-30, 62, -57); inventory delta -5; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781732260422,
+      "position": {
+        "x": -29.5,
+        "y": 62,
+        "z": -56.44,
+        "yaw": 1.3316095202322877,
+        "pitch": 0.0004275151821997447
+      },
+      "health": 12.5,
+      "food": 17,
+      "inWater": true,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "find food to restore health",
+        "reasoning": "Health is low and there is no food in inventory. I need to hunt for food immediately.",
+        "actions": [
+          {
+            "name": "attack",
+            "params": {
+              "entity": "cow"
+            }
+          },
+          {
+            "name": "attack",
+            "params": {
+              "entity": "pig"
+            }
+          },
+          {
+            "name": "attack",
+            "params": {
+              "entity": "sheep"
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "wait",
+          "goal": "wait_in_shelter",
+          "params": {
+            "ms": 3000
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781732216297
+        },
+        {
+          "action": "wait",
+          "goal": "wait_in_shelter",
+          "params": {
+            "ms": 3000
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781732224609
+        },
+        {
+          "action": "attack",
+          "goal": "find food to restore health",
+          "params": {
+            "entity": "cow"
+          },
+          "success": false,
+          "hint": null,
+          "error": null,
+          "interrupted": true,
+          "interruptReason": "danger_interrupt",
+          "blocksCleared": null,
+          "timestamp": 1781732256729
+        },
+        {
+          "action": "eat",
+          "goal": null,
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781732256729
+        },
+        {
+          "action": "flee_from",
+          "goal": null,
+          "params": {
+            "entity": "zombie"
+          },
+          "success": true,
+          "hint": "Fled to 3m away",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781732257472
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

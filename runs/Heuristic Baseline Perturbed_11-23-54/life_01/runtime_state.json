@@ -1,0 +1,191 @@
+{
+  "savedAt": 1781436836805,
+  "loopCount": 42,
+  "goalManager": {
+    "currentTier": "wood_tools",
+    "highestTierReached": "wood_tools",
+    "activePlan": null,
+    "planSinceLoop": 0,
+    "goalHistory": [],
+    "lastCompletedTier": null
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": -13,
+        "y": 68,
+        "z": -9,
+        "distance": 0,
+        "tick": 11739,
+        "seenAt": 1781436829520
+      },
+      "gravel": {
+        "x": -17,
+        "y": 68,
+        "z": 1,
+        "distance": 11,
+        "tick": 11739,
+        "seenAt": 1781436829520
+      },
+      "oak_log": {
+        "x": -11,
+        "y": 71,
+        "z": -1,
+        "distance": 9,
+        "tick": 11739,
+        "seenAt": 1781436829520
+      },
+      "birch_log": {
+        "x": -12,
+        "y": 71,
+        "z": -7,
+        "distance": 3,
+        "tick": 11739,
+        "seenAt": 1781436829520
+      },
+      "water": {
+        "x": -3,
+        "y": 62,
+        "z": -22,
+        "distance": 12,
+        "tick": 10899,
+        "seenAt": 1781436787626
+      },
+      "water_hazard": {
+        "x": -3,
+        "y": 62,
+        "z": -22,
+        "distance": 12,
+        "seenAt": 1781436787626
+      },
+      "cobblestone": {
+        "x": -12,
+        "y": 65,
+        "z": -16,
+        "distance": 7,
+        "tick": 11739,
+        "seenAt": 1781436829520
+      },
+      "stone": {
+        "x": -13,
+        "y": 67,
+        "z": -9,
+        "distance": 1,
+        "tick": 11739,
+        "seenAt": 1781436829520
+      },
+      "spruce_log": {
+        "x": -16,
+        "y": 71,
+        "z": -10,
+        "distance": 4,
+        "tick": 11739,
+        "seenAt": 1781436829520
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (4, 72, -8) to (-14, 67, -18); inventory delta +6; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-14, 64, -18) to (-12, 65, -16); inventory delta +18; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-12, 65, -16) to (-11, 67, -13); inventory delta +29; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-11, 67, -13) to (-10, 67, -13); inventory delta +10; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781436834799,
+      "position": {
+        "x": -12.5,
+        "y": 68,
+        "z": -9.43,
+        "yaw": -3.141592680220916,
+        "pitch": 0.42935099599057835
+      },
+      "health": 20,
+      "food": 17,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "gather_wood",
+        "reasoning": "Heuristic: need logs for tools/sticks",
+        "actions": [
+          {
+            "name": "chop_tree",
+            "params": {
+              "count": 2
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "craft",
+          "params": {
+            "item": "stone_pickaxe"
+          },
+          "success": false,
+          "hint": null,
+          "error": "Recipe for stone_pickaxe requires a crafting table within reach, but none is nearby and none could be placed. Move closer to a table or craft/place one first.",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781436771230
+        },
+        {
+          "action": "craft",
+          "params": {
+            "item": "stone_pickaxe"
+          },
+          "success": false,
+          "hint": null,
+          "error": "Recipe for stone_pickaxe requires a crafting table within reach, but none is nearby and none could be placed. Move closer to a table or craft/place one first.",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781436776695
+        },
+        {
+          "action": "craft",
+          "params": {
+            "item": "stone_pickaxe"
+          },
+          "success": false,
+          "hint": null,
+          "error": "Recipe for stone_pickaxe requires a crafting table within reach, but none is nearby and none could be placed. Move closer to a table or craft/place one first.",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781436782163
+        },
+        {
+          "action": "chop_tree",
+          "params": {
+            "count": 2
+          },
+          "success": true,
+          "hint": "Chopped 2 logs",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781436805842
+        },
+        {
+          "action": "chop_tree",
+          "params": {
+            "count": 2
+          },
+          "success": true,
+          "hint": "Chopped 2 logs",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781436824048
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

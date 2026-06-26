@@ -1,0 +1,161 @@
+{
+  "savedAt": 1781464726303,
+  "loopCount": 24,
+  "goalManager": {
+    "currentTier": "wood_tools",
+    "highestTierReached": "wood_tools",
+    "activePlan": null,
+    "planSinceLoop": 0,
+    "goalHistory": [],
+    "lastCompletedTier": null
+  },
+  "longMemory": {
+    "knownLocations": {
+      "birch_log": {
+        "x": 4,
+        "y": 75,
+        "z": 12,
+        "distance": 10,
+        "tick": 11699,
+        "seenAt": 1781464716381
+      },
+      "stone": {
+        "x": 1,
+        "y": 68,
+        "z": 1,
+        "distance": 9,
+        "tick": 11699,
+        "seenAt": 1781464716381
+      },
+      "dirt": {
+        "x": 0,
+        "y": 70,
+        "z": 2,
+        "distance": 7,
+        "tick": 11699,
+        "seenAt": 1781464716381
+      },
+      "gravel": {
+        "x": -1,
+        "y": 62,
+        "z": 2,
+        "distance": 15,
+        "tick": 11699,
+        "seenAt": 1781464716381
+      },
+      "oak_log": {
+        "x": 2,
+        "y": 76,
+        "z": 2,
+        "distance": 1,
+        "tick": 11699,
+        "seenAt": 1781464716381
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (-5, 80, 4) to (0, 76, 2); inventory delta +20; avg nearby mobs 0.",
+      "Last 10 loops: moved from (0, 76, 2) to (1, 77, 2); inventory delta +0; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781464724252,
+      "position": {
+        "x": 0.91,
+        "y": 77,
+        "z": 2.27,
+        "yaw": 0.491405419076985,
+        "pitch": -0.0008048538997447174
+      },
+      "health": 20,
+      "food": 20,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "craft_planks",
+        "reasoning": "Heuristic: craft planks",
+        "actions": [
+          {
+            "name": "craft",
+            "params": {
+              "item": "planks",
+              "count": 4
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "craft",
+          "params": {
+            "item": "stick",
+            "count": 4
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781464211632
+        },
+        {
+          "action": "chop_tree",
+          "params": {
+            "count": 2
+          },
+          "success": true,
+          "hint": "Chopped 2 logs",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781464223439
+        },
+        {
+          "action": "chop_tree",
+          "params": {
+            "count": 2
+          },
+          "success": true,
+          "hint": "Chopped 2 logs",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781464236586
+        },
+        {
+          "action": "craft",
+          "params": {
+            "item": "planks",
+            "count": 4
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781464242122
+        },
+        {
+          "action": "craft",
+          "params": {
+            "item": "wooden_pickaxe"
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781464248258
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

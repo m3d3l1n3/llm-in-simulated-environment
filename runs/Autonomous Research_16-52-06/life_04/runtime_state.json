@@ -1,0 +1,418 @@
+{
+  "savedAt": 1781805126673,
+  "loopCount": 58,
+  "goalManager": {
+    "currentTier": "shelter",
+    "highestTierReached": "shelter",
+    "activePlan": "gather wood and progress toward iron tools",
+    "planSinceLoop": 58,
+    "goalHistory": [
+      {
+        "goal": "replace_worn_tool",
+        "reasoning": "Stone Pickaxe at 2% durability (3 uses left). Crafting replacement before it breaks.",
+        "isGuard": true,
+        "loopCount": 29,
+        "timestamp": 1781804320089
+      },
+      {
+        "goal": "survive the night by pillaring up",
+        "reasoning": "It's night (time 17001) with light level 0, mobs can spawn. I'm standing on air which is dangerous. I have 125 cobblestone in inventory. Pillaring up 8 blocks will keep me safe from ground mobs during the night.",
+        "isGuard": false,
+        "loopCount": 30,
+        "timestamp": 1781804328057
+      },
+      {
+        "goal": "survive the night safely",
+        "reasoning": "It's night (time 17441) with light level 0 and mobs can spawn. I have 125 cobblestone and a crafting table. I should build a shelter to protect myself. pillar_up failed last turn, so I'll try build_shelter instead which uses my cobblestone blocks.",
+        "isGuard": false,
+        "loopCount": 31,
+        "timestamp": 1781804350310
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 32,
+        "timestamp": 1781804357185
+      },
+      {
+        "goal": "survive the night by placing crafting table and lighting area",
+        "reasoning": "Multiple actions have failed. I'm on the surface at night with light level 0. I have cobblestone (125 blocks), sticks, and a crafting table. I should craft torches to light the area and prevent mob spawning. I have sticks but need coal - however I can try to light the area with what I have, or craft a shelter differently. Let me try break_around in 'all' direction to clear space, then place the crafting table and craft torches. Actually, I have sticks but no coal for torches. Let me try go_to_near to move away from the cliff hazard to the west, then try build_shelter again.",
+        "isGuard": false,
+        "loopCount": 33,
+        "timestamp": 1781804380524
+      },
+      {
+        "goal": "pillar up to survive the night safely",
+        "reasoning": "It's night with light level 0 and many actions have failed. Pillaring up 4-5 blocks gives safety from ground mobs. I have 125 cobblestone blocks to use. This is a reliable survival technique when shelter building fails.",
+        "isGuard": false,
+        "loopCount": 34,
+        "timestamp": 1781804395453
+      },
+      {
+        "goal": "survive the night by building shelter",
+        "reasoning": "It's night with light level 0 and I'm on the surface. Many actions have failed. I have 125+ cobblestone and a crafting table. I need to try build_shelter again since I'm now at a different position after go_to_near succeeded. The cliff hazards are to the west and southwest, so I should try building shelter here. If build_shelter fails, I'll try pillar_up as a backup.",
+        "isGuard": false,
+        "loopCount": 35,
+        "timestamp": 1781804434220
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 36,
+        "timestamp": 1781804442809
+      },
+      {
+        "goal": "survive the night safely",
+        "reasoning": "It's night with light level 0, I'm standing on air (likely on top of a structure or edge), and I have lots of cobblestone. I should pillar up to get off the dangerous edge, then dig an emergency shelter since build_shelter is blocked. I'm standing on air which is dangerous - let me first try to place blocks under me with pillar_up, then dig an emergency shelter to hide from mobs.",
+        "isGuard": false,
+        "loopCount": 37,
+        "timestamp": 1781804490853
+      },
+      {
+        "goal": "survive the night by lighting area and staying safe",
+        "reasoning": "It's night with light level 0 and mobs can spawn. I have cobblestone but no torches. I need coal to make torches. Since I can't build shelter or dig emergency shelter, I should try to mine some coal from nearby stone, or craft torches if I have coal. Actually I don't have coal in inventory. Let me try to pillar up to get some height advantage and safety, then mine coal from nearby stone. Actually the best option now is to place my crafting table and try to craft wooden tools, then mine coal. But first, let me try break_around to clear space and then dig_emergency_shelter again.",
+        "isGuard": false,
+        "loopCount": 38,
+        "timestamp": 1781804502156
+      },
+      {
+        "goal": "survive night by pillaring up for safety",
+        "reasoning": "dig_emergency_shelter keeps failing. I have 125 cobblestone blocks. Pillaring up gives safety from ground mobs at night. Then I can mine coal from stone to craft torches and light the area.",
+        "isGuard": false,
+        "loopCount": 39,
+        "timestamp": 1781804525231
+      },
+      {
+        "goal": "survive the night by building shelter",
+        "reasoning": "Multiple actions are failing. I have 125+ cobblestone and a crafting table. build_shelter should use my cobblestone to create a safe enclosure. This is different from the failing dig_emergency_shelter and pillar_up actions.",
+        "isGuard": false,
+        "loopCount": 40,
+        "timestamp": 1781804537380
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 41,
+        "timestamp": 1781804547153
+      },
+      {
+        "goal": "survive the night safely",
+        "reasoning": "It's night with light level 0, but no mobs are nearby. I have 125 cobblestone in inventory. I should place my crafting table and try to craft a wooden pickaxe or just wait out the night safely. Since build_shelter worked last turn and I'm on stone surface, let me try to light the area with torches - but I don't have torches. Let me craft wooden tools first by placing the crafting table, then craft a wooden pickaxe. Actually, I need to craft torches to light the area. I have oak_planks (5) and sticks (4). Let me craft a wooden pickaxe first to mine coal, then make torches. But first I need to place the crafting table. Let me try break_around to clear space, then craft items.",
+        "isGuard": false,
+        "loopCount": 42,
+        "timestamp": 1781804593528
+      },
+      {
+        "goal": "survive the night by digging emergency shelter",
+        "reasoning": "It's night with light level 0 and I'm exposed. I have plenty of cobblestone and dirt. build_shelter is blocked. I should dig an emergency shelter to hide from mobs until morning. I have no torches so I can't light the area.",
+        "isGuard": false,
+        "loopCount": 43,
+        "timestamp": 1781804603994
+      },
+      {
+        "goal": "survive the night safely",
+        "reasoning": "It's night with light level 0 but no mobs are nearby. I have cobblestone in inventory which I can use to build walls. Let me try to craft a stone pickaxe first using the nearby crafting table, then mine coal for torches. Actually, I should focus on surviving the night - I'll try to pillar up to get away from ground level mobs, or craft a stone sword for defense. Let me craft a stone pickaxe to progress toward iron tools, since the crafting table is nearby.",
+        "isGuard": false,
+        "loopCount": 44,
+        "timestamp": 1781804614951
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 45,
+        "timestamp": 1781804622746
+      },
+      {
+        "goal": "survive the night by pillaring up",
+        "reasoning": "It's night with light level 0 and I'm stuck on the surface. I have 63+ cobblestone in inventory which I can use to pillar up to get away from ground-level mob spawns. Pillaring up is a reliable survival strategy at night when I can't build a proper shelter. This avoids the blocked build_shelter action and the failed dig_emergency_shelter.",
+        "isGuard": false,
+        "loopCount": 46,
+        "timestamp": 1781804669120
+      },
+      {
+        "goal": "pillar up to safety",
+        "reasoning": "It's dawn (time 581) with light level 0 where mobs can spawn. I'm standing on air near a cliff. I have 64+ cobblestone to pillar up. This is the most reliable way to get to safety quickly. No hostile mobs nearby currently so I have time to pillar up.",
+        "isGuard": false,
+        "loopCount": 47,
+        "timestamp": 1781804707926
+      },
+      {
+        "goal": "collect food by hunting animals",
+        "reasoning": "Priority alert says low food and no food inventory - I need to hunt animals. It's daytime, no hostile mobs nearby, health is full at 20/20, so this is a good time to collect food. I have a stone pickaxe equipped and plenty of cobblestone. Let me collect food first before doing anything else.",
+        "isGuard": false,
+        "loopCount": 48,
+        "timestamp": 1781804746136
+      },
+      {
+        "goal": "collect food by hunting animals",
+        "reasoning": "Priority alert says low food and no food inventory. I need to hunt animals. It's daytime (time 2121), no hostile mobs nearby, health is full at 20/20. There's an oak_log 5m away which suggests a forest area where animals might be. Let me collect food first.",
+        "isGuard": false,
+        "loopCount": 49,
+        "timestamp": 1781804784288
+      },
+      {
+        "goal": "collect food by hunting animals",
+        "reasoning": "Priority alerts indicate low food and no food inventory. I need to hunt animals immediately. I'm on the surface during daytime with no hostile mobs nearby. The light level is 0 which is concerning but it's daytime so mobs shouldn't spawn. Let me collect food now - there should be animals near the oak trees 5m away.",
+        "isGuard": false,
+        "loopCount": 50,
+        "timestamp": 1781804823431
+      },
+      {
+        "goal": "collect food by hunting animals near oak trees",
+        "reasoning": "Priority alerts indicate low food and no food inventory. I need to hunt animals. There's an oak_log 5m away which suggests a forest where animals spawn. I'll go to the oak log location first, then collect food. My position is (37.5, 68, 4.5) and oak_log is 5m away - let me navigate there and hunt.",
+        "isGuard": false,
+        "loopCount": 51,
+        "timestamp": 1781804862229
+      },
+      {
+        "goal": "collect food by hunting animals",
+        "reasoning": "I have low food (8/20) and no food in inventory. I need to hunt animals urgently. There's an oak_log 5m away at approximately (32, 68, 4) based on my position. Let me navigate toward it and collect food. I'll use go_to_near to move toward the oak log area where animals are likely to be, then collect_food.",
+        "isGuard": false,
+        "loopCount": 52,
+        "timestamp": 1781804901281
+      },
+      {
+        "goal": "collect food by hunting animals near oak trees",
+        "reasoning": "I have low food (8/20) and no food in inventory. I need to hunt animals urgently. There's an oak_log 5m away which suggests a forest nearby. I'll navigate toward the oak log area and collect food. Previous explore failed but pillar_up worked, so I'm likely on elevated terrain. Let me try go_to_near to move toward the oak log at approximately (32, 68, 4), then collect food.",
+        "isGuard": false,
+        "loopCount": 53,
+        "timestamp": 1781804940230
+      },
+      {
+        "goal": "collect food by hunting animals",
+        "reasoning": "Food is at 8/20 which is getting low and I have no food in inventory. I need to hunt animals immediately. There's an oak_log 5m away suggesting a forest area nearby where animals should spawn. I'll try collect_food directly since I'm on the surface at noon with no hostile mobs nearby.",
+        "isGuard": false,
+        "loopCount": 54,
+        "timestamp": 1781804978657
+      },
+      {
+        "goal": "collect food by hunting animals",
+        "reasoning": "Food is at 8/20 and I have no food in inventory. This is a priority alert. I need to hunt animals immediately. I'm on the surface at noon with no hostile mobs nearby. I'll try collect_food action to hunt nearby animals for food.",
+        "isGuard": false,
+        "loopCount": 55,
+        "timestamp": 1781805016674
+      },
+      {
+        "goal": "forced_recovery",
+        "reasoning": "Stuck for many loops; trying escape strategy #1 (rotating to avoid repeating failed approaches).",
+        "isGuard": true,
+        "loopCount": 56,
+        "timestamp": 1781805051954
+      },
+      {
+        "goal": "get unstuck and gather resources",
+        "reasoning": "I'm stuck with recent failures. I'm on the surface at noon with no mobs nearby. Food is at 7/20 which is manageable. Light level is 0 which is concerning but it's noon so hostile mobs shouldn't spawn. I need to get unstuck first - I'll try mining stone since I'm standing on stone and have a stone pickaxe. This will help gather resources and get me moving.",
+        "isGuard": false,
+        "loopCount": 57,
+        "timestamp": 1781805072780
+      },
+      {
+        "goal": "gather wood and progress toward iron tools",
+        "reasoning": "I'm stuck but recent mine action succeeded. There's an oak_log 7m away - I should chop it to get wood. I have a stone pickaxe and need coal and iron ore to progress. Let me go to the oak log and chop it, then mine coal. Food is at 7/20 which is manageable. Light level warning is odd for noon but no mobs are nearby.",
+        "isGuard": false,
+        "loopCount": 58,
+        "timestamp": 1781805102895
+      }
+    ],
+    "lastCompletedTier": "naked"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "spruce_log": {
+        "x": 13,
+        "y": 71,
+        "z": -32,
+        "distance": 12,
+        "tick": 21839,
+        "seenAt": 1781802500063
+      },
+      "dirt": {
+        "x": 36,
+        "y": 67,
+        "z": 3,
+        "distance": 1,
+        "tick": 73819,
+        "seenAt": 1781805098936
+      },
+      "gravel": {
+        "x": 38,
+        "y": 66,
+        "z": 6,
+        "distance": 2,
+        "tick": 73819,
+        "seenAt": 1781805098936
+      },
+      "water": {
+        "x": 28,
+        "y": 50,
+        "z": -4,
+        "distance": 15,
+        "tick": 62779,
+        "seenAt": 1781804547153
+      },
+      "water_hazard": {
+        "x": 28,
+        "y": 50,
+        "z": -4,
+        "distance": 15,
+        "seenAt": 1781804547153
+      },
+      "sand": {
+        "x": -23,
+        "y": 64,
+        "z": 107,
+        "distance": 11,
+        "tick": 41799,
+        "seenAt": 1781803498546
+      },
+      "birch_log": {
+        "x": 28,
+        "y": 72,
+        "z": 1,
+        "distance": 11,
+        "tick": 73819,
+        "seenAt": 1781805098936
+      },
+      "oak_log": {
+        "x": 37,
+        "y": 73,
+        "z": 5,
+        "distance": 7,
+        "tick": 73819,
+        "seenAt": 1781805098936
+      },
+      "stone": {
+        "x": 37,
+        "y": 65,
+        "z": 3,
+        "distance": 1,
+        "tick": 73819,
+        "seenAt": 1781805098936
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (18, 70, 9) to (-3, 71, 21); inventory delta +1; avg nearby mobs 0.",
+      "Last 10 loops: moved from (4, 70, 10) to (30, 58, 26); inventory delta +40; avg nearby mobs 0.",
+      "Last 10 loops: moved from (29, 61, 29) to (25, 73, -11); inventory delta +5; avg nearby mobs 0.",
+      "Last 10 loops: moved from (6, 77, 9) to (21, 62, 18); inventory delta +46; avg nearby mobs 0.",
+      "Last 10 loops: moved from (20, 62, 17) to (21, 61, 14); inventory delta +50; avg nearby mobs 0.",
+      "Last 10 loops: moved from (21, 61, 13) to (30, 64, 4); inventory delta +86; avg nearby mobs 0.",
+      "Last 10 loops: moved from (31, 64, 4) to (28, 62, 4); inventory delta +2; avg nearby mobs 0.",
+      "Last 10 loops: moved from (29, 63, 4) to (37, 68, 4); inventory delta +29; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781803524998,
+      "position": {
+        "x": -35.5,
+        "y": 66,
+        "z": 122.32,
+        "yaw": 3.1382002124669937,
+        "pitch": 0.0009588224515657551
+      },
+      "health": 6.833332061767578,
+      "food": 4,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "collect food to survive",
+        "reasoning": "Health is critically low at 6/20 and food is at 4/20 with no food in inventory. It's dusk with mobs spawning. I need to hunt animals immediately to get food. There are no nearby mobs listed but I should try to collect food from animals in the area.",
+        "actions": [
+          {
+            "name": "collect_food",
+            "params": {
+              "count": 3
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "eat",
+          "goal": null,
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781803503519
+        },
+        {
+          "action": "flee_from",
+          "goal": null,
+          "params": {
+            "entity": "spider"
+          },
+          "success": true,
+          "hint": "Fled to 4m away",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781803504350
+        },
+        {
+          "action": "collect_food",
+          "goal": "collect food to survive",
+          "params": {
+            "count": 3
+          },
+          "success": false,
+          "hint": null,
+          "error": null,
+          "interrupted": true,
+          "interruptReason": "danger_interrupt",
+          "blocksCleared": null,
+          "timestamp": 1781803522130
+        },
+        {
+          "action": "eat",
+          "goal": null,
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781803522131
+        },
+        {
+          "action": "flee_from",
+          "goal": null,
+          "params": {
+            "entity": "skeleton"
+          },
+          "success": true,
+          "hint": "Fled to 7m away",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781803522865
+        }
+      ]
+    }
+  },
+  "blockedActions": [
+    [
+      "build_shelter",
+      55
+    ],
+    [
+      "dig_emergency_shelter",
+      45
+    ]
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "experimentName": "Heuristic Baseline Perturbed_15-10-47",
+  "totalLives": 3,
+  "totalDeaths": 2,
+  "totalDurationMs": 3581679,
+  "totalDurationMinutes": 60,
+  "aggregateStats": {
+    "observations": 149,
+    "actions": 119,
+    "goals": 149,
+    "events": 306
+  },
+  "lives": [
+    {
+      "life": "life_01",
+      "runId": "Heuristic Baseline Perturbed_15-10-47",
+      "duration": 591768,
+      "durationMinutes": 10,
+      "startTime": "2026-06-14T15:10:57.970Z",
+      "endTime": "2026-06-14T15:20:49.738Z",
+      "stats": {
+        "observations": 29,
+        "actions": 20,
+        "goals": 29,
+        "events": 73,
+        "memorySummaries": 0
+      },
+      "metadata": {
+        "minecraftVersion": "1.20.4",
+        "mineflayerVersion": "4.33.0",
+        "nodeVersion": "v24.11.1",
+        "seed": "-1613247987266390429",
+        "llmConfig": {
+          "provider": "heuristic",
+          "explorationDistance": 35,
+          "targetLogs": 4,
+          "targetCobble": 12,
+          "targetCoal": 5,
+          "targetIronOre": 8,
+          "targetDiamond": 3
+        },
+        "actionSet": [
+          "move",
+          "look",
+          "break",
+          "place",
+          "craft",
+          "use",
+          "gather",
+          "go_to",
+          "eat",
+          "sleep"
+        ],
+        "experimentName": "Heuristic Baseline Perturbed",
+        "experimentDescription": "Deterministic rule-based agent under identical perturbations to research_autonomous. Measures maximum scripted progression under stress.",
+        "botUsername": "HeuristicBot",
+        "perturbationCount": 3,
+        "deathRecovery": false,
+        "runId": "Heuristic Baseline Perturbed_15-10-47",
+        "startTime": 1781449857970,
+        "startTimeISO": "2026-06-14T15:10:57.970Z",
+        "endTime": 1781450449738,
+        "endTimeISO": "2026-06-14T15:20:49.738Z",
+        "duration": 591768,
+        "durationMinutes": 10
+      }
+    },
+    {
+      "life": "life_02",
+      "runId": "Heuristic Baseline Perturbed_15-10-47_life_02",
+      "duration": 675782,
+      "durationMinutes": 11,
+      "startTime": "2026-06-14T15:20:53.768Z",
+      "endTime": "2026-06-14T15:32:09.550Z",
+      "stats": {
+        "observations": 36,
+        "actions": 34,
+        "goals": 36,
+        "events": 85,
+        "memorySummaries": 0
+      },
+      "metadata": {
+        "minecraftVersion": "1.20.4",
+        "mineflayerVersion": "4.33.0",
+        "nodeVersion": "v24.11.1",
+        "seed": "-1613247987266390429",
+        "llmConfig": {
+          "provider": "heuristic",
+          "explorationDistance": 35,
+          "targetLogs": 4,
+          "targetCobble": 12,
+          "targetCoal": 5,
+          "targetIronOre": 8,
+          "targetDiamond": 3
+        },
+        "actionSet": [
+          "move",
+          "look",
+          "break",
+          "place",
+          "craft",
+          "use",
+          "gather",
+          "go_to",
+          "eat",
+          "sleep"
+        ],
+        "experimentName": "Heuristic Baseline Perturbed",
+        "experimentDescription": "Deterministic rule-based agent under identical perturbations to research_autonomous. Measures maximum scripted progression under stress.",
+        "botUsername": "HeuristicBot",
+        "perturbationCount": 3,
+        "deathRecovery": true,
+        "runId": "Heuristic Baseline Perturbed_15-10-47_life_02",
+        "startTime": 1781450453768,
+        "startTimeISO": "2026-06-14T15:20:53.768Z",
+        "endTime": 1781451129550,
+        "endTimeISO": "2026-06-14T15:32:09.550Z",
+        "duration": 675782,
+        "durationMinutes": 11
+      }
+    },
+    {
+      "life": "life_03",
+      "runId": "Heuristic Baseline Perturbed_15-10-47_life_03",
+      "duration": 2314129,
+      "durationMinutes": 39,
+      "startTime": "2026-06-14T15:32:13.569Z",
+      "endTime": "2026-06-14T16:10:47.698Z",
+      "stats": {
+        "observations": 84,
+        "actions": 65,
+        "goals": 84,
+        "events": 148,
+        "memorySummaries": 0
+      },
+      "metadata": {
+        "minecraftVersion": "1.20.4",
+        "mineflayerVersion": "4.33.0",
+        "nodeVersion": "v24.11.1",
+        "seed": "-1613247987266390429",
+        "llmConfig": {
+          "provider": "heuristic",
+          "explorationDistance": 35,
+          "targetLogs": 4,
+          "targetCobble": 12,
+          "targetCoal": 5,
+          "targetIronOre": 8,
+          "targetDiamond": 3
+        },
+        "actionSet": [
+          "move",
+          "look",
+          "break",
+          "place",
+          "craft",
+          "use",
+          "gather",
+          "go_to",
+          "eat",
+          "sleep"
+        ],
+        "experimentName": "Heuristic Baseline Perturbed",
+        "experimentDescription": "Deterministic rule-based agent under identical perturbations to research_autonomous. Measures maximum scripted progression under stress.",
+        "botUsername": "HeuristicBot",
+        "perturbationCount": 3,
+        "deathRecovery": true,
+        "runId": "Heuristic Baseline Perturbed_15-10-47_life_03",
+        "startTime": 1781451133569,
+        "startTimeISO": "2026-06-14T15:32:13.569Z",
+        "endTime": 1781453447698,
+        "endTimeISO": "2026-06-14T16:10:47.698Z",
+        "duration": 2314129,
+        "durationMinutes": 39
+      }
+    }
+  ],
+  "generatedAt": "2026-06-14T16:10:47.702Z"
+}

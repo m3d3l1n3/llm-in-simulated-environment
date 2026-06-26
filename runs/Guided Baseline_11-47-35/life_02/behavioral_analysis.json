@@ -1,0 +1,91 @@
+{
+  "runId": "Guided Baseline_11-47-35_life_02",
+  "generatedAt": "2026-06-17T12:15:39.401Z",
+  "coherence": {
+    "totalDecisions": 61,
+    "goalsStarted": 61,
+    "goalsCompleted": 1,
+    "completionRate": "1.6%"
+  },
+  "actionDistribution": {
+    "chop_tree": 6,
+    "craft": 18,
+    "mine": 3,
+    "break_around": 4,
+    "pillar_up": 3,
+    "explore": 7,
+    "swim_up": 13,
+    "build_shelter": 1,
+    "dig_emergency_shelter": 3,
+    "dig_to_surface": 7
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 18
+    },
+    {
+      "action": "swim_up",
+      "count": 13
+    },
+    {
+      "action": "explore",
+      "count": 7
+    },
+    {
+      "action": "dig_to_surface",
+      "count": 7
+    },
+    {
+      "action": "chop_tree",
+      "count": 6
+    }
+  ],
+  "goalDistribution": {
+    "gather wood for tools": 4,
+    "progress_from_logs": 3,
+    "craft_wooden_pickaxe": 2,
+    "mine_stone": 4,
+    "mine stone for cobblestone": 1,
+    "progress_to_stone_tools": 7,
+    "escape_trap": 2,
+    "gather resources and explore": 3,
+    "gather wood for crafting table": 1,
+    "escape_drowning": 21,
+    "escape drowning": 5,
+    "gather resources and escape tr": 2,
+    "build_night_shelter": 1,
+    "dig emergency shelter": 2,
+    "emergency_shelter_night": 2,
+    "forced_recovery": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "escape_drowning",
+      "count": 21
+    },
+    {
+      "action": "progress_to_stone_tools",
+      "count": 7
+    },
+    {
+      "action": "escape drowning",
+      "count": 5
+    },
+    {
+      "action": "gather wood for tools",
+      "count": 4
+    },
+    {
+      "action": "mine_stone",
+      "count": 4
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 8
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

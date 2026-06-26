@@ -1,0 +1,20 @@
+{"timestamp":1781449868246,"runTime":10276,"action":"chop_tree","params":{"count":2},"success":true,"duration":9608,"result":{"success":true,"logsChopped":2,"hint":"Chopped 2 logs"}}
+{"timestamp":1781449881768,"runTime":23798,"action":"chop_tree","params":{"count":2},"success":true,"duration":8025,"result":{"success":true,"logsChopped":2,"hint":"Chopped 2 logs"}}
+{"timestamp":1781449887438,"runTime":29468,"action":"craft","params":{"item":"planks","count":4},"success":true,"duration":117,"result":{"success":true,"item":"oak_planks","alreadyHad":0,"crafted":8}}
+{"timestamp":1781449893011,"runTime":35041,"action":"craft","params":{"item":"crafting_table"},"success":true,"duration":39,"result":{"success":true,"item":"crafting_table","alreadyHad":0,"crafted":1}}
+{"timestamp":1781449903581,"runTime":45611,"action":"chop_tree","params":{"count":2},"success":true,"duration":5028,"result":{"success":true,"logsChopped":2,"hint":"Chopped 2 logs"}}
+{"timestamp":1781449909142,"runTime":51172,"action":"craft","params":{"item":"stick","count":4},"success":true,"duration":23,"result":{"success":true,"item":"stick","alreadyHad":0,"crafted":8}}
+{"timestamp":1781449950388,"runTime":92418,"action":"craft","params":{"item":"planks","count":4},"success":true,"duration":111,"result":{"success":true,"item":"oak_planks","alreadyHad":0,"crafted":8}}
+{"timestamp":1781449964237,"runTime":106267,"action":"craft","params":{"item":"wooden_pickaxe"},"success":true,"duration":8420,"result":{"success":true,"item":"wooden_pickaxe","alreadyHad":0,"crafted":1}}
+{"timestamp":1781449973481,"runTime":115511,"action":"explore","params":{"distance":15},"success":true,"duration":3819,"result":{"success":true,"position":{"x":8,"y":70,"z":-23},"distanceTraveled":14.460039266204676,"direction":"north"}}
+{"timestamp":1781450041457,"runTime":183487,"action":"explore","params":{"distance":15},"success":false,"duration":26721,"result":{"success":false,"error":"The goal was changed before it could be completed!","distanceTraveled":2.6773002161263646}}
+{"timestamp":1781450194136,"runTime":336166,"action":"craft","params":{"item":"stone_pickaxe"},"success":true,"duration":4422,"result":{"success":true,"item":"stone_pickaxe","alreadyHad":0,"crafted":1}}
+{"timestamp":1781450194144,"runTime":336174,"action":"craft","params":{"item":"stone_axe"},"success":true,"duration":8,"result":{"success":true,"item":"stone_axe","alreadyHad":0,"crafted":1}}
+{"timestamp":1781450250903,"runTime":392933,"action":"mine","params":{"blockType":"coal_ore","count":5},"success":false,"duration":15917,"error":"No deepslate_coal_ore found within 32 blocks"}
+{"timestamp":1781450307597,"runTime":449627,"action":"mine","params":{"blockType":"coal_ore","count":5},"success":false,"duration":15876,"error":"No deepslate_coal_ore found within 32 blocks"}
+{"timestamp":1781450332770,"runTime":474800,"action":"explore","params":{"distance":40},"success":true,"duration":19757,"result":{"success":true,"fallback":true,"direction":"north_west","distanceTraveled":28.116855675178684,"position":{"x":-15,"y":64,"z":-28}}}
+{"timestamp":1781450374150,"runTime":516180,"action":"craft","params":{"item":"crafting_table"},"success":true,"duration":165,"result":{"success":true,"item":"crafting_table","alreadyHad":0,"crafted":1}}
+{"timestamp":1781450379730,"runTime":521760,"action":"eat","params":{},"success":true,"duration":1,"result":{"success":true,"food":"mutton","newFoodLevel":11}}
+{"timestamp":1781450394082,"runTime":536112,"action":"attack","params":{"entity":"sheep"},"success":true,"duration":8770,"result":{"success":true,"entity":"sheep","attacks":2,"entityDead":true,"hint":"Collected drops. If hungry, use eat action."}}
+{"timestamp":1781450405331,"runTime":547361,"action":"attack","params":{"entity":"sheep"},"success":true,"duration":5678,"result":{"success":true,"entity":"sheep","attacks":3,"entityDead":true,"hint":"Collected drops. If hungry, use eat action."}}
+{"timestamp":1781450448540,"runTime":590570,"action":"dig_emergency_shelter","params":{},"success":true,"duration":2057,"result":{"success":true,"depth":1,"sealed":true,"message":"Emergency pit shelter dug"}}

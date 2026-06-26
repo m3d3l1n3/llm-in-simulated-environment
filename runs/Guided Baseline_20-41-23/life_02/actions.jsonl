@@ -1,0 +1,12 @@
+{"timestamp":1781729522465,"runTime":16979,"action":"chop_tree","params":{"count":3},"success":true,"duration":13781,"result":{"success":true,"logsChopped":3,"hint":"Chopped 3 logs"}}
+{"timestamp":1781729540770,"runTime":35284,"action":"chop_tree","params":{"count":2},"success":true,"duration":10897,"result":{"success":true,"logsChopped":1,"hint":"Chopped 1 logs"}}
+{"timestamp":1781729549730,"runTime":44244,"action":"chop_tree","params":{"count":1},"success":true,"duration":2009,"result":{"success":true,"logsChopped":1,"hint":"Chopped 1 logs"}}
+{"timestamp":1781729564024,"runTime":58538,"action":"chop_tree","params":{"count":1},"success":true,"duration":7143,"result":{"success":true,"logsChopped":1,"hint":"Chopped 1 logs"}}
+{"timestamp":1781729569733,"runTime":64247,"action":"craft","params":{"item":"planks","count":4},"success":true,"duration":224,"result":{"success":true,"item":"birch_planks","alreadyHad":0,"crafted":8}}
+{"timestamp":1781729575246,"runTime":69760,"action":"craft","params":{"item":"stick","count":4},"success":true,"duration":9,"result":{"success":true,"item":"stick","alreadyHad":0,"crafted":8}}
+{"timestamp":1781729601238,"runTime":95752,"action":"craft","params":{"item":"wooden_pickaxe"},"success":true,"duration":20481,"result":{"success":true,"item":"wooden_pickaxe","alreadyHad":0,"crafted":1}}
+{"timestamp":1781729675070,"runTime":169584,"action":"attack","params":{"entity":"cow"},"success":true,"duration":29848,"result":{"success":true,"entity":"cow","attacks":5,"entityDead":true,"hint":"Collected drops. If hungry, use eat action."}}
+{"timestamp":1781729675120,"runTime":169634,"action":"eat","params":{},"success":true,"duration":50,"result":{"success":true,"food":"beef","newFoodLevel":16}}
+{"timestamp":1781729712296,"runTime":206810,"action":"eat","params":{},"success":false,"duration":0,"result":{"success":false,"error":"No food in inventory","hint":"Hunt animals with attack action or find crops!"}}
+{"timestamp":1781729718112,"runTime":212626,"action":"eat","params":{},"success":false,"duration":0,"result":{"success":false,"error":"No food in inventory","hint":"Hunt animals with attack action or find crops!"}}
+{"timestamp":1781729718114,"runTime":212628,"action":"flee_from","params":{"entity":"pillager"},"success":true,"duration":2,"result":{"success":true,"fledFrom":"pillager","newDistance":6,"hint":"Fled to 6m away"}}

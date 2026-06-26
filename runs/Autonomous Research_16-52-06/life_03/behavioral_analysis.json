@@ -1,0 +1,97 @@
+{
+  "runId": "Autonomous Research_16-52-06_life_03",
+  "generatedAt": "2026-06-18T17:25:29.447Z",
+  "coherence": {
+    "totalDecisions": 27,
+    "goalsStarted": 27,
+    "goalsCompleted": 1,
+    "completionRate": "3.7%"
+  },
+  "actionDistribution": {
+    "chop_tree": 5,
+    "craft": 10,
+    "equip": 4,
+    "mine": 2,
+    "break_around": 3,
+    "explore": 2,
+    "go_to_near": 1,
+    "pillar_up": 1,
+    "dig_emergency_shelter": 1,
+    "build_shelter": 1,
+    "eat": 2,
+    "flee_from": 2,
+    "collect_food": 1
+  },
+  "mostFrequentActions": [
+    {
+      "action": "craft",
+      "count": 10
+    },
+    {
+      "action": "chop_tree",
+      "count": 5
+    },
+    {
+      "action": "equip",
+      "count": 4
+    },
+    {
+      "action": "break_around",
+      "count": 3
+    },
+    {
+      "action": "mine",
+      "count": 2
+    }
+  ],
+  "goalDistribution": {
+    "gather wood and craft stone to": 1,
+    "craft stone tools": 1,
+    "craft wooden pickaxe and mine ": 2,
+    "mine stone for cobblestone to ": 5,
+    "escape to surface": 1,
+    "mine more cobblestone and craf": 1,
+    "escape_trap": 2,
+    "craft stone pickaxe and gather": 1,
+    "craft stone pickaxe": 2,
+    "craft furnace and progress to ": 1,
+    "gather wood and coal for progr": 1,
+    "gather coal and iron ore for p": 1,
+    "collect food by hunting animal": 1,
+    "dig emergency shelter for nigh": 1,
+    "survive the night and get food": 1,
+    "collect food and gather wood f": 2,
+    "survive the night safely": 1,
+    "gather wood and craft tools fo": 1,
+    "collect food to survive": 1
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "mine stone for cobblestone to ",
+      "count": 5
+    },
+    {
+      "action": "craft wooden pickaxe and mine ",
+      "count": 2
+    },
+    {
+      "action": "escape_trap",
+      "count": 2
+    },
+    {
+      "action": "craft stone pickaxe",
+      "count": 2
+    },
+    {
+      "action": "collect food and gather wood f",
+      "count": 2
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 3
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}

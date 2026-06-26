@@ -1,0 +1,439 @@
+{
+  "savedAt": 1781453447698,
+  "loopCount": 84,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "shelter",
+    "activePlan": "stock_food",
+    "planSinceLoop": 81,
+    "goalHistory": [
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 55,
+        "timestamp": 1781452457683
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 56,
+        "timestamp": 1781452503587
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 57,
+        "timestamp": 1781452538792
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 58,
+        "timestamp": 1781452573990
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 59,
+        "timestamp": 1781452609191
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 60,
+        "timestamp": 1781452654704
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 61,
+        "timestamp": 1781452689902
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 62,
+        "timestamp": 1781452725086
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 63,
+        "timestamp": 1781452760305
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 64,
+        "timestamp": 1781452807135
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 65,
+        "timestamp": 1781452842325
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 66,
+        "timestamp": 1781452877511
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 67,
+        "timestamp": 1781452912696
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 68,
+        "timestamp": 1781452947888
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 69,
+        "timestamp": 1781452983141
+      },
+      {
+        "goal": "forced_recovery",
+        "reasoning": "Stuck for many loops; trying escape strategy #2 (rotating to avoid repeating failed approaches).",
+        "isGuard": true,
+        "loopCount": 70,
+        "timestamp": 1781453018337
+      },
+      {
+        "goal": "forced_recovery",
+        "reasoning": "Stuck for many loops; trying escape strategy #3 (rotating to avoid repeating failed approaches).",
+        "isGuard": true,
+        "loopCount": 71,
+        "timestamp": 1781453026220
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 72,
+        "timestamp": 1781453065076
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 73,
+        "timestamp": 1781453100274
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 74,
+        "timestamp": 1781453135465
+      },
+      {
+        "goal": "escape_trap",
+        "reasoning": "Stuck (no path or surrounded by obstacles). Clearing blocks and exploring to find open space.",
+        "isGuard": true,
+        "loopCount": 75,
+        "timestamp": 1781453170648
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 76,
+        "timestamp": 1781453205853
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 77,
+        "timestamp": 1781453241048
+      },
+      {
+        "goal": "forced_recovery",
+        "reasoning": "Stuck for many loops; trying escape strategy #2 (rotating to avoid repeating failed approaches).",
+        "isGuard": true,
+        "loopCount": 78,
+        "timestamp": 1781453276249
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 79,
+        "timestamp": 1781453281435
+      },
+      {
+        "goal": "forced_recovery",
+        "reasoning": "Stuck for many loops; trying escape strategy #3 (rotating to avoid repeating failed approaches).",
+        "isGuard": true,
+        "loopCount": 80,
+        "timestamp": 1781453316625
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 81,
+        "timestamp": 1781453329363
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 82,
+        "timestamp": 1781453364572
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 83,
+        "timestamp": 1781453399771
+      },
+      {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "isGuard": false,
+        "loopCount": 84,
+        "timestamp": 1781453434961
+      }
+    ],
+    "lastCompletedTier": "stone_tools"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": -3,
+        "y": 59,
+        "z": -25,
+        "distance": 4,
+        "tick": 71599,
+        "seenAt": 1781453434960
+      },
+      "gravel": {
+        "x": -1,
+        "y": 52,
+        "z": -33,
+        "distance": 7,
+        "tick": 71599,
+        "seenAt": 1781453434960
+      },
+      "water": {
+        "x": -2,
+        "y": 59,
+        "z": -24,
+        "distance": 6,
+        "tick": 71599,
+        "seenAt": 1781453434960
+      },
+      "water_hazard": {
+        "x": -2,
+        "y": 59,
+        "z": -24,
+        "distance": 6,
+        "seenAt": 1781453434960
+      },
+      "sand": {
+        "x": 369,
+        "y": 63,
+        "z": 583,
+        "distance": 5,
+        "tick": 25439,
+        "seenAt": 1781451127533
+      },
+      "oak_log": {
+        "x": -7,
+        "y": 72,
+        "z": -17,
+        "distance": 15,
+        "tick": 31499,
+        "seenAt": 1781451429742
+      },
+      "cobblestone": {
+        "x": 408,
+        "y": 64,
+        "z": 557,
+        "distance": 1,
+        "tick": 24879,
+        "seenAt": 1781451100269
+      },
+      "birch_log": {
+        "x": 7,
+        "y": 70,
+        "z": -13,
+        "distance": 5,
+        "tick": 30979,
+        "seenAt": 1781451404297
+      },
+      "spruce_log": {
+        "x": -11,
+        "y": 66,
+        "z": -29,
+        "distance": 11,
+        "tick": 71599,
+        "seenAt": 1781453434960
+      },
+      "stone": {
+        "x": -5,
+        "y": 56,
+        "z": -28,
+        "distance": 0,
+        "tick": 71599,
+        "seenAt": 1781453434960
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe",
+      "reached_stone_tier",
+      "crafted_furnace"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (-7, 72, -10) to (11, 66, -22); inventory delta +32; avg nearby mobs 0.",
+      "Last 10 loops: moved from (9, 71, -11) to (-16, 55, -28); inventory delta +14; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-16, 55, -28) to (-14, 56, -29); inventory delta -35; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-14, 56, -29) to (-18, 55, -28); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-18, 55, -28) to (-13, 56, -31); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-18, 55, -28) to (-8, 56, -29); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-8, 56, -29) to (-6, 56, -29); inventory delta +0; avg nearby mobs 0.",
+      "Last 10 loops: moved from (-19, 55, -28) to (-5, 56, -29); inventory delta +0; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781451127538,
+      "position": {
+        "x": 369.08,
+        "y": 65,
+        "z": 588.4,
+        "yaw": -0.23863233642335402,
+        "pitch": 0.0007933556886416948
+      },
+      "health": 1,
+      "food": 11,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "stock_food",
+        "reasoning": "Heuristic: stocking food",
+        "actions": [
+          {
+            "name": "attack",
+            "params": {
+              "entity": "sheep"
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "eat",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781451115320
+        },
+        {
+          "action": "flee_from",
+          "params": {
+            "entity": "skeleton"
+          },
+          "success": true,
+          "hint": "Fled to 5m away",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781451115677
+        },
+        {
+          "action": "eat",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781451121594
+        },
+        {
+          "action": "flee_from",
+          "params": {
+            "entity": "skeleton"
+          },
+          "success": false,
+          "hint": "Unable to flee — still 11m from skeleton",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781451121596
+        },
+        {
+          "action": "eat",
+          "params": {},
+          "success": false,
+          "hint": "Hunt animals with attack action or find crops!",
+          "error": "No food in inventory",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781451127533
+        }
+      ]
+    }
+  },
+  "blockedActions": [
+    [
+      "mine",
+      26
+    ],
+    [
+      "chop_tree",
+      57
+    ],
+    [
+      "break_around",
+      80
+    ],
+    [
+      "explore",
+      86
+    ],
+    [
+      "breakAround",
+      80
+    ],
+    [
+      "clear_path",
+      80
+    ],
+    [
+      "clearPath",
+      80
+    ]
+  ]
+}

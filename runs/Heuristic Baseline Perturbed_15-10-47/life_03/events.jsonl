@@ -1,0 +1,148 @@
+{"event":"RUN_START","timestamp":1781451133570,"runTime":1,"config":{"loopInterval":5000,"maxActionsPerLoop":3,"logToFile":true,"logDirectory":"./runs","runName":"Heuristic Baseline Perturbed_15-10-47","llm":{"provider":"heuristic","explorationDistance":35,"targetLogs":4,"targetCobble":12,"targetCoal":5,"targetIronOre":8,"targetDiamond":3,"apiKey":"***REDACTED***"},"inventoryDisplayInterval":15000,"maxReconnectAttempts":10,"statePersistIntervalMs":60000},"metadata":{"experimentName":"Heuristic Baseline Perturbed","experimentDescription":"Deterministic rule-based agent under identical perturbations to research_autonomous. Measures maximum scripted progression under stress.","botUsername":"HeuristicBot","minecraftVersion":"1.20.4","seed":"-1613247987266390429","llmConfig":{"provider":"heuristic","explorationDistance":35,"targetLogs":4,"targetCobble":12,"targetCoal":5,"targetIronOre":8,"targetDiamond":3},"perturbationCount":3,"deathRecovery":true}}
+{"event":"ITEM_COLLECTED","timestamp":1781451137880,"runTime":4311,"collector":"HeuristicBot","item":{"present":true,"itemId":133,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451156237,"runTime":22668,"collector":"HeuristicBot","item":{"present":true,"itemId":132,"itemCount":1}}
+{"event":"BEHAVIOR_WARNING","timestamp":1781451160193,"runTime":26624,"type":"action_dominance","action":"chop_tree","ratio":1}
+{"event":"ITEM_COLLECTED","timestamp":1781451169279,"runTime":35710,"collector":"HeuristicBot","item":{"present":true,"itemId":132,"itemCount":1}}
+{"event":"BEHAVIOR_WARNING","timestamp":1781451177630,"runTime":44061,"type":"action_dominance","action":"chop_tree","ratio":1}
+{"event":"BEHAVIOR_WARNING","timestamp":1781451183229,"runTime":49660,"type":"action_dominance","action":"chop_tree","ratio":0.6666666666666666}
+{"event":"BEHAVIOR_WARNING","timestamp":1781451205458,"runTime":71889,"type":"action_dominance","action":"craft","ratio":0.6666666666666666}
+{"event":"ITEM_COLLECTED","timestamp":1781451221380,"runTime":87811,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451223080,"runTime":89511,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451229880,"runTime":96311,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":2}}
+{"event":"ITEM_COLLECTED","timestamp":1781451230280,"runTime":96711,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"WATCHDOG_STALL","timestamp":1781451230394,"runTime":96825,"stalledForMs":120020,"loopCount":8}
+{"event":"ITEM_COLLECTED","timestamp":1781451231931,"runTime":98362,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451253581,"runTime":120012,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451255430,"runTime":121861,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451262980,"runTime":129411,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451266381,"runTime":132812,"collector":"HeuristicBot","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451266381,"runTime":132812,"collector":"HeuristicBot","item":{"present":true,"itemId":35,"itemCount":3}}
+{"event":"ITEM_COLLECTED","timestamp":1781451266781,"runTime":133212,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451268831,"runTime":135262,"collector":"HeuristicBot","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451270931,"runTime":137362,"collector":"HeuristicBot","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451271881,"runTime":138312,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451271881,"runTime":138312,"collector":"HeuristicBot","item":{"present":true,"itemId":28,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451272381,"runTime":138812,"collector":"HeuristicBot","item":{"present":true,"itemId":35,"itemCount":2}}
+{"event":"GOAL_COMPLETED","timestamp":1781451278790,"runTime":145221,"tier":"shelter"}
+{"event":"WATCHDOG_STALL","timestamp":1781451350453,"runTime":216884,"stalledForMs":120058,"loopCount":13}
+{"event":"ITEM_COLLECTED","timestamp":1781451467801,"runTime":334232,"collector":"HeuristicBot","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451470252,"runTime":336683,"collector":"HeuristicBot","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"WATCHDOG_STALL","timestamp":1781451470500,"runTime":336931,"stalledForMs":120047,"loopCount":17}
+{"event":"ITEM_COLLECTED","timestamp":1781451475881,"runTime":342312,"collector":"HeuristicBot","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451477980,"runTime":344411,"collector":"HeuristicBot","item":{"present":true,"itemId":35,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451480083,"runTime":346514,"collector":"HeuristicBot","item":{"present":true,"itemId":6,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451487381,"runTime":353812,"collector":"HeuristicBot","item":{"present":true,"itemId":6,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451496880,"runTime":363311,"collector":"HeuristicBot","item":{"present":true,"itemId":6,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451513280,"runTime":379711,"collector":"HeuristicBot","item":{"present":true,"itemId":4,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451516180,"runTime":382611,"collector":"HeuristicBot","item":{"present":true,"itemId":6,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451516181,"runTime":382612,"collector":"HeuristicBot","item":{"present":true,"itemId":6,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451516181,"runTime":382612,"collector":"HeuristicBot","item":{"present":true,"itemId":799,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451516530,"runTime":382961,"collector":"HeuristicBot","item":{"present":true,"itemId":799,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451522581,"runTime":389012,"collector":"HeuristicBot"}
+{"event":"ITEM_COLLECTED","timestamp":1781451522630,"runTime":389061,"collector":"HeuristicBot","item":{"present":true,"itemId":799,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451523030,"runTime":389461,"collector":"HeuristicBot","item":{"present":true,"itemId":799,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451525782,"runTime":392213,"collector":"HeuristicBot"}
+{"event":"ITEM_COLLECTED","timestamp":1781451525881,"runTime":392312,"collector":"HeuristicBot"}
+{"event":"BEHAVIOR_WARNING","timestamp":1781451530147,"runTime":396578,"type":"action_dominance","action":"mine","ratio":0.7}
+{"event":"ITEM_COLLECTED","timestamp":1781451542280,"runTime":408711,"collector":"HeuristicBot","item":{"present":true,"itemId":6,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451544380,"runTime":410811,"collector":"HeuristicBot","item":{"present":true,"itemId":4,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451546480,"runTime":412911,"collector":"HeuristicBot","item":{"present":true,"itemId":6,"itemCount":1}}
+{"event":"BEHAVIOR_WARNING","timestamp":1781451584117,"runTime":450548,"type":"action_dominance","action":"mine","ratio":0.7}
+{"event":"BEHAVIOR_WARNING","timestamp":1781451589341,"runTime":455772,"type":"action_dominance","action":"mine","ratio":0.8}
+{"event":"ACTION_BLOCKED","timestamp":1781451589341,"runTime":455772,"action":"mine","blockedUntilLoop":26}
+{"event":"WATCHDOG_STALL","timestamp":1781451590529,"runTime":456960,"stalledForMs":120028,"loopCount":23}
+{"event":"ITEM_COLLECTED","timestamp":1781451594981,"runTime":461412,"collector":"HeuristicBot","item":{"present":true,"itemId":799,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451596330,"runTime":462761,"collector":"HeuristicBot","item":{"present":true,"itemId":4,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451598230,"runTime":464661,"collector":"HeuristicBot"}
+{"event":"ITEM_COLLECTED","timestamp":1781451598680,"runTime":465111,"collector":"HeuristicBot","item":{"present":true,"itemId":799,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451603230,"runTime":469661,"collector":"HeuristicBot"}
+{"event":"ITEM_COLLECTED","timestamp":1781451605680,"runTime":472111,"collector":"HeuristicBot","item":{"present":true,"itemId":799,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451605680,"runTime":472111,"collector":"HeuristicBot","item":{"present":true,"itemId":799,"itemCount":1}}
+{"event":"ITEM_COLLECTED","timestamp":1781451605779,"runTime":472210,"collector":"HeuristicBot"}
+{"event":"ITEM_COLLECTED","timestamp":1781451606080,"runTime":472511,"collector":"HeuristicBot","item":{"present":true,"itemId":799,"itemCount":1}}
+{"event":"BEHAVIOR_WARNING","timestamp":1781451606918,"runTime":473349,"type":"action_dominance","action":"mine","ratio":0.7}
+{"event":"ITEM_COLLECTED","timestamp":1781451624630,"runTime":491061,"collector":"HeuristicBot","item":{"present":true,"itemId":6,"itemCount":1}}
+{"event":"BEHAVIOR_WARNING","timestamp":1781451645516,"runTime":511947,"type":"action_dominance","action":"mine","ratio":0.7}
+{"event":"PERTURBATION","timestamp":1781451647692,"runTime":514123,"type":"INVENTORY_WIPE","time":1799999,"params":{}}
+{"event":"ITEM_COLLECTED","timestamp":1781451702631,"runTime":569062,"collector":"HeuristicBot","item":{"present":true,"itemId":6,"itemCount":2}}
+{"event":"ITEM_COLLECTED","timestamp":1781451703180,"runTime":569611,"collector":"HeuristicBot","item":{"present":true,"itemId":6,"itemCount":1}}
+{"event":"WATCHDOG_STALL","timestamp":1781451710731,"runTime":577162,"stalledForMs":120201,"loopCount":29}
+{"event":"ACTION_BLOCKED","timestamp":1781451791901,"runTime":658332,"action":"chop_tree","blockedUntilLoop":35}
+{"event":"ACTION_BLOCKED","timestamp":1781451827078,"runTime":693509,"action":"chop_tree","blockedUntilLoop":36}
+{"event":"WATCHDOG_STALL","timestamp":1781451830754,"runTime":697185,"stalledForMs":120023,"loopCount":33}
+{"event":"ACTION_BLOCKED","timestamp":1781451862271,"runTime":728702,"action":"chop_tree","blockedUntilLoop":37}
+{"event":"ACTION_BLOCKED","timestamp":1781451935030,"runTime":801461,"action":"chop_tree","blockedUntilLoop":38}
+{"event":"ACTION_BLOCKED","timestamp":1781451942046,"runTime":808477,"action":"chop_tree","blockedUntilLoop":39}
+{"event":"GOAL_THRASH","timestamp":1781451947242,"runTime":813673,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["escape_trap","gather_wood","explore","explore","escape_trap","explore"]}
+{"event":"ACTION_BLOCKED","timestamp":1781451977245,"runTime":843676,"action":"chop_tree","blockedUntilLoop":40}
+{"event":"GOAL_THRASH","timestamp":1781451982436,"runTime":848867,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["gather_wood","explore","explore","escape_trap","explore","explore"]}
+{"event":"ACTION_BLOCKED","timestamp":1781451993634,"runTime":860065,"action":"chop_tree","blockedUntilLoop":41}
+{"event":"BLOCKED_FALLBACK","timestamp":1781452046125,"runTime":912556,"originalGoal":"gather_wood","reason":"all_actions_blocked"}
+{"event":"LOW_GOAL_COMPLETION","timestamp":1781452240743,"runTime":1107174,"rate":0.25,"recentWindow":20}
+{"event":"GOAL_THRASH","timestamp":1781452323931,"runTime":1190362,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["escape_trap","gather_wood","gather_wood","gather_wood","escape_trap","gather_wood"]}
+{"event":"ACTION_BLOCKED","timestamp":1781452341986,"runTime":1208417,"action":"chop_tree","blockedUntilLoop":52}
+{"event":"GOAL_THRASH","timestamp":1781452347182,"runTime":1213613,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["gather_wood","gather_wood","gather_wood","escape_trap","gather_wood","gather_wood"]}
+{"event":"ACTION_BLOCKED","timestamp":1781452358333,"runTime":1224764,"action":"chop_tree","blockedUntilLoop":53}
+{"event":"ACTION_BLOCKED","timestamp":1781452405189,"runTime":1271620,"action":"chop_tree","blockedUntilLoop":54}
+{"event":"ACTION_BLOCKED","timestamp":1781452410395,"runTime":1276826,"action":"chop_tree","blockedUntilLoop":55}
+{"event":"GOAL_THRASH","timestamp":1781452415595,"runTime":1282026,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["escape_trap","gather_wood","gather_wood","explore","escape_trap","explore"]}
+{"event":"ACTION_BLOCKED","timestamp":1781452417296,"runTime":1283727,"action":"chop_tree","blockedUntilLoop":56}
+{"event":"GOAL_THRASH","timestamp":1781452422483,"runTime":1288914,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["gather_wood","gather_wood","explore","escape_trap","explore","explore"]}
+{"event":"ACTION_BLOCKED","timestamp":1781452452491,"runTime":1318922,"action":"chop_tree","blockedUntilLoop":57}
+{"event":"GOAL_THRASH","timestamp":1781452538791,"runTime":1405222,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["escape_trap","explore","explore","stock_food","escape_trap","stock_food"]}
+{"event":"GOAL_THRASH","timestamp":1781452573990,"runTime":1440421,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["explore","explore","stock_food","escape_trap","stock_food","stock_food"]}
+{"event":"ACTION_BLOCKED","timestamp":1781452649531,"runTime":1515962,"action":"break_around","blockedUntilLoop":62}
+{"event":"ACTION_BLOCKED","timestamp":1781452684713,"runTime":1551144,"action":"break_around","blockedUntilLoop":63}
+{"event":"GOAL_THRASH","timestamp":1781452689901,"runTime":1556332,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["escape_trap","stock_food","stock_food","stock_food","escape_trap","stock_food"]}
+{"event":"ACTION_BLOCKED","timestamp":1781452719904,"runTime":1586335,"action":"break_around","blockedUntilLoop":64}
+{"event":"GOAL_THRASH","timestamp":1781452725086,"runTime":1591517,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["stock_food","stock_food","stock_food","escape_trap","stock_food","stock_food"]}
+{"event":"ACTION_BLOCKED","timestamp":1781452755101,"runTime":1621532,"action":"break_around","blockedUntilLoop":65}
+{"event":"ACTION_BLOCKED","timestamp":1781452801886,"runTime":1668317,"action":"break_around","blockedUntilLoop":66}
+{"event":"ACTION_BLOCKED","timestamp":1781452837135,"runTime":1703566,"action":"break_around","blockedUntilLoop":67}
+{"event":"GOAL_THRASH","timestamp":1781452842325,"runTime":1708756,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["escape_trap","stock_food","stock_food","stock_food","escape_trap","stock_food"]}
+{"event":"ACTION_BLOCKED","timestamp":1781452872331,"runTime":1738762,"action":"break_around","blockedUntilLoop":68}
+{"event":"GOAL_THRASH","timestamp":1781452877511,"runTime":1743942,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["stock_food","stock_food","stock_food","escape_trap","stock_food","stock_food"]}
+{"event":"ACTION_BLOCKED","timestamp":1781452907513,"runTime":1773944,"action":"break_around","blockedUntilLoop":69}
+{"event":"ACTION_BLOCKED","timestamp":1781452942709,"runTime":1809140,"action":"break_around","blockedUntilLoop":70}
+{"event":"ACTION_BLOCKED","timestamp":1781452977955,"runTime":1844386,"action":"break_around","blockedUntilLoop":71}
+{"event":"ACTION_BLOCKED","timestamp":1781453013146,"runTime":1879577,"action":"break_around","blockedUntilLoop":72}
+{"event":"LOW_GOAL_COMPLETION","timestamp":1781453020985,"runTime":1887416,"rate":0.25,"recentWindow":20}
+{"event":"ACTION_BLOCKED","timestamp":1781453020986,"runTime":1887417,"action":"break_around","blockedUntilLoop":73}
+{"event":"LOW_GOAL_COMPLETION","timestamp":1781453059885,"runTime":1926316,"rate":0.25,"recentWindow":20}
+{"event":"ACTION_BLOCKED","timestamp":1781453059885,"runTime":1926316,"action":"explore","blockedUntilLoop":74}
+{"event":"LOW_GOAL_COMPLETION","timestamp":1781453095081,"runTime":1961512,"rate":0.25,"recentWindow":20}
+{"event":"ACTION_BLOCKED","timestamp":1781453095081,"runTime":1961512,"action":"explore","blockedUntilLoop":75}
+{"event":"LOW_GOAL_COMPLETION","timestamp":1781453130280,"runTime":1996711,"rate":0.2,"recentWindow":20}
+{"event":"ACTION_BLOCKED","timestamp":1781453130281,"runTime":1996712,"action":"explore","blockedUntilLoop":76}
+{"event":"LOW_GOAL_COMPLETION","timestamp":1781453165465,"runTime":2031896,"rate":0.2,"recentWindow":20}
+{"event":"ACTION_BLOCKED","timestamp":1781453165466,"runTime":2031897,"action":"explore","blockedUntilLoop":77}
+{"event":"LOW_GOAL_COMPLETION","timestamp":1781453200657,"runTime":2067088,"rate":0.15,"recentWindow":20}
+{"event":"ACTION_BLOCKED","timestamp":1781453200658,"runTime":2067089,"action":"break_around","blockedUntilLoop":78}
+{"event":"ACTION_BLOCKED","timestamp":1781453200658,"runTime":2067089,"action":"explore","blockedUntilLoop":78}
+{"event":"ACTION_BLOCKED","timestamp":1781453200658,"runTime":2067089,"action":"break_around","reason":"cleared_nothing","blockedUntilLoop":78}
+{"event":"LOW_GOAL_COMPLETION","timestamp":1781453235865,"runTime":2102296,"rate":0.15,"recentWindow":20}
+{"event":"ACTION_BLOCKED","timestamp":1781453235865,"runTime":2102296,"action":"break_around","blockedUntilLoop":79}
+{"event":"ACTION_BLOCKED","timestamp":1781453235865,"runTime":2102296,"action":"explore","blockedUntilLoop":79}
+{"event":"ACTION_BLOCKED","timestamp":1781453235865,"runTime":2102296,"action":"break_around","reason":"cleared_nothing","blockedUntilLoop":79}
+{"event":"LOW_GOAL_COMPLETION","timestamp":1781453271060,"runTime":2137491,"rate":0.15,"recentWindow":20}
+{"event":"ACTION_BLOCKED","timestamp":1781453271061,"runTime":2137492,"action":"break_around","blockedUntilLoop":80}
+{"event":"ACTION_BLOCKED","timestamp":1781453271061,"runTime":2137492,"action":"explore","blockedUntilLoop":80}
+{"event":"ACTION_BLOCKED","timestamp":1781453271061,"runTime":2137492,"action":"break_around","reason":"cleared_nothing","blockedUntilLoop":80}
+{"event":"LOW_GOAL_COMPLETION","timestamp":1781453276249,"runTime":2142680,"rate":0.15,"recentWindow":20}
+{"event":"ACTION_BLOCKED","timestamp":1781453276249,"runTime":2142680,"action":"explore","blockedUntilLoop":81}
+{"event":"LOW_GOAL_COMPLETION","timestamp":1781453311434,"runTime":2177865,"rate":0.1,"recentWindow":20}
+{"event":"ACTION_BLOCKED","timestamp":1781453311435,"runTime":2177866,"action":"explore","blockedUntilLoop":82}
+{"event":"LOW_GOAL_COMPLETION","timestamp":1781453324180,"runTime":2190611,"rate":0.15,"recentWindow":20}
+{"event":"ACTION_BLOCKED","timestamp":1781453324181,"runTime":2190612,"action":"explore","blockedUntilLoop":83}
+{"event":"GOAL_THRASH","timestamp":1781453329362,"runTime":2195793,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["escape_trap","stock_food","stock_food","forced_recovery","stock_food","forced_recovery"]}
+{"event":"LOW_GOAL_COMPLETION","timestamp":1781453359375,"runTime":2225806,"rate":0.15,"recentWindow":20}
+{"event":"ACTION_BLOCKED","timestamp":1781453359376,"runTime":2225807,"action":"explore","blockedUntilLoop":84}
+{"event":"GOAL_THRASH","timestamp":1781453364572,"runTime":2231003,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["stock_food","stock_food","forced_recovery","stock_food","forced_recovery","stock_food"]}
+{"event":"LOW_GOAL_COMPLETION","timestamp":1781453394584,"runTime":2261015,"rate":0.15,"recentWindow":20}
+{"event":"ACTION_BLOCKED","timestamp":1781453394585,"runTime":2261016,"action":"explore","blockedUntilLoop":85}
+{"event":"GOAL_THRASH","timestamp":1781453399771,"runTime":2266202,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["stock_food","forced_recovery","stock_food","forced_recovery","stock_food","stock_food"]}
+{"event":"LOW_GOAL_COMPLETION","timestamp":1781453429781,"runTime":2296212,"rate":0.1,"recentWindow":20}
+{"event":"ACTION_BLOCKED","timestamp":1781453429781,"runTime":2296212,"action":"explore","blockedUntilLoop":86}
+{"event":"GOAL_THRASH","timestamp":1781453434960,"runTime":2301391,"message":"Goal thrashing detected. Commit to one multi-step objective for at least 3 loops.","recentGoals":["forced_recovery","stock_food","forced_recovery","stock_food","stock_food","stock_food"]}
+{"event":"EXPERIMENT_END","timestamp":1781453447697,"runTime":2314128,"reason":"DURATION_COMPLETE","duration":3600004,"durationMinutes":60}
+{"event":"RUN_END","timestamp":1781453447698,"runTime":2314129,"loops_executed":84,"memory_size":84}

@@ -1,0 +1,176 @@
+{
+  "savedAt": 1781710061387,
+  "loopCount": 32,
+  "goalManager": {
+    "currentTier": "naked",
+    "highestTierReached": "wood_tools",
+    "activePlan": null,
+    "planSinceLoop": 0,
+    "goalHistory": [],
+    "lastCompletedTier": "wood_tools"
+  },
+  "longMemory": {
+    "knownLocations": {
+      "dirt": {
+        "x": -9,
+        "y": 70,
+        "z": -7,
+        "distance": 7,
+        "tick": 14419,
+        "seenAt": 1781710061112
+      },
+      "gravel": {
+        "x": -17,
+        "y": 68,
+        "z": 1,
+        "distance": 14,
+        "tick": 14419,
+        "seenAt": 1781710061112
+      },
+      "oak_log": {
+        "x": -4,
+        "y": 77,
+        "z": -8,
+        "distance": 4,
+        "tick": 14419,
+        "seenAt": 1781710061112
+      },
+      "birch_log": {
+        "x": -12,
+        "y": 77,
+        "z": -7,
+        "distance": 3,
+        "tick": 14419,
+        "seenAt": 1781710061112
+      },
+      "stone": {
+        "x": -9,
+        "y": 68,
+        "z": -7,
+        "distance": 9,
+        "tick": 14419,
+        "seenAt": 1781710061112
+      },
+      "spruce_log": {
+        "x": -16,
+        "y": 75,
+        "z": -10,
+        "distance": 8,
+        "tick": 14419,
+        "seenAt": 1781710061112
+      }
+    },
+    "achievements": [
+      "crafted_wooden_pickaxe"
+    ],
+    "recentSummaries": [
+      "Last 10 loops: moved from (4, 71, 6) to (6, 64, -1); inventory delta +27; avg nearby mobs 0.",
+      "Last 10 loops: moved from (6, 64, -1) to (9, 64, 0); inventory delta +26; avg nearby mobs 0.",
+      "Last 10 loops: moved from (5, 64, -3) to (10, 64, 1); inventory delta +9; avg nearby mobs 0."
+    ],
+    "deathContext": {
+      "at": 1781710056338,
+      "position": {
+        "x": 5.56,
+        "y": 64,
+        "z": -2.38,
+        "yaw": -1.3168509206294443,
+        "pitch": 0.1492256510455059
+      },
+      "health": 20,
+      "food": 20,
+      "inWater": false,
+      "causeHint": "unknown",
+      "nearbyHostiles": [],
+      "decision": {
+        "goal": "escape trap and gather resources",
+        "reasoning": "I need to unstick myself to access the crafting table and gather resources effectively.",
+        "actions": [
+          {
+            "name": "dig_to_surface",
+            "params": {}
+          },
+          {
+            "name": "explore",
+            "params": {
+              "distance": 30
+            }
+          },
+          {
+            "name": "light_area",
+            "params": {}
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "break_around",
+          "goal": "escape_trap",
+          "params": {
+            "direction": "escape"
+          },
+          "success": false,
+          "hint": "No blocks to clear nearby. Try pillar_up or dig_to_surface if stuck.",
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": 0,
+          "timestamp": 1781709965109
+        },
+        {
+          "action": "pillar_up",
+          "goal": "escape_trap",
+          "params": {
+            "height": 10
+          },
+          "success": false,
+          "hint": "Solid stone overhead and no pickaxe. Use dig_to_surface after crafting a pickaxe, or find another escape route.",
+          "error": "Solid stone overhead and no pickaxe. Use dig_to_surface after crafting a pickaxe, or find another escape route.",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781709965605
+        },
+        {
+          "action": "explore",
+          "goal": "escape trap and gather resources",
+          "params": {
+            "distance": 30
+          },
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781710039403
+        },
+        {
+          "action": "light_area",
+          "goal": "escape trap and gather resources",
+          "params": {},
+          "success": false,
+          "hint": null,
+          "error": "No torches or lanterns in inventory, and no coal/charcoal + sticks to craft them. Mine coal_ore first.",
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781710039403
+        },
+        {
+          "action": "build_shelter",
+          "goal": "build_night_shelter",
+          "params": {},
+          "success": true,
+          "hint": null,
+          "error": null,
+          "interrupted": false,
+          "interruptReason": null,
+          "blocksCleared": null,
+          "timestamp": 1781710055604
+        }
+      ]
+    }
+  },
+  "blockedActions": []
+}

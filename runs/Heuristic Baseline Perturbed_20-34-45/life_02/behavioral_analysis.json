@@ -1,0 +1,78 @@
+{
+  "runId": "Heuristic Baseline Perturbed_20-34-45_life_02",
+  "generatedAt": "2026-06-14T20:57:03.596Z",
+  "coherence": {
+    "totalDecisions": 35,
+    "goalsStarted": 35,
+    "goalsCompleted": 0,
+    "completionRate": "0.0%"
+  },
+  "actionDistribution": {
+    "chop_tree": 3,
+    "craft": 9,
+    "explore": 11,
+    "break_around": 2,
+    "pillar_up": 2,
+    "attack": 4,
+    "build_shelter": 4
+  },
+  "mostFrequentActions": [
+    {
+      "action": "explore",
+      "count": 11
+    },
+    {
+      "action": "craft",
+      "count": 9
+    },
+    {
+      "action": "attack",
+      "count": 4
+    },
+    {
+      "action": "build_shelter",
+      "count": 4
+    },
+    {
+      "action": "chop_tree",
+      "count": 3
+    }
+  ],
+  "goalDistribution": {
+    "gather_wood": 4,
+    "progress_from_logs": 9,
+    "explore": 11,
+    "stock_food": 5,
+    "escape_trap": 2,
+    "build_night_shelter": 4
+  },
+  "mostFrequentGoals": [
+    {
+      "action": "explore",
+      "count": 11
+    },
+    {
+      "action": "progress_from_logs",
+      "count": 9
+    },
+    {
+      "action": "stock_food",
+      "count": 5
+    },
+    {
+      "action": "gather_wood",
+      "count": 4
+    },
+    {
+      "action": "build_night_shelter",
+      "count": 4
+    }
+  ],
+  "failures": {
+    "maxConsecutiveFailures": 5
+  },
+  "adaptation": {
+    "perturbationCount": 0,
+    "averageRecoveryTime": "N/A"
+  }
+}
